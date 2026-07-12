@@ -76,8 +76,8 @@ materials:
   - Black fineliner
   - Colored pencils
 featuredImage: /images/tutorials/rose-drawing/rose-drawing.webp
-featuredImageAlt: pencil sketch of a layered rose
-featuredImageTitle: pencil sketch of a layered rose
+featuredImageAlt: rose drawing
+featuredImageTitle: rose drawing
 featuredImageWidth: 1200
 featuredImageHeight: 800
 stepImages:
@@ -291,7 +291,7 @@ The lesson is beginner friendly, but the layering method can also support more r
 - **Worksheet:** Free printable PDF available
 - **Main skills:** Layered petals, overlap, stem placement, leaf structure, line weight, shading, and color
 
-![pencil sketch of a layered rose](/images/tutorials/rose-drawing/rose-drawing.webp "pencil sketch of a layered rose")
+![rose drawing](/images/tutorials/rose-drawing/rose-drawing.webp "rose drawing")
 
 ## What You Will Learn
 

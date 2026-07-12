@@ -83,8 +83,8 @@ materials:
   - Drawing paper
   - Blending stump
 featuredImage: /images/tutorials/eye-drawing/eye-drawing.webp
-featuredImageAlt: realistic pencil sketch of an eye
-featuredImageTitle: realistic pencil sketch of an eye
+featuredImageAlt: eye drawing
+featuredImageTitle: eye drawing
 featuredImageWidth: 1200
 featuredImageHeight: 800
 stepImages:
@@ -297,7 +297,7 @@ The method is detailed enough for realism but still organized for beginners. Wor
 - **Worksheet:** Free printable PDF available
 - **Main skills:** Axis placement, eyelid structure, iris texture, pupil value, lash taper, and pencil shading
 
-![realistic pencil sketch of an eye](/images/tutorials/eye-drawing/eye-drawing.webp "realistic pencil sketch of an eye")
+![eye drawing](/images/tutorials/eye-drawing/eye-drawing.webp "eye drawing")
 
 ## What You Will Learn
 

@@ -75,8 +75,8 @@ materials:
   - Blending stump
   - Sharpener
 featuredImage: /images/tutorials/dog-drawing/dog-drawing.webp
-featuredImageAlt: realistic pencil sketch of a dog
-featuredImageTitle: realistic pencil sketch of a dog
+featuredImageAlt: dog drawing
+featuredImageTitle: dog drawing
 featuredImageWidth: 1200
 featuredImageHeight: 800
 stepImages:
@@ -301,7 +301,7 @@ The method is beginner friendly but leans toward a believable pet portrait inste
 - **Worksheet:** Free printable PDF available
 - **Main skills:** Head angle, proportions, muzzle construction, paw placement, fur direction, and pencil shading
 
-![realistic pencil sketch of a dog](/images/tutorials/dog-drawing/dog-drawing.webp "realistic pencil sketch of a dog")
+![dog drawing](/images/tutorials/dog-drawing/dog-drawing.webp "dog drawing")
 
 ## What You Will Learn
 
