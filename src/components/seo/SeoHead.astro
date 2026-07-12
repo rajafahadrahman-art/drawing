@@ -1,0 +1,34 @@
+---
+interface Props {
+  title: string;
+  description: string;
+  canonical: string;
+  ogImage: string;
+  ogType?: string;
+  noindex?: boolean;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const { title, description, canonical, ogImage, ogType = 'website', noindex = false, jsonLd } = Astro.props;
+const jsonLdItems = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+{noindex ? <meta name="robots" content="noindex, follow" /> : <meta name="robots" content="index, follow" />}
+<meta property="og:type" content={ogType} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:site_name" content="Drawinging" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />
+{
+  jsonLdItems.map((item) => (
+    <script type="application/ld+json" set:html={JSON.stringify(item)} />
+  ))
+}

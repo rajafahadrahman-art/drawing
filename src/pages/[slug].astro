@@ -1,0 +1,53 @@
+---
+import { getCollection } from 'astro:content';
+import TutorialLayout from '../layouts/TutorialLayout.astro';
+import CategoryLayout from '../layouts/CategoryLayout.astro';
+import { CATEGORY_META } from '../data/site';
+
+export async function getStaticPaths() {
+  const tutorials = await getCollection('tutorials', ({ data }) => !data.draft);
+  const tutorialPaths = tutorials.map((tutorial) => ({
+    params: { slug: tutorial.data.slug },
+    props: { type: 'tutorial' as const, tutorial, categoryId: null },
+  }));
+
+  const categoryPaths = Object.keys(CATEGORY_META).map((categoryId) => ({
+    params: { slug: categoryId },
+    props: { type: 'category' as const, tutorial: null, categoryId },
+  }));
+
+  return [...tutorialPaths, ...categoryPaths];
+}
+
+const { type, tutorial, categoryId } = Astro.props;
+
+if (type === 'tutorial' && tutorial) {
+  // rendered below
+} else if (type === 'category' && categoryId) {
+  // rendered below
+} else {
+  return Astro.redirect('/404/');
+}
+
+const categoryTutorials =
+  type === 'category' && categoryId
+    ? (
+        await getCollection('tutorials', ({ data }) => !data.draft && data.category === categoryId)
+      ).sort((a, b) => a.data.focusKeyword.localeCompare(b.data.focusKeyword))
+    : [];
+
+const relatedCategories =
+  type === 'category' && categoryId
+    ? Object.keys(CATEGORY_META)
+        .filter((id) => id !== categoryId)
+        .slice(0, 4)
+    : [];
+---
+
+{
+  type === 'tutorial' && tutorial ? (
+    <TutorialLayout tutorial={tutorial} />
+  ) : (
+    <CategoryLayout categoryId={categoryId!} tutorials={categoryTutorials} relatedCategories={relatedCategories} />
+  )
+}

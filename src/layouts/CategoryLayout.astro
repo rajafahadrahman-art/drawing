@@ -1,0 +1,158 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/common/Breadcrumbs.astro';
+import TutorialCard from '../components/tutorials/TutorialCard.astro';
+import { SITE, CATEGORY_META } from '../data/site';
+import '../styles/categories.css';
+
+interface Props {
+  categoryId: string;
+  tutorials: any[];
+  relatedCategories: string[];
+}
+
+const { categoryId, tutorials, relatedCategories } = Astro.props;
+const meta = CATEGORY_META[categoryId];
+const beginners = tutorials.filter((t) => t.data.difficulty === 'beginner');
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: meta.name,
+    description: meta.description,
+    url: `${SITE.domain}${meta.permalink}`,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.domain}/` },
+      { '@type': 'ListItem', position: 2, name: meta.name, item: `${SITE.domain}${meta.permalink}` },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    itemListElement: tutorials.map((t, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${SITE.domain}${t.data.permalink}`,
+      name: t.data.title,
+    })),
+  },
+];
+---
+
+<BaseLayout
+  title={`${meta.name} | Drawinging`}
+  description={meta.description}
+  canonical={`${SITE.domain}${meta.permalink}`}
+  ogImage={`${SITE.domain}/images/categories/${categoryId}.webp`}
+  jsonLd={jsonLd}
+>
+  <div class="container section">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: meta.name }]} />
+    <header class="category-hero">
+      <p class="section__eyebrow">Category</p>
+      <h1>{meta.name.replace(/ Drawings$/, ' Drawing Tutorials')}</h1>
+      <p>{meta.description}</p>
+      <p>
+        Looking for a full lesson? Start with a featured tutorial below, then browse the complete grid.
+        For fundamentals, visit <a href="/learn-drawing/">Learn Drawing</a>.
+      </p>
+    </header>
+
+    <figure class="step__media" style="margin-bottom:2rem;max-width:40rem">
+      <img
+        src={`/images/categories/${categoryId}.webp`}
+        alt=""
+        width="1200"
+        height="800"
+        loading="eager"
+        decoding="async"
+      />
+    </figure>
+
+    <section>
+      <h2>Featured tutorials</h2>
+      <div class="card-grid" style="margin-top:1.25rem">
+        {tutorials.slice(0, 3).map((t) => <TutorialCard tutorial={t} />)}
+      </div>
+    </section>
+
+    <section class="section" style="padding-inline:0">
+      <h2>All {meta.name.toLowerCase()}</h2>
+      <div class="category-filters" role="group" aria-label="Filter by difficulty" data-filter-group>
+        <button class="filter-btn" type="button" data-filter="all" aria-pressed="true">All</button>
+        <button class="filter-btn" type="button" data-filter="beginner" aria-pressed="false">Beginner</button>
+        <button class="filter-btn" type="button" data-filter="intermediate" aria-pressed="false">Intermediate</button>
+        <button class="filter-btn" type="button" data-filter="advanced" aria-pressed="false">Advanced</button>
+      </div>
+      <div class="card-grid" data-tutorial-grid>
+        {
+          tutorials.map((t) => (
+            <div data-difficulty={t.data.difficulty}>
+              <TutorialCard tutorial={t} />
+            </div>
+          ))
+        }
+      </div>
+    </section>
+
+    {
+      beginners.length > 0 && (
+        <section class="section" style="padding-inline:0">
+          <h2>Beginner-friendly picks</h2>
+          <p style="margin:0.75rem 0 1.25rem">Start here if you want simpler construction and fewer details.</p>
+          <div class="card-grid">
+            {beginners.slice(0, 4).map((t) => (
+              <TutorialCard tutorial={t} />
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <section class="section" style="padding-inline:0">
+      <h2>Related categories</h2>
+      <div class="related-categories" style="margin-top:1rem">
+        {
+          relatedCategories.map((id) => (
+            <a href={CATEGORY_META[id].permalink}>{CATEGORY_META[id].name}</a>
+          ))
+        }
+      </div>
+    </section>
+
+    <section class="section" style="padding-inline:0">
+      <h2>Learning tips for this category</h2>
+      <div class="prose">
+        <p>
+          Use light construction lines first, then commit to darker contours once the proportions feel balanced.
+          Pair each tutorial with its printable worksheet so you can repeat the same sequence without redrawing the setup.
+        </p>
+        <p>
+          Download practice sheets from the <a href="/worksheets/">worksheets hub</a>, or review{' '}
+          <a href="/learn-drawing/basic-shapes/">basic shapes</a> before tackling more complex subjects.
+        </p>
+      </div>
+    </section>
+  </div>
+  <script>
+    const group = document.querySelector('[data-filter-group]');
+    const grid = document.querySelector('[data-tutorial-grid]');
+    if (group && grid) {
+      group.addEventListener('click', (event) => {
+        const button = event.target.closest('button[data-filter]');
+        if (!button) return;
+        const value = button.getAttribute('data-filter');
+        group.querySelectorAll('button').forEach((btn) => btn.setAttribute('aria-pressed', 'false'));
+        button.setAttribute('aria-pressed', 'true');
+        grid.querySelectorAll('[data-difficulty]').forEach((card) => {
+          const show = value === 'all' || card.getAttribute('data-difficulty') === value;
+          card.style.display = show ? '' : 'none';
+        });
+      });
+    }
+  </script>
+</BaseLayout>

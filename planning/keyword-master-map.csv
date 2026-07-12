@@ -1,0 +1,950 @@
+original_keyword,normalized_keyword,volume,difficulty,intent,parent_topic,cluster,primary_keyword,secondary_keyword,assigned_page,assigned_focus_keyword,assigned_category,final_permalink,content_type,related_entities,internal_link_targets,worksheet_availability,publication_priority,cannibalization_risk,merge_recommendation,redirect_recommendation,publish_status,review_status
+flower drawing,flower drawing,226000,13.0,informational,flower,flower-drawing,flower drawing,flowers drawing;flower drawing easy;easy flower drawing;simple flower drawing;drawing of flowers;flowers drawing easy,/flower-drawing/,flower drawing,flower-drawings,/flower-drawing/,tutorial,,,yes,1,none,,,publish,safe generic subject
+cat drawing,cat drawing,130000,2.0,informational,cat drawing,cat-drawing,cat drawing,cute cat drawing;cat drawing easy;easy cat drawing;simple cat drawing;cartoon cat drawing;cat drawing for kids;drawing of a cat;cat easy drawing;drawing cat;cat drawing cute,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,tutorial,,,yes,6,none,,,publish,safe generic subject
+butterfly drawing,butterfly drawing,107000,1.0,informational,butterfly drawing,butterfly-drawing,butterfly drawing,butterfly drawing easy;easy butterfly drawing;simple butterfly drawing,/butterfly-drawing/,butterfly drawing,insect-drawings,/butterfly-drawing/,tutorial,,,yes,14,none,,,publish,safe generic subject
+dog drawing,dog drawing,105000,2.0,informational,dog drawings,dog-drawing,dog drawing,dog drawing easy;easy dog drawing;cute dog drawing;drawing of a dog;simple dog drawing;drawing dog,/dog-drawing/,dog drawing,animal-drawings,/dog-drawing/,tutorial,,,yes,7,none,,,publish,safe generic subject
+flowers drawing,flower drawing,92000,4.0,informational,flower drawings,flower-drawing,flower drawing,,/flower-drawing/,flower drawing,flower-drawings,/flower-drawing/,secondary,,,yes,1,high,Merge into /flower-drawing/,/flower-drawing/,merged,safe generic subject
+rose drawing,rose drawing,85000,1.0,informational,step easy how to draw a rose,rose-drawing,rose drawing,rose drawing easy;easy rose drawing;simple rose drawing;drawing of a rose;realistic rose drawing,/rose-drawing/,rose drawing,flower-drawings,/rose-drawing/,tutorial,,,yes,2,none,,,publish,safe generic subject
+volleyball drawing,volleyball drawing,68000,0.0,informational,volleyball easy drawing,volleyball-drawing,volleyball drawing,,/volleyball-drawing/,volleyball drawing,sports-drawings,/volleyball-drawing/,tutorial,,,yes,26,none,,,publish,safe generic subject
+heart drawing,heart drawing,64000,0.0,informational,heart drawing,heart-drawing,heart drawing,heart drawing easy;realistic heart drawing;cute heart drawing;drawing of a heart,/heart-drawing/,heart drawing,symbol-drawings,/heart-drawing/,tutorial,,,yes,33,none,,,publish,safe generic subject
+christmas tree drawing,christmas tree drawing,60000,0.0,informational,christmas tree drawing,christmas-tree-drawing,christmas tree drawing,christmas drawing;christmas drawing ideas;christmas tree drawing easy;christmas lights drawing;christmas drawing easy;easy christmas tree drawing,/christmas-tree-drawing/,christmas tree drawing,seasonal-drawings,/christmas-tree-drawing/,tutorial,,,yes,28,none,,,publish,safe generic subject
+car drawing,car drawing,59000,0.0,informational,how to draw a car,car-drawing,car drawing,car drawing easy;easy car drawing,/car-drawing/,car drawing,vehicle-drawings,/car-drawing/,tutorial,,,yes,23,none,,,publish,safe generic subject
+turkey drawing,turkey drawing,58000,0.0,informational,turkey drawing,turkey,turkey drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+eye drawing,eye drawing,56000,3.0,informational,eye drawing,eye-drawing,eye drawing,eye drawing easy;realistic eye drawing,/eye-drawing/,eye drawing,symbol-drawings,/eye-drawing/,tutorial,,,yes,35,none,,,publish,safe generic subject
+fish drawing,fish drawing,56000,0.0,informational,koi fish drawing,fish-drawing,fish drawing,fish drawing easy;easy fish drawing,/fish-drawing/,fish drawing,sea-animal-drawings,/fish-drawing/,tutorial,,,yes,16,none,,,publish,safe generic subject
+skull drawing,skull drawing,55000,0.0,informational,skull drawing,skull,skull drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pumpkin drawing,pumpkin drawing,52000,0.0,informational,how to draw a pumpkin,pumpkin-drawing,pumpkin drawing,pumpkin drawing easy;easy pumpkin drawing,/pumpkin-drawing/,pumpkin drawing,seasonal-drawings,/pumpkin-drawing/,tutorial,,,yes,29,none,,,publish,safe generic subject
+hello kitty drawing,hello kitty drawing,52000,0.0,informational,hello kitty drawings,hello-kitty,hello kitty drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+fire drawing,fire drawing,52000,11.0,informational,how to draw fire,fire,fire drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+shark drawing,shark drawing,52000,0.0,informational,shark drawing,shark-drawing,shark drawing,shark drawing easy;easy shark drawing,/shark-drawing/,shark drawing,sea-animal-drawings,/shark-drawing/,tutorial,,,yes,17,none,,,publish,safe generic subject
+soccer ball drawing,soccer ball drawing,51000,1.0,informational,soccer ball drawing,soccer-ball-drawing,soccer ball drawing,soccer drawing;soccer ball drawing easy,/soccer-ball-drawing/,soccer ball drawing,sports-drawings,/soccer-ball-drawing/,tutorial,,,yes,27,none,,,publish,safe generic subject
+snake drawing,snake drawing,49000,0.0,informational,snake drawing,snake,snake drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing tablet,drawing tablet,47000,14.0,informational,drawing tablet,tablet,drawing tablet,,,,,,excluded,,,no,999,none,,,hold,exclude
+bird drawing,bird drawing,46000,0.0,informational,bird drawing,bird-drawing,bird drawing,bird drawing easy;easy bird drawing;simple bird drawing,/bird-drawing/,bird drawing,bird-drawings,/bird-drawing/,tutorial,,,yes,12,none,,,publish,safe generic subject
+horse drawing,horse drawing,46000,0.0,informational,horse drawing easy,horse-drawing,horse drawing,horse drawing easy;easy horse drawing,/horse-drawing/,horse drawing,animal-drawings,/horse-drawing/,tutorial,,,yes,8,none,,,publish,safe generic subject
+bunny drawing,bunny drawing,46000,0.0,informational,bunny drawing,bunny-drawing,bunny drawing,cute bunny drawing;bunny drawing easy;easy bunny drawing,/bunny-drawing/,bunny drawing,animal-drawings,/bunny-drawing/,tutorial,,,yes,10,none,,,publish,safe generic subject
+brain drawing,brain drawing,45000,0.0,informational,brain easy drawing,brain,brain drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+frog drawing,frog drawing,42000,0.0,informational,frog drawing,frog,frog drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+basketball drawing,basketball drawing,42000,0.0,informational,basketball drawing,basketball,basketball drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+deer drawing,deer drawing,42000,0.0,informational,deer drawing,deer,deer drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cow drawing,cow drawing,41000,0.0,informational,highland cow drawing,cow,cow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+turtle drawing,turtle drawing,40000,0.0,informational,turtle drawing,turtle,turtle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+stitch drawing,stitch drawing,40000,0.0,informational,stitch drawing,stitch,stitch drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+monkey drawing,monkey drawing,40000,0.0,informational,monkey drawing,monkey,monkey drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+football drawing,football drawing,38000,6.0,informational,football drawing,football,football drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hibiscus flower drawing,hibiscus flower drawing,38000,0.0,informational,hibiscus flower drawing,hibiscus-flower-drawing,hibiscus flower drawing,hibiscus drawing,/hibiscus-flower-drawing/,hibiscus flower drawing,flower-drawings,/hibiscus-flower-drawing/,tutorial,,,yes,4,none,,,publish,safe generic subject
+moon drawing,moon drawing,37000,0.0,informational,moon easy drawing,moon,moon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+crown drawing,crown drawing,37000,0.0,informational,crown drawing,crown,crown drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spider man drawing,spider man drawing,37000,0.0,informational,spider man drawing,spider-man,spider man drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+bear drawing,bear drawing,37000,0.0,informational,draw a bear,bear,bear drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fox drawing,fox drawing,34000,0.0,informational,fox easy drawing,fox-drawing,fox drawing,fox drawing easy;cute fox drawing,/fox-drawing/,fox drawing,animal-drawings,/fox-drawing/,tutorial,,,yes,11,none,,,publish,safe generic subject
+earth drawing,earth drawing,34000,0.0,informational,earth drawing,earth,earth drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+book drawing,book drawing,34000,0.0,informational,book drawing,book,book drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+plane drawing,plane drawing,34000,0.0,informational,airplane drawing,plane-drawing,plane drawing,plane drawing easy,/plane-drawing/,plane drawing,vehicle-drawings,/plane-drawing/,tutorial,,,yes,24,none,,,publish,safe generic subject
+sunset drawing,sunset drawing,33000,0.0,informational,sunset drawing,sunset-drawing,sunset drawing,sunset drawing easy,/sunset-drawing/,sunset drawing,nature-drawings,/sunset-drawing/,tutorial,,,yes,21,none,,,publish,safe generic subject
+snowflake drawing,snowflake drawing,33000,0.0,informational,snowflake drawing,snowflake,snowflake drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute drawing,drawing,32000,0.0,informational,cute drawings,cute-drawing,cute drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bee drawing,bee drawing,31000,0.0,informational,bee drawing,bee-drawing,bee drawing,bee drawing easy,/bee-drawing/,bee drawing,insect-drawings,/bee-drawing/,tutorial,,,yes,15,none,,,publish,safe generic subject
+cloud drawing,cloud drawing,31000,0.0,informational,how to draw clouds,cloud-drawing,cloud drawing,,/cloud-drawing/,cloud drawing,nature-drawings,/cloud-drawing/,tutorial,,,yes,20,none,,,publish,safe generic subject
+tiger drawing,tiger drawing,31000,0.0,informational,tiger drawing,tiger,tiger drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ghost drawing,ghost drawing,31000,0.0,informational,ghost drawing,ghost,ghost drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lion drawing,lion drawing,31000,0.0,informational,lion drawing,lion-drawing,lion drawing,lion drawing easy;easy lion drawing,/lion-drawing/,lion drawing,animal-drawings,/lion-drawing/,tutorial,,,yes,9,none,,,publish,safe generic subject
+strawberry drawing,strawberry drawing,30000,0.0,informational,strawberry drawing,strawberry,strawberry drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+palm tree drawing,palm tree drawing,30000,0.0,informational,palm tree sketch,palm-tree,palm tree drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+apple drawing,apple drawing,30000,0.0,informational,apple drawing,apple,apple drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hibiscus drawing,hibiscus drawing,29000,0.0,informational,hibiscus drawing,hibiscus-flower-drawing,hibiscus flower drawing,,/hibiscus-flower-drawing/,hibiscus flower drawing,flower-drawings,/hibiscus-flower-drawing/,secondary,,,yes,4,low,Cover on /hibiscus-flower-drawing/,,merged,safe generic subject
+cross drawing,cross drawing,29000,0.0,informational,cross drawing,cross,cross drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+skeleton drawing,skeleton drawing,29000,0.0,informational,skeleton drawing,skeleton,skeleton drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mushroom drawing,mushroom drawing,29000,0.0,informational,mushroom png,mushroom,mushroom drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+jellyfish drawing,jellyfish drawing,29000,0.0,informational,jellyfish drawing,jellyfish,jellyfish drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+flower drawing easy,flower drawing,28000,12.0,informational-beginner,flower drawing,flower-drawing,flower drawing,,/flower-drawing/,flower drawing,flower-drawings,/flower-drawing/,secondary,,,yes,1,low,Cover on /flower-drawing/,,merged,safe generic subject
+goku drawing,goku drawing,28000,0.0,informational,goku drawing easy,goku,goku drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bat drawing,bat drawing,28000,0.0,informational,bat drawing,bat,bat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+money drawing,money drawing,28000,6.0,informational,money drawing,money,money drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing inspo,drawing inspo,28000,18.0,informational,pinterest drawings,inspo,drawing inspo,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dinosaur drawing,dinosaur drawing,28000,0.0,informational,dinosaur drawing,dinosaur,dinosaur drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+wolf drawing,wolf drawing,28000,14.0,informational,how to draw a wolf,wolf,wolf drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sunflower drawing,sunflower drawing,27000,0.0,informational,sketch sunflower drawing,sunflower-drawing,sunflower drawing,sunflower drawing easy,/sunflower-drawing/,sunflower drawing,flower-drawings,/sunflower-drawing/,tutorial,,,yes,3,none,,,publish,safe generic subject
+chicken drawing,chicken drawing,27000,0.0,informational,chiken drawing,chicken,chicken drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+airplane drawing,airplane drawing,27000,0.0,informational,airplane drawing,airplane,airplane drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+penguin drawing,penguin drawing,27000,0.0,informational,penguin drawing,penguin,penguin drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mountain drawing,mountain drawing,27000,0.0,informational,mountains drawing,mountain-drawing,mountain drawing,mountain drawing easy,/mountain-drawing/,mountain drawing,nature-drawings,/mountain-drawing/,tutorial,,,yes,22,none,,,publish,safe generic subject
+spider drawing,spider drawing,27000,0.0,informational,spider drawing,spider,spider drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spongebob drawing,spongebob drawing,27000,0.0,informational,spongebob drawing,spongebob,spongebob drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+drawing base,drawing base,26000,8.0,informational,drawing base,base,drawing base,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+beach drawing,beach drawing,26000,0.0,informational,beach drawing,beach,beach drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spiderman drawing,spiderman drawing,26000,0.0,informational,spider man drawing,spiderman,spiderman drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+christmas drawing,christmas drawing,26000,3.0,informational,christmas drawing easy,christmas-tree-drawing,christmas tree drawing,,/christmas-tree-drawing/,christmas tree drawing,seasonal-drawings,/christmas-tree-drawing/,secondary,,,yes,28,low,Cover on /christmas-tree-drawing/,,merged,safe generic subject
+cute cat drawing,cat drawing,25000,0.0,informational,cute cats drawing,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+capybara drawing,capybara drawing,25000,0.0,informational,cute capybara drawing,capybara,capybara drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+girl drawing,girl drawing,25000,0.0,informational,drawing of a girl,girl,girl drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+person drawing,person drawing,24000,10.0,informational,person drawing,person,person drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+face drawing,face drawing,24000,1.0,informational,face drawing,face,face drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+eyes drawing,eyes drawing,24000,1.0,informational,eye drawing,eyes,eyes drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+food drawing,food drawing,24000,12.0,informational,food drawing,food,food drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+duck drawing,duck drawing,24000,0.0,informational,duck drawing,duck,duck drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+star drawing,star drawing,24000,0.0,informational,how to draw a star,star-drawing,star drawing,,/star-drawing/,star drawing,symbol-drawings,/star-drawing/,tutorial,,,yes,34,none,,,publish,safe generic subject
+owl drawing,owl drawing,24000,0.0,informational,owl drawing,owl-drawing,owl drawing,,/owl-drawing/,owl drawing,bird-drawings,/owl-drawing/,tutorial,,,yes,13,none,,,publish,safe generic subject
+labubu drawing,labubu drawing,23000,0.0,informational,labubu drawing,labubu,labubu drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+panda drawing,panda drawing,23000,0.0,informational,panda drawing,panda,panda drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+landscape drawing,landscape drawing,23000,0.0,informational,landscape drawing,landscape,landscape drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cartoon drawing,drawing,23000,3.0,informational,cartoon characters drawing easy,cartoon-drawing,cartoon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+octopus drawing,octopus drawing,23000,0.0,informational,how to draw a octopus easy,octopus,octopus drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+anime drawing,anime drawing,23000,1.0,informational,anime drawing,anime,anime drawing,,,,,,excluded,,,no,999,none,,,hold,copyright review required
+elephant drawing,elephant drawing,22000,0.0,informational,how to draw an elephant,elephant,elephant drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+eagle drawing,eagle drawing,22000,0.0,informational,eagle drawing,eagle,eagle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spider web drawing,spider web drawing,22000,0.0,informational,spider web drawing,spider-web,spider web drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy line drawing,line drawing,22000,4.0,informational-beginner,easy line drawing,line,easy line drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dolphin drawing,dolphin drawing,21000,0.0,informational,dolphin easy drawing,dolphin-drawing,dolphin drawing,dolphin drawing easy,/dolphin-drawing/,dolphin drawing,sea-animal-drawings,/dolphin-drawing/,tutorial,,,yes,18,none,,,publish,safe generic subject
+batman drawing,batman drawing,21000,0.0,informational,batman sketch easy,batman,batman drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+whale drawing,whale drawing,21000,0.0,informational,whale drawings,whale,whale drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+unicorn drawing,unicorn drawing,21000,0.0,informational,unicorn drawing for kids,unicorn-drawing,unicorn drawing,unicorn drawing easy,/unicorn-drawing/,unicorn drawing,fantasy-drawings,/unicorn-drawing/,tutorial,,,yes,32,none,,,publish,safe generic subject
+sonic drawing,sonic drawing,21000,0.0,informational,how to draw sonic,sonic,sonic drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+boat drawing,boat drawing,20000,0.0,informational,boat easy drawing,boat,boat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+gun drawing,gun drawing,20000,0.0,informational,gun drawing,gun,gun drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cake drawing,cake drawing,20000,0.0,informational,cake drawing,cake,cake drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dog drawing easy,dog drawing,19000,2.0,informational-beginner,easy dog drawing,dog-drawing,dog drawing,,/dog-drawing/,dog drawing,animal-drawings,/dog-drawing/,secondary,,,yes,7,low,Cover on /dog-drawing/,,merged,safe generic subject
+pizza drawing,pizza drawing,19000,0.0,informational,pizza draw,pizza,pizza drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+train drawing,train drawing,19000,0.0,informational,train easy drawing,train-drawing,train drawing,train drawing easy,/train-drawing/,train drawing,vehicle-drawings,/train-drawing/,tutorial,,,yes,25,none,,,publish,safe generic subject
+snowman drawing,snowman drawing,19000,0.0,informational,snowman drawing,snowman-drawing,snowman drawing,,/snowman-drawing/,snowman drawing,seasonal-drawings,/snowman-drawing/,tutorial,,,yes,30,none,,,publish,safe generic subject
+castle drawing,castle drawing,19000,5.0,informational,castle drawing,castle,castle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ocean drawing,ocean drawing,19000,0.0,informational,ocean drawing,ocean,ocean drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy flower drawing,flower drawing,19000,15.0,informational-beginner,flower drawing,flower-drawing,flower drawing,,/flower-drawing/,flower drawing,flower-drawings,/flower-drawing/,secondary,,,yes,1,low,Cover on /flower-drawing/,,merged,safe generic subject
+giraffe drawing,giraffe drawing,19000,0.0,informational,giraffe drawing,giraffe,giraffe drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+leaf drawing,leaf drawing,18000,0.0,informational,how to draw a leaf,leaf,leaf drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cowboy hat drawing,cowboy hat drawing,18000,0.0,informational,cowboy hat drawing,cowboy-hat,cowboy hat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+nose drawing,nose drawing,18000,0.0,informational,how to draw a nose,nose,nose drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ice cream drawing,ice cream drawing,18000,0.0,informational,ice cream drawing,ice-cream,ice cream drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cat drawing easy,cat drawing,18000,2.0,informational-beginner,cat drawing easy,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+guitar drawing,guitar drawing,18000,0.0,informational,guitar drawing,guitar,guitar drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rabbit drawing,rabbit drawing,18000,0.0,informational,cute rabbit drawing,rabbit,rabbit drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+jesus drawing,jesus drawing,18000,0.0,informational,jesus drawing,jesus,jesus drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sea turtle drawing,sea turtle drawing,18000,0.0,informational,turtle drawing,sea-turtle,sea turtle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy cat drawing,cat drawing,17000,3.0,informational-beginner,easy cat drawing,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+side profile drawing,side profile drawing,17000,0.0,informational,side profile drawing,side-profile,side profile drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+teddy bear drawing,teddy bear drawing,17000,0.0,informational,teddy bear drawing,teddy-bear,teddy bear drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+clouds drawing,clouds drawing,17000,0.0,informational,how to draw clouds,clouds,clouds drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+alien drawing,alien drawing,16000,0.0,informational,alien drawing,alien,alien drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+body drawing,body drawing,16000,0.0,informational,body drawing,body,body drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+poses body base drawing,poses body base drawing,16000,0.0,informational,body drawing base,poses-body-base,poses body base drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cactus drawing,cactus drawing,16000,0.0,informational,how to draw a cactus,cactus,cactus drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tulip drawing,tulip drawing,16000,0.0,informational,tulip drawing,tulip-drawing,tulip drawing,,/tulip-drawing/,tulip drawing,flower-drawings,/tulip-drawing/,tutorial,,,yes,5,none,,,publish,safe generic subject
+pencil drawing,drawing,16000,5.0,informational,pencil drawing,pencil-drawing,pencil drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+anime girl drawing,anime girl drawing,16000,0.0,informational,cute anime girl drawing,anime-girl,anime girl drawing,,,,,,excluded,,,no,999,none,,,hold,copyright review required
+rat drawing,rat drawing,16000,0.0,informational,rat drawing,rat,rat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+shoe drawing,shoe drawing,16000,0.0,informational,shoe drawing,shoe,shoe drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+crab drawing,crab drawing,16000,0.0,informational,crab drawing,crab,crab drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute frog drawing,frog drawing,15000,0.0,informational,cute frog drawing,frog,cute frog drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hair drawing,hair drawing,15000,1.0,informational,how to draw realistic hair,hair,hair drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bed drawing,bed drawing,15000,0.0,informational,bed drawing,bed,bed drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+naruto drawing,naruto drawing,15000,0.0,informational,how to draw naruto,naruto,naruto drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+figure drawing,figure drawing,15000,18.0,informational,line of action,figure,figure drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+plant drawing,plant drawing,15000,0.0,informational,plant drawing,plant,plant drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute drawing ideas,drawing ideas,15000,8.0,informational,cute drawing ideas,ideas,cute drawing ideas,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+angel drawing,angel drawing,15000,0.0,informational,sketch angel drawing,angel,angel drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+gojo drawing,gojo drawing,15000,0.0,informational,how to draw gojo,gojo,gojo drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mickey mouse drawing,mickey mouse drawing,15000,0.0,informational,mickey mouse drawing,mickey-mouse,mickey mouse drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+school drawing,school drawing,14000,0.0,informational,easy line drawing,school,school drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+axolotl drawing,axolotl drawing,14000,0.0,informational,axolotl drawing,axolotl,axolotl drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+skeleton hand drawing,skeleton hand drawing,14000,0.0,informational,skeleton hand,skeleton-hand,skeleton hand drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lips drawing,lips drawing,14000,0.0,informational,how to draw lips,lips,lips drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+truck drawing,truck drawing,14000,0.0,informational,easy truck drawing,truck,truck drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy dog drawing,dog drawing,14000,6.0,informational-beginner,how to draw a dog,dog-drawing,dog drawing,,/dog-drawing/,dog drawing,animal-drawings,/dog-drawing/,secondary,,,yes,7,low,Cover on /dog-drawing/,,merged,safe generic subject
+butterfly drawing easy,butterfly drawing,14000,0.0,informational-beginner,how to draw a butterfly,butterfly-drawing,butterfly drawing,,/butterfly-drawing/,butterfly drawing,insect-drawings,/butterfly-drawing/,secondary,,,yes,14,low,Cover on /butterfly-drawing/,,merged,safe generic subject
+drawing salve,drawing salve,14000,2.0,informational,drawing salve,salve,drawing salve,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+grinch drawing,grinch drawing,13000,0.0,informational,drawing grinch drawing,grinch,grinch drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pikachu drawing,pikachu drawing,13000,0.0,informational,pikachu drawing,pikachu,pikachu drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+rose drawing easy,rose drawing,13000,0.0,informational-beginner,how to draw a rose,rose-drawing,rose drawing,,/rose-drawing/,rose drawing,flower-drawings,/rose-drawing/,secondary,,,yes,2,low,Cover on /rose-drawing/,,merged,safe generic subject
+body drawing base,body drawing base,13000,0.0,informational,body drawing base,body-base,body drawing base,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sword drawing,sword drawing,13000,0.0,informational,sword drawing,sword,sword drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ladybug drawing,ladybug drawing,13000,0.0,informational,ladybug drawing,ladybug,ladybug drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+astronaut drawing,astronaut drawing,13000,0.0,informational,astronaut drawing,astronaut,astronaut drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+forest drawing,forest drawing,13000,0.0,informational,easy forest drawing,forest,forest drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+watermelon drawing,watermelon drawing,13000,0.0,informational,watermelon drawing,watermelon,watermelon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute dog drawing,dog drawing,13000,0.0,informational,how to draw a dog cute,dog-drawing,dog drawing,,/dog-drawing/,dog drawing,animal-drawings,/dog-drawing/,secondary,,,yes,7,low,Cover on /dog-drawing/,,merged,safe generic subject
+animal drawing,animal drawing,13000,0.0,informational,animals drawing,animal,animal drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+wave drawing,wave drawing,13000,0.0,informational,ocean waves drawing,wave,wave drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+koi fish drawing,koi fish drawing,13000,0.0,informational,how to draw a koi fish,koi-fish,koi fish drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+music drawing,music drawing,13000,0.0,informational,music drawing,music,music drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+line drawing,line drawing,13000,6.0,informational,line drawing,line,line drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cherry blossom drawing,cherry blossom drawing,13000,0.0,informational,cherry blossom drawing,cherry-blossom,cherry blossom drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+baby drawing,baby drawing,13000,0.0,informational,baby drawing easy,baby,baby drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+graduation cap drawing,graduation cap drawing,13000,0.0,informational,graduation cap drawing,graduation-cap,graduation cap drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mouth drawing,mouth drawing,13000,0.0,informational,mouth drawing,mouth,mouth drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+monster drawing,monster drawing,12000,0.0,informational,easy monster drawing,monster,monster drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+godzilla drawing,godzilla drawing,12000,0.0,informational,godzilla drawing,godzilla,godzilla drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+iron man drawing,iron man drawing,12000,0.0,informational,iron man sketch,iron-man,iron man drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+robot drawing,robot drawing,12000,0.0,informational,robot drawing,robot,robot drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+haunted house drawing,haunted house drawing,12000,0.0,informational,how to draw a haunted house,haunted-house,haunted house drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing prompts,drawing prompts,12000,0.0,informational,drawing prompts,prompts,drawing prompts,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+water drawing,water drawing,12000,0.0,informational,water drawings,water,water drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+reindeer drawing,reindeer drawing,12000,0.0,informational,reindeer drawing,reindeer,reindeer drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+banana drawing,banana drawing,12000,0.0,informational,banana drawing easy,banana,banana drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cinnamoroll drawing,cinnamoroll drawing,12000,0.0,informational,cinnamoroll drawing,cinnamoroll,cinnamoroll drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+ear drawing,ear drawing,12000,0.0,informational,ear drawing,ear,ear drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+santa drawing,santa drawing,12000,0.0,informational,santa claus drawing,santa,santa drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+camera drawing,camera drawing,12000,0.0,informational,camera drawing,camera,camera drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pokemon drawing,pokemon drawing,12000,0.0,informational,how to draw pokemon,pokemon,pokemon drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+christmas drawing ideas,christmas drawing ideas,12000,4.0,informational,christmas drawing idea,christmas-tree-drawing,christmas tree drawing,,/christmas-tree-drawing/,christmas tree drawing,seasonal-drawings,/christmas-tree-drawing/,secondary,,,yes,28,low,Cover on /christmas-tree-drawing/,,merged,safe generic subject
+fish drawing easy,fish drawing,12000,0.0,informational-beginner,fish drawing,fish-drawing,fish drawing,,/fish-drawing/,fish drawing,sea-animal-drawings,/fish-drawing/,secondary,,,yes,16,low,Cover on /fish-drawing/,,merged,safe generic subject
+skull drawing easy,skull drawing,11000,1.0,informational-beginner,easy skull drawing,skull,skull drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+horse drawing easy,horse drawing,11000,0.0,informational-beginner,horse drawing,horse-drawing,horse drawing,,/horse-drawing/,horse drawing,animal-drawings,/horse-drawing/,secondary,,,yes,8,low,Cover on /horse-drawing/,,merged,safe generic subject
+car drawing easy,car drawing,11000,12.0,informational-beginner,how to draw a car,car-drawing,car drawing,,/car-drawing/,car drawing,vehicle-drawings,/car-drawing/,secondary,,,yes,23,low,Cover on /car-drawing/,,merged,safe generic subject
+drawing flowers,drawing flowers,11000,6.0,informational,how to draw flowers,flowers,drawing flowers,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bow drawing,bow drawing,11000,0.0,informational,cute bow drawing,bow,bow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+light bulb drawing,light bulb drawing,11000,0.0,informational,light bulb easy drawing,light-bulb,light bulb drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ufo drawing,ufo drawing,11000,0.0,informational,ufo drawing simple,ufo,ufo drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+alligator drawing,alligator drawing,11000,0.0,informational,alligator drawing,alligator,alligator drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+squirrel drawing,squirrel drawing,11000,0.0,informational,squirrel drawings,squirrel,squirrel drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+space drawing,space drawing,11000,0.0,informational,easy space drawing,space,space drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+whale shark drawing,whale shark drawing,11000,0.0,informational,whale shark drawing,whale-shark,whale shark drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mouse drawing,mouse drawing,11000,0.0,informational,mouse drawing,mouse,mouse drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+baseball drawing,baseball drawing,11000,0.0,informational,baseball drawing,baseball,baseball drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rocket ship drawing,rocket ship drawing,11000,0.0,informational,rocket ship drawing,rocket-ship,rocket ship drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+body base drawing,body base drawing,11000,0.0,informational,body drawing base,body-base,body base drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+my melody drawing,my melody drawing,11000,0.0,informational,my melody drawing,my-melody,my melody drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+knife drawing,knife drawing,11000,0.0,informational,knife drawing,knife,knife drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy girl drawing,girl drawing,10000,0.0,informational-beginner,drawing of a girl,girl,easy girl drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ghost face drawing,ghost face drawing,10000,0.0,informational,ghost face drawing,ghost-face,ghost face drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+volcano drawing,volcano drawing,10000,0.0,informational,volcano easy drawing,volcano,volcano drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+santa claus drawing,santa claus drawing,10000,0.0,informational,santa claus drawing,santa-claus,santa claus drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+stranger things drawing,stranger things drawing,10000,0.0,informational,stranger things drawings,stranger-things,stranger things drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+gingerbread house drawing,gingerbread house drawing,10000,0.0,informational,gingerbread house drawing,gingerbread-house,gingerbread house drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+grim reaper drawing,grim reaper drawing,10000,0.0,informational,grim reaper drawing,grim-reaper,grim reaper drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+family drawing,family drawing,10000,0.0,informational,family drawing,family,family drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+grass drawing,grass drawing,10000,0.0,informational,how to draw grass,grass,grass drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cupcake drawing,cupcake drawing,10000,0.0,informational,easy cupcake drawing,cupcake,cupcake drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+gesture drawing,gesture drawing,10000,8.0,informational,gesture drawing,gesture,gesture drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+halloween drawing,halloween drawing,9900,0.0,informational,halloween sketches,halloween,halloween drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+perspective drawing,perspective drawing,9900,10.0,informational,perspective drawing,perspective,perspective drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+city drawing,city drawing,9900,0.0,informational,cityscape drawing,city,city drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ghostface drawing,ghostface drawing,9900,0.0,informational,ghost face drawing,ghostface,ghostface drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+american flag drawing,american flag drawing,9800,0.0,informational,american flag drawing,american-flag,american flag drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+turkey drawing easy,turkey drawing,9700,0.0,informational-beginner,how to draw a turkey,turkey,turkey drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+coral drawing,coral drawing,9600,0.0,informational,coral drawing easy,coral,coral drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mountains drawing,mountains drawing,9600,0.0,informational,mountain drawing,mountains,mountains drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hello kitty drawing easy,hello kitty drawing,9600,0.0,informational-beginner,hello kitty drawing easy,hello-kitty,hello kitty drawing easy,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+saturn drawing,saturn drawing,9600,0.0,informational,saturn drawing easy,saturn,saturn drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+waves drawing,waves drawing,9500,0.0,informational,how to draw waves,waves,waves drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy turkey drawing,turkey drawing,9500,0.0,informational-beginner,turkey drawing,turkey,easy turkey drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+birthday cake drawing,birthday cake drawing,9400,0.0,informational,cake easy drawing,birthday-cake,birthday cake drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pumpkin drawing easy,pumpkin drawing,9400,0.0,informational-beginner,pumpkin drawing,pumpkin-drawing,pumpkin drawing,,/pumpkin-drawing/,pumpkin drawing,seasonal-drawings,/pumpkin-drawing/,secondary,,,yes,29,low,Cover on /pumpkin-drawing/,,merged,safe generic subject
+gorilla drawing,gorilla drawing,9400,0.0,informational,gorilla drawing,gorilla,gorilla drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+kaws drawing,kaws drawing,9400,0.0,informational,kaws drawing,kaws,kaws drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+diamond drawing,diamond drawing,9400,0.0,informational,diamond drawing easy,diamond,diamond drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dragonfly drawing,dragonfly drawing,9300,0.0,informational,dragonfly drawing,dragonfly,dragonfly drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cool drawing,cool drawing,9300,0.0,informational,cool drawings,cool,cool drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mermaid drawing,mermaid drawing,9300,0.0,informational,mermaid drawings,mermaid,mermaid drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dove drawing,dove drawing,9300,0.0,informational,dove easy drawing,dove,dove drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+frog drawing easy,frog drawing,9300,0.0,informational-beginner,frog easy drawing,frog,frog drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+venom drawing,venom drawing,9200,0.0,informational,venom drawings,venom,venom drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+solar system drawing,solar system drawing,9100,0.0,informational,solar system drawing,solar-system,solar system drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+heart drawing easy,heart drawing,9100,0.0,informational-beginner,easy heart drawing,heart-drawing,heart drawing,,/heart-drawing/,heart drawing,symbol-drawings,/heart-drawing/,secondary,,,yes,33,low,Cover on /heart-drawing/,,merged,safe generic subject
+shoes drawing,shoes drawing,9100,0.0,informational,how to draw shoes,shoes,shoes drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+puppy drawing,puppy drawing,9100,0.0,informational,how to draw a cute dog,puppy,puppy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+angel wings drawing,angel wings drawing,9100,0.0,informational,angel wings drawing,angel-wings,angel wings drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spider man drawing easy,spider man drawing,9000,0.0,informational-beginner,how to draw spiderman,spider-man,spider man drawing easy,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+roller coaster drawing,roller coaster drawing,9000,0.0,informational,roller coaster drawing easy,roller-coaster,roller coaster drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy rose drawing,rose drawing,9000,0.0,informational-beginner,how to draw a rose easy,rose-drawing,rose drawing,,/rose-drawing/,rose drawing,flower-drawings,/rose-drawing/,secondary,,,yes,2,low,Cover on /rose-drawing/,,merged,safe generic subject
+snail drawing,snail drawing,9000,0.0,informational,snail drawing easy,snail,snail drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute bunny drawing,bunny drawing,9000,0.0,informational,how to draw a bunny,bunny-drawing,bunny drawing,,/bunny-drawing/,bunny drawing,animal-drawings,/bunny-drawing/,secondary,,,yes,10,low,Cover on /bunny-drawing/,,merged,safe generic subject
+cow drawing easy,cow drawing,9000,0.0,informational-beginner,cow drawing easy,cow,cow drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+corn drawing,corn drawing,8900,0.0,informational,corn drawing easy,corn,corn drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+music notes drawing,music notes drawing,8900,0.0,informational,music note drawing,music-notes,music notes drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lizard drawing,lizard drawing,8900,0.0,informational,lizard drawing,lizard,lizard drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sheep drawing,sheep drawing,8900,0.0,informational,sheep drawing,sheep,sheep drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+wings drawing,wings drawing,8800,0.0,informational,wings drawing,wings,wings drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tree drawing easy,tree drawing,8800,2.0,informational-beginner,tree drawing,tree-drawing,tree drawing,,/tree-drawing/,tree drawing,nature-drawings,/tree-drawing/,secondary,,,yes,19,low,Cover on /tree-drawing/,,merged,safe generic subject
+3d drawing,3d drawing,8800,5.0,informational,3d drawing,3d,3d drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+daisy drawing,daisy drawing,8800,0.0,informational,daisy drawing,daisy,daisy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+river drawing,river drawing,8800,0.0,informational,river drawing,river,river drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+luffy drawing,luffy drawing,8800,0.0,informational,luffy drawing easy,luffy,luffy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+winnie the pooh drawing,winnie the pooh drawing,8800,1.0,informational,winnie the pooh drawing easy,winnie-pooh,winnie the pooh drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+soulmate drawing,soulmate drawing,8800,16.0,informational,soulmate drawing,soulmate,soulmate drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+goat drawing,goat drawing,8700,0.0,informational,goat drawing,goat,goat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lightning drawing,lightning drawing,8700,0.0,informational,how to draw lightning,lightning,lightning drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+people drawing,people drawing,8700,0.0,informational,person drawing,people,people drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+clown drawing,clown drawing,8700,0.0,informational,clown drawing,clown,clown drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hummingbird drawing,hummingbird drawing,8600,0.0,informational,how to draw a hummingbird,hummingbird,hummingbird drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+monkey drawing easy,monkey drawing,8600,0.0,informational-beginner,monkey easy drawing,monkey,monkey drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+otter drawing,otter drawing,8600,0.0,informational,otter drawing,otter,otter drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pig drawing,pig drawing,8600,0.0,informational,pig drawing,pig,pig drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+candy drawing,candy drawing,8600,0.0,informational,candy drawing easy,candy,candy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+taco drawing,taco drawing,8600,0.0,informational,taco drawing,taco,taco drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing anime,drawing anime,8600,2.0,informational,anime drawing,anime,drawing anime,,,,,,excluded,,,no,999,none,,,hold,copyright review required
+leaves drawing,leaves drawing,8500,0.0,informational,leaf drawing,leaves,leaves drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+gingerbread man drawing,gingerbread man drawing,8500,0.0,informational,gingerbread man drawing,gingerbread-man,gingerbread man drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cheetah drawing,cheetah drawing,8500,0.0,informational,cheeta drawing,cheetah,cheetah drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+statue of liberty drawing,statue of liberty drawing,8500,0.0,informational,statue of liberty photos,statue-of-liberty,statue of liberty drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lemon drawing,lemon drawing,8400,0.0,informational,lemon drawing,lemon,lemon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing pictures,drawing pictures,8400,12.0,informational,pictures to draw,pictures,drawing pictures,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dna drawing,dna drawing,8400,0.0,informational,dna drawing easy,dna,dna drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rocket drawing,rocket drawing,8400,0.0,informational,rocket drawing,rocket,rocket drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fairy drawing,fairy drawing,8400,0.0,informational,fairy drawing,fairy,fairy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+human heart drawing,human heart drawing,8300,1.0,informational,human heart drawing,human-heart,human heart drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+eye drawing easy,eye drawing,8300,1.0,informational-beginner,eye drawing easy,eye-drawing,eye drawing,,/eye-drawing/,eye drawing,symbol-drawings,/eye-drawing/,secondary,,,yes,35,low,Cover on /eye-drawing/,,merged,safe generic subject
+black cat drawing,black cat drawing,8300,0.0,informational,black cat drawing halloween,black-cat,black cat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing of a dog,a dog drawing,8300,1.0,informational,how to draw a dog,dog-drawing,dog drawing,,/dog-drawing/,dog drawing,animal-drawings,/dog-drawing/,secondary,,,yes,7,low,Cover on /dog-drawing/,,merged,safe generic subject
+polar bear drawing,polar bear drawing,8300,0.0,informational,polar bear drawing,polar-bear,polar bear drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+elf drawing,elf drawing,8300,0.0,informational,elf drawing,elf,elf drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+one point perspective drawing,one point perspective drawing,8300,6.0,informational,one point perspective,one-point-perspective,one point perspective drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+brain drawing easy,brain drawing,8300,0.0,informational-beginner,brain easy drawing,brain,brain drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bike drawing,bike drawing,8200,0.0,informational,bike drawing easy,bike,bike drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+moth drawing,moth drawing,8200,0.0,informational,moth drawing,moth,moth drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+among us drawing,among us drawing,8200,0.0,informational,among us drawing imposter,among-us,among us drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+basketball hoop drawing,basketball hoop drawing,8200,0.0,informational,basketball hoop drawing,basketball-hoop,basketball hoop drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+crow drawing,crow drawing,8200,0.0,informational,crow drawings,crow,crow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+clock drawing,clock drawing,8200,10.0,informational,clock drawing test,clock,clock drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bird drawing easy,bird drawing,8200,0.0,informational-beginner,easy bird drawing,bird-drawing,bird drawing,,/bird-drawing/,bird drawing,bird-drawings,/bird-drawing/,secondary,,,yes,12,low,Cover on /bird-drawing/,,merged,safe generic subject
+candy cane drawing,candy cane drawing,8200,0.0,informational,candycane drawing,candy-cane,candy cane drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+simple cat drawing,cat drawing,8100,1.0,informational-beginner,cat drawing easy,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+boxing gloves drawing,boxing gloves drawing,8100,0.0,informational,boxing gloves drawing easy,boxing-gloves,boxing gloves drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bouquet of flowers drawing,bouquet of flowers drawing,8100,0.0,informational,flower bouquet drawing,bouquet-of-flowers,bouquet of flowers drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy drawing for kids,drawing,8100,13.0,informational-beginner,how to draw,easy-drawing-for-kids,easy drawing for kids,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dress drawing,dress drawing,8100,0.0,informational,dress drawing,dress,dress drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+raccoon drawing,raccoon drawing,8100,0.0,informational,racoon drawing,raccoon,raccoon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+snoopy drawing,snoopy drawing,8100,0.0,informational,snoopy drawing easy,snoopy,snoopy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+microphone drawing,microphone drawing,8100,0.0,informational,microphone drawing,microphone,microphone drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+demogorgon drawing,demogorgon drawing,8100,0.0,informational,demogorgon stranger things drawing,demogorgon,demogorgon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+roses drawing,roses drawing,8000,3.0,informational,how to draw a rose,roses,roses drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lion drawing easy,lion drawing,8000,0.0,informational-beginner,how to draw a lion,lion-drawing,lion drawing,,/lion-drawing/,lion drawing,animal-drawings,/lion-drawing/,secondary,,,yes,9,low,Cover on /lion-drawing/,,merged,safe generic subject
+football helmet drawing,football helmet drawing,8000,0.0,informational,football helmet drawing,football-helmet,football helmet drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+isometric drawing,isometric drawing,7900,7.0,informational,isometric drawing tool,isometric,isometric drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lily drawing,lily drawing,7900,0.0,informational,lily flower drawing,lily,lily drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+candle drawing,candle drawing,7900,0.0,informational,candle drawing,candle,candle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+flame drawing,flame drawing,7900,11.0,informational,flame drawing,flame,flame drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+shrek drawing,shrek drawing,7900,0.0,informational,shrek drawing,shrek,shrek drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+animals drawing,animals drawing,7800,0.0,informational,cute animal drawing,animals,animals drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+church drawing,church drawing,7800,0.0,informational,church drawing,church,church drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dinosaur drawing easy,dinosaur drawing,7800,1.0,informational-beginner,dinosaur easy drawing,dinosaur,dinosaur drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+boy drawing,boy drawing,7800,5.0,informational,little boy drawing easy,boy,boy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+human drawing,human drawing,7700,18.0,informational,how to draw people,human,human drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sloth drawing,sloth drawing,7700,0.0,informational,sloth drawing,sloth,sloth drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rainbow drawing,rainbow drawing,7700,0.0,informational,rainbow drawing,rainbow,rainbow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lotus flower drawing,lotus flower drawing,7700,0.0,informational,lotus flower drawing,lotus-flower,lotus flower drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cell drawing,cell drawing,7600,0.0,informational,cell drawing easy,cell,cell drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+eiffel tower drawing,eiffel tower drawing,7600,0.0,informational,eiffel tower drawing,eiffel-tower,eiffel tower drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+shark drawing easy,shark drawing,7600,0.0,informational-beginner,easy shark drawing,shark-drawing,shark drawing,,/shark-drawing/,shark drawing,sea-animal-drawings,/shark-drawing/,secondary,,,yes,17,low,Cover on /shark-drawing/,,merged,safe generic subject
+cherry blossom tree drawing,cherry blossom tree drawing,7600,0.0,informational,cherry blossom tree drawing,cherry-blossom-tree,cherry blossom tree drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fall leaves drawing,fall leaves drawing,7600,0.0,informational,fall leaf drawing,fall-leaves,fall leaves drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+desert drawing,desert drawing,7600,0.0,informational,desert drawing easy,desert,desert drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+raven drawing,raven drawing,7500,0.0,informational,raven drawing,raven,raven drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+stars drawing,stars drawing,7500,0.0,informational,stars drawing,stars,stars drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+phone drawing,phone drawing,7500,0.0,informational,smartphone draw,phone,phone drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pineapple drawing,pineapple drawing,7500,0.0,informational,pineapple drawing,pineapple,pineapple drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+miles morales drawing,miles morales drawing,7500,0.0,informational,miles morales drawings,miles-morales,miles morales drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tulips drawing,tulips drawing,7500,0.0,informational,tulip drawing,tulips,tulips drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+zoro drawing,zoro drawing,7500,0.0,informational,zoro drawing,zoro,zoro drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+red panda drawing,red panda drawing,7400,0.0,informational,red panda drawing easy,red-panda,red panda drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+seashell drawing,seashell drawing,7400,0.0,informational,seashell drawing,seashell,seashell drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mario drawing,mario drawing,7400,0.0,informational,mario drawing,mario,mario drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+fruit drawing,fruit drawing,7400,0.0,informational,fruit drawing,fruit,fruit drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing of a girl,a girl drawing,7400,0.0,informational,drawing of a girl,girl,drawing of a girl,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ship drawing,ship drawing,7400,0.0,informational,ship drawing,ship,ship drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy fish drawing,fish drawing,7400,0.0,informational-beginner,fish drawing,fish-drawing,fish drawing,,/fish-drawing/,fish drawing,sea-animal-drawings,/fish-drawing/,secondary,,,yes,16,low,Cover on /fish-drawing/,,merged,safe generic subject
+donut drawing,donut drawing,7300,0.0,informational,donut drawing,donut,donut drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+turtle drawing easy,turtle drawing,7300,0.0,informational-beginner,sea turtle drawing,turtle,turtle drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+nature drawing,nature drawing,7300,0.0,informational,nature drawing,nature,nature drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+racoon drawing,racoon drawing,7300,0.0,informational,racoon drawing,racoon,racoon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+starfish drawing,starfish drawing,7300,0.0,informational,starfish drawing,starfish,starfish drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+wolf drawing easy,wolf drawing,7300,1.0,informational-beginner,wolf drawing easy,wolf,wolf drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+flower bouquet drawing,flower bouquet drawing,7200,0.0,informational,how to draw a bouquet of flowers,flower-bouquet,flower bouquet drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing clipart,drawing clipart,7200,0.0,informational,drawing clipart,clipart,drawing clipart,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy horse drawing,horse drawing,7200,0.0,informational-beginner,horse drawing,horse-drawing,horse drawing,,/horse-drawing/,horse drawing,animal-drawings,/horse-drawing/,secondary,,,yes,8,low,Cover on /horse-drawing/,,merged,safe generic subject
+compass drawing,compass drawing,7200,0.0,informational,compass drawing,compass,compass drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing eyes,drawing eyes,7200,3.0,informational,how to draw eyes,eyes,drawing eyes,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+one piece drawing,one piece drawing,7200,0.0,informational,one piece drawing,one-piece,one piece drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute girl drawing,girl drawing,7100,0.0,informational,how to draw a girl,girl,cute girl drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+farm drawing,farm drawing,7100,0.0,informational,farm drawing,farm,farm drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+stethoscope drawing,stethoscope drawing,7100,0.0,informational,stethoscope drawing,stethoscope,stethoscope drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bunny drawing easy,bunny drawing,7100,0.0,informational-beginner,how to draw a bunny,bunny-drawing,bunny drawing,,/bunny-drawing/,bunny drawing,animal-drawings,/bunny-drawing/,secondary,,,yes,10,low,Cover on /bunny-drawing/,,merged,safe generic subject
+parrot drawing,parrot drawing,7000,0.0,informational,parrot drawing,parrot,parrot drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+halloween drawing ideas,halloween drawing ideas,7000,0.0,informational,drawing ideas halloween,halloween-ideas,halloween drawing ideas,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+orange drawing,orange drawing,7000,0.0,informational,orange drawing easy,orange,orange drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+the grinch drawing,the grinch drawing,7000,0.0,informational,grinch drawing,grinch,the grinch drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+anatomy drawing,anatomy drawing,7000,1.0,informational-advanced,anatomy drawing,anatomy,anatomy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bubble drawing,bubble drawing,7000,0.0,informational,how to draw bubbles,bubble,bubble drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+anime eyes drawing,anime eyes drawing,6900,2.0,informational,anime eyes drawing,anime-eyes,anime eyes drawing,,,,,,excluded,,,no,999,none,,,hold,copyright review required
+frankenstein drawing,frankenstein drawing,6900,0.0,informational,frankenstein drawing,frankenstein,frankenstein drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+black girl drawing,black girl drawing,6900,0.0,informational,black girl drawing,black-girl,black girl drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spider drawing easy,spider drawing,6900,0.0,informational-beginner,how to draw a simple spider,spider,spider drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sushi drawing,sushi drawing,6800,0.0,informational,sushi drawing,sushi,sushi drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy butterfly drawing,butterfly drawing,6800,0.0,informational-beginner,how to draw a butterfly,butterfly-drawing,butterfly drawing,,/butterfly-drawing/,butterfly drawing,insect-drawings,/butterfly-drawing/,secondary,,,yes,14,low,Cover on /butterfly-drawing/,,merged,safe generic subject
+couch drawing,couch drawing,6800,0.0,informational,couch drawing,couch,couch drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+orchid drawing,orchid drawing,6800,0.0,informational,orchid drawing,orchid,orchid drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lily of the valley drawing,lily of the valley drawing,6800,0.0,informational,lily of the valley flower drawing,lily-of-valley,lily of the valley drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy frog drawing,frog drawing,6800,0.0,informational-beginner,frog easy drawing,frog,easy frog drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+building drawing,building drawing,6800,1.0,informational,building drawing,building,building drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hammerhead shark drawing,hammerhead shark drawing,6700,0.0,informational,hammerhead shark drawing,hammerhead-shark,hammerhead shark drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+simple flower drawing,flower drawing,6700,13.0,informational-beginner,flower drawing,flower-drawing,flower drawing,,/flower-drawing/,flower drawing,flower-drawings,/flower-drawing/,secondary,,,yes,1,low,Cover on /flower-drawing/,,merged,safe generic subject
+lavender drawing,lavender drawing,6700,0.0,informational,lavender drawing,lavender,lavender drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+disco ball drawing,disco ball drawing,6700,0.0,informational,disco ball drawing,disco-ball,disco ball drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hoodie drawing,hoodie drawing,6700,0.0,informational,hoodie drawing,hoodie,hoodie drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+zombie drawing,zombie drawing,6600,0.0,informational,zombie drawing,zombie,zombie drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing bases,drawing bases,6600,15.0,informational,drawing base,bases,drawing bases,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+koala drawing,koala drawing,6600,0.0,informational,how to draw a koala,koala,koala drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cherry drawing,cherry drawing,6600,0.0,informational,cherry drawing easy,cherry,cherry drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing hair,drawing hair,6600,0.0,informational,hair drawing,hair,drawing hair,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lightning mcqueen drawing,lightning mcqueen drawing,6600,0.0,informational,lightning mcqueen drawing,lightning-mcqueen,lightning mcqueen drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+still life drawing,still life drawing,6600,0.0,informational,still life drawing,still-life,still life drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing inspiration,drawing inspiration,6600,19.0,informational,drawing inspiration,inspiration,drawing inspiration,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+george washington drawing,george washington drawing,6500,0.0,informational,george washington drawing easy,george-washington,george washington drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+medusa drawing,medusa drawing,6500,0.0,informational,medusa drawing,medusa,medusa drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+realistic heart drawing,heart drawing,6500,0.0,informational-advanced,heart drawing realistic,heart-drawing,heart drawing,,/heart-drawing/,heart drawing,symbol-drawings,/heart-drawing/,secondary,,,yes,33,low,Cover on /heart-drawing/,,merged,safe generic subject
+tornado drawing,tornado drawing,6500,0.0,informational,tornado drawing easy,tornado,tornado drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+carrot drawing,carrot drawing,6500,0.0,informational,carrot drawing easy,carrot,carrot drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mushrooms drawing,mushrooms drawing,6500,0.0,informational,mushroom drawing,mushrooms,mushrooms drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy car drawing,car drawing,6500,13.0,informational-beginner,easy car drawing,car-drawing,car drawing,,/car-drawing/,car drawing,vehicle-drawings,/car-drawing/,secondary,,,yes,23,low,Cover on /car-drawing/,,merged,safe generic subject
+superhero drawing,superhero drawing,6500,0.0,informational,superhero drawing,superhero,superhero drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+kirby drawing,kirby drawing,6500,0.0,informational,kirby drawing,kirby,kirby drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+peacock drawing,peacock drawing,6500,0.0,informational,how to draw a peacock,peacock,peacock drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy dinosaur drawing,dinosaur drawing,6500,0.0,informational-beginner,dinosaur drawing easy,dinosaur,easy dinosaur drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sports drawing,sports drawing,6400,0.0,informational,sports drawing,sports,sports drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lungs drawing,lungs drawing,6400,0.0,informational,lungs drawing easy,lungs,lungs drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hamster drawing meme,hamster drawing meme,6400,0.0,informational,hamster meme,hamster-meme,hamster drawing meme,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy skull drawing,skull drawing,6400,0.0,informational-beginner,easy skull drawing,skull,easy skull drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+barn drawing,barn drawing,6400,0.0,informational,barn drawing,barn,barn drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+open book drawing,open book drawing,6400,0.0,informational,book open drawing,open-book,open book drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+burger drawing,burger drawing,6400,0.0,informational,burger drawing easy,burger,burger drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+christmas tree drawing easy,christmas tree drawing,6400,0.0,informational-beginner,christmas tree drawing,christmas-tree-drawing,christmas tree drawing,,/christmas-tree-drawing/,christmas tree drawing,seasonal-drawings,/christmas-tree-drawing/,secondary,,,yes,28,low,Cover on /christmas-tree-drawing/,,merged,safe generic subject
+scale drawing,scale drawing,6400,1.0,informational,scale drawing,scale,scale drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fist drawing,fist drawing,6400,0.0,informational,fist drawing,fist,fist drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+shirt drawing,shirt drawing,6300,0.0,informational,shirt drawing easy,shirt,shirt drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+house drawing easy,house drawing,6300,0.0,informational-beginner,house easy drawing,house,house drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lightning bolt drawing,lightning bolt drawing,6300,0.0,informational,lightning bolt drawing,lightning-bolt,lightning bolt drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+magma drawing,magma drawing,6300,2.0,informational,magma,magma,magma drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+backpack drawing,backpack drawing,6300,0.0,informational,backpack drawing,backpack,backpack drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ribbon drawing,ribbon drawing,6300,0.0,informational,ribbon drawing,ribbon,ribbon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fox drawing easy,fox drawing,6300,0.0,informational-beginner,fox easy drawing,fox-drawing,fox drawing,,/fox-drawing/,fox drawing,animal-drawings,/fox-drawing/,secondary,,,yes,11,low,Cover on /fox-drawing/,,merged,safe generic subject
+lake drawing,lake drawing,6300,0.0,informational,lake drawing easy,lake,lake drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing people,drawing people,6300,2.0,informational,how to draw people,people,drawing people,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy bunny drawing,bunny drawing,6300,0.0,informational-beginner,how to draw a bunny,bunny-drawing,bunny drawing,,/bunny-drawing/,bunny drawing,animal-drawings,/bunny-drawing/,secondary,,,yes,10,low,Cover on /bunny-drawing/,,merged,safe generic subject
+book drawing easy,book drawing,6300,0.0,informational-beginner,book easy drawing,book,book drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hat drawing,hat drawing,6300,6.0,informational,hat drawing easy,hat,hat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+charcoal drawing,charcoal drawing,6300,2.0,informational,charcoal drawing,charcoal,charcoal drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rock drawing,rock drawing,6200,4.0,informational,rock drawing,rock,rock drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+egg drawing,egg drawing,6200,0.0,informational,egg drawing,egg,egg drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+vines drawing,vines drawing,6200,0.0,informational,vines drawing,vines,vines drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lily flower drawing,lily flower drawing,6200,0.0,informational,lily flower drawing,lily-flower,lily flower drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cheese drawing,cheese drawing,6200,0.0,informational,cheese drawing,cheese,cheese drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+money bag drawing,money bag drawing,6200,14.0,informational,money bag drawing easy,money-bag,money bag drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+animal cell drawing,animal cell drawing,6200,0.0,informational,animal cell diagram,animal-cell,animal cell drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+planet drawing,planet drawing,6200,0.0,informational,planet drawing,planet,planet drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+scorpion drawing,scorpion drawing,6200,0.0,informational,scorpion drawing,scorpion,scorpion drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ant drawing,ant drawing,6200,0.0,informational,ant drawing,ant,ant drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+university drawing,university drawing,6200,0.0,informational,university drawing,university,university drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+balloon drawing,balloon drawing,6100,0.0,informational,balloon drawing,balloon,balloon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+santa hat drawing,santa hat drawing,6100,0.0,informational,santa hat drawings,santa-hat,santa hat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+chucky drawing,chucky drawing,6100,0.0,informational,chucky drawing,chucky,chucky drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+base drawing,base drawing,6100,8.0,informational,drawing base,base,base drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+softball drawing,softball drawing,6100,0.0,informational,softball drawing,softball,softball drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tiger drawing easy,tiger drawing,6100,0.0,informational-beginner,tiger drawing,tiger,tiger drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+plants drawing,plants drawing,6100,0.0,informational,plant drawing,plants,plants drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+black hole drawing,black hole drawing,6100,0.0,informational,black hole drawing,black-hole,black hole drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+teacher drawing,teacher drawing,6000,0.0,informational,teacher drawing easy,teacher,teacher drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+best drawing tablet,best drawing tablet,6000,11.0,informational,best drawing tablet,best-tablet,best drawing tablet,,,,,,excluded,,,no,999,none,,,hold,exclude
+knight drawing,knight drawing,6000,0.0,informational,knight drawing,knight,knight drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+coral reef drawing,coral reef drawing,6000,6.0,informational,coral reef drawing easy,coral-reef,coral reef drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+seahorse drawing,seahorse drawing,6000,0.0,informational,seahorse drawing,seahorse,seahorse drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bridge drawing,bridge drawing,6000,0.0,informational,bridge drawing,bridge,bridge drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing hobby,drawing hobby,6000,0.0,informational,drawing hobby,hobby,drawing hobby,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+airplane drawing easy,airplane drawing,6000,0.0,informational-beginner,how to draw an airplane,airplane,airplane drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+eyeball drawing,eyeball drawing,6000,3.0,informational,eyeball drawing,eyeball,eyeball drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cookie drawing,cookie drawing,6000,0.0,informational,cookie drawing,cookie,cookie drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+piano drawing,piano drawing,6000,0.0,informational,piano sketch,piano,piano drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+camel drawing,camel drawing,6000,0.0,informational,camel drawing,camel,camel drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mexico flag drawing,mexico flag drawing,6000,0.0,informational,mexico flag drawing easy,mexico-flag,mexico flag drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+stitch drawing easy,stitch drawing,6000,0.0,informational-beginner,stitch drawing,stitch,stitch drawing easy,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+trumpet drawing,trumpet drawing,5900,0.0,informational,trumpet drawing,trumpet,trumpet drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+digestive system drawing,digestive system drawing,5900,0.0,informational,digestive system,digestive-system,digestive system drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bow and arrow drawing,bow and arrow drawing,5900,0.0,informational,bow and arrow drawing easy,bow-and-arrow,bow and arrow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+chain drawing,chain drawing,5900,0.0,informational,chain drawing,chain,chain drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bread drawing,bread drawing,5900,0.0,informational,bread drawing easy,bread,bread drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+firework drawing,firework drawing,5900,0.0,informational,firework drawing,firework,firework drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+witch drawing,witch drawing,5800,0.0,informational,witch drawing easy,witch,witch drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+popcorn drawing,popcorn drawing,5800,0.0,informational,popcorn drawing,popcorn,popcorn drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+baseball bat drawing,baseball bat drawing,5800,0.0,informational,bat drawing,baseball-bat,baseball bat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+waterfall drawing,waterfall drawing,5800,0.0,informational,easy waterfall drawing,waterfall,waterfall drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+steak drawing,steak drawing,5800,0.0,informational,drawing of steak,steak,steak drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+world drawing,world drawing,5800,1.0,informational,wplace,world,world drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+island drawing,island drawing,5800,0.0,informational,island drawing easy,island,island drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing of flowers,flower drawing,5800,8.0,informational,drawing flowers,flower-drawing,flower drawing,,/flower-drawing/,flower drawing,flower-drawings,/flower-drawing/,secondary,,,yes,1,low,Cover on /flower-drawing/,,merged,safe generic subject
+lightbulb drawing,lightbulb drawing,5700,0.0,informational,light bulb drawing,lightbulb,lightbulb drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+phoenix drawing,phoenix drawing,5700,0.0,informational,phoenix drawing,phoenix,phoenix drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy pumpkin drawing,pumpkin drawing,5700,0.0,informational-beginner,how to draw a simple pumpkin,pumpkin-drawing,pumpkin drawing,,/pumpkin-drawing/,pumpkin drawing,seasonal-drawings,/pumpkin-drawing/,secondary,,,yes,29,low,Cover on /pumpkin-drawing/,,merged,safe generic subject
+easy shark drawing,shark drawing,5700,0.0,informational-beginner,easy shark drawing,shark-drawing,shark drawing,,/shark-drawing/,shark drawing,sea-animal-drawings,/shark-drawing/,secondary,,,yes,17,low,Cover on /shark-drawing/,,merged,safe generic subject
+christmas lights drawing,christmas lights drawing,5700,0.0,informational,christmas lights drawings,christmas-tree-drawing,christmas tree drawing,,/christmas-tree-drawing/,christmas tree drawing,seasonal-drawings,/christmas-tree-drawing/,secondary,,,yes,28,low,Cover on /christmas-tree-drawing/,,merged,safe generic subject
+drawing outline,drawing outline,5700,0.0,informational,outline drawing,outline,drawing outline,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hippo drawing,hippo drawing,5600,0.0,informational,drawing of a hippo,hippo,hippo drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hawk drawing,hawk drawing,5600,0.0,informational,hawk drawing,hawk,hawk drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mask drawing,mask drawing,5600,0.0,informational,mask drawing,mask,mask drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+chair drawing,chair drawing,5600,0.0,informational,chair drawing,chair,chair drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy cow drawing,cow drawing,5600,0.0,informational-beginner,how to draw a cow,cow,easy cow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+window drawing,window drawing,5600,0.0,informational,window drawings,window,window drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy bird drawing,bird drawing,5600,0.0,informational-beginner,bird drawing easy,bird-drawing,bird drawing,,/bird-drawing/,bird drawing,bird-drawings,/bird-drawing/,secondary,,,yes,12,low,Cover on /bird-drawing/,,merged,safe generic subject
+trophy drawing,trophy drawing,5600,0.0,informational,drawing of a trophy,trophy,trophy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easter bunny drawing,easter bunny drawing,5600,0.0,informational,how to draw bunny,easter-bunny,easter bunny drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rick and morty drawing,rick and morty drawing,5600,0.0,informational,rick and morty drawing,rick-and-morty,rick and morty drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+soccer drawing,soccer drawing,5600,0.0,informational,soccer ball drawing,soccer-ball-drawing,soccer ball drawing,,/soccer-ball-drawing/,soccer ball drawing,sports-drawings,/soccer-ball-drawing/,secondary,,,yes,27,low,Cover on /soccer-ball-drawing/,,merged,safe generic subject
+demon slayer drawing,demon slayer drawing,5600,0.0,informational,demon slayer drawing,demon-slayer,demon slayer drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ghost drawing easy,ghost drawing,5500,0.0,informational-beginner,ghosts drawing,ghost,ghost drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+barbed wire drawing,barbed wire drawing,5500,0.0,informational,barbed wire drawing easy,barbed-wire,barbed wire drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+flowers drawing easy,flower drawing,5500,13.0,informational-beginner,flower drawing easy,flower-drawing,flower drawing,,/flower-drawing/,flower drawing,flower-drawings,/flower-drawing/,secondary,,,yes,1,low,Cover on /flower-drawing/,,merged,safe generic subject
+crown drawing easy,crown drawing,5500,0.0,informational-beginner,how to draw a crown,crown,crown drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+feather drawing,feather drawing,5500,0.0,informational,feather drawing,feather,feather drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+witch hat drawing,witch hat drawing,5500,0.0,informational,how to draw witch hat,witch-hat,witch hat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bear drawing easy,bear drawing,5500,0.0,informational-beginner,easy bear drawing,bear,bear drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dagger drawing,dagger drawing,5500,0.0,informational,dagger drawing,dagger,dagger drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+flag drawing,flag drawing,5500,1.0,informational,american flag drawing easy,flag,flag drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fire drawing easy,fire drawing,5400,7.0,informational-beginner,flame drawing,fire,fire drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+zebra drawing,zebra drawing,5400,0.0,informational,zebra drawing,zebra,zebra drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute ghost drawing,ghost drawing,5400,0.0,informational,cute ghost drawing,ghost,cute ghost drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+gold drawing,gold drawing,5400,1.0,informational,drawing of gold,gold,gold drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bull drawing,bull drawing,5400,0.0,informational,bull drawing,bull,bull drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pine tree drawing,pine tree drawing,5400,0.0,informational,pine tree drawing,pine-tree,pine tree drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+christmas drawing easy,christmas drawing,5400,0.0,informational-beginner,christmas drawing easy,christmas-tree-drawing,christmas tree drawing,,/christmas-tree-drawing/,christmas tree drawing,seasonal-drawings,/christmas-tree-drawing/,secondary,,,yes,28,low,Cover on /christmas-tree-drawing/,,merged,safe generic subject
+holding hands drawing,holding hands drawing,5400,0.0,informational,holding hands drawing,holding-hands,holding hands drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dragon eye drawing,dragon eye drawing,5400,0.0,informational,dragon eye drawing,dragon-eye,dragon eye drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tank drawing,tank drawing,5400,0.0,informational,how to draw a tank,tank,tank drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+wheat drawing,wheat drawing,5400,0.0,informational,wheat drawing,wheat,wheat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+simple rose drawing,rose drawing,5400,1.0,informational-beginner,simple rose drawing,rose-drawing,rose drawing,,/rose-drawing/,rose drawing,flower-drawings,/rose-drawing/,secondary,,,yes,2,low,Cover on /rose-drawing/,,merged,safe generic subject
+chibi drawing base,chibi drawing base,5400,0.0,informational,chibi base,chibi-base,chibi drawing base,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+shooting star drawing,shooting star drawing,5400,0.0,informational,shooting star drawing,shooting-star,shooting star drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy snowflake drawing,snowflake drawing,5400,0.0,informational-beginner,snowflake drawing,snowflake,easy snowflake drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+shrimp drawing,shrimp drawing,5400,0.0,informational,shrimp drawing,shrimp,shrimp drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hedgehog drawing,hedgehog drawing,5400,0.0,informational,hedgehog drawing,hedgehog,hedgehog drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+minnie mouse drawing,minnie mouse drawing,5300,0.0,informational,minnie mouse drawing,minnie-mouse,minnie mouse drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rosa parks drawing,rosa parks drawing,5300,0.0,informational,rosa parks bus drawing,rosa-parks,rosa parks drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+explosion drawing,explosion drawing,5300,0.0,informational,explosion drawing,explosion,explosion drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+smoke drawing,smoke drawing,5300,0.0,informational,drawing smoke,smoke,smoke drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute bear drawing,bear drawing,5300,0.0,informational,cute bear drawing easy,bear,cute bear drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+female poses body base drawing,female poses body base drawing,5300,0.0,informational,female poses body base drawing,female-poses-body-base,female poses body base drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+caterpillar drawing,caterpillar drawing,5300,0.0,informational,caterpillar drawing,caterpillar,caterpillar drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bus drawing,bus drawing,5300,0.0,informational,drawing of bus,bus,bus drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+toad drawing,toad drawing,5300,0.0,informational,toad drawing,toad,toad drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tomato drawing,tomato drawing,5300,0.0,informational,tomato drawing,tomato,tomato drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+toilet drawing,toilet drawing,5300,0.0,informational,toilet drawing,toilet,toilet drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+scroll drawing,scroll drawing,5300,0.0,informational,scroll drawing,scroll,scroll drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+water cycle drawing,water cycle drawing,5300,0.0,informational,water cycle drawing,water-cycle,water cycle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+map drawing,map drawing,5300,11.0,informational,scribble maps,map,map drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tombstone drawing,tombstone drawing,5300,0.0,informational,tombstone drawing,tombstone,tombstone drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+garden drawing,garden drawing,5300,0.0,informational,drawing garden,garden,garden drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+penguin drawing easy,penguin drawing,5300,0.0,informational-beginner,penguin drawing,penguin,penguin drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pinterest drawing ideas,pinterest drawing ideas,5300,0.0,informational,pinterest drawings,pinterest-ideas,pinterest drawing ideas,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing idea,drawing idea,5200,0.0,informational,pinterest drawings,idea,drawing idea,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sugar skull drawing,sugar skull drawing,5200,0.0,informational,sugar skull drawing,sugar-skull,sugar skull drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ring drawing,ring drawing,5200,0.0,informational,ring drawing easy,ring,ring drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+monarch butterfly drawing,monarch butterfly drawing,5200,0.0,informational,butterfly drawing,monarch-butterfly,monarch butterfly drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+table drawing,table drawing,5200,0.0,informational,drawing of table,table,table drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing ideas for kids,drawing ideas,5200,1.0,informational-beginner,drawing ideas for kids,ideas,drawing ideas for kids,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fall drawing,fall drawing,5200,0.0,informational,drawing of fall,fall,fall drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hamster drawing,hamster drawing,5200,0.0,informational,hamster drawing,hamster,hamster drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+chicken drawing easy,chicken drawing,5200,0.0,informational-beginner,easy chicken drawing,chicken,chicken drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+head drawing,head drawing,5200,0.0,informational,loomis method,head,head drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+happy birthday drawing,happy birthday drawing,5200,0.0,informational,happy birthday drawing,happy-birthday,happy birthday drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+black and white drawing,black and white drawing,5200,0.0,informational,black and white drawing,black-and-white,black and white drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute cow drawing,cow drawing,5200,0.0,informational,cute kawaii cow,cow,cute cow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bat drawing easy,bat drawing,5200,0.0,informational-beginner,bat drawing,bat,bat drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+beach drawing easy,beach drawing,5200,3.0,informational-beginner,beach easy drawing,beach,beach drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+design drawing,design drawing,5200,0.0,informational,design drawing,design,design drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mistletoe drawing,mistletoe drawing,5200,0.0,informational,mistletoe drawing easy,mistletoe,mistletoe drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ferris wheel drawing,ferris wheel drawing,5200,0.0,informational,ferris wheel drawing,ferris-wheel,ferris wheel drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+water bottle drawing,water bottle drawing,5200,0.0,informational,water bottle drawing easy,water-bottle,water bottle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pasta drawing,pasta drawing,5200,0.0,informational,pasta drawing easy,pasta,pasta drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy turtle drawing,turtle drawing,5100,0.0,informational-beginner,turtle simple drawing,turtle,easy turtle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute duck drawing,duck drawing,5100,0.0,informational,duck drawing cute,duck,cute duck drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tooth drawing,tooth drawing,5100,0.0,informational,tooth drawing,tooth,tooth drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+kuromi drawing,kuromi drawing,5100,0.0,informational,kuromi drawing,kuromi,kuromi drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+mountain drawing easy,mountain drawing,5100,0.0,informational-beginner,how to draw mountains,mountain-drawing,mountain drawing,,/mountain-drawing/,mountain drawing,nature-drawings,/mountain-drawing/,secondary,,,yes,22,low,Cover on /mountain-drawing/,,merged,safe generic subject
+paint brush drawing,paint brush drawing,5100,0.0,informational,paint brush drawing,paint-brush,paint brush drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+man drawing,man drawing,5100,0.0,informational,man drawing,man,man drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+palm trees drawing,palm trees drawing,5100,0.0,informational,palm tree drawing,palm-trees,palm trees drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+white house drawing,white house drawing,5100,5.0,informational,white house drawing easy,white-house,white house drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mirror drawing,mirror drawing,5100,0.0,informational,mirror drawing,mirror,mirror drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cartoon cat drawing,cat drawing,5100,2.0,informational,cat drawing,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+coyote drawing,coyote drawing,5100,0.0,informational,coyote drawing,coyote,coyote drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+t rex drawing,t rex drawing,5000,0.0,informational,easy dinosaur drawing,t-rex,t rex drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+crystal drawing,crystal drawing,5000,0.0,informational,crystal drawing,crystal,crystal drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+school bus drawing,school bus drawing,5000,0.0,informational,how to draw a bus,school-bus,school bus drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bacteria drawing,bacteria drawing,5000,0.0,informational,bacteria drawing,bacteria,bacteria drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+headphones drawing,headphones drawing,5000,0.0,informational,headphones drawing easy,headphones,headphones drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spiderweb drawing,spiderweb drawing,5000,0.0,informational,spider web drawing,spiderweb,spiderweb drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+girl drawing easy,girl drawing,5000,0.0,informational-beginner,drawing of a girl,girl,girl drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+elmo drawing,elmo drawing,5000,0.0,informational,elmo drawing,elmo,elmo drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute dinosaur drawing,dinosaur drawing,5000,0.0,informational,dinosaur easy drawing,dinosaur,cute dinosaur drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+kakashi drawing,kakashi drawing,5000,0.0,informational,easy anime character drawing,kakashi,kakashi drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bald eagle drawing,bald eagle drawing,5000,0.0,informational,how to draw an eagle,bald-eagle,bald eagle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+10th amendment drawing,10th amendment drawing,5000,14.0,informational,10th amendment,10th-amendment,10th amendment drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+campfire drawing,campfire drawing,5000,0.0,informational,campfire drawing easy,campfire,campfire drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute anime girl drawing,anime girl drawing,5000,0.0,informational,anime girl drawing,anime-girl,cute anime girl drawing,,,,,,excluded,,,no,999,none,,,hold,copyright review required
+snake drawing easy,snake drawing,5000,0.0,informational-beginner,snake easy drawing,snake,snake drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+eyes drawing easy,eyes drawing,5000,3.0,informational-beginner,eye drawing easy,eyes,eyes drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+science drawing,science drawing,5000,0.0,informational,science drawing easy,science,science drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+trump drawing,trump drawing,4900,1.0,informational,trump drawing,trump,trump drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+coffee drawing,coffee drawing,4900,0.0,informational,coffee drawing,coffee,coffee drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+handcuffs drawing,handcuffs drawing,4900,0.0,informational,handcuffs drawing,handcuffs,handcuffs drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+boba drawing,boba drawing,4900,0.0,informational,cute boba,boba,boba drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+elephant drawing easy,elephant drawing,4900,0.0,informational-beginner,how to draw an elephant,elephant,elephant drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+someone drawing,someone drawing,4900,8.0,informational,how to draw a person,someone,someone drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+snowflakes drawing,snowflakes drawing,4900,0.0,informational,snowflake drawing,snowflakes,snowflakes drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+golden retriever drawing,golden retriever drawing,4900,0.0,informational,how to draw a dog cute,golden-retriever,golden retriever drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+milk drawing,milk drawing,4900,0.0,informational,milk drawing,milk,milk drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+peach drawing,peach drawing,4900,0.0,informational,princess peach drawing,peach,peach drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy monkey drawing,monkey drawing,4900,0.0,informational-beginner,monkey easy drawing,monkey,easy monkey drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+crocodile drawing,crocodile drawing,4900,0.0,informational,how to draw a crocodile,crocodile,crocodile drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+jaguar drawing,jaguar drawing,4900,0.0,informational,jaguar drawing,jaguar,jaguar drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hot air balloon drawing,hot air balloon drawing,4900,0.0,informational,hot air balloon drawing,hot-air-balloon,hot air balloon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lobster drawing,lobster drawing,4800,0.0,informational,lobster drawing easy,lobster,lobster drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+unicorn drawing easy,unicorn drawing,4800,0.0,informational-beginner,unicorn drawing for kids,unicorn-drawing,unicorn drawing,,/unicorn-drawing/,unicorn drawing,fantasy-drawings,/unicorn-drawing/,secondary,,,yes,32,low,Cover on /unicorn-drawing/,,merged,safe generic subject
+cowboy drawing,cowboy drawing,4800,0.0,informational,cowboy drawing,cowboy,cowboy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+samurai drawing,samurai drawing,4800,0.0,informational,samurai drawing,samurai,samurai drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+present drawing,present drawing,4800,0.0,informational,present drawing,present,present drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+scary drawing,scary drawing,4800,0.0,informational,ghost drawing,scary,scary drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dolphin drawing easy,dolphin drawing,4800,1.0,informational-beginner,dolphin drawing,dolphin-drawing,dolphin drawing,,/dolphin-drawing/,dolphin drawing,sea-animal-drawings,/dolphin-drawing/,secondary,,,yes,18,low,Cover on /dolphin-drawing/,,merged,safe generic subject
+motorcycle drawing,motorcycle drawing,4800,0.0,informational,motorcycle drawing,motorcycle,motorcycle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+seal drawing,seal drawing,4800,0.0,informational,seal drawing easy,seal,seal drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rubber duck drawing,rubber duck drawing,4800,0.0,informational,rubber duck drawing,rubber-duck,rubber duck drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy tree drawing,tree drawing,4800,11.0,informational-beginner,tree drawing,tree-drawing,tree drawing,,/tree-drawing/,tree drawing,nature-drawings,/tree-drawing/,secondary,,,yes,19,low,Cover on /tree-drawing/,,merged,safe generic subject
+simple dog drawing,dog drawing,4800,3.0,informational-beginner,how to draw a dog,dog-drawing,dog drawing,,/dog-drawing/,dog drawing,animal-drawings,/dog-drawing/,secondary,,,yes,7,low,Cover on /dog-drawing/,,merged,safe generic subject
+michael myers drawing,michael myers drawing,4800,0.0,informational,michael myers drawing,michael-myers,michael myers drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+squid drawing,squid drawing,4800,0.0,informational,squid drawing easy,squid,squid drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tent drawing,tent drawing,4800,0.0,informational,how to draw a tent,tent,tent drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bone drawing,bone drawing,4800,0.0,informational,bone drawing,bone,bone drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+umbrella drawing,umbrella drawing,4800,0.0,informational,umbrella drawing,umbrella,umbrella drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hammer drawing,hammer drawing,4800,0.0,informational,hammer drawing,hammer,hammer drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+kangaroo drawing,kangaroo drawing,4800,0.0,informational,kangaroo drawing,kangaroo,kangaroo drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+joker drawing,joker drawing,4800,0.0,informational,joker drawing,joker,joker drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+character drawing,character drawing,4700,6.0,informational,character art,character,character drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cat drawing for kids,cat drawing,4700,0.0,informational-beginner,how to draw a cat,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+princess drawing,princess drawing,4700,0.0,informational,easy princess drawing,princess,princess drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+anime boy drawing,anime boy drawing,4700,0.0,informational,anime boy drawing,anime-boy,anime boy drawing,,,,,,excluded,,,no,999,none,,,hold,copyright review required
+banner drawing,banner drawing,4700,0.0,informational,banner drawing easy,banner,banner drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cardinal drawing,cardinal drawing,4700,0.0,informational,cardinal drawing,cardinal,cardinal drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lighthouse drawing,lighthouse drawing,4700,0.0,informational,lighthouse drawing,lighthouse,lighthouse drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+orca drawing,orca drawing,4700,0.0,informational,killer whale drawing,orca,orca drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pirate ship drawing,pirate ship drawing,4700,0.0,informational,pirate ship drawing,pirate-ship,pirate ship drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+stingray drawing,stingray drawing,4700,0.0,informational,stingray drawing,stingray,stingray drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+poseidon drawing,poseidon drawing,4700,0.0,informational,poseidon drawing easy,poseidon,poseidon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+four leaf clover drawing,four leaf clover drawing,4700,0.0,informational,four leaf clover drawing,four-leaf-clover,four leaf clover drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+grapes drawing,grapes drawing,4700,0.0,informational,grapes drawing,grapes,grapes drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing cartoon,drawing cartoon,4700,2.0,informational,cartoon drawing,drawing-cartoon,drawing cartoon,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fireworks drawing,fireworks drawing,4700,0.0,informational,fireworks drawing,fireworks,fireworks drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+outline drawing,outline drawing,4700,0.0,informational,outline drawing,outline,outline drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+arrow drawing,arrow drawing,4700,0.0,informational,arrow drawing,arrow,arrow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mexican flag drawing,mexican flag drawing,4700,0.0,informational,mexico flag drawing easy,mexican-flag,mexican flag drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+taylor swift drawing,taylor swift drawing,4700,0.0,informational,taylor swift drawing,taylor-swift,taylor swift drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tractor drawing,tractor drawing,4700,0.0,informational,tractor drawing easy,tractor,tractor drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+salmon drawing,salmon drawing,4700,0.0,informational,salmon drawing,salmon,salmon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+roblox drawing,roblox drawing,4700,14.0,informational,roblox drawing,roblox,roblox drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+pen drawing,pen drawing,4700,1.0,informational,pen and ink drawings,pen,pen drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+factory drawing,factory drawing,4600,0.0,informational,drawing of a factory,factory,factory drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+door drawing,door drawing,4600,0.0,informational,door sketch,door,door drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fall leaf drawing,fall leaf drawing,4600,0.0,informational,fall leaves drawing,fall-leaf,fall leaf drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+flower drawing easy and beautiful,flower drawing easy and beautiful,4600,8.0,informational-beginner,flower drawing,flower-and-beautiful,flower drawing easy and beautiful,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+language drawing,language drawing,4600,0.0,informational,language drawing,language,language drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing of a cat,a cat drawing,4600,2.0,informational,how to draw a cat,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+vampire drawing,vampire drawing,4600,0.0,informational,vampire drawing,vampire,vampire drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+love drawing,love drawing,4600,0.0,informational,love drawing,love,love drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+zeus drawing,zeus drawing,4600,0.0,informational,zeus drawing easy,zeus,zeus drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+furry drawing,furry drawing,4600,0.0,informational,how to draw furries,furry,furry drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+simple butterfly drawing,butterfly drawing,4600,1.0,informational-beginner,butterfly drawing,butterfly-drawing,butterfly drawing,,/butterfly-drawing/,butterfly drawing,insect-drawings,/butterfly-drawing/,secondary,,,yes,14,low,Cover on /butterfly-drawing/,,merged,safe generic subject
+chibi drawing,chibi drawing,4600,0.0,informational,chibi,chibi,chibi drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+glasses drawing,glasses drawing,4600,0.0,informational,glasses draw,glasses,glasses drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ice cube drawing,ice cube drawing,4600,0.0,informational,ice cube drawing,ice-cube,ice cube drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+realistic eye drawing,eye drawing,4600,1.0,informational-advanced,eye drawings,eye-drawing,eye drawing,,/eye-drawing/,eye drawing,symbol-drawings,/eye-drawing/,secondary,,,yes,35,low,Cover on /eye-drawing/,,merged,safe generic subject
+globe drawing,globe drawing,4600,0.0,informational,globe drawing,globe,globe drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+thermometer drawing,thermometer drawing,4500,0.0,informational,temperature drawing easy,thermometer,thermometer drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+thomas jefferson drawing,thomas jefferson drawing,4500,0.0,informational,thomas jefferson drawing,thomas-jefferson,thomas jefferson drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+skateboard drawing,skateboard drawing,4500,0.0,informational,skateboard drawing,skateboard,skateboard drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pyramid drawing,pyramid drawing,4500,0.0,informational,pyramid drawing easy,pyramid,pyramid drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+running drawing,running drawing,4500,0.0,informational,running drawing easy,running,running drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+clothes drawing,clothes drawing,4500,0.0,informational,clothes drawing,clothes,clothes drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+music note drawing,music note drawing,4500,0.0,informational,music notes drawing,music-note,music note drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+corgi drawing,corgi drawing,4500,0.0,informational,easy corgi drawing,corgi,corgi drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mango drawing,mango drawing,4500,0.0,informational,mango drawing,mango,mango drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+circle drawing,circle drawing,4500,4.0,informational,draw a perfect circle,circle,circle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+seaweed drawing,seaweed drawing,4500,0.0,informational,seaweed drawing,seaweed,seaweed drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+soldier drawing,soldier drawing,4500,0.0,informational,soldier outline,soldier,soldier drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+shield drawing,shield drawing,4500,0.0,informational,shield drawing,shield,shield drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+abraham lincoln drawing,abraham lincoln drawing,4500,1.0,informational,drawing of abraham lincoln,abraham-lincoln,abraham lincoln drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hospital drawing,hospital drawing,4500,0.0,informational,hospital drawing,hospital,hospital drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+scream drawing,scream drawing,4500,0.0,informational,ghost face drawing,scream,scream drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+snowflake drawing easy,snowflake drawing,4500,0.0,informational-beginner,snowflake drawing,snowflake,snowflake drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+avocado drawing,avocado drawing,4500,0.0,informational,avocado drawing,avocado,avocado drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+harry potter drawing,harry potter drawing,4500,0.0,informational,harry potter drawings,harry-potter,harry potter drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+nucleus drawing,nucleus drawing,4500,0.0,informational,nucleus drawing easy,nucleus,nucleus drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+human anatomy drawing,human anatomy drawing,4400,2.0,informational-advanced,human anatomy drawing,human-anatomy,human anatomy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hurricane drawing,hurricane drawing,4400,0.0,informational,hurricane drawing,hurricane,hurricane drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+winter drawing,winter drawing,4400,0.0,informational,cute winter drawings,winter,winter drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+curly hair drawing,curly hair drawing,4400,0.0,informational,how to draw curly hair,curly-hair,curly hair drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hamster meme drawing,hamster meme drawing,4400,0.0,informational,hamster meme drawing,hamster-meme,hamster meme drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+scarecrow drawing,scarecrow drawing,4400,0.0,informational,scarecrow drawing,scarecrow,scarecrow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+exam drawing,exam drawing,4400,0.0,informational,exam drawing,exam,exam drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+violin drawing,violin drawing,4400,0.0,informational,violin drawing easy,violin,violin drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sky drawing,sky drawing,4400,0.0,informational,sky drawing,sky,sky drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cell membrane drawing,cell membrane drawing,4400,0.0,informational,phospholipid bilayer diagram labeled,cell-membrane,cell membrane drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+muscle drawing,muscle drawing,4400,0.0,informational,muscle drawing,muscle,muscle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+juice wrld drawing,juice wrld drawing,4400,0.0,informational,how to draw juice wrld,juice-wrld,juice wrld drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy cartoon drawing,drawing,4400,2.0,informational-beginner,jerry drawing,easy-cartoon-drawing,easy cartoon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+eagle drawing easy,eagle drawing,4400,0.0,informational-beginner,how to draw an eagle,eagle,eagle drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+track drawing,track drawing,4400,0.0,informational,track drawing,track,track drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+plant cell drawing,plant cell drawing,4400,0.0,informational,plant cell drawing,plant-cell,plant cell drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+duck drawing easy,duck drawing,4400,0.0,informational-beginner,duck drawing,duck,duck drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing body,drawing body,4400,0.0,informational,how to draw a body,body,drawing body,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cat face drawing,cat face drawing,4400,1.0,informational,cat face drawing,cat-face,cat face drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rainforest drawing,rainforest drawing,4400,0.0,informational,rainforest drawing easy,rainforest,rainforest drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+microscope drawing,microscope drawing,4300,0.0,informational,microscope drawing,microscope,microscope drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+prid drawing salve,prid drawing salve,4300,0.0,informational,prid,prid-salve,prid drawing salve,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing cute,drawing cute,4300,0.0,informational,cute drawings,drawing-cute,drawing cute,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+galaxy drawing,galaxy drawing,4300,0.0,informational,galaxy drawing,galaxy,galaxy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sukuna drawing,sukuna drawing,4300,0.0,informational,sukuna drawing,sukuna,sukuna drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sea otter drawing,sea otter drawing,4300,0.0,informational,otter drawing,sea-otter,sea otter drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+basketball drawing easy,basketball drawing,4300,0.0,informational-beginner,basketball ball drawing,basketball,basketball drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+swan drawing,swan drawing,4300,0.0,informational,swan drawing,swan,swan drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sun and moon drawing,sun and moon drawing,4300,0.0,informational,sun and moon drawing,sun-and-moon,sun and moon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bats drawing,bats drawing,4300,0.0,informational,bat drawing,bats,bats drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+jupiter drawing,jupiter drawing,4300,0.0,informational,jupiter drawing,jupiter,jupiter drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sunflower drawing easy,sunflower drawing,4300,0.0,informational-beginner,sunflower drawing,sunflower-drawing,sunflower drawing,,/sunflower-drawing/,sunflower drawing,flower-drawings,/sunflower-drawing/,secondary,,,yes,3,low,Cover on /sunflower-drawing/,,merged,safe generic subject
+drawing tablet with screen,drawing tablet with screen,4300,9.0,informational,drawing tablet with screen and pen,tablet-with-screen,drawing tablet with screen,,,,,,excluded,,,no,999,none,,,hold,exclude
+money drawing easy,money drawing,4300,0.0,informational-beginner,easy money drawing,money,money drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+food truck drawing,food truck drawing,4200,0.0,informational,food truck drawing,food-truck,food truck drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+success drawing,success drawing,4200,0.0,informational,success drawing,success,success drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tv drawing,tv drawing,4200,6.0,informational,tv drawing easy,tv,tv drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+suit drawing,suit drawing,4200,0.0,informational,suit drawing,suit,suit drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+food drawing easy,food drawing,4200,0.0,informational-beginner,food easy drawing,food,food drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bluey drawing easy,bluey drawing,4200,0.0,informational-beginner,how to draw bluey,bluey,bluey drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+feet drawing,feet drawing,4200,2.0,informational,feet drawing,feet,feet drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+leprechaun drawing,leprechaun drawing,4200,0.0,informational,how to draw a leprechaun for kids,leprechaun,leprechaun drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+orthographic drawing,orthographic drawing,4200,1.0,informational,orthographic projection,orthographic,orthographic drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cool easy drawing ideas,cool easy drawing ideas,4200,6.0,informational-beginner,easy drawing ideas,cool-ideas,cool easy drawing ideas,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+darth vader drawing,darth vader drawing,4200,0.0,informational,how to draw darth vader,darth-vader,darth vader drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+flower drawing ideas,flower drawing ideas,4200,7.0,informational,design flower drawing,flower-ideas,flower drawing ideas,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+donkey drawing,donkey drawing,4200,0.0,informational,donkey drawing easy,donkey,donkey drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+books drawing,books drawing,4100,1.0,informational,drawing books,books,books drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+black panther drawing,black panther drawing,4100,0.0,informational,black panther drawing,black-panther,black panther drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sunset drawing easy,sunset drawing,4100,0.0,informational-beginner,sunset drawing,sunset-drawing,sunset drawing,,/sunset-drawing/,sunset drawing,nature-drawings,/sunset-drawing/,secondary,,,yes,21,low,Cover on /sunset-drawing/,,merged,safe generic subject
+grad cap drawing,grad cap drawing,4100,0.0,informational,graduation cap drawing,grad-cap,grad cap drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sea drawing,sea drawing,4100,0.0,informational,sea drawing,sea,sea drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mosquito drawing,mosquito drawing,4100,0.0,informational,mosquito drawing,mosquito,mosquito drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+martin luther king drawing,martin luther king drawing,4100,0.0,informational,mlk jr drawing,martin-luther-king,martin luther king drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+nurse drawing,nurse drawing,4100,0.0,informational,nurse drawings,nurse,nurse drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+starbucks drawing,starbucks drawing,4100,0.0,informational,starbucks drawing,starbucks,starbucks drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+war drawing,war drawing,4100,0.0,informational,easy war drawing,war,war drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hulk drawing,hulk drawing,4100,0.0,informational,hulk drawing,hulk,hulk drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+aesthetic drawing ideas,aesthetic drawing ideas,4100,2.0,informational,aesthetic drawings pinterest,aesthetic-ideas,aesthetic drawing ideas,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+67 drawing,67 drawing,4100,0.0,informational,67 brainrot,67,67 drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+skeleton drawing easy,skeleton drawing,4100,0.0,informational-beginner,skeleton drawing,skeleton,skeleton drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+4 leaf clover drawing,4 leaf clover drawing,4100,0.0,informational,four leaf clover drawing,4-leaf-clover,4 leaf clover drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+deku drawing,deku drawing,4100,0.0,informational,deku drawing,deku,deku drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bee drawing easy,bee drawing,4100,0.0,informational-beginner,bee drawing,bee-drawing,bee drawing,,/bee-drawing/,bee drawing,insect-drawings,/bee-drawing/,secondary,,,yes,15,low,Cover on /bee-drawing/,,merged,safe generic subject
+deer drawing easy,deer drawing,4100,0.0,informational-beginner,deer easy drawing,deer,deer drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing of a rose,a rose drawing,4100,1.0,informational,step easy how to draw a rose,rose-drawing,rose drawing,,/rose-drawing/,rose drawing,flower-drawings,/rose-drawing/,secondary,,,yes,2,low,Cover on /rose-drawing/,,merged,safe generic subject
+cat easy drawing,cat easy drawing,4100,1.0,informational-beginner,cat drawing easy,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+bank drawing,bank drawing,4000,0.0,informational,bank drawing,bank,bank drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing faces,drawing faces,4000,1.0,informational,how to draw a face,faces,drawing faces,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+coffee cup drawing,coffee cup drawing,4000,0.0,informational,coffee drawing,coffee-cup,coffee cup drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+arm drawing,arm drawing,4000,0.0,informational,how to draw arms,arm,arm drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+controller drawing,controller drawing,4000,0.0,informational,ps5 controller drawing,controller,controller drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+portrait drawing,portrait drawing,4000,2.0,informational,how to draw a person,portrait,portrait drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+stich drawing,stich drawing,4000,0.0,informational,stitch drawing,stich,stich drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+goofy drawing,goofy drawing,4000,0.0,informational,goofy drawing,goofy,goofy drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+park drawing,park drawing,4000,0.0,informational,park drawing easy,park,park drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing lunch,drawing lunch,4000,0.0,informational,drawing lunch,lunch,drawing lunch,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+beetle drawing,beetle drawing,4000,0.0,informational,beetle drawing,beetle,beetle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+firefly drawing,firefly drawing,4000,0.0,informational,firefly drawing,firefly,firefly drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+moon drawing easy,moon drawing,4000,0.0,informational-beginner,moon easy drawing,moon,moon drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+squidward drawing,squidward drawing,4000,0.0,informational,squidward drawing,squidward,squidward drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hand turkey drawing,hand turkey drawing,4000,2.0,informational,hand turkey,hand-turkey,hand turkey drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy bat drawing,bat drawing,4000,0.0,informational-beginner,bat drawing,bat,easy bat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+thumbs up drawing,thumbs up drawing,4000,0.0,informational,thumbs up drawing,thumbs-up,thumbs up drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sasuke drawing,sasuke drawing,4000,0.0,informational,sasuke drawing,sasuke,sasuke drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute penguin drawing,penguin drawing,4000,0.0,informational,penguin easy drawing,penguin,cute penguin drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+king drawing,king drawing,4000,0.0,informational,king drawing,king,king drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing dog,drawing dog,4000,10.0,informational,drawingdog,dog-drawing,dog drawing,,/dog-drawing/,dog drawing,animal-drawings,/dog-drawing/,secondary,,,yes,7,low,Cover on /dog-drawing/,,merged,safe generic subject
+dragon head drawing,dragon head drawing,4000,0.0,informational,dragon head drawing,dragon-head,dragon head drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing table,drawing table,4000,2.0,informational,drawing table,table,drawing table,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ornament drawing,ornament drawing,4000,0.0,informational,drawing ornaments,ornament,ornament drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+plane drawing easy,plane drawing,4000,0.0,informational-beginner,plane easy drawing,plane-drawing,plane drawing,,/plane-drawing/,plane drawing,vehicle-drawings,/plane-drawing/,secondary,,,yes,24,low,Cover on /plane-drawing/,,merged,safe generic subject
+coraline drawing,coraline drawing,4000,0.0,informational,coraline drawing easy,coraline,coraline drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mitochondria drawing,mitochondria drawing,3900,0.0,informational,mitochondria drawing,mitochondria,mitochondria drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+grasshopper drawing,grasshopper drawing,3900,0.0,informational,how to draw a grasshopper,grasshopper,grasshopper drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ice cream cone drawing,ice cream cone drawing,3900,0.0,informational,ice cream drawing,ice-cream-cone,ice cream cone drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+jack o lantern drawing,jack o lantern drawing,3900,0.0,informational,how to draw a jack o'lantern,jack-o-lantern,jack o lantern drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+woman drawing,woman drawing,3900,0.0,informational,woman drawing,woman,woman drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mlk drawing,mlk drawing,3900,0.0,informational,mlk jr drawing,mlk,mlk drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+german shepherd drawing,german shepherd drawing,3900,0.0,informational,german shepherd drawing,german-shepherd,german shepherd drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lilies drawing,lilies drawing,3900,0.0,informational,lily drawing,lilies,lilies drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+funny drawing,funny drawing,3900,0.0,informational,funny drawings,funny,funny drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy christmas tree drawing,christmas tree drawing,3900,0.0,informational-beginner,easy drawing christmas tree,christmas-tree-drawing,christmas tree drawing,,/christmas-tree-drawing/,christmas tree drawing,seasonal-drawings,/christmas-tree-drawing/,secondary,,,yes,28,low,Cover on /christmas-tree-drawing/,,merged,safe generic subject
+cabin drawing,cabin drawing,3900,0.0,informational,cabin drawing easy,cabin,cabin drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sea horse drawing,sea horse drawing,3900,0.0,informational,seahorse drawing,sea-horse,sea horse drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cytoplasm drawing,cytoplasm drawing,3900,1.0,informational,cytoplasm drawing easy,cytoplasm,cytoplasm drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sandwich drawing,sandwich drawing,3900,0.0,informational,sandwich drawing,sandwich,sandwich drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+key drawing,key drawing,3900,0.0,informational,key drawing,key,key drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+oil pastel drawing,oil pastel drawing,3900,0.0,informational,oil pastel drawing,oil-pastel,oil pastel drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spiderman drawing easy,spiderman drawing,3900,0.0,informational-beginner,spider man drawing,spiderman,spiderman drawing easy,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+penis drawing,penis drawing,3900,0.0,informational,penis drawing,penis,penis drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+salad drawing,salad drawing,3900,0.0,informational,salad drawing,salad,salad drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dino drawing,dino drawing,3900,2.0,informational,dinosaur drawing,dino,dino drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cartoon characters drawing,characters drawing,3900,1.0,informational,drawing cartoon characters,characters,cartoon characters drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+moose drawing,moose drawing,3800,0.0,informational,moose drawing,moose,moose drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+train drawing easy,train drawing,3800,0.0,informational-beginner,train drawing easy,train-drawing,train drawing,,/train-drawing/,train drawing,vehicle-drawings,/train-drawing/,secondary,,,yes,25,low,Cover on /train-drawing/,,merged,safe generic subject
+pig drawing easy,pig drawing,3800,0.0,informational-beginner,pig drawing,pig,pig drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lady bug drawing,lady bug drawing,3800,0.0,informational,easy ladybug drawing,lady-bug,lady bug drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+led drawing board,led drawing board,3800,0.0,informational,led drawing board for kids,led-board,led drawing board,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+beach ball drawing,beach ball drawing,3800,12.0,informational,how to draw a beach ball,beach-ball,beach ball drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+football drawing easy,football drawing,3800,6.0,informational-beginner,football drawing,football,football drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+itachi drawing,itachi drawing,3800,0.0,informational,itachi drawing,itachi,itachi drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+yoshi drawing,yoshi drawing,3800,0.0,informational,yoshi drawing,yoshi,yoshi drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+electric guitar drawing,electric guitar drawing,3800,0.0,informational,how to draw a guitar,electric-guitar,electric guitar drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+face drawing easy,face drawing,3800,0.0,informational-beginner,face drawing,face,face drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+gargoyle drawing,gargoyle drawing,3800,0.0,informational,gargoyle drawing,gargoyle,gargoyle drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+minecraft drawing,minecraft drawing,3800,0.0,informational,minecraft drawing easy,minecraft,minecraft drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+easy bear drawing,bear drawing,3800,0.0,informational-beginner,easy bear drawing,bear,easy bear drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spaceship drawing,spaceship drawing,3800,0.0,informational,spaceship drawing,spaceship,spaceship drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+jack skellington drawing,jack skellington drawing,3800,0.0,informational,drawing jack skellington drawing,jack-skellington,jack skellington drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+declaration of independence drawing,declaration of independence drawing,3800,12.0,informational,signing of the declaration of independence,declaration-of-independence,declaration of independence drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing animals,drawing animals,3800,9.0,informational,animal drawings,animals,drawing animals,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+weed plant drawing,weed plant drawing,3800,0.0,informational,weed leaf drawing,weed-plant,weed plant drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ice drawing,ice drawing,3700,0.0,informational,art hub for kids,ice,ice drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pug drawing,pug drawing,3700,0.0,informational,how to draw a pug,pug,pug drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rabbit drawing easy,rabbit drawing,3700,0.0,informational-beginner,rabbit easy drawing,rabbit,rabbit drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+2 point perspective drawing,2 point perspective drawing,3700,1.0,informational,two point perspective,2-point-perspective,2 point perspective drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+highland cow drawing,highland cow drawing,3700,0.0,informational,highland cow drawing,highland-cow,highland cow drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+gingerbread drawing,gingerbread drawing,3700,0.0,informational,gingerbread drawing easy,gingerbread,gingerbread drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+vase drawing,vase drawing,3700,0.0,informational,vase drawing easy,vase,vase drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pumkin drawing,pumkin drawing,3700,0.0,informational,pumpkin drawing,pumkin,pumkin drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute fox drawing,fox drawing,3700,0.0,informational,cute fox,fox-drawing,fox drawing,,/fox-drawing/,fox drawing,animal-drawings,/fox-drawing/,secondary,,,yes,11,low,Cover on /fox-drawing/,,merged,safe generic subject
+tsunami drawing,tsunami drawing,3700,0.0,informational,tsunami drawing,tsunami,tsunami drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+human body drawing,human body drawing,3700,5.0,informational,how to draw people,human-body,human body drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+animal drawing easy,animal drawing,3700,0.0,informational-beginner,easy animals to draw,animal,animal drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+tacos drawing,tacos drawing,3700,0.0,informational,tacos drawing,tacos,tacos drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+chinese dragon drawing,chinese dragon drawing,3700,0.0,informational,chinese dragon drawing,chinese-dragon,chinese dragon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fence drawing,fence drawing,3700,0.0,informational,fence drawing,fence,fence drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+nose drawing easy,nose drawing,3700,0.0,informational-beginner,nose easy drawing,nose,nose drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bill of rights drawing,bill of rights drawing,3700,0.0,informational,bill of rights drawing easy,bill-of-rights,bill of rights drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dead tree drawing,dead tree drawing,3700,0.0,informational,dead tree drawing,dead-tree,dead tree drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+goose drawing,goose drawing,3700,0.0,informational,goose drawing,goose,goose drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+one line drawing,one line drawing,3700,4.0,informational,one line drawing,one-line,one line drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mansion drawing,mansion drawing,3700,0.0,informational,mansion drawing,mansion,mansion drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+chains drawing,chains drawing,3700,0.0,informational,chain drawing,chains,chains drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing cat,drawing cat,3700,2.0,informational,how to draw a cat,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+9th amendment drawing,9th amendment drawing,3700,4.0,informational,9th amendment drawing easy,9th-amendment,9th amendment drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+giraffe drawing easy,giraffe drawing,3700,0.0,informational-beginner,giraffe drawing,giraffe,giraffe drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing of a tree,a tree drawing,3700,12.0,informational,tree drawing,tree-drawing,tree drawing,,/tree-drawing/,tree drawing,nature-drawings,/tree-drawing/,secondary,,,yes,19,low,Cover on /tree-drawing/,,merged,safe generic subject
+cute heart drawing,heart drawing,3700,0.0,informational,easy heart drawing,heart-drawing,heart drawing,,/heart-drawing/,heart drawing,symbol-drawings,/heart-drawing/,secondary,,,yes,33,low,Cover on /heart-drawing/,,merged,safe generic subject
+cupid drawing,cupid drawing,3700,0.0,informational,cupid drawing,cupid,cupid drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+contour drawing,contour drawing,3700,8.0,informational,contour drawing,contour,contour drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+chameleon drawing,chameleon drawing,3700,0.0,informational,chameleon drawing,chameleon,chameleon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+playground drawing,playground drawing,3700,0.0,informational,playground drawing,playground,playground drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+thanksgiving drawing,thanksgiving drawing,3700,0.0,informational,easy thanksgiving drawing ideas,thanksgiving,thanksgiving drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy tiger drawing,tiger drawing,3700,0.0,informational-beginner,easy tiger drawing,tiger,easy tiger drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing pinterest,drawing pinterest,3700,0.0,informational,drawing inspo,pinterest,drawing pinterest,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+stack of books drawing,stack of books drawing,3700,0.0,informational,stack of books drawing,stack-of-books,stack of books drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+charizard drawing,charizard drawing,3700,0.0,informational,how to draw charizard,charizard,charizard drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+texture drawing,texture drawing,3700,0.0,informational,texture drawing examples,texture,texture drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+palm tree drawing easy,palm tree drawing,3700,0.0,informational-beginner,palm tree drawing,palm-tree,palm tree drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+grape drawing,grape drawing,3700,0.0,informational,grapes drawing,grape,grape drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cotton drawing,cotton drawing,3700,0.0,informational,cotton drawing,cotton,cotton drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lebron james drawing,lebron james drawing,3700,0.0,informational,lebron james drawing,lebron-james,lebron james drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing of a person,a person drawing,3700,2.0,informational,person drawing,person,drawing of a person,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bacon drawing,bacon drawing,3600,0.0,informational,bacon drawing,bacon,bacon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy lion drawing,lion drawing,3600,0.0,informational-beginner,how to draw a lion,lion-drawing,lion drawing,,/lion-drawing/,lion drawing,animal-drawings,/lion-drawing/,secondary,,,yes,9,low,Cover on /lion-drawing/,,merged,safe generic subject
+snow globe drawing,snow globe drawing,3600,0.0,informational,snow globe drawing easy,snow-globe,snow globe drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+husky drawing,husky drawing,3600,0.0,informational,how to draw a husky,husky,husky drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing of fire,fire drawing,3600,4.0,informational,fire drawing,fire,drawing of fire,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+helicopter drawing,helicopter drawing,3600,0.0,informational,helicopter drawing easy,helicopter,helicopter drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+soccer ball drawing easy,soccer ball drawing,3600,0.0,informational-beginner,soccer ball drawing,soccer-ball-drawing,soccer ball drawing,,/soccer-ball-drawing/,soccer ball drawing,sports-drawings,/soccer-ball-drawing/,secondary,,,yes,27,low,Cover on /soccer-ball-drawing/,,merged,safe generic subject
+jordan 1 drawing,jordan 1 drawing,3600,0.0,informational,jordan 1 drawing,jordan-1,jordan 1 drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute capybara drawing,capybara drawing,3600,0.0,informational,cute capybara drawing,capybara,cute capybara drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sunglasses drawing,sunglasses drawing,3600,0.0,informational,sunglasses drawing,sunglasses,sunglasses drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+onion drawing,onion drawing,3600,0.0,informational,onion drawing,onion,onion drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+saxophone drawing,saxophone drawing,3600,0.0,informational,saxophone drawing,saxophone,saxophone drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+guinea pig drawing,guinea pig drawing,3600,0.0,informational,guinea pig drawing,guinea-pig,guinea pig drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+spider-man drawing,spider-man drawing,3600,0.0,informational,spider man drawing,spider-man,spider-man drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+simple bird drawing,bird drawing,3600,0.0,informational-beginner,bird drawing,bird-drawing,bird drawing,,/bird-drawing/,bird drawing,bird-drawings,/bird-drawing/,secondary,,,yes,12,low,Cover on /bird-drawing/,,merged,safe generic subject
+lily pad drawing,lily pad drawing,3600,0.0,informational,lily pad drawing,lily-pad,lily pad drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+pond drawing,pond drawing,3600,0.0,informational,pond drawing,pond,pond drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+lilo and stitch drawing,lilo and stitch drawing,3600,0.0,informational,cute stitch,lilo-and-stitch,lilo and stitch drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+kid drawing,kid drawing,3600,12.0,informational,how to draw,kid,kid drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+smile drawing,smile drawing,3600,0.0,informational,smile drawing,smile,smile drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing girl,drawing girl,3600,0.0,informational,drawing of a girl,girl,drawing girl,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+trash can drawing,trash can drawing,3600,0.0,informational,trash can drawing,trash-can,trash can drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+katana drawing,katana drawing,3600,0.0,informational,katana drawing,katana,katana drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+line art drawing,line art drawing,3600,4.0,informational,line art drawing,line-art,line art drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+realistic drawing,drawing,3600,7.0,informational-advanced,realistic sketches,realistic-drawing,realistic drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+boat drawing easy,boat drawing,3600,0.0,informational-beginner,boat drawing,boat,boat drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+worm drawing,worm drawing,3600,0.0,informational,worm drawing,worm,worm drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+blood drawing,blood drawing,3600,17.0,informational,blood draw,blood,blood drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+gun drawing easy,gun drawing,3600,0.0,informational-beginner,gun easy drawing,gun,gun drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+birds drawing,birds drawing,3600,0.0,informational,bird drawing,birds,birds drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dollar bill drawing,dollar bill drawing,3600,0.0,informational,dollar bill drawing,dollar-bill,dollar bill drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+coffin drawing,coffin drawing,3600,0.0,informational,casket drawing,coffin,coffin drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+rose flower drawing,rose flower drawing,3600,0.0,informational,how to draw a rose,rose-flower,rose flower drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bass drawing,bass drawing,3600,0.0,informational,bass drawing,bass,bass drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+person drawing easy,person drawing,3600,1.0,informational-beginner,person drawing,person,person drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing paper,drawing paper,3600,0.0,informational,drawing paper,paper,drawing paper,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+vine drawing,vine drawing,3600,0.0,informational,vines drawing,vine,vine drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+library drawing,library drawing,3600,0.0,informational,library drawing easy,library,library drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+poppy flower drawing,poppy flower drawing,3600,0.0,informational,poppy flower drawing,poppy-flower,poppy flower drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+middle finger drawing,middle finger drawing,3600,0.0,informational,middle finger drawing,middle-finger,middle finger drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy ghost drawing,ghost drawing,3500,0.0,informational-beginner,ghost drawing,ghost,easy ghost drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+daffodil drawing,daffodil drawing,3500,0.0,informational,daffodil drawing,daffodil,daffodil drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+kitchen drawing,kitchen drawing,3500,10.0,informational,free kitchen design tool,kitchen,kitchen drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mexico drawing,mexico drawing,3500,0.0,informational,mexico drawing,mexico,mexico drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+scientist drawing,scientist drawing,3500,0.0,informational,scientist drawing,scientist,scientist drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mandala drawing,mandala drawing,3500,0.0,informational,mandalagaba,mandala,mandala drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+king von drawing,king von drawing,3500,0.0,informational,king von drawing easy,king-von,king von drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+freedom drawing,freedom drawing,3500,0.0,informational,drawing of freedom,freedom,freedom drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+ecosystem drawing,ecosystem drawing,3500,0.0,informational,ecology drawing,ecosystem,ecosystem drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+girl body drawing,girl body drawing,3500,1.0,informational,body base drawing female,girl-body,girl body drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+basketball court drawing,basketball court drawing,3500,0.0,informational,basketball court diagram,basketball-court,basketball court drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fishing drawing,fishing drawing,3500,0.0,informational,fishing drawing easy,fishing,fishing drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+how to learn drawing,how to learn drawing,3500,9.0,informational,how to learn to draw,learn,how to learn drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+6th amendment drawing,6th amendment drawing,3500,5.0,informational,6th amendment,6th-amendment,6th amendment drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+crescent moon drawing,crescent moon drawing,3500,0.0,informational,crescent moon drawing,crescent-moon,crescent moon drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing ideas for girls,drawing ideas for girls,3500,0.0,informational,drawing of a girl,ideas-for-girls,drawing ideas for girls,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+kitten drawing,kitten drawing,3500,0.0,informational,cute cats drawing,kitten,kitten drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy body drawing base,body drawing base,3500,0.0,informational-beginner,easy body drawing base,body-base,easy body drawing base,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cat drawing cute,cat drawing cute,3500,2.0,informational,cute cat drawing,cat-drawing,cat drawing,,/cat-drawing/,cat drawing,animal-drawings,/cat-drawing/,secondary,,,yes,6,low,Cover on /cat-drawing/,,merged,safe generic subject
+hair drawing reference,hair drawing reference,3500,0.0,informational,hair drawing reference,hair-reference,hair drawing reference,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy book drawing,book drawing,3500,0.0,informational-beginner,book drawing,book,easy book drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+blueberry drawing,blueberry drawing,3500,0.0,informational,blueberry drawing easy,blueberry,blueberry drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+vegeta drawing,vegeta drawing,3500,0.0,informational,vegeta drawing,vegeta,vegeta drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+bush drawing,bush drawing,3500,0.0,informational,bush drawing,bush,bush drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+milk carton drawing,milk carton drawing,3500,0.0,informational,milk carton drawing,milk-carton,milk carton drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+panther drawing,panther drawing,3500,0.0,informational,panther drawing,panther,panther drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+nezuko drawing,nezuko drawing,3500,0.0,informational,nezuko drawing,nezuko,nezuko drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+realistic rose drawing,rose drawing,3500,0.0,informational-advanced,realistic rose drawing,rose-drawing,rose drawing,,/rose-drawing/,rose drawing,flower-drawings,/rose-drawing/,secondary,,,yes,2,low,Cover on /rose-drawing/,,merged,safe generic subject
+hellcat drawing,hellcat drawing,3500,0.0,informational,srt drawing,hellcat,hellcat drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+telescope drawing,telescope drawing,3500,0.0,informational,telescope drawing,telescope,telescope drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+wind drawing,wind drawing,3500,0.0,informational,wind drawing,wind,wind drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+mars drawing,mars drawing,3500,0.0,informational,drawing of mars,mars,mars drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+snow leopard drawing,snow leopard drawing,3500,0.0,informational,snow leopard drawing,snow-leopard,snow leopard drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+sonic the hedgehog drawing,sonic the hedgehog drawing,3500,0.0,informational,how to draw sonic the hedgehog,sonic-hedgehog,sonic the hedgehog drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+paper airplane drawing,paper airplane drawing,3500,0.0,informational,paper airplane drawing,paper-airplane,paper airplane drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+snow man drawing,snow man drawing,3500,0.0,informational,snowman drawing for kids,snow-man,snow man drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+leaf drawing easy,leaf drawing,3400,0.0,informational-beginner,how to draw a leaf,leaf,leaf drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+hitler drawing,hitler drawing,3400,9.0,informational,hitler's paintings,hitler,hitler drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+patrick drawing,patrick drawing,3400,0.0,informational,patrick drawing,patrick,patrick drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cute panda drawing,panda drawing,3400,0.0,informational,easy cute panda drawing,panda,cute panda drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+coconut drawing,coconut drawing,3400,0.0,informational,coconut drawing,coconut,coconut drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+dice drawing,dice drawing,3400,0.0,informational,dice drawing,dice,dice drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fireplace drawing,fireplace drawing,3400,0.0,informational,fireplace drawing,fireplace,fireplace drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+triceratops drawing,triceratops drawing,3400,0.0,informational,triceratops drawing,triceratops,triceratops drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+aphrodite drawing,aphrodite drawing,3400,0.0,informational,aphrodite drawing easy,aphrodite,aphrodite drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+f1 car drawing,f1 car drawing,3400,0.0,informational,f1 car drawing,f1-car,f1 car drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+peony drawing,peony drawing,3400,0.0,informational,peonies drawing,peony,peony drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+face drawing reference,face drawing reference,3400,0.0,informational,face reference,face-reference,face drawing reference,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+broken heart drawing,broken heart drawing,3400,0.0,informational,broken heart drawing,broken-heart,broken heart drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+paw print drawing,paw print drawing,3400,0.0,informational,paw drawing,paw-print,paw print drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing of a heart,a heart drawing,3400,0.0,informational,easy heart drawing,heart-drawing,heart drawing,,/heart-drawing/,heart drawing,symbol-drawings,/heart-drawing/,secondary,,,yes,33,low,Cover on /heart-drawing/,,merged,safe generic subject
+scissors drawing,scissors drawing,3400,0.0,informational,scissors drawing,scissors,scissors drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+female body base drawing pinterest,female body base drawing pinterest,3400,0.0,informational,female body base drawing pinterest,female-body-base-pinterest,female body base drawing pinterest,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+easy brain drawing,brain drawing,3400,0.0,informational-beginner,easy brain drawing,brain,easy brain drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+windmill drawing,windmill drawing,3400,0.0,informational,windmill clipart,windmill,windmill drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+drawing anatomy,drawing anatomy,3400,0.0,informational-advanced,anatomy drawing,anatomy,drawing anatomy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+venus drawing,venus drawing,3400,0.0,informational,venus drawing,venus,venus drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+fortnite drawing,fortnite drawing,3400,0.0,informational,how to draw fortnite characters,fortnite,fortnite drawing,,,,,,excluded,,,no,999,none,,,hold,trademark review required
+tennis racket drawing,tennis racket drawing,3400,0.0,informational,tennis racket drawing,tennis-racket,tennis racket drawing,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject
+cheetah drawing easy,cheetah drawing,0,0.0,informational-beginner,cheetah,cheetah,cheetah drawing easy,,,,,,unassigned,,,no,999,n/a,,,future,safe generic subject

@@ -1,0 +1,33 @@
+---
+interface Props {
+  difficulty: string;
+  estimatedTime: string;
+  stepCount: number;
+  materials: string[];
+  hasWorksheet: boolean;
+}
+const { difficulty, estimatedTime, stepCount, materials, hasWorksheet } = Astro.props;
+---
+
+<dl class="summary-box">
+  <div>
+    <dt>Difficulty</dt>
+    <dd>{difficulty}</dd>
+  </div>
+  <div>
+    <dt>Estimated time</dt>
+    <dd>{estimatedTime}</dd>
+  </div>
+  <div>
+    <dt>Steps</dt>
+    <dd>{stepCount}</dd>
+  </div>
+  <div>
+    <dt>Materials</dt>
+    <dd>{materials.slice(0, 3).join(', ')}{materials.length > 3 ? '…' : ''}</dd>
+  </div>
+  <div>
+    <dt>Worksheet</dt>
+    <dd>{hasWorksheet ? 'PDF download included' : 'Not available'}</dd>
+  </div>
+</dl>

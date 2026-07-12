@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/common/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { CATEGORY_META, LEARN_GUIDES, SITE } from '../../data/site';
+
+const tutorials = (await getCollection('tutorials', ({ data }) => !data.draft)).sort((a, b) =>
+  a.data.focusKeyword.localeCompare(b.data.focusKeyword)
+);
+const guides = await getCollection('guides', ({ data }) => !data.draft);
+---
+
+<BaseLayout
+  title="Sitemap | Drawinging"
+  description="HTML sitemap of Drawinging tutorials, categories, worksheets, and learning resources."
+  canonical={`${SITE.domain}/sitemap/`}
+>
+  <div class="container section">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Sitemap' }]} />
+    <h1>HTML sitemap</h1>
+    <div class="prose" style="margin-top:2rem">
+      <h2>Main pages</h2>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/drawing-tutorials/">Drawing tutorials</a></li>
+        <li><a href="/easy-drawings/">Easy drawings</a></li>
+        <li><a href="/worksheets/">Worksheets</a></li>
+        <li><a href="/learn-drawing/">Learn drawing</a></li>
+        <li><a href="/search/">Search</a></li>
+      </ul>
+      <h2>Categories</h2>
+      <ul>
+        {Object.values(CATEGORY_META).map((c) => <li><a href={c.permalink}>{c.name}</a></li>)}
+      </ul>
+      <h2>Tutorials</h2>
+      <ul>
+        {tutorials.map((t) => <li><a href={t.data.permalink}>{t.data.title}</a></li>)}
+      </ul>
+      <h2>Learn drawing</h2>
+      <ul>
+        {LEARN_GUIDES.map((g) => <li><a href={`/learn-drawing/${g.slug}/`}>{g.title}</a></li>)}
+        {guides.map((g) => null)}
+      </ul>
+      <h2>Company</h2>
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/editorial-policy/">Editorial policy</a></li>
+        <li><a href="/contact/">Contact</a></li>
+        <li><a href="/privacy-policy/">Privacy policy</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/disclaimer/">Disclaimer</a></li>
+      </ul>
+    </div>
+  </div>
+</BaseLayout>

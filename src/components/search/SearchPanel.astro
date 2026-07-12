@@ -1,0 +1,154 @@
+---
+interface Props {
+  id?: string;
+  large?: boolean;
+}
+const { id = 'site-search', large = false } = Astro.props;
+---
+
+<div class="search-panel" data-search-root>
+  <label for={id}>{large ? 'What would you like to draw?' : 'Search drawing tutorials'}</label>
+  <div class="search-panel__row">
+    <input
+      id={id}
+      type="search"
+      name="q"
+      placeholder="Try rose, cat, butterfly…"
+      autocomplete="off"
+      aria-autocomplete="list"
+      aria-controls={`${id}-suggestions`}
+      aria-expanded="false"
+      data-search-input
+    />
+    <button class="btn btn--primary" type="button" data-search-submit>Search</button>
+  </div>
+  <ul
+    id={`${id}-suggestions`}
+    role="listbox"
+    aria-label="Search suggestions"
+    data-search-suggestions
+    style="list-style:none;margin:0.75rem 0 0;padding:0;display:none"
+  ></ul>
+  <p data-search-status class="sr-only" aria-live="polite"></p>
+</div>
+<script>
+  const roots = document.querySelectorAll('[data-search-root]');
+  const recentKey = 'drawinging-recent-searches';
+
+  async function loadIndex() {
+    if (window.__drawingingSearchIndex) return window.__drawingingSearchIndex;
+    const res = await fetch('/search-index.json');
+    window.__drawingingSearchIndex = await res.json();
+    return window.__drawingingSearchIndex;
+  }
+
+  function getRecent() {
+    try {
+      return JSON.parse(localStorage.getItem(recentKey) || '[]');
+    } catch {
+      return [];
+    }
+  }
+
+  function saveRecent(term) {
+    const next = [term, ...getRecent().filter((t) => t !== term)].slice(0, 6);
+    localStorage.setItem(recentKey, JSON.stringify(next));
+  }
+
+  function scoreItem(item, q) {
+    const hay = [item.title, item.focusKeyword, ...(item.secondaryKeywords || []), item.category, item.difficulty, item.description, ...(item.tags || [])]
+      .join(' ')
+      .toLowerCase();
+    if (!hay.includes(q)) return 0;
+    let score = 0;
+    if (item.focusKeyword.toLowerCase() === q) score += 50;
+    if (item.focusKeyword.toLowerCase().includes(q)) score += 30;
+    if (item.title.toLowerCase().includes(q)) score += 20;
+    if ((item.secondaryKeywords || []).some((k) => k.toLowerCase().includes(q))) score += 10;
+    return score + (hay.startsWith(q) ? 5 : 0);
+  }
+
+  roots.forEach((root) => {
+    const input = root.querySelector('[data-search-input]');
+    const list = root.querySelector('[data-search-suggestions]');
+    const status = root.querySelector('[data-search-status]');
+    const submit = root.querySelector('[data-search-submit]');
+    let active = -1;
+    let results = [];
+
+    const render = (items, emptyMessage) => {
+      list.style.display = 'grid';
+      list.innerHTML = '';
+      if (!items.length) {
+        list.innerHTML = `<li style="padding:0.75rem;border:1px solid var(--color-border);border-radius:0.5rem;background:white">${emptyMessage}</li>`;
+        status.textContent = 'No results';
+        return;
+      }
+      items.forEach((item, index) => {
+        const li = document.createElement('li');
+        li.setAttribute('role', 'option');
+        li.id = `${input.id}-opt-${index}`;
+        li.innerHTML = `<a href="${item.permalink}" style="display:block;padding:0.75rem;border:1px solid var(--color-border);border-radius:0.5rem;background:white;text-decoration:none"><strong>${item.title}</strong><br><span style="color:var(--color-muted);font-size:0.9rem">${item.category} · ${item.difficulty}</span></a>`;
+        list.appendChild(li);
+      });
+      status.textContent = `${items.length} suggestions`;
+    };
+
+    const run = async () => {
+      const q = input.value.trim().toLowerCase();
+      active = -1;
+      if (!q) {
+        const recent = getRecent();
+        render(
+          recent.map((term) => ({ title: `Recent: ${term}`, permalink: `/search/?q=${encodeURIComponent(term)}`, category: 'Recent', difficulty: '' })),
+          'Start typing to search tutorials.'
+        );
+        return;
+      }
+      const index = await loadIndex();
+      results = index
+        .map((item) => ({ item, score: scoreItem(item, q) }))
+        .filter((x) => x.score > 0)
+        .sort((a, b) => b.score - a.score)
+        .slice(0, 8)
+        .map((x) => x.item);
+      if (!results.length) {
+        render(
+          [
+            { title: 'Browse flower drawings', permalink: '/flower-drawings/', category: 'Category', difficulty: '' },
+            { title: 'Browse animal drawings', permalink: '/animal-drawings/', category: 'Category', difficulty: '' },
+            { title: 'Easy drawings', permalink: '/easy-drawings/', category: 'Hub', difficulty: '' },
+          ],
+          'No exact matches. Try a related category:'
+        );
+        return;
+      }
+      render(results, '');
+      input.setAttribute('aria-expanded', 'true');
+    };
+
+    input.addEventListener('input', run);
+    input.addEventListener('focus', run);
+    submit.addEventListener('click', () => {
+      const term = input.value.trim();
+      if (term) saveRecent(term);
+      if (results[0]) window.location.href = results[0].permalink;
+      else window.location.href = `/search/?q=${encodeURIComponent(term)}`;
+    });
+    input.addEventListener('keydown', (e) => {
+      const options = [...list.querySelectorAll('[role="option"] a')];
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        active = Math.min(active + 1, options.length - 1);
+        options[active]?.focus();
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        active = Math.max(active - 1, 0);
+        options[active]?.focus();
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        submit.click();
+      }
+    });
+  });
+</script>

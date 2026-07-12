@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Seasonal drawings">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <path d="m32 9 6 13 14 2-10 10 3 14-13-7-13 7 3-14-10-10 14-2 6-13Z" stroke="#1F4D3A"/>
+    <path d="M17 54h30" stroke="#1C1A17"/>
+    <path d="M25 34c5 4 10 4 15 0" stroke="#C9974A"/>
+    <path d="M22 45c7 3 14 3 21 0" stroke="#1C1A17"/>
+  </g>
+</svg>

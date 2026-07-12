@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/common/Breadcrumbs.astro';
+import TutorialCard from '../../components/tutorials/TutorialCard.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '../../data/site';
+
+const tutorials = (await getCollection('tutorials', ({ data }) => !data.draft)).sort((a, b) =>
+  a.data.focusKeyword.localeCompare(b.data.focusKeyword)
+);
+---
+
+<BaseLayout
+  title="Drawing Tutorials | Drawinging"
+  description="Browse every step-by-step drawing tutorial on Drawinging, organized for clear practice and printable worksheets."
+  canonical={`${SITE.domain}/drawing-tutorials/`}
+>
+  <div class="container section">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Drawing Tutorials' }]} />
+    <header class="section__header">
+      <h1>Drawing Tutorials</h1>
+      <p class="section__intro">
+        Complete catalog of Drawinging lessons. Use categories if you prefer browsing by subject family.
+      </p>
+    </header>
+    <div class="card-grid">
+      {tutorials.map((t) => <TutorialCard tutorial={t} />)}
+    </div>
+  </div>
+</BaseLayout>

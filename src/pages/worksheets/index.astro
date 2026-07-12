@@ -1,0 +1,109 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/common/Breadcrumbs.astro';
+import WorksheetBlock from '../../components/worksheets/WorksheetBlock.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '../../data/site';
+import '../../styles/worksheets.css';
+
+const tutorials = (await getCollection('tutorials', ({ data }) => !data.draft)).sort((a, b) =>
+  a.data.focusKeyword.localeCompare(b.data.focusKeyword)
+);
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Free Drawing Worksheets',
+    description: 'Download printable drawing worksheets paired with Drawinging tutorials.',
+    url: `${SITE.domain}/worksheets/`,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE.domain}/` },
+      { '@type': 'ListItem', position: 2, name: 'Worksheets', item: `${SITE.domain}/worksheets/` },
+    ],
+  },
+];
+---
+
+<BaseLayout
+  title="Free Drawing Worksheets | Drawinging"
+  description="Download printable PDF drawing worksheets with step boxes, tracing areas, and practice grids for every priority tutorial."
+  canonical={`${SITE.domain}/worksheets/`}
+  jsonLd={jsonLd}
+>
+  <div class="container section">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Worksheets' }]} />
+    <header class="worksheet-hub-intro">
+      <h1>Free Drawing Worksheets</h1>
+      <p>
+        Printable practice sheets for Drawinging tutorials. Each worksheet includes numbered step boxes, a tracing
+        area, and blank space so you can repeat the sequence. Download the PDF for printing, or the SVG if you want an
+        editable vector source.
+      </p>
+    </header>
+
+    <div class="category-filters" role="group" aria-label="Filter worksheets" data-ws-filters>
+      <button class="filter-btn" type="button" data-ws-filter="all" aria-pressed="true">All</button>
+      <button class="filter-btn" type="button" data-ws-filter="beginner" aria-pressed="false">Beginner</button>
+      <button class="filter-btn" type="button" data-ws-filter="intermediate" aria-pressed="false">Intermediate</button>
+      <button class="filter-btn" type="button" data-ws-filter="advanced" aria-pressed="false">Advanced</button>
+    </div>
+
+    <div class="card-grid" data-ws-grid>
+      {
+        tutorials.map((t) => (
+          <article class="worksheet-card" id={`${t.data.slug}-worksheet`} data-difficulty={t.data.difficulty} data-category={t.data.category}>
+            <div class="worksheet-card__media">
+              <img
+                src={t.data.worksheet.preview}
+                alt={t.data.worksheet.title}
+                title={t.data.worksheet.title}
+                width="800"
+                height="1056"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div class="worksheet-card__body">
+              <div class="meta-row">
+                <span class="pill">{t.data.difficulty}</span>
+                <span>{t.data.category.replace(/-/g, ' ')}</span>
+              </div>
+              <h2 style="font-size:1.15rem">{t.data.worksheet.title}</h2>
+              <div class="worksheet-actions">
+                <a class="btn btn--primary" href={t.data.worksheet.pdf} download>
+                  Download PDF
+                </a>
+                <a class="btn btn--secondary" href={t.data.worksheet.svg} download>
+                  SVG
+                </a>
+                <a class="btn btn--ghost" href={t.data.permalink}>
+                  Tutorial
+                </a>
+              </div>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+  <script>
+    const group = document.querySelector('[data-ws-filters]');
+    const grid = document.querySelector('[data-ws-grid]');
+    group?.addEventListener('click', (event) => {
+      const button = event.target.closest('button[data-ws-filter]');
+      if (!button || !grid) return;
+      const value = button.getAttribute('data-ws-filter');
+      group.querySelectorAll('button').forEach((btn) => btn.setAttribute('aria-pressed', 'false'));
+      button.setAttribute('aria-pressed', 'true');
+      grid.querySelectorAll('[data-difficulty]').forEach((card) => {
+        const show = value === 'all' || card.getAttribute('data-difficulty') === value;
+        card.style.display = show ? '' : 'none';
+      });
+    });
+  </script>
+</BaseLayout>

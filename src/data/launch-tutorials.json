@@ -1,0 +1,247 @@
+[
+  {
+    "focus": "flower drawing",
+    "slug": "flower-drawing",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "priority": 1
+  },
+  {
+    "focus": "rose drawing",
+    "slug": "rose-drawing",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "priority": 2
+  },
+  {
+    "focus": "sunflower drawing",
+    "slug": "sunflower-drawing",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "priority": 3
+  },
+  {
+    "focus": "hibiscus flower drawing",
+    "slug": "hibiscus-flower-drawing",
+    "category": "flower-drawings",
+    "difficulty": "intermediate",
+    "priority": 4
+  },
+  {
+    "focus": "tulip drawing",
+    "slug": "tulip-drawing",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "priority": 5
+  },
+  {
+    "focus": "cat drawing",
+    "slug": "cat-drawing",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "priority": 6
+  },
+  {
+    "focus": "dog drawing",
+    "slug": "dog-drawing",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "priority": 7
+  },
+  {
+    "focus": "horse drawing",
+    "slug": "horse-drawing",
+    "category": "animal-drawings",
+    "difficulty": "intermediate",
+    "priority": 8
+  },
+  {
+    "focus": "lion drawing",
+    "slug": "lion-drawing",
+    "category": "animal-drawings",
+    "difficulty": "intermediate",
+    "priority": 9
+  },
+  {
+    "focus": "bunny drawing",
+    "slug": "bunny-drawing",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "priority": 10
+  },
+  {
+    "focus": "fox drawing",
+    "slug": "fox-drawing",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "priority": 11
+  },
+  {
+    "focus": "bird drawing",
+    "slug": "bird-drawing",
+    "category": "bird-drawings",
+    "difficulty": "beginner",
+    "priority": 12
+  },
+  {
+    "focus": "owl drawing",
+    "slug": "owl-drawing",
+    "category": "bird-drawings",
+    "difficulty": "beginner",
+    "priority": 13
+  },
+  {
+    "focus": "butterfly drawing",
+    "slug": "butterfly-drawing",
+    "category": "insect-drawings",
+    "difficulty": "beginner",
+    "priority": 14
+  },
+  {
+    "focus": "bee drawing",
+    "slug": "bee-drawing",
+    "category": "insect-drawings",
+    "difficulty": "beginner",
+    "priority": 15
+  },
+  {
+    "focus": "fish drawing",
+    "slug": "fish-drawing",
+    "category": "sea-animal-drawings",
+    "difficulty": "beginner",
+    "priority": 16
+  },
+  {
+    "focus": "shark drawing",
+    "slug": "shark-drawing",
+    "category": "sea-animal-drawings",
+    "difficulty": "beginner",
+    "priority": 17
+  },
+  {
+    "focus": "dolphin drawing",
+    "slug": "dolphin-drawing",
+    "category": "sea-animal-drawings",
+    "difficulty": "intermediate",
+    "priority": 18
+  },
+  {
+    "focus": "tree drawing",
+    "slug": "tree-drawing",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "priority": 19
+  },
+  {
+    "focus": "cloud drawing",
+    "slug": "cloud-drawing",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "priority": 20
+  },
+  {
+    "focus": "sunset drawing",
+    "slug": "sunset-drawing",
+    "category": "nature-drawings",
+    "difficulty": "intermediate",
+    "priority": 21
+  },
+  {
+    "focus": "mountain drawing",
+    "slug": "mountain-drawing",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "priority": 22
+  },
+  {
+    "focus": "car drawing",
+    "slug": "car-drawing",
+    "category": "vehicle-drawings",
+    "difficulty": "intermediate",
+    "priority": 23
+  },
+  {
+    "focus": "plane drawing",
+    "slug": "plane-drawing",
+    "category": "vehicle-drawings",
+    "difficulty": "beginner",
+    "priority": 24
+  },
+  {
+    "focus": "train drawing",
+    "slug": "train-drawing",
+    "category": "vehicle-drawings",
+    "difficulty": "beginner",
+    "priority": 25
+  },
+  {
+    "focus": "volleyball drawing",
+    "slug": "volleyball-drawing",
+    "category": "sports-drawings",
+    "difficulty": "beginner",
+    "priority": 26
+  },
+  {
+    "focus": "soccer ball drawing",
+    "slug": "soccer-ball-drawing",
+    "category": "sports-drawings",
+    "difficulty": "beginner",
+    "priority": 27
+  },
+  {
+    "focus": "christmas tree drawing",
+    "slug": "christmas-tree-drawing",
+    "category": "seasonal-drawings",
+    "difficulty": "beginner",
+    "priority": 28
+  },
+  {
+    "focus": "pumpkin drawing",
+    "slug": "pumpkin-drawing",
+    "category": "seasonal-drawings",
+    "difficulty": "beginner",
+    "priority": 29
+  },
+  {
+    "focus": "snowman drawing",
+    "slug": "snowman-drawing",
+    "category": "seasonal-drawings",
+    "difficulty": "beginner",
+    "priority": 30
+  },
+  {
+    "focus": "dragon drawing",
+    "slug": "dragon-drawing",
+    "category": "fantasy-drawings",
+    "difficulty": "advanced",
+    "priority": 31
+  },
+  {
+    "focus": "unicorn drawing",
+    "slug": "unicorn-drawing",
+    "category": "fantasy-drawings",
+    "difficulty": "intermediate",
+    "priority": 32
+  },
+  {
+    "focus": "heart drawing",
+    "slug": "heart-drawing",
+    "category": "symbol-drawings",
+    "difficulty": "beginner",
+    "priority": 33
+  },
+  {
+    "focus": "star drawing",
+    "slug": "star-drawing",
+    "category": "symbol-drawings",
+    "difficulty": "beginner",
+    "priority": 34
+  },
+  {
+    "focus": "eye drawing",
+    "slug": "eye-drawing",
+    "category": "symbol-drawings",
+    "difficulty": "intermediate",
+    "priority": 35
+  }
+]

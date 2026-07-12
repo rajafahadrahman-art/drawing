@@ -1,0 +1,670 @@
+{
+  "homepage": {
+    "to_categories": [
+      "/flower-drawings/",
+      "/animal-drawings/",
+      "/bird-drawings/",
+      "/insect-drawings/",
+      "/sea-animal-drawings/",
+      "/nature-drawings/",
+      "/vehicle-drawings/",
+      "/sports-drawings/",
+      "/seasonal-drawings/",
+      "/fantasy-drawings/",
+      "/symbol-drawings/"
+    ],
+    "to_tutorials": [
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/",
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/",
+      "/bird-drawing/"
+    ],
+    "to_hubs": [
+      "/worksheets/",
+      "/learn-drawing/",
+      "/easy-drawings/",
+      "/drawing-tutorials/"
+    ]
+  },
+  "categories": {
+    "/flower-drawings/": {
+      "tutorials": [
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/",
+        "/tulip-drawing/"
+      ],
+      "related_categories": [
+        "/animal-drawings/",
+        "/bird-drawings/",
+        "/insect-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/animal-drawings/": {
+      "tutorials": [
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/",
+        "/bunny-drawing/",
+        "/fox-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/bird-drawings/",
+        "/insect-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/bird-drawings/": {
+      "tutorials": [
+        "/bird-drawing/",
+        "/owl-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/animal-drawings/",
+        "/insect-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/insect-drawings/": {
+      "tutorials": [
+        "/butterfly-drawing/",
+        "/bee-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/animal-drawings/",
+        "/bird-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/sea-animal-drawings/": {
+      "tutorials": [
+        "/fish-drawing/",
+        "/shark-drawing/",
+        "/dolphin-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/animal-drawings/",
+        "/bird-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/nature-drawings/": {
+      "tutorials": [
+        "/tree-drawing/",
+        "/cloud-drawing/",
+        "/sunset-drawing/",
+        "/mountain-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/animal-drawings/",
+        "/bird-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/vehicle-drawings/": {
+      "tutorials": [
+        "/car-drawing/",
+        "/plane-drawing/",
+        "/train-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/animal-drawings/",
+        "/bird-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/sports-drawings/": {
+      "tutorials": [
+        "/volleyball-drawing/",
+        "/soccer-ball-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/animal-drawings/",
+        "/bird-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/seasonal-drawings/": {
+      "tutorials": [
+        "/christmas-tree-drawing/",
+        "/pumpkin-drawing/",
+        "/snowman-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/animal-drawings/",
+        "/bird-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/fantasy-drawings/": {
+      "tutorials": [
+        "/dragon-drawing/",
+        "/unicorn-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/animal-drawings/",
+        "/bird-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    },
+    "/symbol-drawings/": {
+      "tutorials": [
+        "/heart-drawing/",
+        "/star-drawing/",
+        "/eye-drawing/"
+      ],
+      "related_categories": [
+        "/flower-drawings/",
+        "/animal-drawings/",
+        "/bird-drawings/"
+      ],
+      "basics": "/learn-drawing/",
+      "worksheets": "/worksheets/"
+    }
+  },
+  "tutorials": {
+    "/flower-drawing/": {
+      "parent_category": "/flower-drawings/",
+      "related_tutorials": [
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/",
+        "/tulip-drawing/",
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#flower-drawing-worksheet"
+    },
+    "/rose-drawing/": {
+      "parent_category": "/flower-drawings/",
+      "related_tutorials": [
+        "/flower-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/",
+        "/tulip-drawing/",
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#rose-drawing-worksheet"
+    },
+    "/sunflower-drawing/": {
+      "parent_category": "/flower-drawings/",
+      "related_tutorials": [
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/hibiscus-flower-drawing/",
+        "/tulip-drawing/",
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#sunflower-drawing-worksheet"
+    },
+    "/hibiscus-flower-drawing/": {
+      "parent_category": "/flower-drawings/",
+      "related_tutorials": [
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/tulip-drawing/",
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/shading/",
+      "worksheet": "/worksheets/#hibiscus-flower-drawing-worksheet"
+    },
+    "/tulip-drawing/": {
+      "parent_category": "/flower-drawings/",
+      "related_tutorials": [
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/",
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#tulip-drawing-worksheet"
+    },
+    "/cat-drawing/": {
+      "parent_category": "/animal-drawings/",
+      "related_tutorials": [
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/",
+        "/bunny-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#cat-drawing-worksheet"
+    },
+    "/dog-drawing/": {
+      "parent_category": "/animal-drawings/",
+      "related_tutorials": [
+        "/cat-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/",
+        "/bunny-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#dog-drawing-worksheet"
+    },
+    "/horse-drawing/": {
+      "parent_category": "/animal-drawings/",
+      "related_tutorials": [
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/lion-drawing/",
+        "/bunny-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/shading/",
+      "worksheet": "/worksheets/#horse-drawing-worksheet"
+    },
+    "/lion-drawing/": {
+      "parent_category": "/animal-drawings/",
+      "related_tutorials": [
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/bunny-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/shading/",
+      "worksheet": "/worksheets/#lion-drawing-worksheet"
+    },
+    "/bunny-drawing/": {
+      "parent_category": "/animal-drawings/",
+      "related_tutorials": [
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#bunny-drawing-worksheet"
+    },
+    "/fox-drawing/": {
+      "parent_category": "/animal-drawings/",
+      "related_tutorials": [
+        "/cat-drawing/",
+        "/dog-drawing/",
+        "/horse-drawing/",
+        "/lion-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#fox-drawing-worksheet"
+    },
+    "/bird-drawing/": {
+      "parent_category": "/bird-drawings/",
+      "related_tutorials": [
+        "/owl-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#bird-drawing-worksheet"
+    },
+    "/owl-drawing/": {
+      "parent_category": "/bird-drawings/",
+      "related_tutorials": [
+        "/bird-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#owl-drawing-worksheet"
+    },
+    "/butterfly-drawing/": {
+      "parent_category": "/insect-drawings/",
+      "related_tutorials": [
+        "/bee-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#butterfly-drawing-worksheet"
+    },
+    "/bee-drawing/": {
+      "parent_category": "/insect-drawings/",
+      "related_tutorials": [
+        "/butterfly-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#bee-drawing-worksheet"
+    },
+    "/fish-drawing/": {
+      "parent_category": "/sea-animal-drawings/",
+      "related_tutorials": [
+        "/shark-drawing/",
+        "/dolphin-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#fish-drawing-worksheet"
+    },
+    "/shark-drawing/": {
+      "parent_category": "/sea-animal-drawings/",
+      "related_tutorials": [
+        "/fish-drawing/",
+        "/dolphin-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#shark-drawing-worksheet"
+    },
+    "/dolphin-drawing/": {
+      "parent_category": "/sea-animal-drawings/",
+      "related_tutorials": [
+        "/fish-drawing/",
+        "/shark-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/shading/",
+      "worksheet": "/worksheets/#dolphin-drawing-worksheet"
+    },
+    "/tree-drawing/": {
+      "parent_category": "/nature-drawings/",
+      "related_tutorials": [
+        "/cloud-drawing/",
+        "/sunset-drawing/",
+        "/mountain-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#tree-drawing-worksheet"
+    },
+    "/cloud-drawing/": {
+      "parent_category": "/nature-drawings/",
+      "related_tutorials": [
+        "/tree-drawing/",
+        "/sunset-drawing/",
+        "/mountain-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#cloud-drawing-worksheet"
+    },
+    "/sunset-drawing/": {
+      "parent_category": "/nature-drawings/",
+      "related_tutorials": [
+        "/tree-drawing/",
+        "/cloud-drawing/",
+        "/mountain-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/shading/",
+      "worksheet": "/worksheets/#sunset-drawing-worksheet"
+    },
+    "/mountain-drawing/": {
+      "parent_category": "/nature-drawings/",
+      "related_tutorials": [
+        "/tree-drawing/",
+        "/cloud-drawing/",
+        "/sunset-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#mountain-drawing-worksheet"
+    },
+    "/car-drawing/": {
+      "parent_category": "/vehicle-drawings/",
+      "related_tutorials": [
+        "/plane-drawing/",
+        "/train-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/shading/",
+      "worksheet": "/worksheets/#car-drawing-worksheet"
+    },
+    "/plane-drawing/": {
+      "parent_category": "/vehicle-drawings/",
+      "related_tutorials": [
+        "/car-drawing/",
+        "/train-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#plane-drawing-worksheet"
+    },
+    "/train-drawing/": {
+      "parent_category": "/vehicle-drawings/",
+      "related_tutorials": [
+        "/car-drawing/",
+        "/plane-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#train-drawing-worksheet"
+    },
+    "/volleyball-drawing/": {
+      "parent_category": "/sports-drawings/",
+      "related_tutorials": [
+        "/soccer-ball-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#volleyball-drawing-worksheet"
+    },
+    "/soccer-ball-drawing/": {
+      "parent_category": "/sports-drawings/",
+      "related_tutorials": [
+        "/volleyball-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#soccer-ball-drawing-worksheet"
+    },
+    "/christmas-tree-drawing/": {
+      "parent_category": "/seasonal-drawings/",
+      "related_tutorials": [
+        "/pumpkin-drawing/",
+        "/snowman-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#christmas-tree-drawing-worksheet"
+    },
+    "/pumpkin-drawing/": {
+      "parent_category": "/seasonal-drawings/",
+      "related_tutorials": [
+        "/christmas-tree-drawing/",
+        "/snowman-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#pumpkin-drawing-worksheet"
+    },
+    "/snowman-drawing/": {
+      "parent_category": "/seasonal-drawings/",
+      "related_tutorials": [
+        "/christmas-tree-drawing/",
+        "/pumpkin-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#snowman-drawing-worksheet"
+    },
+    "/dragon-drawing/": {
+      "parent_category": "/fantasy-drawings/",
+      "related_tutorials": [
+        "/unicorn-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/shading/",
+      "worksheet": "/worksheets/#dragon-drawing-worksheet"
+    },
+    "/unicorn-drawing/": {
+      "parent_category": "/fantasy-drawings/",
+      "related_tutorials": [
+        "/dragon-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/shading/",
+      "worksheet": "/worksheets/#unicorn-drawing-worksheet"
+    },
+    "/heart-drawing/": {
+      "parent_category": "/symbol-drawings/",
+      "related_tutorials": [
+        "/star-drawing/",
+        "/eye-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#heart-drawing-worksheet"
+    },
+    "/star-drawing/": {
+      "parent_category": "/symbol-drawings/",
+      "related_tutorials": [
+        "/heart-drawing/",
+        "/eye-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/basic-shapes/",
+      "worksheet": "/worksheets/#star-drawing-worksheet"
+    },
+    "/eye-drawing/": {
+      "parent_category": "/symbol-drawings/",
+      "related_tutorials": [
+        "/heart-drawing/",
+        "/star-drawing/",
+        "/flower-drawing/",
+        "/rose-drawing/",
+        "/sunflower-drawing/",
+        "/hibiscus-flower-drawing/"
+      ],
+      "skill_guide": "/learn-drawing/shading/",
+      "worksheet": "/worksheets/#eye-drawing-worksheet"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="794" height="1123" viewBox="0 0 794 1123">
+  <rect width="794" height="1123" fill="#FFFFFF"/>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="54" y="56" font-size="24" font-weight="700" fill="#111111">Drawinging</text>
+    <text x="54" y="100" font-size="34" font-weight="800" fill="#111111">Cloud Drawing Worksheet</text>
+    <text x="54" y="134" font-size="16" fill="#111111">Difficulty: beginner  |  Materials: Pencil, eraser, black marker, coloring tools</text>
+    <path d="M54 160h686" stroke="#111111" stroke-width="2"/>
+    <text x="54" y="204" font-size="20" font-weight="700" fill="#111111">Numbered step boxes</text>
+    
+      <rect x="54" y="230" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+      <text x="70" y="260" font-size="18" font-weight="700" fill="#111111">Step 1</text>
+      <path d="M78 298c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    
+      <rect x="282" y="230" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+      <text x="298" y="260" font-size="18" font-weight="700" fill="#111111">Step 2</text>
+      <path d="M306 298c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    
+      <rect x="510" y="230" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+      <text x="526" y="260" font-size="18" font-weight="700" fill="#111111">Step 3</text>
+      <path d="M534 298c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    
+      <rect x="54" y="358" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+      <text x="70" y="388" font-size="18" font-weight="700" fill="#111111">Step 4</text>
+      <path d="M78 426c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    
+      <rect x="282" y="358" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+      <text x="298" y="388" font-size="18" font-weight="700" fill="#111111">Step 5</text>
+      <path d="M306 426c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    
+      <rect x="510" y="358" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+      <text x="526" y="388" font-size="18" font-weight="700" fill="#111111">Step 6</text>
+      <path d="M534 426c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    
+    <text x="54" y="516" font-size="20" font-weight="700" fill="#111111">Tracing area</text>
+    <rect x="54" y="536" width="320" height="252" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <path d="M74 662h280M214 556v212" stroke="#D6D6D6" stroke-width="1.4" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="2.028" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M77.5 720.2h273"/>
+      <path d="M93.1 720.2l88-130l78 100l45-62l112 132"/>
+      <path d="M100.89999999999999 552.5c42-35 85-28 115 12c38-32 85-24 118 10"/></g>
+    <text x="420" y="516" font-size="20" font-weight="700" fill="#111111">Blank practice area</text>
+    <rect x="420" y="536" width="320" height="252" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <path d="M444 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M468 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M492 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M516 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M540 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M564 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M588 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M612 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M636 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M660 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M684 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M708 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M732 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M420 560h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 584h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 608h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 632h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 656h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 680h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 704h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 728h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 752h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 776h320" stroke="#D6D6D6" stroke-width="1"/>
+    <text x="54" y="836" font-size="20" font-weight="700" fill="#111111">Practice notes</text>
+    <rect x="54" y="858" width="686" height="178" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
+    <path d="M78 908h638M78 952h638M78 996h638" stroke="#BBBBBB" stroke-width="1.2"/>
+    <text x="54" y="1082" font-size="14" fill="#111111">drawinging.com</text>
+    <text x="560" y="1082" font-size="14" fill="#111111">Print, trace, and draw again.</text>
+  </g>
+</svg>

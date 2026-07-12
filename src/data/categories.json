@@ -1,0 +1,158 @@
+[
+  {
+    "id": "flower-drawings",
+    "name": "Flower Drawings",
+    "permalink": "/flower-drawings/",
+    "focus": "flower drawing tutorials",
+    "description": "Browse step-by-step flower drawing tutorials with printable worksheets.",
+    "tutorial_count": 5,
+    "tutorials": [
+      "flower-drawing",
+      "rose-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing"
+    ],
+    "nav_eligible": true
+  },
+  {
+    "id": "animal-drawings",
+    "name": "Animal Drawings",
+    "permalink": "/animal-drawings/",
+    "focus": "animal drawing tutorials",
+    "description": "Explore animal drawing lessons from cats and dogs to lions and foxes.",
+    "tutorial_count": 6,
+    "tutorials": [
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing"
+    ],
+    "nav_eligible": true
+  },
+  {
+    "id": "bird-drawings",
+    "name": "Bird Drawings",
+    "permalink": "/bird-drawings/",
+    "focus": "bird drawing tutorials",
+    "description": "Learn to draw birds with clear construction steps and practice sheets.",
+    "tutorial_count": 2,
+    "tutorials": [
+      "bird-drawing",
+      "owl-drawing"
+    ],
+    "nav_eligible": false
+  },
+  {
+    "id": "insect-drawings",
+    "name": "Insect Drawings",
+    "permalink": "/insect-drawings/",
+    "focus": "insect drawing tutorials",
+    "description": "Draw butterflies, bees, and more with beginner-friendly insect tutorials.",
+    "tutorial_count": 2,
+    "tutorials": [
+      "butterfly-drawing",
+      "bee-drawing"
+    ],
+    "nav_eligible": false
+  },
+  {
+    "id": "sea-animal-drawings",
+    "name": "Sea Animal Drawings",
+    "permalink": "/sea-animal-drawings/",
+    "focus": "sea animal drawing tutorials",
+    "description": "Sea creature drawing guides for fish, sharks, dolphins, and more.",
+    "tutorial_count": 3,
+    "tutorials": [
+      "fish-drawing",
+      "shark-drawing",
+      "dolphin-drawing"
+    ],
+    "nav_eligible": true
+  },
+  {
+    "id": "nature-drawings",
+    "name": "Nature Drawings",
+    "permalink": "/nature-drawings/",
+    "focus": "nature drawing tutorials",
+    "description": "Nature drawing tutorials covering trees, clouds, mountains, and sunsets.",
+    "tutorial_count": 4,
+    "tutorials": [
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "nav_eligible": true
+  },
+  {
+    "id": "vehicle-drawings",
+    "name": "Vehicle Drawings",
+    "permalink": "/vehicle-drawings/",
+    "focus": "vehicle drawing tutorials",
+    "description": "Learn to draw cars, planes, and trains with proportion-friendly steps.",
+    "tutorial_count": 3,
+    "tutorials": [
+      "car-drawing",
+      "plane-drawing",
+      "train-drawing"
+    ],
+    "nav_eligible": true
+  },
+  {
+    "id": "sports-drawings",
+    "name": "Sports Drawings",
+    "permalink": "/sports-drawings/",
+    "focus": "sports drawing tutorials",
+    "description": "Sports object drawing tutorials including volleyball and soccer ball.",
+    "tutorial_count": 2,
+    "tutorials": [
+      "volleyball-drawing",
+      "soccer-ball-drawing"
+    ],
+    "nav_eligible": false
+  },
+  {
+    "id": "seasonal-drawings",
+    "name": "Seasonal Drawings",
+    "permalink": "/seasonal-drawings/",
+    "focus": "seasonal drawing tutorials",
+    "description": "Seasonal drawing ideas for holidays and celebrations.",
+    "tutorial_count": 3,
+    "tutorials": [
+      "christmas-tree-drawing",
+      "pumpkin-drawing",
+      "snowman-drawing"
+    ],
+    "nav_eligible": true
+  },
+  {
+    "id": "fantasy-drawings",
+    "name": "Fantasy Drawings",
+    "permalink": "/fantasy-drawings/",
+    "focus": "fantasy drawing tutorials",
+    "description": "Fantasy drawing tutorials for dragons, unicorns, and imaginative subjects.",
+    "tutorial_count": 2,
+    "tutorials": [
+      "dragon-drawing",
+      "unicorn-drawing"
+    ],
+    "nav_eligible": false
+  },
+  {
+    "id": "symbol-drawings",
+    "name": "Symbol Drawings",
+    "permalink": "/symbol-drawings/",
+    "focus": "symbol drawing tutorials",
+    "description": "Symbol and icon drawing tutorials for hearts, stars, eyes, and more.",
+    "tutorial_count": 3,
+    "tutorials": [
+      "heart-drawing",
+      "star-drawing",
+      "eye-drawing"
+    ],
+    "nav_eligible": true
+  }
+]

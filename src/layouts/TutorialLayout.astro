@@ -1,0 +1,243 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/common/Breadcrumbs.astro';
+import TutorialSummary from '../components/tutorials/TutorialSummary.astro';
+import TutorialSteps from '../components/tutorials/TutorialSteps.astro';
+import WorksheetBlock from '../components/worksheets/WorksheetBlock.astro';
+import RelatedTutorials from '../components/tutorials/RelatedTutorials.astro';
+import FaqSection from '../components/common/FaqSection.astro';
+import { SITE, CATEGORY_META } from '../data/site';
+import { getCollection } from 'astro:content';
+import '../styles/tutorials.css';
+
+interface Props {
+  tutorial: any;
+}
+
+const { tutorial } = Astro.props;
+const data = tutorial.data;
+const category = CATEGORY_META[data.category];
+const all = await getCollection('tutorials', ({ data }) => !data.draft);
+const related = all.filter((t) => data.relatedTutorials.includes(t.data.slug));
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: data.title,
+    description: data.description,
+    url: data.canonicalURL,
+    isPartOf: { '@type': 'WebSite', name: SITE.name, url: SITE.domain },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: data.h1,
+    description: data.description,
+    datePublished: data.publishedAt.toISOString(),
+    dateModified: data.updatedAt.toISOString(),
+    author: { '@type': 'Organization', name: data.author },
+    image: [`${SITE.domain}${data.featuredImage}`],
+    mainEntityOfPage: data.canonicalURL,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE.domain + '/' },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: category?.name || 'Tutorials',
+        item: SITE.domain + (category?.permalink || '/drawing-tutorials/'),
+      },
+      { '@type': 'ListItem', position: 3, name: data.h1, item: data.canonicalURL },
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name: data.h1,
+    description: data.description,
+    totalTime: `PT${parseInt(data.estimatedTime, 10) || 30}M`,
+    estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '0' },
+    supply: data.materials.map((m: string) => ({ '@type': 'HowToSupply', name: m })),
+    step: data.steps.map((step: any, i: number) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: step.title,
+      text: step.body,
+      image: `${SITE.domain}${data.stepImages[i]?.src || data.featuredImage}`,
+      url: `${data.canonicalURL}#step-${i + 1}`,
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: data.faqs.map((f: any) => ({
+      '@type': 'Question',
+      name: f.question,
+      acceptedAnswer: { '@type': 'Answer', text: f.answer },
+    })),
+  },
+];
+---
+
+<BaseLayout
+  title={data.metaTitle}
+  description={data.description}
+  canonical={data.canonicalURL}
+  ogImage={`${SITE.domain}${data.featuredImage.replace('.webp', '-og.webp')}`}
+  ogType="article"
+  noindex={data.noindex}
+  jsonLd={jsonLd}
+>
+  <article class="container section tutorial-page">
+    <Breadcrumbs
+      items={[
+        { label: 'Home', href: '/' },
+        { label: category?.name || 'Tutorials', href: category?.permalink || '/drawing-tutorials/' },
+        { label: data.focusKeyword },
+      ]}
+    />
+
+    <header class="tutorial-hero">
+      <p class="section__eyebrow">{category?.name}</p>
+      <h1>{data.h1}</h1>
+      <p>{data.intro}</p>
+      <p class="meta-row">
+        <span>By {data.author}</span>
+        <span>·</span>
+        <time datetime={data.publishedAt.toISOString()}>
+          Published {data.publishedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+        <span>·</span>
+        <time datetime={data.updatedAt.toISOString()}>
+          Updated {data.updatedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </time>
+      </p>
+      <TutorialSummary
+        difficulty={data.difficulty}
+        estimatedTime={data.estimatedTime}
+        stepCount={data.stepCount}
+        materials={data.materials}
+        hasWorksheet={true}
+      />
+      <figure class="step__media">
+        <img
+          src={data.featuredImage}
+          alt={data.featuredImageAlt}
+          title={data.featuredImageTitle}
+          width={data.featuredImageWidth}
+          height={data.featuredImageHeight}
+          fetchpriority="high"
+          decoding="async"
+        />
+      </figure>
+    </header>
+
+    <nav class="toc" aria-label="Table of contents">
+      <h2>On this page</h2>
+      <ol>
+        <li><a href="#materials">Materials</a></li>
+        <li><a href="#before-you-start">Before you start</a></li>
+        <li><a href="#steps">Step-by-step tutorial</a></li>
+        <li><a href="#refine">Refine the drawing</a></li>
+        {data.shading && <li><a href="#shading">Shading or coloring</a></li>}
+        <li><a href="#beginner-variation">Beginner variation</a></li>
+        {data.detailedVariation && <li><a href="#detailed-variation">Detailed variation</a></li>}
+        <li><a href="#mistakes">Common mistakes</a></li>
+        <li><a href="#tips">Drawing tips</a></li>
+        <li><a href="#worksheet">Worksheet</a></li>
+        <li><a href="#related">Related tutorials</a></li>
+        <li><a href="#faqs">FAQs</a></li>
+      </ol>
+    </nav>
+
+    <div class="prose">
+      <section id="materials">
+        <h2>Materials needed</h2>
+        <ul>
+          {data.materials.map((item: string) => <li>{item}</li>)}
+        </ul>
+      </section>
+
+      <section id="before-you-start">
+        <h2>Before you start</h2>
+        <p>{data.beforeYouStart}</p>
+      </section>
+
+      <section id="steps">
+        <h2>Step-by-step tutorial</h2>
+        <TutorialSteps steps={data.steps} images={data.stepImages} focusKeyword={data.focusKeyword} />
+      </section>
+
+      <section id="refine">
+        <h2>Refine the drawing</h2>
+        <p>{data.refine}</p>
+      </section>
+
+      {
+        data.shading && (
+          <section id="shading">
+            <h2>Shading or coloring</h2>
+            <p>{data.shading}</p>
+          </section>
+        )
+      }
+
+      <section id="beginner-variation">
+        <h2>Beginner variation</h2>
+        <p>{data.beginnerVariation}</p>
+      </section>
+
+      {
+        data.detailedVariation && (
+          <section id="detailed-variation">
+            <h2>Detailed variation</h2>
+            <p>{data.detailedVariation}</p>
+          </section>
+        )
+      }
+
+      <section id="mistakes">
+        <h2>Common mistakes</h2>
+        <ul>
+          {data.commonMistakes.map((m: string) => <li>{m}</li>)}
+        </ul>
+      </section>
+
+      <section id="tips">
+        <h2>Drawing tips</h2>
+        <ul>
+          {data.tips.map((t: string) => <li>{t}</li>)}
+        </ul>
+      </section>
+    </div>
+
+    <section id="worksheet" class="section" style="padding-inline:0">
+      <h2>Practice worksheet</h2>
+      <WorksheetBlock worksheet={data.worksheet} tutorialSlug={data.slug} />
+    </section>
+
+    <p>
+      Explore more <a href={category?.permalink}>{category?.name.toLowerCase() || 'drawing tutorials'}</a>
+      {' '}or practise fundamentals in our <a href={`/learn-drawing/${data.relatedGuides[0] || 'basic-shapes'}/`}>drawing skills guides</a>.
+    </p>
+
+    <section id="related" class="section" style="padding-inline:0">
+      <h2>Related tutorials</h2>
+      <RelatedTutorials tutorials={related} />
+    </section>
+
+    <section id="faqs" class="section" style="padding-inline:0">
+      <h2>FAQs</h2>
+      <FaqSection faqs={data.faqs} />
+    </section>
+
+    <section class="prose">
+      <h2>Conclusion</h2>
+      <p>{data.conclusion}</p>
+    </section>
+  </article>
+</BaseLayout>

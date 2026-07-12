@@ -1,0 +1,352 @@
+[
+  {
+    "slug": "bee-drawing",
+    "pdf": "/worksheets/bee-drawing/bee-drawing.pdf",
+    "svg": "/worksheets/bee-drawing/bee-drawing.svg",
+    "preview": "/worksheets/bee-drawing/bee-drawing-preview.webp",
+    "title": "Bee Drawing Worksheet",
+    "tutorial": "/bee-drawing/",
+    "difficulty": "beginner",
+    "category": "insect-drawings"
+  },
+  {
+    "slug": "bird-drawing",
+    "pdf": "/worksheets/bird-drawing/bird-drawing.pdf",
+    "svg": "/worksheets/bird-drawing/bird-drawing.svg",
+    "preview": "/worksheets/bird-drawing/bird-drawing-preview.webp",
+    "title": "Bird Drawing Worksheet",
+    "tutorial": "/bird-drawing/",
+    "difficulty": "beginner",
+    "category": "bird-drawings"
+  },
+  {
+    "slug": "bunny-drawing",
+    "pdf": "/worksheets/bunny-drawing/bunny-drawing.pdf",
+    "svg": "/worksheets/bunny-drawing/bunny-drawing.svg",
+    "preview": "/worksheets/bunny-drawing/bunny-drawing-preview.webp",
+    "title": "Bunny Drawing Worksheet",
+    "tutorial": "/bunny-drawing/",
+    "difficulty": "beginner",
+    "category": "animal-drawings"
+  },
+  {
+    "slug": "butterfly-drawing",
+    "pdf": "/worksheets/butterfly-drawing/butterfly-drawing.pdf",
+    "svg": "/worksheets/butterfly-drawing/butterfly-drawing.svg",
+    "preview": "/worksheets/butterfly-drawing/butterfly-drawing-preview.webp",
+    "title": "Butterfly Drawing Worksheet",
+    "tutorial": "/butterfly-drawing/",
+    "difficulty": "beginner",
+    "category": "insect-drawings"
+  },
+  {
+    "slug": "car-drawing",
+    "pdf": "/worksheets/car-drawing/car-drawing.pdf",
+    "svg": "/worksheets/car-drawing/car-drawing.svg",
+    "preview": "/worksheets/car-drawing/car-drawing-preview.webp",
+    "title": "Car Drawing Worksheet",
+    "tutorial": "/car-drawing/",
+    "difficulty": "intermediate",
+    "category": "vehicle-drawings"
+  },
+  {
+    "slug": "cat-drawing",
+    "pdf": "/worksheets/cat-drawing/cat-drawing.pdf",
+    "svg": "/worksheets/cat-drawing/cat-drawing.svg",
+    "preview": "/worksheets/cat-drawing/cat-drawing-preview.webp",
+    "title": "Cat Drawing Worksheet",
+    "tutorial": "/cat-drawing/",
+    "difficulty": "beginner",
+    "category": "animal-drawings"
+  },
+  {
+    "slug": "christmas-tree-drawing",
+    "pdf": "/worksheets/christmas-tree-drawing/christmas-tree-drawing.pdf",
+    "svg": "/worksheets/christmas-tree-drawing/christmas-tree-drawing.svg",
+    "preview": "/worksheets/christmas-tree-drawing/christmas-tree-drawing-preview.webp",
+    "title": "Christmas Tree Drawing Worksheet",
+    "tutorial": "/christmas-tree-drawing/",
+    "difficulty": "beginner",
+    "category": "seasonal-drawings"
+  },
+  {
+    "slug": "cloud-drawing",
+    "pdf": "/worksheets/cloud-drawing/cloud-drawing.pdf",
+    "svg": "/worksheets/cloud-drawing/cloud-drawing.svg",
+    "preview": "/worksheets/cloud-drawing/cloud-drawing-preview.webp",
+    "title": "Cloud Drawing Worksheet",
+    "tutorial": "/cloud-drawing/",
+    "difficulty": "beginner",
+    "category": "nature-drawings"
+  },
+  {
+    "slug": "dog-drawing",
+    "pdf": "/worksheets/dog-drawing/dog-drawing.pdf",
+    "svg": "/worksheets/dog-drawing/dog-drawing.svg",
+    "preview": "/worksheets/dog-drawing/dog-drawing-preview.webp",
+    "title": "Dog Drawing Worksheet",
+    "tutorial": "/dog-drawing/",
+    "difficulty": "beginner",
+    "category": "animal-drawings"
+  },
+  {
+    "slug": "dolphin-drawing",
+    "pdf": "/worksheets/dolphin-drawing/dolphin-drawing.pdf",
+    "svg": "/worksheets/dolphin-drawing/dolphin-drawing.svg",
+    "preview": "/worksheets/dolphin-drawing/dolphin-drawing-preview.webp",
+    "title": "Dolphin Drawing Worksheet",
+    "tutorial": "/dolphin-drawing/",
+    "difficulty": "intermediate",
+    "category": "sea-animal-drawings"
+  },
+  {
+    "slug": "dragon-drawing",
+    "pdf": "/worksheets/dragon-drawing/dragon-drawing.pdf",
+    "svg": "/worksheets/dragon-drawing/dragon-drawing.svg",
+    "preview": "/worksheets/dragon-drawing/dragon-drawing-preview.webp",
+    "title": "Dragon Drawing Worksheet",
+    "tutorial": "/dragon-drawing/",
+    "difficulty": "advanced",
+    "category": "fantasy-drawings"
+  },
+  {
+    "slug": "eye-drawing",
+    "pdf": "/worksheets/eye-drawing/eye-drawing.pdf",
+    "svg": "/worksheets/eye-drawing/eye-drawing.svg",
+    "preview": "/worksheets/eye-drawing/eye-drawing-preview.webp",
+    "title": "Eye Drawing Worksheet",
+    "tutorial": "/eye-drawing/",
+    "difficulty": "intermediate",
+    "category": "symbol-drawings"
+  },
+  {
+    "slug": "fish-drawing",
+    "pdf": "/worksheets/fish-drawing/fish-drawing.pdf",
+    "svg": "/worksheets/fish-drawing/fish-drawing.svg",
+    "preview": "/worksheets/fish-drawing/fish-drawing-preview.webp",
+    "title": "Fish Drawing Worksheet",
+    "tutorial": "/fish-drawing/",
+    "difficulty": "beginner",
+    "category": "sea-animal-drawings"
+  },
+  {
+    "slug": "flower-drawing",
+    "pdf": "/worksheets/flower-drawing/flower-drawing.pdf",
+    "svg": "/worksheets/flower-drawing/flower-drawing.svg",
+    "preview": "/worksheets/flower-drawing/flower-drawing-preview.webp",
+    "title": "Flower Drawing Worksheet",
+    "tutorial": "/flower-drawing/",
+    "difficulty": "beginner",
+    "category": "flower-drawings"
+  },
+  {
+    "slug": "fox-drawing",
+    "pdf": "/worksheets/fox-drawing/fox-drawing.pdf",
+    "svg": "/worksheets/fox-drawing/fox-drawing.svg",
+    "preview": "/worksheets/fox-drawing/fox-drawing-preview.webp",
+    "title": "Fox Drawing Worksheet",
+    "tutorial": "/fox-drawing/",
+    "difficulty": "beginner",
+    "category": "animal-drawings"
+  },
+  {
+    "slug": "heart-drawing",
+    "pdf": "/worksheets/heart-drawing/heart-drawing.pdf",
+    "svg": "/worksheets/heart-drawing/heart-drawing.svg",
+    "preview": "/worksheets/heart-drawing/heart-drawing-preview.webp",
+    "title": "Heart Drawing Worksheet",
+    "tutorial": "/heart-drawing/",
+    "difficulty": "beginner",
+    "category": "symbol-drawings"
+  },
+  {
+    "slug": "hibiscus-flower-drawing",
+    "pdf": "/worksheets/hibiscus-flower-drawing/hibiscus-flower-drawing.pdf",
+    "svg": "/worksheets/hibiscus-flower-drawing/hibiscus-flower-drawing.svg",
+    "preview": "/worksheets/hibiscus-flower-drawing/hibiscus-flower-drawing-preview.webp",
+    "title": "Hibiscus Flower Drawing Worksheet",
+    "tutorial": "/hibiscus-flower-drawing/",
+    "difficulty": "intermediate",
+    "category": "flower-drawings"
+  },
+  {
+    "slug": "horse-drawing",
+    "pdf": "/worksheets/horse-drawing/horse-drawing.pdf",
+    "svg": "/worksheets/horse-drawing/horse-drawing.svg",
+    "preview": "/worksheets/horse-drawing/horse-drawing-preview.webp",
+    "title": "Horse Drawing Worksheet",
+    "tutorial": "/horse-drawing/",
+    "difficulty": "intermediate",
+    "category": "animal-drawings"
+  },
+  {
+    "slug": "lion-drawing",
+    "pdf": "/worksheets/lion-drawing/lion-drawing.pdf",
+    "svg": "/worksheets/lion-drawing/lion-drawing.svg",
+    "preview": "/worksheets/lion-drawing/lion-drawing-preview.webp",
+    "title": "Lion Drawing Worksheet",
+    "tutorial": "/lion-drawing/",
+    "difficulty": "intermediate",
+    "category": "animal-drawings"
+  },
+  {
+    "slug": "mountain-drawing",
+    "pdf": "/worksheets/mountain-drawing/mountain-drawing.pdf",
+    "svg": "/worksheets/mountain-drawing/mountain-drawing.svg",
+    "preview": "/worksheets/mountain-drawing/mountain-drawing-preview.webp",
+    "title": "Mountain Drawing Worksheet",
+    "tutorial": "/mountain-drawing/",
+    "difficulty": "beginner",
+    "category": "nature-drawings"
+  },
+  {
+    "slug": "owl-drawing",
+    "pdf": "/worksheets/owl-drawing/owl-drawing.pdf",
+    "svg": "/worksheets/owl-drawing/owl-drawing.svg",
+    "preview": "/worksheets/owl-drawing/owl-drawing-preview.webp",
+    "title": "Owl Drawing Worksheet",
+    "tutorial": "/owl-drawing/",
+    "difficulty": "beginner",
+    "category": "bird-drawings"
+  },
+  {
+    "slug": "plane-drawing",
+    "pdf": "/worksheets/plane-drawing/plane-drawing.pdf",
+    "svg": "/worksheets/plane-drawing/plane-drawing.svg",
+    "preview": "/worksheets/plane-drawing/plane-drawing-preview.webp",
+    "title": "Plane Drawing Worksheet",
+    "tutorial": "/plane-drawing/",
+    "difficulty": "beginner",
+    "category": "vehicle-drawings"
+  },
+  {
+    "slug": "pumpkin-drawing",
+    "pdf": "/worksheets/pumpkin-drawing/pumpkin-drawing.pdf",
+    "svg": "/worksheets/pumpkin-drawing/pumpkin-drawing.svg",
+    "preview": "/worksheets/pumpkin-drawing/pumpkin-drawing-preview.webp",
+    "title": "Pumpkin Drawing Worksheet",
+    "tutorial": "/pumpkin-drawing/",
+    "difficulty": "beginner",
+    "category": "seasonal-drawings"
+  },
+  {
+    "slug": "rose-drawing",
+    "pdf": "/worksheets/rose-drawing/rose-drawing.pdf",
+    "svg": "/worksheets/rose-drawing/rose-drawing.svg",
+    "preview": "/worksheets/rose-drawing/rose-drawing-preview.webp",
+    "title": "Rose Drawing Worksheet",
+    "tutorial": "/rose-drawing/",
+    "difficulty": "beginner",
+    "category": "flower-drawings"
+  },
+  {
+    "slug": "shark-drawing",
+    "pdf": "/worksheets/shark-drawing/shark-drawing.pdf",
+    "svg": "/worksheets/shark-drawing/shark-drawing.svg",
+    "preview": "/worksheets/shark-drawing/shark-drawing-preview.webp",
+    "title": "Shark Drawing Worksheet",
+    "tutorial": "/shark-drawing/",
+    "difficulty": "beginner",
+    "category": "sea-animal-drawings"
+  },
+  {
+    "slug": "snowman-drawing",
+    "pdf": "/worksheets/snowman-drawing/snowman-drawing.pdf",
+    "svg": "/worksheets/snowman-drawing/snowman-drawing.svg",
+    "preview": "/worksheets/snowman-drawing/snowman-drawing-preview.webp",
+    "title": "Snowman Drawing Worksheet",
+    "tutorial": "/snowman-drawing/",
+    "difficulty": "beginner",
+    "category": "seasonal-drawings"
+  },
+  {
+    "slug": "soccer-ball-drawing",
+    "pdf": "/worksheets/soccer-ball-drawing/soccer-ball-drawing.pdf",
+    "svg": "/worksheets/soccer-ball-drawing/soccer-ball-drawing.svg",
+    "preview": "/worksheets/soccer-ball-drawing/soccer-ball-drawing-preview.webp",
+    "title": "Soccer Ball Drawing Worksheet",
+    "tutorial": "/soccer-ball-drawing/",
+    "difficulty": "beginner",
+    "category": "sports-drawings"
+  },
+  {
+    "slug": "star-drawing",
+    "pdf": "/worksheets/star-drawing/star-drawing.pdf",
+    "svg": "/worksheets/star-drawing/star-drawing.svg",
+    "preview": "/worksheets/star-drawing/star-drawing-preview.webp",
+    "title": "Star Drawing Worksheet",
+    "tutorial": "/star-drawing/",
+    "difficulty": "beginner",
+    "category": "symbol-drawings"
+  },
+  {
+    "slug": "sunflower-drawing",
+    "pdf": "/worksheets/sunflower-drawing/sunflower-drawing.pdf",
+    "svg": "/worksheets/sunflower-drawing/sunflower-drawing.svg",
+    "preview": "/worksheets/sunflower-drawing/sunflower-drawing-preview.webp",
+    "title": "Sunflower Drawing Worksheet",
+    "tutorial": "/sunflower-drawing/",
+    "difficulty": "beginner",
+    "category": "flower-drawings"
+  },
+  {
+    "slug": "sunset-drawing",
+    "pdf": "/worksheets/sunset-drawing/sunset-drawing.pdf",
+    "svg": "/worksheets/sunset-drawing/sunset-drawing.svg",
+    "preview": "/worksheets/sunset-drawing/sunset-drawing-preview.webp",
+    "title": "Sunset Drawing Worksheet",
+    "tutorial": "/sunset-drawing/",
+    "difficulty": "intermediate",
+    "category": "nature-drawings"
+  },
+  {
+    "slug": "train-drawing",
+    "pdf": "/worksheets/train-drawing/train-drawing.pdf",
+    "svg": "/worksheets/train-drawing/train-drawing.svg",
+    "preview": "/worksheets/train-drawing/train-drawing-preview.webp",
+    "title": "Train Drawing Worksheet",
+    "tutorial": "/train-drawing/",
+    "difficulty": "beginner",
+    "category": "vehicle-drawings"
+  },
+  {
+    "slug": "tree-drawing",
+    "pdf": "/worksheets/tree-drawing/tree-drawing.pdf",
+    "svg": "/worksheets/tree-drawing/tree-drawing.svg",
+    "preview": "/worksheets/tree-drawing/tree-drawing-preview.webp",
+    "title": "Tree Drawing Worksheet",
+    "tutorial": "/tree-drawing/",
+    "difficulty": "beginner",
+    "category": "nature-drawings"
+  },
+  {
+    "slug": "tulip-drawing",
+    "pdf": "/worksheets/tulip-drawing/tulip-drawing.pdf",
+    "svg": "/worksheets/tulip-drawing/tulip-drawing.svg",
+    "preview": "/worksheets/tulip-drawing/tulip-drawing-preview.webp",
+    "title": "Tulip Drawing Worksheet",
+    "tutorial": "/tulip-drawing/",
+    "difficulty": "beginner",
+    "category": "flower-drawings"
+  },
+  {
+    "slug": "unicorn-drawing",
+    "pdf": "/worksheets/unicorn-drawing/unicorn-drawing.pdf",
+    "svg": "/worksheets/unicorn-drawing/unicorn-drawing.svg",
+    "preview": "/worksheets/unicorn-drawing/unicorn-drawing-preview.webp",
+    "title": "Unicorn Drawing Worksheet",
+    "tutorial": "/unicorn-drawing/",
+    "difficulty": "intermediate",
+    "category": "fantasy-drawings"
+  },
+  {
+    "slug": "volleyball-drawing",
+    "pdf": "/worksheets/volleyball-drawing/volleyball-drawing.pdf",
+    "svg": "/worksheets/volleyball-drawing/volleyball-drawing.svg",
+    "preview": "/worksheets/volleyball-drawing/volleyball-drawing-preview.webp",
+    "title": "Volleyball Drawing Worksheet",
+    "tutorial": "/volleyball-drawing/",
+    "difficulty": "beginner",
+    "category": "sports-drawings"
+  }
+]

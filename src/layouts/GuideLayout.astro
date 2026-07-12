@@ -1,0 +1,25 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/common/Breadcrumbs.astro';
+import { SITE } from '../data/site';
+
+interface Props {
+  title: string;
+  metaTitle: string;
+  description: string;
+  permalink: string;
+  h1: string;
+}
+
+const { title, metaTitle, description, permalink, h1 } = Astro.props;
+---
+
+<BaseLayout title={metaTitle} description={description} canonical={`${SITE.domain}${permalink}`}>
+  <div class="container container--narrow section">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Learn Drawing', href: '/learn-drawing/' }, { label: title }]} />
+    <article class="prose">
+      <h1>{h1}</h1>
+      <slot />
+    </article>
+  </div>
+</BaseLayout>

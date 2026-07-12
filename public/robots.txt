@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /search
+Disallow: /search/
+Disallow: /dev/
+Disallow: /404
+
+Sitemap: https://drawinging.com/sitemap-index.xml
