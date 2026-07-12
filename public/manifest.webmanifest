@@ -4,8 +4,8 @@
   "description": "Step-by-step drawing tutorials and printable worksheets.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#F7F3EC",
-  "theme_color": "#1F4D3A",
+  "background_color": "#FCFCFA",
+  "theme_color": "#0F766E",
   "icons": [
     {
       "src": "/site-icon-192.png",

@@ -3,29 +3,25 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SearchPanel from '../components/search/SearchPanel.astro';
 import TutorialCard from '../components/tutorials/TutorialCard.astro';
 import FaqSection from '../components/common/FaqSection.astro';
-import { SITE, CATEGORY_META, LEARN_GUIDES } from '../data/site';
+import { SITE, CATEGORY_META, HOME_CATEGORY_TILES, LEARN_GUIDES } from '../data/site';
 import { getCollection } from 'astro:content';
-import categories from '../data/categories.json';
 import '../styles/homepage.css';
 
 const tutorials = await getCollection('tutorials', ({ data }) => !data.draft);
-const byPriority = [...tutorials].sort((a, b) => a.data.publishedAt.getTime() - b.data.publishedAt.getTime());
 const popularSlugs = [
   'flower-drawing',
   'cat-drawing',
   'butterfly-drawing',
   'dog-drawing',
   'rose-drawing',
-  'volleyball-drawing',
-  'heart-drawing',
-  'car-drawing',
 ];
 const popular = popularSlugs.map((slug) => tutorials.find((t) => t.data.slug === slug)).filter(Boolean);
-const easy = tutorials.filter((t) => t.data.difficulty === 'beginner').slice(0, 6);
-const flowers = tutorials.filter((t) => t.data.category === 'flower-drawings').slice(0, 4);
-const animals = tutorials.filter((t) => t.data.category === 'animal-drawings').slice(0, 4);
+const featured = popular[0];
+const featuredSupport = popular.slice(1, 5);
 const latest = [...tutorials].sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime()).slice(0, 6);
-const navCategories = categories.filter((c: any) => c.nav_eligible);
+const previewA = tutorials.find((t) => t.data.slug === 'rose-drawing') || tutorials[0];
+const previewB = tutorials.find((t) => t.data.slug === 'cat-drawing') || tutorials[1];
+const previewC = tutorials.find((t) => t.data.slug === 'butterfly-drawing') || tutorials[2];
 
 const homepageFaqs = [
   {
@@ -77,6 +73,14 @@ const jsonLd = [
     },
   },
 ];
+
+const chips = [
+  { label: 'Rose', href: '/rose-drawing/' },
+  { label: 'Cat', href: '/cat-drawing/' },
+  { label: 'Butterfly', href: '/butterfly-drawing/' },
+  { label: 'Car', href: '/car-drawing/' },
+  { label: 'Heart', href: '/heart-drawing/' },
+];
 ---
 
 <BaseLayout
@@ -87,46 +91,51 @@ const jsonLd = [
 >
   <section class="hero">
     <div class="container hero__grid">
-      <div class="hero__copy fade-up">
-        <p class="hero__brand">Drawinging</p>
+      <div class="hero__copy">
         <h1>Learn to Draw, One Clear Step at a Time</h1>
-        <p>
-          Organized drawing tutorials, beginner-friendly lessons, category collections, and printable worksheets—so you
-          always know what to draw next and how to practise.
+        <p class="hero__lede">
+          Organized drawing tutorials, beginner-friendly lessons, and printable worksheets—so you always know what to
+          draw next.
         </p>
-        <div class="hero__actions">
-          <a class="btn btn--primary" href="/drawing-tutorials/">Browse Drawing Tutorials</a>
-          <a class="btn btn--secondary" href="/worksheets/">Download Free Worksheets</a>
+        <div class="hero__search">
+          <SearchPanel id="home-search" large />
+          <div>
+            <a class="btn btn--primary" href="/drawing-tutorials/">Explore Tutorials</a>
+          </div>
+          <div class="hero__chips" aria-label="Popular searches">
+            {chips.map((chip) => <a class="chip" href={chip.href}>{chip.label}</a>)}
+          </div>
         </div>
       </div>
-      <div class="hero__visual fade-up">
-        <img
-          src="/images/homepage/hero-illustration.webp"
-          alt=""
-          width="1200"
-          height="960"
-          fetchpriority="high"
-          decoding="async"
-        />
-      </div>
-    </div>
-  </section>
 
-  <section class="section" style="padding-top:0">
-    <div class="container">
-      <SearchPanel id="home-search" large />
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__eyebrow">Popular</p>
-        <h2 class="section__title">Popular drawing guides</h2>
-        <p class="section__intro">High-demand subjects selected from keyword research and category balance.</p>
-      </div>
-      <div class="card-grid">
-        {popular.map((t) => <TutorialCard tutorial={t} />)}
+      <div class="hero__visual" aria-hidden="true">
+        <div class="hero-preview">
+          <a class="hero-preview__main card-link" href={previewA.data.permalink} style="text-decoration:none">
+            <img
+              src={previewA.data.featuredImage}
+              alt=""
+              width="1200"
+              height="800"
+              fetchpriority="high"
+              decoding="async"
+            />
+            <div class="hero-preview__meta">
+              <strong>{previewA.data.title}</strong>
+              <span class="meta-row">
+                <span class="pill">{previewA.data.difficulty}</span>
+                <span>{previewA.data.stepCount} steps</span>
+              </span>
+            </div>
+          </a>
+          <div class="hero-preview__row">
+            <a class="hero-preview__mini card-link" href={previewB.data.permalink} style="text-decoration:none">
+              <img src={previewB.data.featuredImage} alt="" width="600" height="450" loading="lazy" decoding="async" />
+            </a>
+            <a class="hero-preview__mini card-link" href={previewC.data.permalink} style="text-decoration:none">
+              <img src={previewC.data.featuredImage} alt="" width="600" height="450" loading="lazy" decoding="async" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -135,20 +144,16 @@ const jsonLd = [
     <div class="container">
       <div class="section__header">
         <p class="section__eyebrow">Browse</p>
-        <h2 class="section__title">Browse by category</h2>
-        <p class="section__intro">Eleven focused collections to help you find the right lesson quickly.</p>
+        <h2 class="section__title">What Would You Like to Draw?</h2>
+        <p class="section__intro">Pick a subject family and jump into clear, step-by-step lessons.</p>
       </div>
-      <div class="card-grid">
+      <div class="cat-grid">
         {
-          navCategories.map((cat: any) => (
-            <a class="category-card card-link" href={CATEGORY_META[cat.id].permalink} style="text-decoration:none">
-              <div class="category-card__media" style="aspect-ratio:1;display:grid;place-items:center;padding:1.5rem">
-                <img src={CATEGORY_META[cat.id].icon} alt="" width="72" height="72" loading="lazy" decoding="async" />
-              </div>
-              <div class="category-card__body">
-                <h3 style="font-size:1.15rem">{CATEGORY_META[cat.id].name}</h3>
-                <p style="font-size:0.95rem">{CATEGORY_META[cat.id].description}</p>
-              </div>
+          HOME_CATEGORY_TILES.map((tile) => (
+            <a class={`cat-tile cat-tile--${tile.tone}`} href={CATEGORY_META[tile.id].permalink}>
+              <img class="cat-tile__icon" src={CATEGORY_META[tile.id].icon} alt="" width="40" height="40" loading="lazy" decoding="async" />
+              <h3>{tile.label}</h3>
+              <p>{tile.blurb}</p>
             </a>
           ))
         }
@@ -156,49 +161,90 @@ const jsonLd = [
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section--surface">
     <div class="container">
       <div class="section__header">
-        <p class="section__eyebrow">Beginner</p>
-        <h2 class="section__title">Easy drawings</h2>
-        <p class="section__intro">Shorter construction sequences with friendly shapes and clear checkpoints.</p>
+        <p class="section__eyebrow">Featured</p>
+        <h2 class="section__title">Featured tutorials</h2>
+        <p class="section__intro">Start with high-demand lessons chosen for clarity and practice value.</p>
       </div>
-      <div class="card-grid">
-        {easy.map((t) => <TutorialCard tutorial={t} />)}
-      </div>
-      <p style="margin-top:1.25rem"><a href="/easy-drawings/">See all easy drawings</a></p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__eyebrow">Flowers</p>
-        <h2 class="section__title">Flower drawings</h2>
-        <p class="section__intro">
-          Featured flower lessons. For the full collection, visit the{' '}
-          <a href="/flower-drawings/">flower drawing tutorials</a> hub—or start with our{' '}
-          <a href="/flower-drawing/">easy flower drawing tutorial</a>.
-        </p>
-      </div>
-      <div class="card-grid">
-        {flowers.map((t) => <TutorialCard tutorial={t} />)}
+      <div class="featured-layout">
+        <div class="featured-main">
+          {featured && <TutorialCard tutorial={featured} featured />}
+        </div>
+        <div class="featured-side">
+          {featuredSupport.map((t) => <TutorialCard tutorial={t} />)}
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="skill-levels">
     <div class="container">
       <div class="section__header">
-        <p class="section__eyebrow">Animals</p>
-        <h2 class="section__title">Animal drawings</h2>
-        <p class="section__intro">
-          Friendly animal subjects with solid gesture and proportion tips. Browse the{' '}
-          <a href="/animal-drawings/">animal drawing tutorials</a> collection.
-        </p>
+        <p class="section__eyebrow">Levels</p>
+        <h2 class="section__title">Choose your skill level</h2>
+        <p class="section__intro">Match the lesson pace to where you are today.</p>
       </div>
-      <div class="card-grid">
-        {animals.map((t) => <TutorialCard tutorial={t} />)}
+      <div class="skill-grid">
+        <a class="skill-card skill-card--mint" href="/easy-drawings/">
+          <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.6"></circle>
+            <path d="M8 12h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path>
+          </svg>
+          <h3>Beginner</h3>
+          <p>Simple shapes, short sequences, and friendly checkpoints.</p>
+        </a>
+        <a class="skill-card skill-card--yellow" href="/drawing-tutorials/">
+          <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M5 16l7-10 7 10H5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path>
+          </svg>
+          <h3>Intermediate</h3>
+          <p>Better proportions, cleaner contours, and more detail control.</p>
+        </a>
+        <a class="skill-card skill-card--peach" href="/fantasy-drawings/">
+          <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 4l2.2 4.5L19 9.2l-3.5 3.4.8 4.9L12 15.8 7.7 17.5l.8-4.9L5 9.2l4.8-.7L12 4z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"></path>
+          </svg>
+          <h3>Advanced</h3>
+          <p>Longer builds for complex subjects like dragons and detailed forms.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--blue" id="drawing-tool">
+    <div class="container tool-panel">
+      <div class="tool-copy">
+        <p class="section__eyebrow">Step-by-step lessons</p>
+        <h2 class="section__title">Follow tutorials like a guided drawing tool</h2>
+        <p class="section__intro">
+          Every lesson walks you through numbered steps with tips, materials, and a printable worksheet—no account or
+          canvas required.
+        </p>
+        <div>
+          <a class="btn btn--primary" href="/drawing-tutorials/">Open a tutorial</a>
+        </div>
+      </div>
+      <div class="tool-preview" aria-hidden="true">
+        <div class="tool-preview__toolbar">
+          <div class="tool-preview__controls">
+            <span class="tool-chip">Previous step</span>
+            <span class="tool-chip">Next step</span>
+          </div>
+          <span class="tool-chip">Step 3 of 7</span>
+        </div>
+        <div class="tool-preview__stage">
+          <div>
+            <strong>Preview canvas</strong>
+            Static lesson viewer — open any tutorial to follow real steps.
+          </div>
+        </div>
+        <div class="tool-preview__controls">
+          <span class="tool-chip">Zoom</span>
+          <span class="tool-chip">Difficulty: Beginner</span>
+          <span class="tool-chip">Restart</span>
+        </div>
       </div>
     </div>
   </section>
@@ -208,9 +254,9 @@ const jsonLd = [
       <div class="section__header">
         <p class="section__eyebrow">Practice</p>
         <h2 class="section__title">Free worksheets</h2>
-        <p class="section__intro">Printable PDF practice sheets paired with each priority tutorial.</p>
+        <p class="section__intro">Printable PDF practice sheets paired with priority tutorials.</p>
       </div>
-      <div class="card-grid">
+      <div class="card-grid card-grid--4">
         {
           popular.slice(0, 4).map((t) => (
             <article class="worksheet-card">
@@ -226,13 +272,13 @@ const jsonLd = [
                 />
               </div>
               <div class="worksheet-card__body">
-                <h3 style="font-size:1.1rem">{t.data.worksheet.title}</h3>
-                <div class="worksheet-actions">
-                  <a class="btn btn--primary" href={t.data.worksheet.pdf} download>
+                <h3 style="font-size:1.05rem;font-weight:600">{t.data.worksheet.title}</h3>
+                <div class="worksheet-actions" style="display:flex;flex-wrap:wrap;gap:0.5rem">
+                  <a class="btn btn--primary btn--sm" href={t.data.worksheet.pdf} download>
                     Download PDF
                   </a>
-                  <a class="btn btn--ghost" href={t.data.permalink}>
-                    View tutorial
+                  <a class="btn btn--ghost btn--sm" href={t.data.permalink}>
+                    Tutorial
                   </a>
                 </div>
               </div>
@@ -240,26 +286,11 @@ const jsonLd = [
           ))
         }
       </div>
-      <p style="margin-top:1.25rem"><a href="/worksheets/">Browse all worksheets</a></p>
+      <p class="section-cta"><a href="/worksheets/">Browse all worksheets</a></p>
     </div>
   </section>
 
-  <section class="section">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__eyebrow">Process</p>
-        <h2 class="section__title">How it works</h2>
-      </div>
-      <div class="how-grid">
-        <div class="how-card"><div class="how-card__num">1</div><h3>Choose a drawing</h3><p>Pick a subject from categories, easy drawings, or search.</p></div>
-        <div class="how-card"><div class="how-card__num">2</div><h3>Gather simple supplies</h3><p>Pencil, eraser, and paper are enough for most lessons.</p></div>
-        <div class="how-card"><div class="how-card__num">3</div><h3>Follow the steps</h3><p>Build from light shapes to cleaner contours with practical tips.</p></div>
-        <div class="how-card"><div class="how-card__num">4</div><h3>Download and practise</h3><p>Use the worksheet to repeat the sequence until it feels natural.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section">
+  <section class="section section--surface">
     <div class="container">
       <div class="section__header">
         <p class="section__eyebrow">Skills</p>
@@ -269,7 +300,7 @@ const jsonLd = [
       <div class="card-grid">
         {
           LEARN_GUIDES.map((g) => (
-            <a class="how-card card-link" href={`/learn-drawing/${g.slug}/`} style="text-decoration:none">
+            <a class="skill-card skill-card--mint card-link" href={`/learn-drawing/${g.slug}/`} style="text-decoration:none">
               <h3>{g.title}</h3>
               <p>{g.description}</p>
             </a>
@@ -288,14 +319,17 @@ const jsonLd = [
       <div class="card-grid">
         {latest.map((t) => <TutorialCard tutorial={t} />)}
       </div>
+      <p class="section-cta">
+        <a class="btn btn--secondary" href="/drawing-tutorials/">View all tutorials</a>
+      </p>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section--mint">
     <div class="container">
       <div class="section__header">
-        <p class="section__eyebrow">Trust</p>
-        <h2 class="section__title">Why Drawinging</h2>
+        <p class="section__eyebrow">Why Drawinging</p>
+        <h2 class="section__title">Clear lessons for calm practice</h2>
       </div>
       <div class="why-grid">
         <div class="why-item"><h3>Clear step sequences</h3><p>Lessons move from construction to contour without skipping checkpoints.</p></div>
