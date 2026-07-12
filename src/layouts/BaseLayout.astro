@@ -63,17 +63,35 @@ const {
       </main>
       <Footer />
     </div>
-    <script>
-      const bar = document.querySelector('[data-reading-progress]');
-      const onScroll = () => {
+    <script is:inline>
+      document.addEventListener('click', (event) => {
+        const btn = event.target.closest('[data-print-worksheet]');
+        if (!btn) return;
+        const src = btn.getAttribute('data-preview');
+        if (!src) return;
+        const win = window.open('', '_blank');
+        if (!win) return;
+        win.document.write(
+          '<html><head><title>Print worksheet</title></head><body style="margin:0;display:grid;place-items:center"><img src="' +
+            src +
+            '" style="max-width:100%;height:auto" onload="window.print()" /></body></html>'
+        );
+        win.document.close();
+      });
+    </script>
+    <script is:inline>
+      (() => {
+        const bar = document.querySelector('[data-reading-progress]');
         if (!bar) return;
-        const doc = document.documentElement;
-        const max = doc.scrollHeight - doc.clientHeight;
-        const value = max > 0 ? (doc.scrollTop / max) * 100 : 0;
-        bar.style.width = `${value}%`;
-      };
-      window.addEventListener('scroll', onScroll, { passive: true });
-      onScroll();
+        const onScroll = () => {
+          const doc = document.documentElement;
+          const max = doc.scrollHeight - doc.clientHeight;
+          const value = max > 0 ? (doc.scrollTop / max) * 100 : 0;
+          bar.style.width = value + '%';
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+      })();
     </script>
   </body>
 </html>

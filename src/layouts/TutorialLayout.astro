@@ -131,7 +131,7 @@ const jsonLd = [
         <header class="tutorial-hero">
           <span class="category-badge">{category?.name}</span>
           <h1>{data.h1}</h1>
-          <p>{data.intro}</p>
+          {!useBody && <p>{data.intro}</p>}
           <p class="editorial-meta">
             <span>By {data.author}</span>
             <span aria-hidden="true">·</span>
@@ -181,11 +181,6 @@ const jsonLd = [
           useBody ? (
             <div class="article-body prose">
               <Content />
-              <div style="margin-top:1.25rem">
-                <button class="btn btn--secondary btn--block" type="button" data-print-worksheet data-preview={data.worksheet.preview}>
-                  Print worksheet preview
-                </button>
-              </div>
             </div>
           ) : (
             <div class="prose">
@@ -309,6 +304,9 @@ const jsonLd = [
           <a class="btn btn--ghost btn--block" style="margin-top:0.5rem" href={data.worksheet.svg} download>
             Download SVG
           </a>
+          <a class="btn btn--ghost btn--block" style="margin-top:0.5rem" href={data.worksheet.preview} target="_blank" rel="noopener">
+            Open preview
+          </a>
         </div>
         <div class="sidebar-card">
           <h2>Category</h2>
@@ -322,18 +320,4 @@ const jsonLd = [
       </aside>
     </div>
   </div>
-  <script>
-    document.querySelectorAll('[data-print-worksheet]').forEach((btn) => {
-      btn.addEventListener('click', () => {
-        const src = btn.getAttribute('data-preview');
-        if (!src) return;
-        const win = window.open('', '_blank');
-        if (!win) return;
-        win.document.write(
-          `<html><head><title>Print worksheet</title></head><body style="margin:0;display:grid;place-items:center"><img src="${src}" style="max-width:100%;height:auto" onload="window.print()" /></body></html>`
-        );
-        win.document.close();
-      });
-    });
-  </script>
 </BaseLayout>
