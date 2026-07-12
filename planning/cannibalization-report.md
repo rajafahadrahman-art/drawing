@@ -109,3 +109,11 @@
 - `pikachu drawing` (vol 13000) — trademark review required
 - `cinnamoroll drawing` (vol 12000) — trademark review required
 - `pokemon drawing` (vol 12000) — trademark review required
+
+
+## Flower Drawing Ownership (Updated)
+
+- Primary focus keyword `flower drawing` owned exclusively by `/flower-drawing/`.
+- Category `/flower-drawings/` owns `flower drawing tutorials`.
+- All easy/simple/step-by-step flower variants map to `/flower-drawing/`.
+- Misspellings `flowe drawing`, `flowr drawing`, `fower drawing` are search synonyms only.

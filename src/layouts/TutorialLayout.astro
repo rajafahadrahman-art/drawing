@@ -1,4 +1,5 @@
 ---
+import { render } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/common/Breadcrumbs.astro';
 import TutorialSummary from '../components/tutorials/TutorialSummary.astro';
@@ -19,6 +20,45 @@ const data = tutorial.data;
 const category = CATEGORY_META[data.category];
 const all = await getCollection('tutorials', ({ data }) => !data.draft);
 const related = all.filter((t) => data.relatedTutorials.includes(t.data.slug));
+const { Content } = await render(tutorial);
+const useBody = Boolean(data.useArticleBody);
+
+const tocItems = [
+  { href: '#overview', label: 'Overview' },
+  { href: '#materials', label: 'Materials' },
+  { href: '#before-you-start', label: 'Before you start' },
+  { href: '#steps', label: 'Step-by-step tutorial' },
+  { href: '#refine', label: 'Refine the drawing' },
+  ...(data.shading ? [{ href: '#shading', label: 'Shading or coloring' }] : []),
+  { href: '#beginner-variation', label: 'Beginner variation' },
+  ...(data.detailedVariation ? [{ href: '#detailed-variation', label: 'Detailed variation' }] : []),
+  { href: '#mistakes', label: 'Common mistakes' },
+  { href: '#tips', label: 'Drawing tips' },
+  { href: '#worksheet', label: 'Worksheet' },
+  { href: '#related', label: 'Related tutorials' },
+  { href: '#faqs', label: 'FAQs' },
+];
+
+const bodyToc = [
+  { href: '#flower-drawing-tutorial-overview', label: 'Overview' },
+  { href: '#what-you-will-learn', label: 'What you will learn' },
+  { href: '#materials-needed', label: 'Materials' },
+  { href: '#before-you-start', label: 'Before you start' },
+  { href: '#step-by-step-flower-drawing', label: 'Step-by-step' },
+  { href: '#how-to-make-a-flower-drawing-easy-and-beautiful', label: 'Easy and beautiful' },
+  { href: '#simple-flower-drawing-variation', label: 'Simple variation' },
+  { href: '#flower-plant-drawing-variation', label: 'Plant variation' },
+  { href: '#easy-flower-drawing-ideas-to-try-next', label: 'Ideas to try next' },
+  { href: '#how-to-refine-the-final-drawing', label: 'Refine' },
+  { href: '#shading-and-coloring-the-flower', label: 'Shading' },
+  { href: '#common-flower-drawing-mistakes', label: 'Common mistakes' },
+  { href: '#tips-for-drawing-flowers-for-beginners', label: 'Tips' },
+  { href: '#download-the-flower-drawing-worksheet', label: 'Worksheet' },
+  { href: '#related-drawing-tutorials', label: 'Related tutorials' },
+  { href: '#frequently-asked-questions', label: 'FAQs' },
+];
+
+const activeToc = useBody ? bodyToc : tocItems;
 
 const jsonLd = [
   {
@@ -59,7 +99,7 @@ const jsonLd = [
     '@type': 'HowTo',
     name: data.h1,
     description: data.description,
-    totalTime: `PT${parseInt(data.estimatedTime, 10) || 30}M`,
+    totalTime: `PT${parseInt(String(data.estimatedTime).replace(/[^\d].*$/, ''), 10) || 25}M`,
     estimatedCost: { '@type': 'MonetaryAmount', currency: 'USD', value: '0' },
     supply: data.materials.map((m: string) => ({ '@type': 'HowToSupply', name: m })),
     step: data.steps.map((step: any, i: number) => ({
@@ -92,7 +132,7 @@ const jsonLd = [
   noindex={data.noindex}
   jsonLd={jsonLd}
 >
-  <article class="container section tutorial-page">
+  <div class="tutorial-shell">
     <Breadcrumbs
       items={[
         { label: 'Home', href: '/' },
@@ -101,143 +141,214 @@ const jsonLd = [
       ]}
     />
 
-    <header class="tutorial-hero">
-      <p class="section__eyebrow">{category?.name}</p>
-      <h1>{data.h1}</h1>
-      <p>{data.intro}</p>
-      <p class="meta-row">
-        <span>By {data.author}</span>
-        <span>·</span>
-        <time datetime={data.publishedAt.toISOString()}>
-          Published {data.publishedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-        </time>
-        <span>·</span>
-        <time datetime={data.updatedAt.toISOString()}>
-          Updated {data.updatedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
-        </time>
-      </p>
-      <TutorialSummary
-        difficulty={data.difficulty}
-        estimatedTime={data.estimatedTime}
-        stepCount={data.stepCount}
-        materials={data.materials}
-        hasWorksheet={true}
-      />
-      <figure class="step__media">
-        <img
-          src={data.featuredImage}
-          alt={data.featuredImageAlt}
-          title={data.featuredImageTitle}
-          width={data.featuredImageWidth}
-          height={data.featuredImageHeight}
-          fetchpriority="high"
-          decoding="async"
-        />
-      </figure>
-    </header>
+    <div class="tutorial-layout">
+      <article class="tutorial-main">
+        <header class="tutorial-hero">
+          <span class="category-badge">{category?.name}</span>
+          <h1>{data.h1}</h1>
+          <p>{data.intro}</p>
+          <p class="editorial-meta">
+            <span>By {data.author}</span>
+            <span aria-hidden="true">·</span>
+            <time datetime={data.updatedAt.toISOString()}>
+              Updated {data.updatedAt.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
+            </time>
+          </p>
+          <TutorialSummary
+            difficulty={data.difficulty}
+            estimatedTime={data.estimatedTime}
+            stepCount={data.stepCount}
+            materials={data.materials}
+            medium={data.medium}
+            hasWorksheet={true}
+          />
+          {
+            !useBody && (
+              <figure class="step__media">
+                <img
+                  src={data.featuredImage}
+                  alt={data.featuredImageAlt}
+                  title={data.featuredImageTitle}
+                  width={data.featuredImageWidth}
+                  height={data.featuredImageHeight}
+                  fetchpriority="high"
+                  decoding="async"
+                />
+              </figure>
+            )
+          }
+        </header>
 
-    <nav class="toc" aria-label="Table of contents">
-      <h2>On this page</h2>
-      <ol>
-        <li><a href="#materials">Materials</a></li>
-        <li><a href="#before-you-start">Before you start</a></li>
-        <li><a href="#steps">Step-by-step tutorial</a></li>
-        <li><a href="#refine">Refine the drawing</a></li>
-        {data.shading && <li><a href="#shading">Shading or coloring</a></li>}
-        <li><a href="#beginner-variation">Beginner variation</a></li>
-        {data.detailedVariation && <li><a href="#detailed-variation">Detailed variation</a></li>}
-        <li><a href="#mistakes">Common mistakes</a></li>
-        <li><a href="#tips">Drawing tips</a></li>
-        <li><a href="#worksheet">Worksheet</a></li>
-        <li><a href="#related">Related tutorials</a></li>
-        <li><a href="#faqs">FAQs</a></li>
-      </ol>
-    </nav>
+        <nav class="toc toc-mobile sidebar-card" aria-label="Table of contents">
+          <details>
+            <summary>On this page</summary>
+            <ol>
+              {activeToc.map((item) => (
+                <li>
+                  <a href={item.href}>{item.label}</a>
+                </li>
+              ))}
+            </ol>
+          </details>
+        </nav>
 
-    <div class="prose">
-      <section id="materials">
-        <h2>Materials needed</h2>
-        <ul>
-          {data.materials.map((item: string) => <li>{item}</li>)}
-        </ul>
-      </section>
+        {
+          useBody ? (
+            <div class="article-body prose">
+              <Content />
+              <div style="margin-top:1.25rem">
+                <button class="btn btn--secondary btn--block" type="button" data-print-worksheet data-preview={data.worksheet.preview}>
+                  Print worksheet preview
+                </button>
+              </div>
+            </div>
+          ) : (
+            <div class="prose">
+              <section id="materials" class="materials-card">
+                <h2>Materials needed</h2>
+                <ul>
+                  {data.materials.map((item: string) => (
+                    <li>{item}</li>
+                  ))}
+                </ul>
+              </section>
 
-      <section id="before-you-start">
-        <h2>Before you start</h2>
-        <p>{data.beforeYouStart}</p>
-      </section>
+              <section id="before-you-start">
+                <h2>Before you start</h2>
+                <p>{data.beforeYouStart}</p>
+              </section>
 
-      <section id="steps">
-        <h2>Step-by-step tutorial</h2>
-        <TutorialSteps steps={data.steps} images={data.stepImages} focusKeyword={data.focusKeyword} />
-      </section>
+              <section id="steps">
+                <h2>Step-by-step tutorial</h2>
+                <TutorialSteps steps={data.steps} images={data.stepImages} focusKeyword={data.focusKeyword} />
+              </section>
 
-      <section id="refine">
-        <h2>Refine the drawing</h2>
-        <p>{data.refine}</p>
-      </section>
+              <section id="refine">
+                <h2>Refine the drawing</h2>
+                <p>{data.refine}</p>
+              </section>
 
-      {
-        data.shading && (
-          <section id="shading">
-            <h2>Shading or coloring</h2>
-            <p>{data.shading}</p>
-          </section>
-        )
-      }
+              {data.shading && (
+                <section id="shading">
+                  <h2>Shading or coloring</h2>
+                  <p>{data.shading}</p>
+                </section>
+              )}
 
-      <section id="beginner-variation">
-        <h2>Beginner variation</h2>
-        <p>{data.beginnerVariation}</p>
-      </section>
+              <section id="beginner-variation">
+                <h2>Beginner variation</h2>
+                <p>{data.beginnerVariation}</p>
+              </section>
 
-      {
-        data.detailedVariation && (
-          <section id="detailed-variation">
-            <h2>Detailed variation</h2>
-            <p>{data.detailedVariation}</p>
-          </section>
-        )
-      }
+              {data.detailedVariation && (
+                <section id="detailed-variation">
+                  <h2>Detailed variation</h2>
+                  <p>{data.detailedVariation}</p>
+                </section>
+              )}
 
-      <section id="mistakes">
-        <h2>Common mistakes</h2>
-        <ul>
-          {data.commonMistakes.map((m: string) => <li>{m}</li>)}
-        </ul>
-      </section>
+              <section id="mistakes" class="mistakes-card">
+                <h2>Common mistakes</h2>
+                <ul>
+                  {data.commonMistakes.map((m: string) => (
+                    <li>{m}</li>
+                  ))}
+                </ul>
+              </section>
 
-      <section id="tips">
-        <h2>Drawing tips</h2>
-        <ul>
-          {data.tips.map((t: string) => <li>{t}</li>)}
-        </ul>
-      </section>
+              <section id="tips">
+                <h2>Drawing tips</h2>
+                <ul>
+                  {data.tips.map((t: string) => (
+                    <li>{t}</li>
+                  ))}
+                </ul>
+              </section>
+
+              <section id="worksheet">
+                <h2>Practice worksheet</h2>
+                <WorksheetBlock worksheet={data.worksheet} tutorialSlug={data.slug} />
+              </section>
+
+              <p>
+                Explore more <a href={category?.permalink}>{category?.name.toLowerCase() || 'drawing tutorials'}</a> or
+                practise fundamentals in our{' '}
+                <a href={`/learn-drawing/${data.relatedGuides[0] || 'basic-shapes'}/`}>drawing skills guides</a>.
+              </p>
+
+              <section id="related">
+                <h2>Related tutorials</h2>
+                <RelatedTutorials tutorials={related} />
+              </section>
+
+              <section id="faqs">
+                <h2>FAQs</h2>
+                <FaqSection faqs={data.faqs} />
+              </section>
+
+              <section>
+                <h2>Conclusion</h2>
+                <p>{data.conclusion}</p>
+              </section>
+            </div>
+          )
+        }
+
+        {
+          useBody && (
+            <section id="related-cards" style="margin-top:2rem">
+              <h2>Keep practising</h2>
+              <RelatedTutorials tutorials={related} />
+            </section>
+          )
+        }
+      </article>
+
+      <aside class="tutorial-sidebar" aria-label="Tutorial sidebar">
+        <nav class="toc toc-desktop sidebar-card" aria-label="Table of contents">
+          <h2>On this page</h2>
+          <ol>
+            {activeToc.map((item) => (
+              <li>
+                <a href={item.href}>{item.label}</a>
+              </li>
+            ))}
+          </ol>
+        </nav>
+        <div class="sidebar-card">
+          <h2>Worksheet</h2>
+          <p style="margin-bottom:0.85rem;font-size:0.92rem">Download the printable practice sheet for this lesson.</p>
+          <a class="btn btn--primary btn--block" href={data.worksheet.pdf} download>
+            Download PDF
+          </a>
+          <a class="btn btn--ghost btn--block" style="margin-top:0.5rem" href={data.worksheet.svg} download>
+            Download SVG
+          </a>
+        </div>
+        <div class="sidebar-card">
+          <h2>Category</h2>
+          <p style="margin-bottom:0.75rem;font-size:0.92rem">
+            Explore more {category?.name.toLowerCase() || 'tutorials'}.
+          </p>
+          <a class="btn btn--secondary btn--block" href={category?.permalink || '/drawing-tutorials/'}>
+            {category?.name || 'All tutorials'}
+          </a>
+        </div>
+      </aside>
     </div>
-
-    <section id="worksheet" class="section" style="padding-inline:0">
-      <h2>Practice worksheet</h2>
-      <WorksheetBlock worksheet={data.worksheet} tutorialSlug={data.slug} />
-    </section>
-
-    <p>
-      Explore more <a href={category?.permalink}>{category?.name.toLowerCase() || 'drawing tutorials'}</a>
-      {' '}or practise fundamentals in our <a href={`/learn-drawing/${data.relatedGuides[0] || 'basic-shapes'}/`}>drawing skills guides</a>.
-    </p>
-
-    <section id="related" class="section" style="padding-inline:0">
-      <h2>Related tutorials</h2>
-      <RelatedTutorials tutorials={related} />
-    </section>
-
-    <section id="faqs" class="section" style="padding-inline:0">
-      <h2>FAQs</h2>
-      <FaqSection faqs={data.faqs} />
-    </section>
-
-    <section class="prose">
-      <h2>Conclusion</h2>
-      <p>{data.conclusion}</p>
-    </section>
-  </article>
+  </div>
+  <script>
+    document.querySelectorAll('[data-print-worksheet]').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const src = btn.getAttribute('data-preview');
+        if (!src) return;
+        const win = window.open('', '_blank');
+        if (!win) return;
+        win.document.write(
+          `<html><head><title>Print worksheet</title></head><body style="margin:0;display:grid;place-items:center"><img src="${src}" style="max-width:100%;height:auto" onload="window.print()" /></body></html>`
+        );
+        win.document.close();
+      });
+    });
+  </script>
 </BaseLayout>

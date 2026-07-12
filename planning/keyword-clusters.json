@@ -39,9 +39,149 @@
         "keyword": "flowers drawing easy",
         "volume": 5500,
         "role": "secondary"
+      },
+      {
+        "keyword": "flower drawing easy and beautiful",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flower drawing simple",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing of flower",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "a flower drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy flowers drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "basic flower drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "beginner simple flower designs for pencil drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing flowers step by step",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "simple flowers drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy drawing of a flower",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flower drawing ideas easy",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flowers for drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flowers simple drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing easy flower",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing flowers for beginners",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy flower drawing ideas",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flower step by step drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flowers drawing step by step",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "sketch drawing flower",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "simple easy flower drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flower plant drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy drawing ideas flowers",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flower for drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "simple drawing flowers",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flowers and plants drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing a flower step by step",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "a drawing of flowers",
+        "volume": 0,
+        "role": "secondary"
       }
     ],
-    "total_volume": 383000
+    "total_volume": 383000,
+    "synonyms": [
+      "flowe drawing",
+      "flowr drawing",
+      "fower drawing"
+    ]
   },
   "rose-drawing": {
     "primary": "rose drawing",

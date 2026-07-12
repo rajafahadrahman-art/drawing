@@ -11,12 +11,10 @@ export const SITE = {
 } as const;
 
 export const NAV_PRIMARY = [
-  { label: 'Home', href: '/' },
-  { label: 'Drawing Tutorials', href: '/drawing-tutorials/' },
-  { label: 'Categories', href: '/#categories', mega: true },
-  { label: 'Easy Drawings', href: '/easy-drawings/' },
-  { label: 'Worksheets', href: '/worksheets/' },
-  { label: 'Learn Drawing', href: '/learn-drawing/' },
+  { label: 'Drawing Categories', href: '/#categories', mega: true },
+  { label: 'Tutorials', href: '/drawing-tutorials/' },
+  { label: 'Skill Levels', href: '/#skill-levels' },
+  { label: 'Drawing Tool', href: '/#drawing-tool' },
   { label: 'Search', href: '/search/' },
 ] as const;
 
@@ -145,4 +143,16 @@ export const LEARN_GUIDES = [
     title: 'Pencil Techniques',
     description: 'Hatching, layering, erasing, and line weight for clearer drawings.',
   },
+] as const;
+
+/** Homepage browse tiles — labels kept short; all permalinks are existing category pages. */
+export const HOME_CATEGORY_TILES = [
+  { id: 'flower-drawings', label: 'Flowers', tone: 'mint', blurb: 'Blooms and petals' },
+  { id: 'animal-drawings', label: 'Animals', tone: 'peach', blurb: 'Cats, dogs, and more' },
+  { id: 'bird-drawings', label: 'Birds', tone: 'blue', blurb: 'Wings and beaks' },
+  { id: 'fantasy-drawings', label: 'Fantasy', tone: 'yellow', blurb: 'Dragons and unicorns' },
+  { id: 'nature-drawings', label: 'Nature', tone: 'mint', blurb: 'Trees and landscapes' },
+  { id: 'seasonal-drawings', label: 'Seasonal', tone: 'peach', blurb: 'Holiday favourites' },
+  { id: 'vehicle-drawings', label: 'Vehicles', tone: 'blue', blurb: 'Cars, planes, trains' },
+  { id: 'symbol-drawings', label: 'Symbols', tone: 'yellow', blurb: 'Hearts, stars, eyes' },
 ] as const;

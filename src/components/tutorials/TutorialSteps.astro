@@ -7,10 +7,12 @@ interface Props {
 const { steps, images } = Astro.props;
 ---
 
-<div>
+<div class="steps-list">
   {
     steps.map((step, index) => {
       const image = images[index];
+      const prev = index > 0 ? `#step-${index}` : null;
+      const next = index < steps.length - 1 ? `#step-${index + 2}` : null;
       return (
         <section class="step" id={`step-${index + 1}`}>
           <h3>
@@ -33,6 +35,22 @@ const { steps, images } = Astro.props;
           <p class="step__tip">
             <strong>Tip:</strong> {step.tip}
           </p>
+          <div class="step-nav">
+            {prev ? (
+              <a class="btn btn--ghost btn--sm" href={prev}>
+                Previous step
+              </a>
+            ) : (
+              <span />
+            )}
+            {next ? (
+              <a class="btn btn--secondary btn--sm" href={next}>
+                Next step
+              </a>
+            ) : (
+              <span />
+            )}
+          </div>
         </section>
       );
     })

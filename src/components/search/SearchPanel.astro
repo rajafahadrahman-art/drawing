@@ -56,15 +56,26 @@ const { id = 'site-search', large = false } = Astro.props;
   }
 
   function scoreItem(item, q) {
-    const hay = [item.title, item.focusKeyword, ...(item.secondaryKeywords || []), item.category, item.difficulty, item.description, ...(item.tags || [])]
+    const hay = [
+      item.title,
+      item.focusKeyword,
+      ...(item.secondaryKeywords || []),
+      ...(item.searchSynonyms || []),
+      item.category,
+      item.difficulty,
+      item.description,
+      ...(item.tags || []),
+    ]
       .join(' ')
       .toLowerCase();
     if (!hay.includes(q)) return 0;
     let score = 0;
     if (item.focusKeyword.toLowerCase() === q) score += 50;
+    if ((item.searchSynonyms || []).some((k) => k.toLowerCase() === q)) score += 45;
     if (item.focusKeyword.toLowerCase().includes(q)) score += 30;
     if (item.title.toLowerCase().includes(q)) score += 20;
     if ((item.secondaryKeywords || []).some((k) => k.toLowerCase().includes(q))) score += 10;
+    if ((item.searchSynonyms || []).some((k) => k.toLowerCase().includes(q))) score += 15;
     return score + (hay.startsWith(q) ? 5 : 0);
   }
 
