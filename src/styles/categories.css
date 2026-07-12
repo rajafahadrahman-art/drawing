@@ -1,31 +1,36 @@
 .category-hero {
   display: grid;
-  gap: var(--space-4);
-  margin-bottom: var(--space-6);
+  gap: 1rem;
+  margin-bottom: 1.75rem;
   max-width: 44rem;
+}
+
+.category-hero h1 {
+  font-size: clamp(2rem, 4vw, 2.75rem);
 }
 
 .category-filters {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-bottom: var(--space-5);
+  margin-bottom: 1.25rem;
 }
 
 .filter-btn {
-  min-height: 2.5rem;
-  padding: 0.4rem 0.9rem;
+  min-height: 2.75rem;
+  padding: 0.4rem 0.95rem;
   border-radius: 999px;
-  border: 1px solid var(--color-border);
-  background: white;
+  border: 1px solid var(--border);
+  background: var(--surface);
   cursor: pointer;
-  font-weight: 650;
+  font-weight: 600;
+  color: var(--text-secondary);
 }
 
 .filter-btn[aria-pressed="true"] {
-  background: var(--color-emerald);
-  color: white;
-  border-color: var(--color-emerald);
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
 }
 
 .related-categories {
@@ -36,9 +41,19 @@
 
 .related-categories a {
   text-decoration: none;
-  padding: 0.65rem 1rem;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  background: white;
-  font-weight: 650;
+  padding: 0.7rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.75rem;
+  background: var(--surface);
+  font-weight: 600;
+  color: var(--text-primary);
+  min-height: 2.75rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.related-categories a:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  background: var(--soft-mint);
 }

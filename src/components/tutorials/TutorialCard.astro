@@ -1,31 +1,39 @@
 ---
+import { CATEGORY_META } from '../../data/site';
+
 interface Props {
   tutorial: any;
+  featured?: boolean;
 }
-const { tutorial } = Astro.props;
+const { tutorial, featured = false } = Astro.props;
 const d = tutorial.data;
+const categoryName = CATEGORY_META[d.category]?.name?.replace(/ Drawings$/, '') || d.category;
 ---
 
-<article class="tutorial-card">
+<article class:list={['tutorial-card', featured && 'tutorial-card--featured']}>
   <a class="card-link tutorial-card__media" href={d.permalink} tabindex="-1" aria-hidden="true">
     <img
       src={d.featuredImage}
       alt=""
       width={d.featuredImageWidth}
       height={d.featuredImageHeight}
-      loading="lazy"
+      loading={featured ? 'eager' : 'lazy'}
       decoding="async"
+      fetchpriority={featured ? 'high' : undefined}
     />
   </a>
   <div class="tutorial-card__body">
     <div class="meta-row">
+      <span class="pill">{categoryName}</span>
       <span class="pill">{d.difficulty}</span>
-      <span>{d.estimatedTime}</span>
     </div>
-    <h3 style="font-size:1.15rem">
+    <h3 style="font-size:1.05rem;font-weight:600;margin:0">
       <a class="card-link" href={d.permalink} style="text-decoration:none;color:inherit">{d.title}</a>
     </h3>
-    <p style="font-size:0.95rem">{d.description}</p>
-    <a class="btn btn--secondary" href={d.permalink}>View tutorial</a>
+    <div class="meta-row">
+      <span>{d.estimatedTime}</span>
+      <span aria-hidden="true">·</span>
+      <span>{d.stepCount} steps</span>
+    </div>
   </div>
 </article>
