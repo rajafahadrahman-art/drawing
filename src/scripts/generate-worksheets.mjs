@@ -266,6 +266,15 @@ async function renderPreview(svg, outputPath) {
 await fs.mkdir(worksheetDir, { recursive: true });
 await fs.mkdir(previewDir, { recursive: true });
 
+const PREMIUM_WORKSHEET_SLUGS = new Set([
+  'flower-drawing',
+  'cat-drawing',
+  'butterfly-drawing',
+  'dog-drawing',
+  'eye-drawing',
+  'rose-drawing',
+]);
+
 const tutorials = JSON.parse(await fs.readFile(tutorialsPath, 'utf8'));
 let svgCount = 0;
 let pdfCount = 0;
@@ -273,6 +282,10 @@ let previewCount = 0;
 let pdfBytes = 0;
 
 for (const tutorial of tutorials) {
+  if (PREMIUM_WORKSHEET_SLUGS.has(tutorial.slug)) {
+    continue;
+  }
+
   const svg = worksheetSvg(tutorial);
   const svgPath = path.join(worksheetDir, `${tutorial.slug}-worksheet.svg`);
   const pdfPath = path.join(worksheetDir, `${tutorial.slug}-worksheet.pdf`);

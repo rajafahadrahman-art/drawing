@@ -706,6 +706,7 @@ After completing this lesson, continue with these related guides:
 - [Draw a hibiscus flower](/hibiscus-flower-drawing/)
 - [Practise a simple tulip](/tulip-drawing/)
 - [Add a butterfly beside your flower](/butterfly-drawing/)
+- [Compare animal construction with a cat sketch](/cat-drawing/)
 - [Explore more flower drawing tutorials](/flower-drawings/)
 
 ## Frequently Asked Questions

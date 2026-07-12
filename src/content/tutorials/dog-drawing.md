@@ -21,6 +21,20 @@ secondaryKeywords:
   - realistic dog face drawing
   - pencil sketch of a dog
   - animal drawing tutorial
+  - drawing of dogs
+  - picture of dog drawing
+  - cool dog drawing
+  - dog art drawing
+  - dog drawing realistic easy
+  - realistic sketch dog drawing
+  - dog pencil drawing easy
+  - pencil drawing of a dog
+  - good dog drawing
+  - real dog drawing
+  - realistic pencil easy dog drawing
+  - pencil drawing of dogs
+  - dog drawing images with colour
+  - dog drawing cool
 searchSynonyms:
   - sog drawing
 semanticEntities:

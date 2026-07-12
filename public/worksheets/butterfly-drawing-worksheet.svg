@@ -1,51 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="794" height="1123" viewBox="0 0 794 1123">
   <rect width="794" height="1123" fill="#FFFFFF"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="54" y="56" font-size="24" font-weight="700" fill="#111111">Drawinging</text>
-    <text x="54" y="100" font-size="34" font-weight="800" fill="#111111">Butterfly Drawing Worksheet</text>
-    <text x="54" y="134" font-size="16" fill="#111111">Difficulty: beginner  |  Materials: Pencil, eraser, black marker, coloring tools</text>
-    <path d="M54 160h686" stroke="#111111" stroke-width="2"/>
-    <text x="54" y="204" font-size="20" font-weight="700" fill="#111111">Numbered step boxes</text>
+  <text x="54" y="58" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0E5A43" letter-spacing="4">DRAWINGING</text>
+  <text x="54" y="100" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#111111">Butterfly Drawing Worksheet</text>
+  <text x="54" y="132" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">Difficulty: Beginner · Materials: HB pencil, 2B pencil, eraser, paper</text>
+  <text x="54" y="158" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">Follow the numbered boxes, then trace and practise on the lower page.</text>
+  <rect x="54" y="172" width="686" height="2" fill="#111111"/>
+  
+      <rect x="54" y="202" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="79" cy="227" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="79" y="233" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">1</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="54" y="230" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="70" y="260" font-size="18" font-weight="700" fill="#111111">Step 1</text>
-      <path d="M78 298c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M175 231.6v44.800000000000004" stroke-dasharray="1.12 1.12"/>
+    </g>
+      </g>
+      <rect x="282" y="202" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="307" cy="227" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="307" y="233" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">2</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="282" y="230" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="298" y="260" font-size="18" font-weight="700" fill="#111111">Step 2</text>
-      <path d="M306 298c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M403 231.6v44.800000000000004" stroke-dasharray="1.12 1.12"/><ellipse cx="403" cy="244.2" rx="2.5200000000000005" ry="3.08"/>
+       <ellipse cx="403" cy="254" rx="3.3600000000000003" ry="5.6000000000000005"/>
+       <ellipse cx="403" cy="263.8" rx="2.24" ry="7.700000000000001"/>
+    </g>
+      </g>
+      <rect x="510" y="202" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="535" cy="227" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="535" y="233" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">3</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="510" y="230" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="526" y="260" font-size="18" font-weight="700" fill="#111111">Step 3</text>
-      <path d="M534 298c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M631 231.6v44.800000000000004" stroke-dasharray="1.12 1.12"/><ellipse cx="631" cy="244.2" rx="2.5200000000000005" ry="3.08"/>
+       <ellipse cx="631" cy="254" rx="3.3600000000000003" ry="5.6000000000000005"/>
+       <ellipse cx="631" cy="263.8" rx="2.24" ry="7.700000000000001"/><path d="M628.48 251.2C614.2 231.6 600.2 237.2 601.6 251.2C603 259.6 618.4 258.2 628.48 255.4Z"/>
+       <path d="M633.52 251.2C647.8 231.6 661.8 237.2 660.4 251.2C659 259.6 643.6 258.2 633.52 255.4Z"/>
+    </g>
+      </g>
+      <rect x="54" y="320" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="79" cy="345" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="79" y="351" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">4</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="54" y="358" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="70" y="388" font-size="18" font-weight="700" fill="#111111">Step 4</text>
-      <path d="M78 426c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M175 349.6v44.800000000000004" stroke-dasharray="1.12 1.12"/><ellipse cx="175" cy="362.2" rx="2.5200000000000005" ry="3.08"/>
+       <ellipse cx="175" cy="372" rx="3.3600000000000003" ry="5.6000000000000005"/>
+       <ellipse cx="175" cy="381.8" rx="2.24" ry="7.700000000000001"/><path d="M172.48 369.2C158.2 349.6 144.2 355.2 145.6 369.2C147 377.6 162.4 376.2 172.48 373.4Z"/>
+       <path d="M177.52 369.2C191.8 349.6 205.8 355.2 204.4 369.2C203 377.6 187.6 376.2 177.52 373.4Z"/><path d="M172.76 374.8C162.4 373.4 154 381.8 156.8 390.2C161 395.1 169.4 391.6 172.76 384.6Z"/>
+       <path d="M177.24 374.8C187.6 373.4 196 381.8 193.2 390.2C189 395.1 180.6 391.6 177.24 384.6Z"/>
+    </g>
+      </g>
+      <rect x="282" y="320" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="307" cy="345" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="307" y="351" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">5</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="282" y="358" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="298" y="388" font-size="18" font-weight="700" fill="#111111">Step 5</text>
-      <path d="M306 426c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M403 349.6v44.800000000000004" stroke-dasharray="1.12 1.12"/><ellipse cx="403" cy="362.2" rx="2.5200000000000005" ry="3.08"/>
+       <ellipse cx="403" cy="372" rx="3.3600000000000003" ry="5.6000000000000005"/>
+       <ellipse cx="403" cy="381.8" rx="2.24" ry="7.700000000000001"/><path d="M400.48 369.2C386.2 349.6 372.2 355.2 373.6 369.2C375 377.6 390.4 376.2 400.48 373.4Z"/>
+       <path d="M405.52 369.2C419.8 349.6 433.8 355.2 432.4 369.2C431 377.6 415.6 376.2 405.52 373.4Z"/><path d="M400.76 374.8C390.4 373.4 382 381.8 384.8 390.2C389 395.1 397.4 391.6 400.76 384.6Z"/>
+       <path d="M405.24 374.8C415.6 373.4 424 381.8 421.2 390.2C417 395.1 408.6 391.6 405.24 384.6Z"/><path d="M373.6 366.4c20 -4.2 60 -7.000000000000001 95 -4.9M432.4 366.4c-20 -4.2 -60 -7.000000000000001 -95 -4.9"/>
+    </g>
+      </g>
+      <rect x="510" y="320" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="535" cy="345" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="535" y="351" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">6</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="510" y="358" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="526" y="388" font-size="18" font-weight="700" fill="#111111">Step 6</text>
-      <path d="M534 426c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M631 349.6v44.800000000000004" stroke-dasharray="1.12 1.12"/><ellipse cx="631" cy="362.2" rx="2.5200000000000005" ry="3.08"/>
+       <ellipse cx="631" cy="372" rx="3.3600000000000003" ry="5.6000000000000005"/>
+       <ellipse cx="631" cy="381.8" rx="2.24" ry="7.700000000000001"/><path d="M628.48 369.2C614.2 349.6 600.2 355.2 601.6 369.2C603 377.6 618.4 376.2 628.48 373.4Z"/>
+       <path d="M633.52 369.2C647.8 349.6 661.8 355.2 660.4 369.2C659 377.6 643.6 376.2 633.52 373.4Z"/><path d="M628.76 374.8C618.4 373.4 610 381.8 612.8 390.2C617 395.1 625.4 391.6 628.76 384.6Z"/>
+       <path d="M633.24 374.8C643.6 373.4 652 381.8 649.2 390.2C645 395.1 636.6 391.6 633.24 384.6Z"/><path d="M601.6 366.4c20 -4.2 60 -7.000000000000001 95 -4.9M660.4 366.4c-20 -4.2 -60 -7.000000000000001 -95 -4.9"/><path d="M628.48 370.6C615.6 359.4 607.2 362.2 605.1 370.6"/>
+       <path d="M633.52 370.6C646.4 359.4 654.8 362.2 656.9 370.6"/>
+       <path d="M628.76 377.6C621.2 379 617 384.6 617.7 388.8"/>
+       <path d="M633.24 377.6C640.8 379 645 384.6 644.3 388.8"/>
+    </g>
+      </g>
+      <rect x="54" y="438" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="79" cy="463" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="79" y="469" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">7</text>
+      <g transform="translate(0 -4)">
+        
     
-    <text x="54" y="516" font-size="20" font-weight="700" fill="#111111">Tracing area</text>
-    <rect x="54" y="536" width="320" height="252" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <path d="M74 662h280M214 556v212" stroke="#D6D6D6" stroke-width="1.4" stroke-dasharray="8 8"/>
-    <g fill="none" stroke="#111111" stroke-width="2.028" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M204.64 628.16c-72-90-145-70-138 18c68 42 116 34 138-18Z"/>
-      <path d="M223.36 628.16c72-90 145-70 138 18c-68 42-116 34-138-18Z"/>
-      <path d="M214 586.04v148.20000000000002M181.24 664.04h65.52"/></g>
-    <text x="420" y="516" font-size="20" font-weight="700" fill="#111111">Blank practice area</text>
-    <rect x="420" y="536" width="320" height="252" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <path d="M444 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M468 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M492 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M516 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M540 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M564 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M588 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M612 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M636 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M660 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M684 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M708 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M732 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M420 560h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 584h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 608h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 632h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 656h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 680h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 704h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 728h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 752h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 776h320" stroke="#D6D6D6" stroke-width="1"/>
-    <text x="54" y="836" font-size="20" font-weight="700" fill="#111111">Practice notes</text>
-    <rect x="54" y="858" width="686" height="178" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <path d="M78 908h638M78 952h638M78 996h638" stroke="#BBBBBB" stroke-width="1.2"/>
-    <text x="54" y="1082" font-size="14" fill="#111111">drawinging.com</text>
-    <text x="560" y="1082" font-size="14" fill="#111111">Print, trace, and draw again.</text>
-  </g>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M175 467.6v44.800000000000004" stroke-dasharray="1.12 1.12"/><ellipse cx="175" cy="480.2" rx="2.5200000000000005" ry="3.08"/>
+       <ellipse cx="175" cy="490" rx="3.3600000000000003" ry="5.6000000000000005"/>
+       <ellipse cx="175" cy="499.8" rx="2.24" ry="7.700000000000001"/><path d="M172.48 487.2C158.2 467.6 144.2 473.2 145.6 487.2C147 495.6 162.4 494.2 172.48 491.4Z"/>
+       <path d="M177.52 487.2C191.8 467.6 205.8 473.2 204.4 487.2C203 495.6 187.6 494.2 177.52 491.4Z"/><path d="M172.76 492.8C162.4 491.4 154 499.8 156.8 508.2C161 513.1 169.4 509.6 172.76 502.6Z"/>
+       <path d="M177.24 492.8C187.6 491.4 196 499.8 193.2 508.2C189 513.1 180.6 509.6 177.24 502.6Z"/><path d="M145.6 484.4c20 -4.2 60 -7.000000000000001 95 -4.9M204.4 484.4c-20 -4.2 -60 -7.000000000000001 -95 -4.9"/><path d="M172.48 488.6C159.6 477.4 151.2 480.2 149.1 488.6"/>
+       <path d="M177.52 488.6C190.4 477.4 198.8 480.2 200.9 488.6"/>
+       <path d="M172.76 495.6C165.2 497 161 502.6 161.7 506.8"/>
+       <path d="M177.24 495.6C184.8 497 189 502.6 188.3 506.8"/><circle cx="158.2" cy="484.4" r="1.4000000000000001"/>
+       <circle cx="191.8" cy="484.4" r="1.4000000000000001"/>
+       <circle cx="163.8" cy="502.6" r="1.12"/>
+       <circle cx="186.2" cy="502.6" r="1.12"/>
+       <path d="M152.6 480.2c20 1.4000000000000001 35 1.12 48 -0.7000000000000001M197.4 480.2c-20 1.4000000000000001 -35 1.12 -48 -0.7000000000000001"/>
+    </g>
+      </g>
+      <rect x="282" y="438" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="307" cy="463" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="307" y="469" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">8</text>
+      <g transform="translate(0 -4)">
+        
+    
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M403 467.6v44.800000000000004" stroke-dasharray="1.12 1.12"/><ellipse cx="403" cy="480.2" rx="2.5200000000000005" ry="3.08"/>
+       <ellipse cx="403" cy="490" rx="3.3600000000000003" ry="5.6000000000000005"/>
+       <ellipse cx="403" cy="499.8" rx="2.24" ry="7.700000000000001"/><path d="M400.48 487.2C386.2 467.6 372.2 473.2 373.6 487.2C375 495.6 390.4 494.2 400.48 491.4Z"/>
+       <path d="M405.52 487.2C419.8 467.6 433.8 473.2 432.4 487.2C431 495.6 415.6 494.2 405.52 491.4Z"/><path d="M400.76 492.8C390.4 491.4 382 499.8 384.8 508.2C389 513.1 397.4 509.6 400.76 502.6Z"/>
+       <path d="M405.24 492.8C415.6 491.4 424 499.8 421.2 508.2C417 513.1 408.6 509.6 405.24 502.6Z"/><path d="M373.6 484.4c20 -4.2 60 -7.000000000000001 95 -4.9M432.4 484.4c-20 -4.2 -60 -7.000000000000001 -95 -4.9"/><path d="M400.48 488.6C387.6 477.4 379.2 480.2 377.1 488.6"/>
+       <path d="M405.52 488.6C418.4 477.4 426.8 480.2 428.9 488.6"/>
+       <path d="M400.76 495.6C393.2 497 389 502.6 389.7 506.8"/>
+       <path d="M405.24 495.6C412.8 497 417 502.6 416.3 506.8"/><circle cx="386.2" cy="484.4" r="1.4000000000000001"/>
+       <circle cx="419.8" cy="484.4" r="1.4000000000000001"/>
+       <circle cx="391.8" cy="502.6" r="1.12"/>
+       <circle cx="414.2" cy="502.6" r="1.12"/>
+       <path d="M380.6 480.2c20 1.4000000000000001 35 1.12 48 -0.7000000000000001M425.4 480.2c-20 1.4000000000000001 -35 1.12 -48 -0.7000000000000001"/><path d="M401.88 477.4C397.4 469 393.2 466.2 391.1 465.5"/>
+       <path d="M404.12 477.4C408.6 469 412.8 466.2 414.9 465.5"/>
+       <circle cx="391.1" cy="465.5" r="0.7000000000000001"/>
+       <circle cx="414.9" cy="465.5" r="0.7000000000000001"/>
+       <ellipse cx="403" cy="480.2" rx="1.4000000000000001" ry="1.12"/>
+    </g>
+      </g>
+      <rect x="510" y="438" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="535" cy="463" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="535" y="469" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">9</text>
+      <g transform="translate(0 -4)">
+        
+    
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M631 467.6v44.800000000000004" stroke-dasharray="1.12 1.12"/><ellipse cx="631" cy="480.2" rx="2.5200000000000005" ry="3.08"/>
+       <ellipse cx="631" cy="490" rx="3.3600000000000003" ry="5.6000000000000005"/>
+       <ellipse cx="631" cy="499.8" rx="2.24" ry="7.700000000000001"/><path d="M628.48 487.2C614.2 467.6 600.2 473.2 601.6 487.2C603 495.6 618.4 494.2 628.48 491.4Z"/>
+       <path d="M633.52 487.2C647.8 467.6 661.8 473.2 660.4 487.2C659 495.6 643.6 494.2 633.52 491.4Z"/><path d="M628.76 492.8C618.4 491.4 610 499.8 612.8 508.2C617 513.1 625.4 509.6 628.76 502.6Z"/>
+       <path d="M633.24 492.8C643.6 491.4 652 499.8 649.2 508.2C645 513.1 636.6 509.6 633.24 502.6Z"/><path d="M601.6 484.4c20 -4.2 60 -7.000000000000001 95 -4.9M660.4 484.4c-20 -4.2 -60 -7.000000000000001 -95 -4.9"/><path d="M628.48 488.6C615.6 477.4 607.2 480.2 605.1 488.6"/>
+       <path d="M633.52 488.6C646.4 477.4 654.8 480.2 656.9 488.6"/>
+       <path d="M628.76 495.6C621.2 497 617 502.6 617.7 506.8"/>
+       <path d="M633.24 495.6C640.8 497 645 502.6 644.3 506.8"/><circle cx="614.2" cy="484.4" r="1.4000000000000001"/>
+       <circle cx="647.8" cy="484.4" r="1.4000000000000001"/>
+       <circle cx="619.8" cy="502.6" r="1.12"/>
+       <circle cx="642.2" cy="502.6" r="1.12"/>
+       <path d="M608.6 480.2c20 1.4000000000000001 35 1.12 48 -0.7000000000000001M653.4 480.2c-20 1.4000000000000001 -35 1.12 -48 -0.7000000000000001"/><path d="M629.88 477.4C625.4 469 621.2 466.2 619.1 465.5"/>
+       <path d="M632.12 477.4C636.6 469 640.8 466.2 642.9 465.5"/>
+       <circle cx="619.1" cy="465.5" r="0.7000000000000001"/>
+       <circle cx="642.9" cy="465.5" r="0.7000000000000001"/>
+       <ellipse cx="631" cy="480.2" rx="1.4000000000000001" ry="1.12"/><g stroke-width="0.196" opacity="0.4">
+         <path d="M617 478.8c30 2.8000000000000003 55 3.5000000000000004 80 1.4000000000000001"/>
+         <path d="M645 478.8c-30 2.8000000000000003 -55 3.5000000000000004 -80 1.4000000000000001"/>
+         <path d="M628.2 492.8v11.200000000000001"/>
+       </g>
+    </g>
+      </g>
+  
+  <text x="54" y="595" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111">Tracing section</text>
+  <rect x="54" y="610" width="320" height="220" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+  
+    
+    <g fill="none" stroke="#777777" stroke-width="0.6160000000000001" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M214 655.2v89.60000000000001" stroke-dasharray="2.24 2.24"/><ellipse cx="214" cy="680.4" rx="5.040000000000001" ry="6.16"/>
+       <ellipse cx="214" cy="700" rx="6.720000000000001" ry="11.200000000000001"/>
+       <ellipse cx="214" cy="719.6" rx="4.48" ry="15.400000000000002"/><path d="M208.96 694.4C180.4 655.2 152.39999999999998 666.4 155.2 694.4C158 711.2 188.8 708.4 208.96 702.8Z"/>
+       <path d="M219.04 694.4C247.6 655.2 275.6 666.4 272.8 694.4C270 711.2 239.2 708.4 219.04 702.8Z"/><path d="M209.52 705.6C188.8 702.8 172 719.6 177.6 736.4C186 746.2 202.8 739.2 209.52 725.2Z"/>
+       <path d="M218.48 705.6C239.2 702.8 256 719.6 250.4 736.4C242 746.2 225.2 739.2 218.48 725.2Z"/><path d="M155.2 688.8c20 -8.4 60 -14.000000000000002 95 -9.8M272.8 688.8c-20 -8.4 -60 -14.000000000000002 -95 -9.8"/><path d="M208.96 697.2C183.2 674.8 166.4 680.4 162.2 697.2"/>
+       <path d="M219.04 697.2C244.8 674.8 261.6 680.4 265.8 697.2"/>
+       <path d="M209.52 711.2C194.4 714 186 725.2 187.4 733.6"/>
+       <path d="M218.48 711.2C233.6 714 242 725.2 240.6 733.6"/><circle cx="180.4" cy="688.8" r="2.8000000000000003"/>
+       <circle cx="247.6" cy="688.8" r="2.8000000000000003"/>
+       <circle cx="191.6" cy="725.2" r="2.24"/>
+       <circle cx="236.4" cy="725.2" r="2.24"/>
+       <path d="M169.2 680.4c20 2.8000000000000003 35 2.24 48 -1.4000000000000001M258.8 680.4c-20 2.8000000000000003 -35 2.24 -48 -1.4000000000000001"/><path d="M211.76 674.8C202.8 658 194.4 652.4 190.2 651"/>
+       <path d="M216.24 674.8C225.2 658 233.6 652.4 237.8 651"/>
+       <circle cx="190.2" cy="651" r="1.4000000000000001"/>
+       <circle cx="237.8" cy="651" r="1.4000000000000001"/>
+       <ellipse cx="214" cy="680.4" rx="2.8000000000000003" ry="2.24"/><g stroke-width="0.392" opacity="0.4">
+         <path d="M186 677.6c30 5.6000000000000005 55 7.000000000000001 80 2.8000000000000003"/>
+         <path d="M242 677.6c-30 5.6000000000000005 -55 7.000000000000001 -80 2.8000000000000003"/>
+         <path d="M208.4 705.6v22.400000000000002"/>
+       </g>
+    </g>
+  <text x="400" y="595" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111">Blank practice</text>
+  <rect x="400" y="610" width="340" height="220" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+  <path d="M430 680h280M430 740h280M430 800h180" stroke="#DDDDDD" stroke-width="1.5"/>
+  <text x="54" y="880" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#555555">Tip: keep construction lines light until proportions feel correct.</text>
+  <text x="54" y="1060" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111111">Drawinging.com · Printable practice worksheet</text>
+  <text x="540" y="1060" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#555555">For personal practice only</text>
 </svg>

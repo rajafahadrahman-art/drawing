@@ -21,6 +21,28 @@ secondaryKeywords:
   - drawing different eye shapes
   - realistic iris shading
   - hyper realistic eye sketch
+  - eyes drawing
+  - human eye drawing
+  - eye drawing realistic
+  - realistic eyes drawing
+  - eye drawing sketch
+  - simple eyes drawing
+  - realistic eye drawing step by step
+  - eye pencil drawing
+  - eye simple drawing
+  - realistic eye drawing easy
+  - easy drawing of eyes
+  - eyes drawing with pencil
+  - hyper realistic eye drawing
+  - drawing eye tutorial
+  - eyes simple drawing
+  - realistic drawing of an eye
+  - eye drawing for beginners
+  - simple drawing of eyes
+  - drawing different eyes
+  - character drawing eyes
+  - eyes realistic drawing
+  - eyeball drawing realistic
 searchSynonyms:
   - eye drawing.
 semanticEntities:

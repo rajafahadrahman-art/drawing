@@ -218,6 +218,36 @@
         "keyword": "realistic rose drawing",
         "volume": 3500,
         "role": "secondary"
+      },
+      {
+        "keyword": "rose flower drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "rose line drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "rose bouquet drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "dead rose drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "red rose drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "white rose drawing",
+        "volume": 0,
+        "role": "secondary"
       }
     ],
     "total_volume": 120000
@@ -334,6 +364,31 @@
         "keyword": "cat drawing cute",
         "volume": 3500,
         "role": "secondary"
+      },
+      {
+        "keyword": "kawaii easy cat drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cat pencil drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "baby kitten drawing easy",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cat face drawing simple",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cat drawing.",
+        "volume": 0,
+        "role": "search-synonym"
       }
     ],
     "total_volume": 223800
@@ -378,6 +433,26 @@
         "keyword": "drawing dog",
         "volume": 4000,
         "role": "secondary"
+      },
+      {
+        "keyword": "realistic dog drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "dog pencil drawing easy",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "realistic dog face drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "sog drawing",
+        "volume": 0,
+        "role": "search-synonym"
       }
     ],
     "total_volume": 168100
@@ -551,6 +626,61 @@
         "keyword": "simple butterfly drawing",
         "volume": 4600,
         "role": "secondary"
+      },
+      {
+        "keyword": "monarch butterfly drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "colorful butterfly drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "butter fly drawing",
+        "volume": 0,
+        "role": "search-synonym"
+      },
+      {
+        "keyword": "butterly drawing",
+        "volume": 0,
+        "role": "search-synonym"
+      },
+      {
+        "keyword": "butterflys drawing",
+        "volume": 0,
+        "role": "search-synonym"
+      },
+      {
+        "keyword": "buttefly drawing",
+        "volume": 0,
+        "role": "search-synonym"
+      },
+      {
+        "keyword": "butterlfy drawing",
+        "volume": 0,
+        "role": "search-synonym"
+      },
+      {
+        "keyword": "butterflu drawing",
+        "volume": 0,
+        "role": "search-synonym"
+      },
+      {
+        "keyword": "bitterfly drawing",
+        "volume": 0,
+        "role": "search-synonym"
+      },
+      {
+        "keyword": "butterflt drawing",
+        "volume": 0,
+        "role": "search-synonym"
+      },
+      {
+        "keyword": "betterfly drawing",
+        "volume": 0,
+        "role": "search-synonym"
       }
     ],
     "total_volume": 132400
@@ -994,8 +1124,107 @@
         "keyword": "realistic eye drawing",
         "volume": 4600,
         "role": "secondary"
+      },
+      {
+        "keyword": "human eye drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "eye drawing for beginners",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing different eyes",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "eye drawing.",
+        "volume": 0,
+        "role": "search-synonym"
       }
     ],
     "total_volume": 68900
+  },
+  "compass-rose-drawing": {
+    "primary": "compass rose drawing",
+    "permalink": "/compass-rose-drawing/",
+    "category": "symbol-drawings",
+    "difficulty": "beginner",
+    "status": "future-candidate",
+    "note": "Do not merge into /rose-drawing/",
+    "members": [
+      {
+        "keyword": "compass rose drawing",
+        "volume": 0,
+        "role": "primary"
+      },
+      {
+        "keyword": "compass rose easy drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "compass rose drawing easy",
+        "volume": 0,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 0
+  },
+  "rose-tattoo-review": {
+    "primary": "rose tattoo drawing",
+    "permalink": null,
+    "status": "hold-review",
+    "note": "Future review required; do not publish on /rose-drawing/",
+    "members": [
+      {
+        "keyword": "rose tattoo drawing",
+        "volume": 0,
+        "role": "primary"
+      },
+      {
+        "keyword": "outline stencil rose tattoo drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "rose skull drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy skull and rose drawing",
+        "volume": 0,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 0
+  },
+  "titanic-rose-review": {
+    "primary": "titanic rose drawing",
+    "permalink": null,
+    "status": "hold-copyright",
+    "note": "Copyright/trademark review required; do not publish automatically",
+    "members": [
+      {
+        "keyword": "titanic rose drawing",
+        "volume": 0,
+        "role": "primary"
+      },
+      {
+        "keyword": "the real Rose Dawson drawing",
+        "volume": 0,
+        "role": "secondary"
+      },
+      {
+        "keyword": "Titanic drawing of Rose",
+        "volume": 0,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 0
   }
 }

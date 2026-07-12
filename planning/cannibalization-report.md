@@ -117,3 +117,39 @@
 - Category `/flower-drawings/` owns `flower drawing tutorials`.
 - All easy/simple/step-by-step flower variants map to `/flower-drawing/`.
 - Misspellings `flowe drawing`, `flowr drawing`, `fower drawing` are search synonyms only.
+
+
+## Five Tutorial Ownership Update (2026-07-12)
+
+### Cat Drawing
+- Primary focus `cat drawing` owned by `/cat-drawing/`.
+- Related variants (easy, cartoon, kitten, face, cute, simple) map to the same page.
+- Punctuation synonym `cat drawing.` is search-only normalization.
+
+### Butterfly Drawing
+- Primary focus `butterfly drawing` owned by `/butterfly-drawing/`.
+- Monarch, colorful, simple, and pattern variants stay on the same page.
+- Misspellings mapped as search synonyms only: butter fly drawing, butterly drawing, butterflys drawing, buttefly drawing, butterlfy drawing, butterflu drawing, bitterfly drawing, butterflt drawing, betterfly drawing.
+
+### Dog Drawing
+- Primary focus `dog drawing` owned by `/dog-drawing/`.
+- Realistic/pencil/face/fur variants map to `/dog-drawing/`.
+- Misspelling synonym: `sog drawing`.
+
+### Eye Drawing
+- Primary focus `eye drawing` owned by `/eye-drawing/` (category: symbol-drawings).
+- Realistic, beginner, iris, lash, and shape variants stay on one page.
+- Punctuation synonym `eye drawing.` is search-only normalization.
+
+### Rose Drawing
+- Primary focus `rose drawing` owned by `/rose-drawing/` for flower intent only.
+- Easy/simple/outline/bouquet/bush/red/white/dead-rose creative variants stay on `/rose-drawing/`.
+
+### Rose Intent Exclusions (Do Not Publish on /rose-drawing/)
+| Cluster | Status | Suggested action |
+|---------|--------|------------------|
+| compass rose drawing / compass rose easy drawing | Future separate page candidate | Suggested URL `/compass-rose-drawing/` |
+| rose tattoo / skull rose / outline stencil rose tattoo | Future review required | Do not publish without separate intent and copyright/safety review |
+| Titanic Rose / Rose Dawson drawing | Copyright/trademark review required | Do not publish automatically |
+
+These excluded terms must not appear in rose article metadata, FAQs, image alt text, or schema.

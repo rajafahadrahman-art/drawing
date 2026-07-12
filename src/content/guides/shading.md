@@ -13,8 +13,9 @@ noindex: false
 h1: "Pencil Shading Basics for Step-by-Step Art"
 relatedTutorials:
   - "rose-drawing"
-  - "pumpkin-drawing"
   - "eye-drawing"
+  - "dog-drawing"
+  - "pumpkin-drawing"
   - "mountain-drawing"
 ---
 
@@ -25,3 +26,5 @@ Build value gradually. Use pale layers first, then deepen selected areas. A simp
 Edges matter as much as darkness. A cloud needs soft transitions. A car tire or star edge can use a sharper shadow. Fur, bark, petals, scales, and fabric all need different marks. Try hatching for direction, small circular strokes for soft texture, and layered side-of-pencil shading for larger areas. Blend lightly only when the subject asks for softness.
 
 Avoid covering the entire drawing with the same gray. Let some paper stay bright. Place the darkest values where forms overlap, under objects, inside pupils, beneath petals, or near the base of a snowman. Controlled contrast guides the viewer and keeps the tutorial sketch readable.
+
+Continue with graphite practice in the [rose petal shading guide](/rose-drawing/), the [eye value study](/eye-drawing/), or the [dog fur shading steps](/dog-drawing/) when you want subject-specific value work.

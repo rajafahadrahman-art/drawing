@@ -14,6 +14,8 @@ h1: "Basic Shapes for Drawing Clear Tutorials"
 relatedTutorials:
   - "flower-drawing"
   - "cat-drawing"
+  - "butterfly-drawing"
+  - "rose-drawing"
   - "car-drawing"
   - "star-drawing"
 ---
@@ -25,3 +27,5 @@ Start with the largest form and keep the marks light. Look for circles, ovals, b
 A useful practice page is to choose one tutorial subject and redraw only its construction shapes five times. Do not add texture, shading, or final outlines. Change the size each time and notice which proportions still feel correct. This exercise trains your eye to solve the drawing before you invest time in details.
 
 When the basic shapes look balanced, refine from general to specific. Replace stiff circles with softer contours, trim construction lines that no longer help, and connect overlapping forms with confident strokes. The best shape sketch is light, readable, and easy to adjust. If the early shapes are off, fix them before moving forward; it is much simpler than repairing a finished outline.
+
+Try applying the same construction habit in the [seated cat tutorial](/cat-drawing/), the [front-view butterfly guide](/butterfly-drawing/), or the [layered rose lesson](/rose-drawing/) once the shapes feel steady.

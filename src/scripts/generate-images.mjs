@@ -248,10 +248,23 @@ async function renderWebp(svg, outputPath, quality = 72) {
     .toFile(outputPath);
 }
 
+const PREMIUM_ASSET_SLUGS = new Set([
+  'flower-drawing',
+  'cat-drawing',
+  'butterfly-drawing',
+  'dog-drawing',
+  'eye-drawing',
+  'rose-drawing',
+]);
+
 const tutorials = JSON.parse(await fs.readFile(tutorialsPath, 'utf8'));
 let tutorialImages = 0;
 
 for (const tutorial of tutorials) {
+  if (PREMIUM_ASSET_SLUGS.has(tutorial.slug)) {
+    continue;
+  }
+
   const tutorialDir = path.join(publicDir, 'images', 'tutorials', tutorial.slug);
   const stepCount = STEP_COUNTS[tutorial.difficulty] ?? STEP_COUNTS.beginner;
 

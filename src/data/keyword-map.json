@@ -73,14 +73,11 @@
     "category": "insect-drawings",
     "difficulty": "beginner",
     "relatedTutorials": [
-      "bee-drawing",
-      "bird-drawing",
-      "owl-drawing",
       "flower-drawing",
       "rose-drawing",
       "sunflower-drawing",
-      "hibiscus-flower-drawing",
-      "tulip-drawing"
+      "bee-drawing",
+      "bird-drawing"
     ],
     "worksheet": {
       "pdf": "/worksheets/butterfly-drawing-worksheet.pdf",
@@ -122,10 +119,8 @@
       "dog-drawing",
       "horse-drawing",
       "lion-drawing",
-      "bunny-drawing",
-      "fox-drawing",
       "bird-drawing",
-      "owl-drawing"
+      "butterfly-drawing"
     ],
     "worksheet": {
       "pdf": "/worksheets/cat-drawing-worksheet.pdf",
@@ -188,10 +183,7 @@
       "cat-drawing",
       "horse-drawing",
       "lion-drawing",
-      "bunny-drawing",
-      "fox-drawing",
-      "bird-drawing",
-      "owl-drawing"
+      "bunny-drawing"
     ],
     "worksheet": {
       "pdf": "/worksheets/dog-drawing-worksheet.pdf",
@@ -252,13 +244,9 @@
     "category": "symbol-drawings",
     "difficulty": "intermediate",
     "relatedTutorials": [
-      "heart-drawing",
-      "star-drawing",
-      "volleyball-drawing",
-      "soccer-ball-drawing",
-      "christmas-tree-drawing",
-      "pumpkin-drawing",
-      "snowman-drawing"
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing"
     ],
     "worksheet": {
       "pdf": "/worksheets/eye-drawing-worksheet.pdf",
@@ -521,10 +509,7 @@
       "sunflower-drawing",
       "hibiscus-flower-drawing",
       "tulip-drawing",
-      "tree-drawing",
-      "cloud-drawing",
-      "sunset-drawing",
-      "mountain-drawing"
+      "butterfly-drawing"
     ],
     "worksheet": {
       "pdf": "/worksheets/rose-drawing-worksheet.pdf",

@@ -1,52 +1,203 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="794" height="1123" viewBox="0 0 794 1123">
   <rect width="794" height="1123" fill="#FFFFFF"/>
-  <g font-family="Arial, Helvetica, sans-serif">
-    <text x="54" y="56" font-size="24" font-weight="700" fill="#111111">Drawinging</text>
-    <text x="54" y="100" font-size="34" font-weight="800" fill="#111111">Rose Drawing Worksheet</text>
-    <text x="54" y="134" font-size="16" fill="#111111">Difficulty: beginner  |  Materials: Pencil, eraser, black marker, coloring tools</text>
-    <path d="M54 160h686" stroke="#111111" stroke-width="2"/>
-    <text x="54" y="204" font-size="20" font-weight="700" fill="#111111">Numbered step boxes</text>
+  <text x="54" y="58" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700" fill="#0E5A43" letter-spacing="4">DRAWINGING</text>
+  <text x="54" y="100" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#111111">Rose Drawing Worksheet</text>
+  <text x="54" y="132" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">Difficulty: Beginner · Materials: HB pencil, 2B pencil, eraser, paper</text>
+  <text x="54" y="158" font-family="Arial, Helvetica, sans-serif" font-size="16" fill="#333333">Follow the numbered boxes, then trace and practise on the lower page.</text>
+  <rect x="54" y="172" width="686" height="2" fill="#111111"/>
+  
+      <rect x="54" y="202" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="79" cy="227" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="79" y="233" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">1</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="54" y="230" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="70" y="260" font-size="18" font-weight="700" fill="#111111">Step 1</text>
-      <path d="M78 298c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M175 248.4c12 0 20 1.4000000000000001 18 3.08c-2 1.9600000000000002 -16 2.8000000000000003 -28 1.9600000000000002c-14 -0.8400000000000001 -16 -3.3600000000000003 -4 -4.760000000000001c8 -1.12 20 -0.8400000000000001 28 0.56"/>
+    </g>
+      </g>
+      <rect x="282" y="202" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="307" cy="227" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="307" y="233" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">2</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="282" y="230" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="298" y="260" font-size="18" font-weight="700" fill="#111111">Step 2</text>
-      <path d="M306 298c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M403 248.4c12 0 20 1.4000000000000001 18 3.08c-2 1.9600000000000002 -16 2.8000000000000003 -28 1.9600000000000002c-14 -0.8400000000000001 -16 -3.3600000000000003 -4 -4.760000000000001c8 -1.12 20 -0.8400000000000001 28 0.56"/><path d="M401.6 246.3C396.7 242.8 393.2 248.4 396.7 251.9C399.5 254 402.3 252.6 403 250.5"/>
+       <path d="M404.4 247C410 243.5 413.5 249.1 409.72 252.88C406.92 255.12 404.12 253.3 403 251.2"/>
+    </g>
+      </g>
+      <rect x="510" y="202" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="535" cy="227" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="535" y="233" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">3</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="510" y="230" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="526" y="260" font-size="18" font-weight="700" fill="#111111">Step 3</text>
-      <path d="M534 298c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M631 248.4c12 0 20 1.4000000000000001 18 3.08c-2 1.9600000000000002 -16 2.8000000000000003 -28 1.9600000000000002c-14 -0.8400000000000001 -16 -3.3600000000000003 -4 -4.760000000000001c8 -1.12 20 -0.8400000000000001 28 0.56"/><path d="M629.6 246.3C624.7 242.8 621.2 248.4 624.7 251.9C627.5 254 630.3 252.6 631 250.5"/>
+       <path d="M632.4 247C638 243.5 641.5 249.1 637.72 252.88C634.92 255.12 632.12 253.3 631 251.2"/><path d="M628.2 244.2C619.8 238.6 614.2 248.4 619.1 255.4C623.3 260.3 629.6 258.2 631 254 "/>
+       <path d="M633.1 244.9C642.9 239.3 648.5 249.8 643.6 256.8C638.7 261.7 633.1 258.9 631.7 254.7"/>
+       <path d="M630.3 256.1C625.4 263.8 636.6 264.5 633.8 256.8"/>
+    </g>
+      </g>
+      <rect x="54" y="320" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="79" cy="345" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="79" y="351" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">4</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="54" y="358" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="70" y="388" font-size="18" font-weight="700" fill="#111111">Step 4</text>
-      <path d="M78 426c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M175 366.4c12 0 20 1.4000000000000001 18 3.08c-2 1.9600000000000002 -16 2.8000000000000003 -28 1.9600000000000002c-14 -0.8400000000000001 -16 -3.3600000000000003 -4 -4.760000000000001c8 -1.12 20 -0.8400000000000001 28 0.56"/><path d="M173.6 364.3C168.7 360.8 165.2 366.4 168.7 369.9C171.5 372 174.3 370.6 175 368.5"/>
+       <path d="M176.4 365C182 361.5 185.5 367.1 181.72 370.88C178.92 373.12 176.12 371.3 175 369.2"/><path d="M172.2 362.2C163.8 356.6 158.2 366.4 163.1 373.4C167.3 378.3 173.6 376.2 175 372 "/>
+       <path d="M177.1 362.9C186.9 357.3 192.5 367.8 187.6 374.8C182.7 379.7 177.1 376.9 175.7 372.7"/>
+       <path d="M174.3 374.1C169.4 381.8 180.6 382.5 177.8 374.8"/><path d="M169.4 359.4C156.8 352.4 150.5 366.4 156.8 377.6C162.4 385.3 172.2 383.2 175 376.9"/>
+       <path d="M179.2 360.1C193.2 353.1 200.2 367.8 193.9 379C188.3 386.7 178.5 383.9 175.7 377.6"/>
+       <path d="M168 376.2C162.4 387.4 184.8 388.8 181.3 377.6"/>
+    </g>
+      </g>
+      <rect x="282" y="320" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="307" cy="345" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="307" y="351" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">5</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="282" y="358" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="298" y="388" font-size="18" font-weight="700" fill="#111111">Step 5</text>
-      <path d="M306 426c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M403 366.4c12 0 20 1.4000000000000001 18 3.08c-2 1.9600000000000002 -16 2.8000000000000003 -28 1.9600000000000002c-14 -0.8400000000000001 -16 -3.3600000000000003 -4 -4.760000000000001c8 -1.12 20 -0.8400000000000001 28 0.56"/><path d="M401.6 364.3C396.7 360.8 393.2 366.4 396.7 369.9C399.5 372 402.3 370.6 403 368.5"/>
+       <path d="M404.4 365C410 361.5 413.5 367.1 409.72 370.88C406.92 373.12 404.12 371.3 403 369.2"/><path d="M400.2 362.2C391.8 356.6 386.2 366.4 391.1 373.4C395.3 378.3 401.6 376.2 403 372 "/>
+       <path d="M405.1 362.9C414.9 357.3 420.5 367.8 415.6 374.8C410.7 379.7 405.1 376.9 403.7 372.7"/>
+       <path d="M402.3 374.1C397.4 381.8 408.6 382.5 405.8 374.8"/><path d="M397.4 359.4C384.8 352.4 378.5 366.4 384.8 377.6C390.4 385.3 400.2 383.2 403 376.9"/>
+       <path d="M407.2 360.1C421.2 353.1 428.2 367.8 421.9 379C416.3 386.7 406.5 383.9 403.7 377.6"/>
+       <path d="M396 376.2C390.4 387.4 412.8 388.8 409.3 377.6"/><path d="M394.6 369.2c20 3.5000000000000004 45 4.2 70 1.4000000000000001"/>
+       <path d="M408.6 370.6c-15 4.2 -40 5.6000000000000005 -70 3.5000000000000004"/>
+       <path d="M403 373.4c-25 2.8000000000000003 -20 6.300000000000001 5 7.700000000000001"/>
+    </g>
+      </g>
+      <rect x="510" y="320" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="535" cy="345" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="535" y="351" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">6</text>
+      <g transform="translate(0 -4)">
+        
     
-      <rect x="510" y="358" width="204" height="104" rx="12" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-      <text x="526" y="388" font-size="18" font-weight="700" fill="#111111">Step 6</text>
-      <path d="M534 426c38-30 86-32 136 0" fill="none" stroke="#777777" stroke-width="2" stroke-dasharray="8 8"/>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M631 366.4c12 0 20 1.4000000000000001 18 3.08c-2 1.9600000000000002 -16 2.8000000000000003 -28 1.9600000000000002c-14 -0.8400000000000001 -16 -3.3600000000000003 -4 -4.760000000000001c8 -1.12 20 -0.8400000000000001 28 0.56"/><path d="M629.6 364.3C624.7 360.8 621.2 366.4 624.7 369.9C627.5 372 630.3 370.6 631 368.5"/>
+       <path d="M632.4 365C638 361.5 641.5 367.1 637.72 370.88C634.92 373.12 632.12 371.3 631 369.2"/><path d="M628.2 362.2C619.8 356.6 614.2 366.4 619.1 373.4C623.3 378.3 629.6 376.2 631 372 "/>
+       <path d="M633.1 362.9C642.9 357.3 648.5 367.8 643.6 374.8C638.7 379.7 633.1 376.9 631.7 372.7"/>
+       <path d="M630.3 374.1C625.4 381.8 636.6 382.5 633.8 374.8"/><path d="M625.4 359.4C612.8 352.4 606.5 366.4 612.8 377.6C618.4 385.3 628.2 383.2 631 376.9"/>
+       <path d="M635.2 360.1C649.2 353.1 656.2 367.8 649.9 379C644.3 386.7 634.5 383.9 631.7 377.6"/>
+       <path d="M624 376.2C618.4 387.4 640.8 388.8 637.3 377.6"/><path d="M622.6 369.2c20 3.5000000000000004 45 4.2 70 1.4000000000000001"/>
+       <path d="M636.6 370.6c-15 4.2 -40 5.6000000000000005 -70 3.5000000000000004"/>
+       <path d="M631 373.4c-25 2.8000000000000003 -20 6.300000000000001 5 7.700000000000001"/><path d="M626.1 381.8l-25 6.300000000000001l40 -2.8000000000000003"/>
+       <path d="M631 383.9l5 7.000000000000001l-10 0"/>
+       <path d="M635.9 381.8l25 6.300000000000001l-40 -2.8000000000000003"/>
+       <path d="M623.3 379.7l-30 3.5000000000000004l35 0.7000000000000001"/>
+       <path d="M638.7 379.7l30 3.5000000000000004l-35 0.7000000000000001"/>
+    </g>
+      </g>
+      <rect x="54" y="438" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="79" cy="463" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="79" y="469" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">7</text>
+      <g transform="translate(0 -4)">
+        
     
-    <text x="54" y="516" font-size="20" font-weight="700" fill="#111111">Tracing area</text>
-    <rect x="54" y="536" width="320" height="252" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <path d="M74 662h280M214 556v212" stroke="#D6D6D6" stroke-width="1.4" stroke-dasharray="8 8"/>
-    <g fill="none" stroke="#111111" stroke-width="2.028" stroke-linecap="round" stroke-linejoin="round">
-      <circle cx="214" cy="650" r="14.040000000000001"/>
-      <path d="M214 604.76c35 22 35 48 0 76c-35-28-35-54 0-76Z"/>
-      <path d="M168.76 650c22-35 48-35 76 0c-28 35-54 35-76 0Z"/>
-      <path d="M214 664.04v66.3M214 704.6c35-7 58-27 70-58"/></g>
-    <text x="420" y="516" font-size="20" font-weight="700" fill="#111111">Blank practice area</text>
-    <rect x="420" y="536" width="320" height="252" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <path d="M444 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M468 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M492 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M516 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M540 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M564 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M588 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M612 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M636 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M660 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M684 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M708 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M732 536v252" stroke="#D6D6D6" stroke-width="1"/><path d="M420 560h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 584h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 608h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 632h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 656h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 680h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 704h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 728h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 752h320" stroke="#D6D6D6" stroke-width="1"/><path d="M420 776h320" stroke="#D6D6D6" stroke-width="1"/>
-    <text x="54" y="836" font-size="20" font-weight="700" fill="#111111">Practice notes</text>
-    <rect x="54" y="858" width="686" height="178" rx="14" fill="#FFFFFF" stroke="#111111" stroke-width="2"/>
-    <path d="M78 908h638M78 952h638M78 996h638" stroke="#BBBBBB" stroke-width="1.2"/>
-    <text x="54" y="1082" font-size="14" fill="#111111">drawinging.com</text>
-    <text x="560" y="1082" font-size="14" fill="#111111">Print, trace, and draw again.</text>
-  </g>
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M175 484.4c12 0 20 1.4000000000000001 18 3.08c-2 1.9600000000000002 -16 2.8000000000000003 -28 1.9600000000000002c-14 -0.8400000000000001 -16 -3.3600000000000003 -4 -4.760000000000001c8 -1.12 20 -0.8400000000000001 28 0.56"/><path d="M173.6 482.3C168.7 478.8 165.2 484.4 168.7 487.9C171.5 490 174.3 488.6 175 486.5"/>
+       <path d="M176.4 483C182 479.5 185.5 485.1 181.72 488.88C178.92 491.12 176.12 489.3 175 487.2"/><path d="M172.2 480.2C163.8 474.6 158.2 484.4 163.1 491.4C167.3 496.3 173.6 494.2 175 490 "/>
+       <path d="M177.1 480.9C186.9 475.3 192.5 485.8 187.6 492.8C182.7 497.7 177.1 494.9 175.7 490.7"/>
+       <path d="M174.3 492.1C169.4 499.8 180.6 500.5 177.8 492.8"/><path d="M169.4 477.4C156.8 470.4 150.5 484.4 156.8 495.6C162.4 503.3 172.2 501.2 175 494.9"/>
+       <path d="M179.2 478.1C193.2 471.1 200.2 485.8 193.9 497C188.3 504.7 178.5 501.9 175.7 495.6"/>
+       <path d="M168 494.2C162.4 505.4 184.8 506.8 181.3 495.6"/><path d="M166.6 487.2c20 3.5000000000000004 45 4.2 70 1.4000000000000001"/>
+       <path d="M180.6 488.6c-15 4.2 -40 5.6000000000000005 -70 3.5000000000000004"/>
+       <path d="M175 491.4c-25 2.8000000000000003 -20 6.300000000000001 5 7.700000000000001"/><path d="M170.1 499.8l-25 6.300000000000001l40 -2.8000000000000003"/>
+       <path d="M175 501.9l5 7.000000000000001l-10 0"/>
+       <path d="M179.9 499.8l25 6.300000000000001l-40 -2.8000000000000003"/>
+       <path d="M167.3 497.7l-30 3.5000000000000004l35 0.7000000000000001"/>
+       <path d="M182.7 497.7l30 3.5000000000000004l-35 0.7000000000000001"/><path d="M175 503.3C177.1 515.2 173.6 526.4 176.12 537.6"/>
+       <path d="M178.5 515.2l18 -1.12M174.3 523.6l-15 -0.8400000000000001"/>
+    </g>
+      </g>
+      <rect x="282" y="438" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="307" cy="463" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="307" y="469" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">8</text>
+      <g transform="translate(0 -4)">
+        
+    
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M403 484.4c12 0 20 1.4000000000000001 18 3.08c-2 1.9600000000000002 -16 2.8000000000000003 -28 1.9600000000000002c-14 -0.8400000000000001 -16 -3.3600000000000003 -4 -4.760000000000001c8 -1.12 20 -0.8400000000000001 28 0.56"/><path d="M401.6 482.3C396.7 478.8 393.2 484.4 396.7 487.9C399.5 490 402.3 488.6 403 486.5"/>
+       <path d="M404.4 483C410 479.5 413.5 485.1 409.72 488.88C406.92 491.12 404.12 489.3 403 487.2"/><path d="M400.2 480.2C391.8 474.6 386.2 484.4 391.1 491.4C395.3 496.3 401.6 494.2 403 490 "/>
+       <path d="M405.1 480.9C414.9 475.3 420.5 485.8 415.6 492.8C410.7 497.7 405.1 494.9 403.7 490.7"/>
+       <path d="M402.3 492.1C397.4 499.8 408.6 500.5 405.8 492.8"/><path d="M397.4 477.4C384.8 470.4 378.5 484.4 384.8 495.6C390.4 503.3 400.2 501.2 403 494.9"/>
+       <path d="M407.2 478.1C421.2 471.1 428.2 485.8 421.9 497C416.3 504.7 406.5 501.9 403.7 495.6"/>
+       <path d="M396 494.2C390.4 505.4 412.8 506.8 409.3 495.6"/><path d="M394.6 487.2c20 3.5000000000000004 45 4.2 70 1.4000000000000001"/>
+       <path d="M408.6 488.6c-15 4.2 -40 5.6000000000000005 -70 3.5000000000000004"/>
+       <path d="M403 491.4c-25 2.8000000000000003 -20 6.300000000000001 5 7.700000000000001"/><path d="M398.1 499.8l-25 6.300000000000001l40 -2.8000000000000003"/>
+       <path d="M403 501.9l5 7.000000000000001l-10 0"/>
+       <path d="M407.9 499.8l25 6.300000000000001l-40 -2.8000000000000003"/>
+       <path d="M395.3 497.7l-30 3.5000000000000004l35 0.7000000000000001"/>
+       <path d="M410.7 497.7l30 3.5000000000000004l-35 0.7000000000000001"/><path d="M403 503.3C405.1 515.2 401.6 526.4 404.12 537.6"/>
+       <path d="M406.5 515.2l18 -1.12M402.3 523.6l-15 -0.8400000000000001"/><path d="M403.7 518C412.8 513.8 419.8 516.6 421.2 522.2C415.6 522.9 408.6 521.5 404.12 519.4"/>
+       <path d="M403.7 518C410.7 517.3 416.3 519.4 421.2 522.2"/>
+       <path d="M402.72 525.7C393.2 522.2 386.9 525 386.2 531.3C391.8 531.3 398.1 529.2 403 527.1"/>
+       <path d="M402.72 525.7C396 525 390.4 527.8 386.2 531.3"/>
+    </g>
+      </g>
+      <rect x="510" y="438" width="204" height="96" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+      <circle cx="535" cy="463" r="15" fill="#FFFFFF" stroke="#111111" stroke-width="1.4"/>
+      <text x="535" y="469" text-anchor="middle" font-size="16" font-weight="700" fill="#111111">9</text>
+      <g transform="translate(0 -4)">
+        
+    
+    <g fill="none" stroke="#111111" stroke-width="0.28" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M631 484.4c12 0 20 1.4000000000000001 18 3.08c-2 1.9600000000000002 -16 2.8000000000000003 -28 1.9600000000000002c-14 -0.8400000000000001 -16 -3.3600000000000003 -4 -4.760000000000001c8 -1.12 20 -0.8400000000000001 28 0.56"/><path d="M629.6 482.3C624.7 478.8 621.2 484.4 624.7 487.9C627.5 490 630.3 488.6 631 486.5"/>
+       <path d="M632.4 483C638 479.5 641.5 485.1 637.72 488.88C634.92 491.12 632.12 489.3 631 487.2"/><path d="M628.2 480.2C619.8 474.6 614.2 484.4 619.1 491.4C623.3 496.3 629.6 494.2 631 490 "/>
+       <path d="M633.1 480.9C642.9 475.3 648.5 485.8 643.6 492.8C638.7 497.7 633.1 494.9 631.7 490.7"/>
+       <path d="M630.3 492.1C625.4 499.8 636.6 500.5 633.8 492.8"/><path d="M625.4 477.4C612.8 470.4 606.5 484.4 612.8 495.6C618.4 503.3 628.2 501.2 631 494.9"/>
+       <path d="M635.2 478.1C649.2 471.1 656.2 485.8 649.9 497C644.3 504.7 634.5 501.9 631.7 495.6"/>
+       <path d="M624 494.2C618.4 505.4 640.8 506.8 637.3 495.6"/><path d="M622.6 487.2c20 3.5000000000000004 45 4.2 70 1.4000000000000001"/>
+       <path d="M636.6 488.6c-15 4.2 -40 5.6000000000000005 -70 3.5000000000000004"/>
+       <path d="M631 491.4c-25 2.8000000000000003 -20 6.300000000000001 5 7.700000000000001"/><path d="M626.1 499.8l-25 6.300000000000001l40 -2.8000000000000003"/>
+       <path d="M631 501.9l5 7.000000000000001l-10 0"/>
+       <path d="M635.9 499.8l25 6.300000000000001l-40 -2.8000000000000003"/>
+       <path d="M623.3 497.7l-30 3.5000000000000004l35 0.7000000000000001"/>
+       <path d="M638.7 497.7l30 3.5000000000000004l-35 0.7000000000000001"/><path d="M631 503.3C633.1 515.2 629.6 526.4 632.12 537.6"/>
+       <path d="M634.5 515.2l18 -1.12M630.3 523.6l-15 -0.8400000000000001"/><path d="M631.7 518C640.8 513.8 647.8 516.6 649.2 522.2C643.6 522.9 636.6 521.5 632.12 519.4"/>
+       <path d="M631.7 518C638.7 517.3 644.3 519.4 649.2 522.2"/>
+       <path d="M630.72 525.7C621.2 522.2 614.9 525 614.2 531.3C619.8 531.3 626.1 529.2 631 527.1"/>
+       <path d="M630.72 525.7C624 525 618.4 527.8 614.2 531.3"/><path d="M617 484.4c30 -5.6000000000000005 80 -7.000000000000001 120 -2.8000000000000003" opacity="0.5"/>
+    </g>
+      </g>
+  <text x="54" y="560" font-size="14" fill="#333333">Continue with steps 10+ on the practice page: refine details, fur/iris texture, and final shading.</text>
+  <text x="54" y="595" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111">Tracing section</text>
+  <rect x="54" y="610" width="320" height="220" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+  
+    
+    <g fill="none" stroke="#777777" stroke-width="0.6160000000000001" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M214 688.8c12 0 20 2.8000000000000003 18 6.16c-2 3.9200000000000004 -16 5.6000000000000005 -28 3.9200000000000004c-14 -1.6800000000000002 -16 -6.720000000000001 -4 -9.520000000000001c8 -2.24 20 -1.6800000000000002 28 1.12"/><path d="M211.2 684.6C201.4 677.6 194.4 688.8 201.4 695.8C207 700 212.6 697.2 214 693"/>
+       <path d="M216.8 686C228 679 235 690.2 227.44 697.76C221.84 702.24 216.24 698.6 214 694.4"/><path d="M208.4 680.4C191.6 669.2 180.4 688.8 190.2 702.8C198.6 712.6 211.2 708.4 214 700 "/>
+       <path d="M218.2 681.8C237.8 670.6 249 691.6 239.2 705.6C229.4 715.4 218.2 709.8 215.4 701.4"/>
+       <path d="M212.6 704.2C202.8 719.6 225.2 721 219.6 705.6"/><path d="M202.8 674.8C177.6 660.8 165 688.8 177.6 711.2C188.8 726.6 208.4 722.4 214 709.8"/>
+       <path d="M222.4 676.2C250.4 662.2 264.4 691.6 251.8 714C240.6 729.4 221 723.8 215.4 711.2"/>
+       <path d="M200 708.4C188.8 730.8 233.6 733.6 226.6 711.2"/><path d="M197.2 694.4c20 7.000000000000001 45 8.4 70 2.8000000000000003"/>
+       <path d="M225.2 697.2c-15 8.4 -40 11.200000000000001 -70 7.000000000000001"/>
+       <path d="M214 702.8c-25 5.6000000000000005 -20 12.600000000000001 5 15.400000000000002"/><path d="M204.2 719.6l-25 12.600000000000001l40 -5.6000000000000005"/>
+       <path d="M214 723.8l5 14.000000000000002l-10 0"/>
+       <path d="M223.8 719.6l25 12.600000000000001l-40 -5.6000000000000005"/>
+       <path d="M198.6 715.4l-30 7.000000000000001l35 1.4000000000000001"/>
+       <path d="M229.4 715.4l30 7.000000000000001l-35 1.4000000000000001"/><path d="M214 726.6C218.2 750.4 211.2 772.8 216.24 795.2"/>
+       <path d="M221 750.4l18 -2.24M212.6 767.2l-15 -1.6800000000000002"/><path d="M215.4 756C233.6 747.6 247.6 753.2 250.4 764.4C239.2 765.8 225.2 763 216.24 758.8"/>
+       <path d="M215.4 756C229.4 754.6 240.6 758.8 250.4 764.4"/>
+       <path d="M213.44 771.4C194.4 764.4 181.8 770 180.4 782.6C191.6 782.6 204.2 778.4 214 774.2"/>
+       <path d="M213.44 771.4C200 770 188.8 775.6 180.4 782.6"/><path d="M186 688.8c30 -11.200000000000001 80 -14.000000000000002 120 -5.6000000000000005" opacity="0.5"/><g stroke-width="0.392" opacity="0.4">
+         <path d="M202.8 691.6c15 5.6000000000000005 20 11.200000000000001 10 15.400000000000002"/>
+         <path d="M228 700c-10 7.000000000000001 -5 12.600000000000001 15 15.400000000000002"/>
+         <path d="M215.4 742c5 11.200000000000001 -5 22.400000000000002 2 33.6"/>
+         <path d="M225.2 758.8c20 1.4000000000000001 40 2.8000000000000003 55 5.6000000000000005"/>
+       </g>
+    </g>
+  <text x="400" y="595" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700" fill="#111111">Blank practice</text>
+  <rect x="400" y="610" width="340" height="220" rx="10" fill="#FFFFFF" stroke="#111111" stroke-width="1.8"/>
+  <path d="M430 680h280M430 740h280M430 800h180" stroke="#DDDDDD" stroke-width="1.5"/>
+  <text x="54" y="880" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#555555">Tip: keep construction lines light until proportions feel correct.</text>
+  <text x="54" y="1060" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#111111">Drawinging.com · Printable practice worksheet</text>
+  <text x="540" y="1060" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#555555">For personal practice only</text>
 </svg>

@@ -14,6 +14,8 @@ h1: "Drawing Proportions Without Guesswork"
 relatedTutorials:
   - "horse-drawing"
   - "dog-drawing"
+  - "cat-drawing"
+  - "eye-drawing"
   - "plane-drawing"
   - "unicorn-drawing"
 ---
@@ -25,3 +27,5 @@ Begin by choosing one unit of measurement. On a face, the eye width may become t
 Use comparison lines often. Check whether two eyes sit on the same angle, whether both sides of a heart curve reach the same height, or whether a soccer ball panel stays centered. For standing animals and vehicles, horizontal ground lines keep feet or wheels aligned. For flowers and symbols, a centerline helps balance left and right halves.
 
 If something feels off, cover the details and look only at the large shapes. Correct the biggest proportion problem first. Smaller features are easier to move after the main structure is stable. With practice, measuring becomes quick and quiet, almost like punctuation between drawing steps.
+
+For applied practice, compare muzzle and skull size in the [realistic dog pencil tutorial](/dog-drawing/), check eye spacing in the [human eye study](/eye-drawing/), and balance head-to-body ratios in the [beginner cat sketch](/cat-drawing/).

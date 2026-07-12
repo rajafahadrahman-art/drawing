@@ -21,6 +21,24 @@ secondaryKeywords:
   - easy animal drawing
   - pencil cat sketch
   - cat drawing ideas
+  - cats drawing
+  - cat cartoon drawing
+  - easy drawing of a cat
+  - sketch cat drawing
+  - cat images drawing
+  - easy drawing cat
+  - kawaii easy cat drawing
+  - cat pencil drawing
+  - simple drawing of a cat
+  - picture of a cat drawing
+  - cat drawing pictures
+  - cat face drawing simple
+  - cute cat easy drawing
+  - baby kitten drawing easy
+  - cartoon cat drawing easy
+  - cute cat drawing simple
+  - drawing cute cat
+  - little cat drawing
 searchSynonyms:
   - cat drawing.
 semanticEntities:

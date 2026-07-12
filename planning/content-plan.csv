@@ -1,18 +1,18 @@
 priority,title,focus_keyword,permalink,category,difficulty,estimated_steps,worksheet,status,notes
 1,Flower Drawing: Easy Step-by-Step Tutorial,flower drawing,/flower-drawing/,flower-drawings,beginner,9,yes,publish,Exclusive owner of flower drawing; 9 steps; worksheet PDF
-2,Rose Drawing: Easy Step-by-Step Tutorial,rose drawing,/rose-drawing/,flower-drawings,beginner,7,yes,publish,CSV volume 85000
+2,Rose Drawing: Easy Step-by-Step Tutorial,rose drawing,/rose-drawing/,flower-drawings,beginner,10,yes,publish,Rewritten premium tutorial; 10 steps; worksheet
 3,Sunflower Drawing: Easy Step-by-Step Tutorial,sunflower drawing,/sunflower-drawing/,flower-drawings,beginner,7,yes,publish,CSV volume 27000
 4,Hibiscus Flower Drawing: Step-by-Step Tutorial,hibiscus flower drawing,/hibiscus-flower-drawing/,flower-drawings,intermediate,10,yes,publish,CSV volume 38000
 5,Tulip Drawing: Easy Step-by-Step Tutorial,tulip drawing,/tulip-drawing/,flower-drawings,beginner,7,yes,publish,CSV volume 16000
-6,Cat Drawing: Easy Step-by-Step Tutorial,cat drawing,/cat-drawing/,animal-drawings,beginner,7,yes,publish,CSV volume 130000
-7,Dog Drawing: Easy Step-by-Step Tutorial,dog drawing,/dog-drawing/,animal-drawings,beginner,7,yes,publish,CSV volume 105000
+6,Cat Drawing: Easy Step-by-Step Tutorial,cat drawing,/cat-drawing/,animal-drawings,beginner,9,yes,publish,Rewritten premium tutorial; 9 steps; worksheet
+7,Dog Drawing: Realistic Pencil Tutorial Step by Step,dog drawing,/dog-drawing/,animal-drawings,beginner,10,yes,publish,Rewritten realistic pencil tutorial; 10 steps
 8,Horse Drawing: Step-by-Step Tutorial,horse drawing,/horse-drawing/,animal-drawings,intermediate,10,yes,publish,CSV volume 46000
 9,Lion Drawing: Step-by-Step Tutorial,lion drawing,/lion-drawing/,animal-drawings,intermediate,10,yes,publish,CSV volume 31000
 10,Bunny Drawing: Easy Step-by-Step Tutorial,bunny drawing,/bunny-drawing/,animal-drawings,beginner,7,yes,publish,CSV volume 46000
 11,Fox Drawing: Easy Step-by-Step Tutorial,fox drawing,/fox-drawing/,animal-drawings,beginner,7,yes,publish,CSV volume 34000
 12,Bird Drawing: Easy Step-by-Step Tutorial,bird drawing,/bird-drawing/,bird-drawings,beginner,7,yes,publish,CSV volume 46000
 13,Owl Drawing: Easy Step-by-Step Tutorial,owl drawing,/owl-drawing/,bird-drawings,beginner,7,yes,publish,CSV volume 24000
-14,Butterfly Drawing: Easy Step-by-Step Tutorial,butterfly drawing,/butterfly-drawing/,insect-drawings,beginner,7,yes,publish,CSV volume 107000
+14,Butterfly Drawing: Easy Step-by-Step Wing Tutorial,butterfly drawing,/butterfly-drawing/,insect-drawings,beginner,9,yes,publish,Rewritten premium tutorial; 9 steps; worksheet
 15,Bee Drawing: Easy Step-by-Step Tutorial,bee drawing,/bee-drawing/,insect-drawings,beginner,7,yes,publish,CSV volume 31000
 16,Fish Drawing: Easy Step-by-Step Tutorial,fish drawing,/fish-drawing/,sea-animal-drawings,beginner,7,yes,publish,CSV volume 56000
 17,Shark Drawing: Easy Step-by-Step Tutorial,shark drawing,/shark-drawing/,sea-animal-drawings,beginner,7,yes,publish,CSV volume 52000
@@ -33,4 +33,4 @@ priority,title,focus_keyword,permalink,category,difficulty,estimated_steps,works
 32,Unicorn Drawing: Step-by-Step Tutorial,unicorn drawing,/unicorn-drawing/,fantasy-drawings,intermediate,10,yes,publish,CSV volume 21000
 33,Heart Drawing: Easy Step-by-Step Tutorial,heart drawing,/heart-drawing/,symbol-drawings,beginner,7,yes,publish,CSV volume 64000
 34,Star Drawing: Easy Step-by-Step Tutorial,star drawing,/star-drawing/,symbol-drawings,beginner,7,yes,publish,CSV volume 24000
-35,Eye Drawing: Step-by-Step Tutorial,eye drawing,/eye-drawing/,symbol-drawings,intermediate,10,yes,publish,CSV volume 56000
+35,Eye Drawing: Realistic Step-by-Step Pencil Tutorial,eye drawing,/eye-drawing/,symbol-drawings,intermediate,10,yes,publish,Rewritten realistic pencil tutorial; 10 steps

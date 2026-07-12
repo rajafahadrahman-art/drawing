@@ -21,6 +21,23 @@ secondaryKeywords:
   - rose petals drawing
   - rose stem drawing
   - rose leaves drawing
+  - rose drawing easy
+  - drawing of a rose
+  - rose flower drawing
+  - realistic rose drawing
+  - rose drawing outline
+  - rose easy drawing
+  - rose drawing simple
+  - cute rose drawing easy
+  - sketch rose drawing
+  - dead rose drawing
+  - rose outline drawing
+  - rose bush drawing
+  - easy drawing of a rose
+  - rose flower drawing easy
+  - rose drawing realistic
+  - rose bouquet drawing
+  - flower drawing rose
 searchSynonyms: []
 semanticEntities:
   - inner center

@@ -20,6 +20,20 @@ secondaryKeywords:
   - insect drawing for beginners
   - pencil butterfly sketch
   - butterfly drawing ideas
+  - drawing of a butterfly
+  - monarch butterfly drawing easy
+  - drawing butterflies
+  - simple monarch butterfly drawing
+  - pencil easy butterfly drawing
+  - butterflies easy drawing
+  - easy simple butterfly drawing
+  - realistic easy butterfly drawing
+  - easy small butterfly drawing
+  - butterfly drawing pencil
+  - art butterfly drawing
+  - butterfly designs drawing
+  - butterflies drawing simple
+  - step by step drawing butterfly
 searchSynonyms:
   - butter fly drawing
   - butterly drawing
