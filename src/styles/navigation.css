@@ -143,75 +143,65 @@
   border-radius: 0.7rem;
   background: var(--white);
   color: var(--ink);
+  cursor: pointer;
+  list-style: none;
 }
 
-.mobile-nav {
-  position: fixed;
-  inset: 0;
-  z-index: 60;
-  pointer-events: none;
+.menu-toggle::-webkit-details-marker {
+  display: none;
 }
 
-.mobile-nav[data-open="true"] {
-  pointer-events: auto;
+.mobile-nav-details {
+  position: relative;
 }
 
-.mobile-nav__backdrop {
+.mobile-nav-panel {
   position: absolute;
-  inset: 0;
-  background: rgba(30, 41, 37, 0.35);
-  opacity: 0;
-  transition: opacity 180ms ease;
-}
-
-.mobile-nav[data-open="true"] .mobile-nav__backdrop {
-  opacity: 1;
-}
-
-.mobile-nav__panel {
-  position: absolute;
-  top: 0;
+  top: calc(100% + 0.45rem);
   right: 0;
   width: min(22rem, 92vw);
-  height: 100%;
+  max-height: min(70vh, 36rem);
+  overflow: auto;
   background: var(--white);
-  border-left: 1px solid var(--border);
-  padding: 1rem;
-  transform: translateX(100%);
-  transition: transform 200ms ease;
-  overflow-y: auto;
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  box-shadow: var(--shadow-md);
+  padding: 0.75rem;
   display: grid;
-  gap: 0.35rem;
+  gap: 0.2rem;
   align-content: start;
+  z-index: 60;
 }
 
-.mobile-nav[data-open="true"] .mobile-nav__panel {
-  transform: translateX(0);
-}
-
-.mobile-nav a {
+.mobile-nav-panel a {
   text-decoration: none;
-  min-height: 2.75rem;
+  min-height: 2.55rem;
   display: flex;
   align-items: center;
-  padding: 0.5rem 0.75rem;
+  padding: 0.45rem 0.7rem;
   border-radius: 0.5rem;
   font-weight: 500;
   color: var(--ink);
 }
 
-.mobile-nav details {
-  border: 1px solid var(--border);
-  border-radius: 0.65rem;
-  padding: 0.35rem 0.5rem;
+.mobile-nav-panel a:hover {
+  background: var(--green-soft);
+  color: var(--green);
 }
 
-.mobile-nav summary {
-  min-height: 2.75rem;
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  font-weight: 600;
+.mobile-nav-sublink {
+  font-size: 0.92rem;
+  color: var(--muted) !important;
+  padding-left: 1rem !important;
+}
+
+.mobile-nav-label {
+  margin: 0.55rem 0.7rem 0.15rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
   font-family: var(--font-display);
 }
 
@@ -267,7 +257,7 @@
     display: flex;
   }
 
-  .menu-toggle {
+  .mobile-nav-details {
     display: none;
   }
 }

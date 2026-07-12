@@ -26,23 +26,10 @@ const { worksheet } = Astro.props;
     <div class="worksheet-actions">
       <a class="btn btn--primary" href={worksheet.pdf} download>Download PDF</a>
       <a class="btn btn--secondary" href={worksheet.svg} download>Download SVG</a>
+      <a class="btn btn--ghost" href={worksheet.preview} target="_blank" rel="noopener">Open preview</a>
       <button class="btn btn--ghost" type="button" data-print-worksheet data-preview={worksheet.preview}>
         Print preview
       </button>
     </div>
   </div>
 </div>
-<script>
-  document.querySelectorAll('[data-print-worksheet]').forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const src = btn.getAttribute('data-preview');
-      if (!src) return;
-      const win = window.open('', '_blank');
-      if (!win) return;
-      win.document.write(
-        `<html><head><title>Print worksheet</title></head><body style="margin:0;display:grid;place-items:center"><img src="${src}" style="max-width:100%;height:auto" onload="window.print()" /></body></html>`
-      );
-      win.document.close();
-    });
-  });
-</script>

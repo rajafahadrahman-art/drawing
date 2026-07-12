@@ -55,7 +55,7 @@ const primary = [
         primary.map((item) =>
           item.mega ? (
             <div class="nav-item">
-              <a class="nav-link" href="/#categories" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link" href="/#categories" aria-haspopup="true">
                 {item.label}
               </a>
               <div class="mega-menu" role="menu" aria-label="Categories mega menu">
@@ -106,60 +106,24 @@ const primary = [
         </svg>
         Search
       </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" data-menu-toggle>
-        <span class="sr-only">Open menu</span>
-        <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none">
-          <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
-        </svg>
-      </button>
+      <details class="mobile-nav-details">
+        <summary class="menu-toggle" aria-label="Open menu">
+          <span class="sr-only">Open menu</span>
+          <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
+          </svg>
+        </summary>
+        <nav class="mobile-nav-panel" aria-label="Mobile">
+          {primary.filter((i) => !i.mega).map((item) => <a href={item.href}>{item.label}</a>)}
+          <a href="/search/">Search</a>
+          <a href="/#categories">Categories</a>
+          {categories.map((link) => <a class="mobile-nav-sublink" href={link.href}>{link.label}</a>)}
+          <p class="mobile-nav-label">Popular tutorials</p>
+          {popular.map((link) => <a class="mobile-nav-sublink" href={link.href}>{link.label}</a>)}
+          <p class="mobile-nav-label">Learning</p>
+          {learning.map((link) => <a class="mobile-nav-sublink" href={link.href}>{link.label}</a>)}
+        </nav>
+      </details>
     </div>
   </div>
 </header>
-
-<div class="mobile-nav" id="mobile-nav" data-open="false" hidden>
-  <div class="mobile-nav__backdrop" data-menu-close></div>
-  <nav class="mobile-nav__panel" aria-label="Mobile">
-    <button class="btn btn--ghost" type="button" data-menu-close>Close</button>
-    {primary.filter((i) => !i.mega).map((item) => <a href={item.href}>{item.label}</a>)}
-    <a href="/search/">Search</a>
-    <details>
-      <summary>Categories</summary>
-      {categories.map((link) => <a href={link.href}>{link.label}</a>)}
-    </details>
-    <details>
-      <summary>Popular Tutorials</summary>
-      {popular.map((link) => <a href={link.href}>{link.label}</a>)}
-    </details>
-    <details>
-      <summary>Learning Resources</summary>
-      {learning.map((link) => <a href={link.href}>{link.label}</a>)}
-    </details>
-  </nav>
-</div>
-
-<script>
-  const toggle = document.querySelector('[data-menu-toggle]');
-  const drawer = document.querySelector('#mobile-nav');
-  const openDrawer = () => {
-    if (!drawer || !toggle) return;
-    drawer.hidden = false;
-    drawer.setAttribute('data-open', 'true');
-    toggle.setAttribute('aria-expanded', 'true');
-    document.body.style.overflow = 'hidden';
-  };
-  const closeDrawer = () => {
-    if (!drawer || !toggle) return;
-    drawer.setAttribute('data-open', 'false');
-    toggle.setAttribute('aria-expanded', 'false');
-    document.body.style.overflow = '';
-    window.setTimeout(() => {
-      drawer.hidden = true;
-    }, 200);
-  };
-  toggle?.addEventListener('click', openDrawer);
-  drawer?.querySelectorAll('[data-menu-close]').forEach((el) => el.addEventListener('click', closeDrawer));
-  drawer?.querySelectorAll('a').forEach((el) => el.addEventListener('click', closeDrawer));
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape') closeDrawer();
-  });
-</script>

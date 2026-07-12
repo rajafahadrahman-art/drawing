@@ -4,6 +4,7 @@ import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
   site: 'https://drawinging.com',
+  output: 'static',
   trailingSlash: 'always',
   compressHTML: true,
   build: {

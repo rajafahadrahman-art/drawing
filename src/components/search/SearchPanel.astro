@@ -2,17 +2,19 @@
 interface Props {
   id?: string;
   large?: boolean;
+  initialQuery?: string;
 }
-const { id = 'site-search', large = false } = Astro.props;
+const { id = 'site-search', large = false, initialQuery = '' } = Astro.props;
 ---
 
-<div class="search-panel" data-search-root>
+<form class="search-panel" data-search-root action="/search/" method="get" role="search">
   <label for={id}>{large ? 'What would you like to draw?' : 'Search drawing tutorials'}</label>
   <div class="search-panel__row">
     <input
       id={id}
       type="search"
       name="q"
+      value={initialQuery}
       placeholder="Try rose, cat, butterfly…"
       autocomplete="off"
       aria-autocomplete="list"
@@ -20,7 +22,7 @@ const { id = 'site-search', large = false } = Astro.props;
       aria-expanded="false"
       data-search-input
     />
-    <button class="btn btn--primary" type="button" data-search-submit>Search</button>
+    <button class="btn btn--primary" type="submit" data-search-submit>Search</button>
   </div>
   <ul
     id={`${id}-suggestions`}
@@ -30,7 +32,15 @@ const { id = 'site-search', large = false } = Astro.props;
     style="list-style:none;margin:0.75rem 0 0;padding:0;display:none"
   ></ul>
   <p data-search-status class="sr-only" aria-live="polite"></p>
-</div>
+  <noscript>
+    <p style="margin-top:0.75rem;font-size:0.92rem;color:var(--color-muted)">
+      JavaScript is optional. Submit this form to open search results, or browse
+      <a href="/drawing-tutorials/">all tutorials</a>,
+      <a href="/easy-drawings/">easy drawings</a>, and
+      <a href="/worksheets/">worksheets</a>.
+    </p>
+  </noscript>
+</form>
 <script>
   const roots = document.querySelectorAll('[data-search-root]');
   const recentKey = 'drawinging-recent-searches';
@@ -83,7 +93,7 @@ const { id = 'site-search', large = false } = Astro.props;
     const input = root.querySelector('[data-search-input]');
     const list = root.querySelector('[data-search-suggestions]');
     const status = root.querySelector('[data-search-status]');
-    const submit = root.querySelector('[data-search-submit]');
+    const form = root;
     let active = -1;
     let results = [];
 
@@ -140,11 +150,13 @@ const { id = 'site-search', large = false } = Astro.props;
 
     input.addEventListener('input', run);
     input.addEventListener('focus', run);
-    submit.addEventListener('click', () => {
+    form.addEventListener('submit', (event) => {
       const term = input.value.trim();
       if (term) saveRecent(term);
-      if (results[0]) window.location.href = results[0].permalink;
-      else window.location.href = `/search/?q=${encodeURIComponent(term)}`;
+      if (results[0] && term) {
+        event.preventDefault();
+        window.location.href = results[0].permalink;
+      }
     });
     input.addEventListener('keydown', (e) => {
       const options = [...list.querySelectorAll('[role="option"] a')];
@@ -156,9 +168,6 @@ const { id = 'site-search', large = false } = Astro.props;
         e.preventDefault();
         active = Math.max(active - 1, 0);
         options[active]?.focus();
-      } else if (e.key === 'Enter') {
-        e.preventDefault();
-        submit.click();
       }
     });
   });

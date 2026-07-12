@@ -2,7 +2,12 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/common/Breadcrumbs.astro';
 import SearchPanel from '../../components/search/SearchPanel.astro';
+import { getCollection } from 'astro:content';
 import { SITE } from '../../data/site';
+
+const tutorials = (await getCollection('tutorials', ({ data }) => !data.draft)).sort((a, b) =>
+  a.data.focusKeyword.localeCompare(b.data.focusKeyword)
+);
 ---
 
 <BaseLayout
@@ -16,8 +21,69 @@ import { SITE } from '../../data/site';
     <h1>Search drawing tutorials</h1>
     <p style="margin:1rem 0 1.5rem;max-width:40rem">
       Find lessons by title, focus keyword, secondary keywords, category, or difficulty. Search result pages are not
-      indexed.
+      indexed. Suggestions are an optional enhancement; the full tutorial list below is present in the static HTML.
     </p>
     <SearchPanel id="search-page" large />
+
+    <section style="margin-top:2rem" aria-label="All tutorials">
+      <div style="display:flex;flex-wrap:wrap;gap:0.75rem;justify-content:space-between;align-items:end;margin-bottom:1rem">
+        <h2 style="font-size:1.25rem;margin:0">All tutorials</h2>
+        <p id="search-result-count" style="margin:0;color:var(--muted);font-size:0.92rem">{tutorials.length} lessons</p>
+      </div>
+      <ul id="static-search-results" style="list-style:none;padding:0;margin:0;display:grid;gap:0.75rem">
+        {
+          tutorials.map((t) => (
+            <li
+              class="static-search-item"
+              data-search-text={[
+                t.data.title,
+                t.data.focusKeyword,
+                ...(t.data.secondaryKeywords || []),
+                ...(t.data.searchSynonyms || []),
+                t.data.category,
+                t.data.difficulty,
+                t.data.description,
+                ...(t.data.tags || []),
+              ]
+                .join(' ')
+                .toLowerCase()}
+              style="border:1px solid var(--border);border-radius:0.85rem;background:var(--white);padding:1rem 1.1rem"
+            >
+              <a href={t.data.permalink} style="text-decoration:none">
+                <strong>{t.data.title}</strong>
+              </a>
+              <p style="margin:0.35rem 0 0;color:var(--muted);font-size:0.92rem">
+                {t.data.focusKeyword} · {t.data.category.replace(/-/g, ' ')} · {t.data.difficulty}
+              </p>
+            </li>
+          ))
+        }
+      </ul>
+      <p id="search-empty" hidden style="margin-top:1rem">
+        No exact matches. Browse <a href="/drawing-tutorials/">all tutorials</a>, <a href="/easy-drawings/">easy drawings</a>,
+        or categories such as <a href="/flower-drawings/">flower drawings</a> and <a href="/animal-drawings/">animal drawings</a>.
+      </p>
+    </section>
   </div>
+  <script is:inline>
+    (() => {
+      const params = new URLSearchParams(window.location.search);
+      const q = (params.get('q') || '').trim().toLowerCase();
+      const input = document.querySelector('#search-page');
+      if (input && q) input.value = params.get('q') || '';
+      if (!q) return;
+      const items = [...document.querySelectorAll('.static-search-item')];
+      let visible = 0;
+      items.forEach((item) => {
+        const hay = item.getAttribute('data-search-text') || '';
+        const show = hay.includes(q);
+        item.hidden = !show;
+        if (show) visible += 1;
+      });
+      const count = document.querySelector('#search-result-count');
+      if (count) count.textContent = visible + ' match' + (visible === 1 ? '' : 'es') + ' for “' + (params.get('q') || '') + '”';
+      const empty = document.querySelector('#search-empty');
+      if (empty) empty.hidden = visible > 0;
+    })();
+  </script>
 </BaseLayout>
