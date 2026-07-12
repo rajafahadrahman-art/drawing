@@ -20,7 +20,7 @@ const data = tutorial.data;
 const category = CATEGORY_META[data.category];
 const all = await getCollection('tutorials', ({ data }) => !data.draft);
 const related = all.filter((t) => data.relatedTutorials.includes(t.data.slug));
-const { Content } = await render(tutorial);
+const { Content, headings = [] } = await render(tutorial);
 const useBody = Boolean(data.useArticleBody);
 
 const tocItems = [
@@ -39,24 +39,9 @@ const tocItems = [
   { href: '#faqs', label: 'FAQs' },
 ];
 
-const bodyToc = [
-  { href: '#flower-drawing-tutorial-overview', label: 'Overview' },
-  { href: '#what-you-will-learn', label: 'What you will learn' },
-  { href: '#materials-needed', label: 'Materials' },
-  { href: '#before-you-start', label: 'Before you start' },
-  { href: '#step-by-step-flower-drawing', label: 'Step-by-step' },
-  { href: '#how-to-make-a-flower-drawing-easy-and-beautiful', label: 'Easy and beautiful' },
-  { href: '#simple-flower-drawing-variation', label: 'Simple variation' },
-  { href: '#flower-plant-drawing-variation', label: 'Plant variation' },
-  { href: '#easy-flower-drawing-ideas-to-try-next', label: 'Ideas to try next' },
-  { href: '#how-to-refine-the-final-drawing', label: 'Refine' },
-  { href: '#shading-and-coloring-the-flower', label: 'Shading' },
-  { href: '#common-flower-drawing-mistakes', label: 'Common mistakes' },
-  { href: '#tips-for-drawing-flowers-for-beginners', label: 'Tips' },
-  { href: '#download-the-flower-drawing-worksheet', label: 'Worksheet' },
-  { href: '#related-drawing-tutorials', label: 'Related tutorials' },
-  { href: '#frequently-asked-questions', label: 'FAQs' },
-];
+const bodyToc = headings
+  .filter((heading: any) => heading.depth === 2)
+  .map((heading: any) => ({ href: `#${heading.slug}`, label: heading.text }));
 
 const activeToc = useBody ? bodyToc : tocItems;
 
