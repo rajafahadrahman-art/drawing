@@ -4,21 +4,26 @@ const tutorials = loadTutorials();
 const issues = [];
 
 for (const t of tutorials) {
-  const body = [
-    t.intro,
-    t.beforeYouStart,
-    ...(t.steps || []).map((s) => `${s.title} ${s.body} ${s.tip}`),
-    t.refine,
-    t.shading || '',
-    t.beginnerVariation,
-    t.detailedVariation || '',
-    ...(t.commonMistakes || []),
-    ...(t.tips || []),
-    t.conclusion,
-    ...(t.faqs || []).map((f) => `${f.question} ${f.answer}`),
-  ].join(' ');
+  const body = t.useArticleBody
+    ? String(t.content || '')
+    : [
+        t.intro,
+        t.beforeYouStart,
+        ...(t.steps || []).map((s) => `${s.title} ${s.body} ${s.tip}`),
+        t.refine,
+        t.shading || '',
+        t.beginnerVariation,
+        t.detailedVariation || '',
+        ...(t.commonMistakes || []),
+        ...(t.tips || []),
+        t.conclusion,
+        ...(t.faqs || []).map((f) => `${f.question} ${f.answer}`),
+      ].join(' ');
 
-  const words = body.toLowerCase().match(/[a-z0-9']+/g) || [];
+  const cleaned = String(body)
+    .replace(/!\[[^\]]*\]\([^)]+\)/g, ' ')
+    .replace(/\[[^\]]*\]\([^)]+\)/g, ' ');
+  const words = cleaned.toLowerCase().match(/[a-z0-9']+/g) || [];
   const focus = String(t.focusKeyword || '').toLowerCase().trim();
   if (!focus || !words.length) {
     issues.push(`${t.slug}: unable to compute density`);

@@ -193,7 +193,8 @@ tips:
 conclusion: >-
   Keep the finished sunflower simple, clean, and readable. Save the construction
   marks you liked, then try a second version with lighter lines and more
-  confident edges.
+  confident edges. For a lighter warm-up before another sunflower, try the
+  [beginner flower lesson](/flower-drawing/).
 steps:
   - title: Place the main construction shapes
     body: >-

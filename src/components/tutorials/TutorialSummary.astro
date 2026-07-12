@@ -5,8 +5,9 @@ interface Props {
   stepCount: number;
   materials: string[];
   hasWorksheet: boolean;
+  medium?: string;
 }
-const { difficulty, estimatedTime, stepCount, materials, hasWorksheet } = Astro.props;
+const { difficulty, estimatedTime, stepCount, materials, hasWorksheet, medium } = Astro.props;
 ---
 
 <dl class="summary-box">
@@ -15,7 +16,7 @@ const { difficulty, estimatedTime, stepCount, materials, hasWorksheet } = Astro.
     <dd>{difficulty}</dd>
   </div>
   <div>
-    <dt>Estimated time</dt>
+    <dt>Time</dt>
     <dd>{estimatedTime}</dd>
   </div>
   <div>
@@ -23,11 +24,11 @@ const { difficulty, estimatedTime, stepCount, materials, hasWorksheet } = Astro.
     <dd>{stepCount}</dd>
   </div>
   <div>
-    <dt>Materials</dt>
-    <dd>{materials.slice(0, 3).join(', ')}{materials.length > 3 ? '…' : ''}</dd>
+    <dt>Medium</dt>
+    <dd>{medium || materials[0] || 'Pencil'}</dd>
   </div>
   <div>
     <dt>Worksheet</dt>
-    <dd>{hasWorksheet ? 'PDF download included' : 'Not available'}</dd>
+    <dd>{hasWorksheet ? 'Free printable PDF' : 'Not available'}</dd>
   </div>
 </dl>

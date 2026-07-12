@@ -1,10 +1,47 @@
 ---
-import { NAV_PRIMARY, CATEGORY_META } from '../../data/site';
-import categories from '../../data/categories.json';
-
-const navEligible = categories.filter((c: any) => c.nav_eligible);
 const path = Astro.url.pathname;
+
+const popular = [
+  { label: 'Flower Drawing', href: '/flower-drawing/' },
+  { label: 'Rose Drawing', href: '/rose-drawing/' },
+  { label: 'Cat Drawing', href: '/cat-drawing/' },
+  { label: 'Dog Drawing', href: '/dog-drawing/' },
+  { label: 'Butterfly Drawing', href: '/butterfly-drawing/' },
+  { label: 'Tree Drawing', href: '/tree-drawing/' },
+];
+
+const categories = [
+  { label: 'Flower Drawings', href: '/flower-drawings/' },
+  { label: 'Animal Drawings', href: '/animal-drawings/' },
+  { label: 'Bird Drawings', href: '/bird-drawings/' },
+  { label: 'Insect Drawings', href: '/insect-drawings/' },
+  { label: 'Sea Animal Drawings', href: '/sea-animal-drawings/' },
+  { label: 'Nature Drawings', href: '/nature-drawings/' },
+  { label: 'Vehicle Drawings', href: '/vehicle-drawings/' },
+  { label: 'Sports Drawings', href: '/sports-drawings/' },
+  { label: 'Seasonal Drawings', href: '/seasonal-drawings/' },
+  { label: 'Fantasy Drawings', href: '/fantasy-drawings/' },
+  { label: 'Symbol Drawings', href: '/symbol-drawings/' },
+];
+
+const learning = [
+  { label: 'Basic Shapes', href: '/learn-drawing/basic-shapes/' },
+  { label: 'Line Control', href: '/learn-drawing/line-control/' },
+  { label: 'Pencil Shading', href: '/learn-drawing/shading/' },
+  { label: 'Drawing Proportions', href: '/learn-drawing/proportions/' },
+  { label: 'Perspective Basics', href: '/learn-drawing/perspective/' },
+];
+
+const primary = [
+  { label: 'Tutorials', href: '/drawing-tutorials/' },
+  { label: 'Categories', href: '/#categories', mega: true },
+  { label: 'Easy Drawings', href: '/easy-drawings/' },
+  { label: 'Worksheets', href: '/worksheets/' },
+  { label: 'Learn Drawing', href: '/learn-drawing/' },
+];
 ---
+
+<div class="utility-bar">Free Drawing Tutorials and Printable Worksheets</div>
 
 <header class="site-header">
   <div class="container site-header__inner">
@@ -15,31 +52,44 @@ const path = Astro.url.pathname;
 
     <nav class="nav-desktop" aria-label="Primary">
       {
-        NAV_PRIMARY.map((item) =>
+        primary.map((item) =>
           item.mega ? (
             <div class="nav-item">
-              <a class="nav-link" href="/#categories" aria-haspopup="true">
+              <a class="nav-link" href="/#categories" aria-haspopup="true" aria-expanded="false">
                 {item.label}
               </a>
-              <div class="mega-menu" role="menu">
-                {navEligible.map((cat: any) => (
-                  <a role="menuitem" href={CATEGORY_META[cat.id].permalink}>
-                    {CATEGORY_META[cat.id].name}
-                  </a>
-                ))}
+              <div class="mega-menu" role="menu" aria-label="Categories mega menu">
+                <div class="mega-col">
+                  <h3>Popular Tutorials</h3>
+                  {popular.map((link) => (
+                    <a class="mega-link" role="menuitem" href={link.href}>
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+                <div class="mega-col">
+                  <h3>Categories</h3>
+                  {categories.map((link) => (
+                    <a class="mega-link" role="menuitem" href={link.href}>
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
+                <div class="mega-col">
+                  <h3>Learning Resources</h3>
+                  {learning.map((link) => (
+                    <a class="mega-link" role="menuitem" href={link.href}>
+                      {link.label}
+                    </a>
+                  ))}
+                </div>
               </div>
             </div>
           ) : (
             <a
               class="nav-link"
               href={item.href}
-              aria-current={
-                item.href.startsWith('/') &&
-                !item.href.includes('#') &&
-                (path === item.href || (item.href !== '/' && path.startsWith(item.href)))
-                  ? 'page'
-                  : undefined
-              }
+              aria-current={path === item.href || (item.href !== '/' && !item.href.includes('#') && path.startsWith(item.href)) ? 'page' : undefined}
             >
               {item.label}
             </a>
@@ -49,10 +99,13 @@ const path = Astro.url.pathname;
     </nav>
 
     <div class="header-actions">
-      <a class="btn btn--ghost header-search btn--sm" href="/search/" aria-label="Search tutorials">
+      <a class="btn btn--ghost btn--sm" href="/search/" aria-label="Search tutorials">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <circle cx="11" cy="11" r="6.5" stroke="currentColor" stroke-width="1.8"></circle>
+          <path d="M16.5 16.5L20 20" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"></path>
+        </svg>
         Search
       </a>
-      <a class="btn btn--primary btn--sm" href="/drawing-tutorials/">Start Drawing</a>
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-nav" data-menu-toggle>
         <span class="sr-only">Open menu</span>
         <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true" fill="none">
@@ -67,14 +120,20 @@ const path = Astro.url.pathname;
   <div class="mobile-nav__backdrop" data-menu-close></div>
   <nav class="mobile-nav__panel" aria-label="Mobile">
     <button class="btn btn--ghost" type="button" data-menu-close>Close</button>
-    {NAV_PRIMARY.map((item) => <a href={item.href}>{item.label}</a>)}
-    <a href="/drawing-tutorials/">Start Drawing</a>
-    <a href="/worksheets/">Worksheets</a>
-    <a href="/learn-drawing/">Learn Drawing</a>
-    <a href="/easy-drawings/">Easy Drawings</a>
-    <hr style="border:none;border-top:1px solid var(--border);margin:0.5rem 0" />
-    <p style="font-weight:600;padding:0.5rem 0.75rem;color:var(--text-secondary)">Categories</p>
-    {navEligible.map((cat: any) => <a href={CATEGORY_META[cat.id].permalink}>{CATEGORY_META[cat.id].name}</a>)}
+    {primary.filter((i) => !i.mega).map((item) => <a href={item.href}>{item.label}</a>)}
+    <a href="/search/">Search</a>
+    <details>
+      <summary>Categories</summary>
+      {categories.map((link) => <a href={link.href}>{link.label}</a>)}
+    </details>
+    <details>
+      <summary>Popular Tutorials</summary>
+      {popular.map((link) => <a href={link.href}>{link.label}</a>)}
+    </details>
+    <details>
+      <summary>Learning Resources</summary>
+      {learning.map((link) => <a href={link.href}>{link.label}</a>)}
+    </details>
   </nav>
 </div>
 

@@ -3,25 +3,38 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import SearchPanel from '../components/search/SearchPanel.astro';
 import TutorialCard from '../components/tutorials/TutorialCard.astro';
 import FaqSection from '../components/common/FaqSection.astro';
-import { SITE, CATEGORY_META, HOME_CATEGORY_TILES, LEARN_GUIDES } from '../data/site';
+import { SITE, CATEGORY_META, LEARN_GUIDES } from '../data/site';
 import { getCollection } from 'astro:content';
 import '../styles/homepage.css';
 
 const tutorials = await getCollection('tutorials', ({ data }) => !data.draft);
-const popularSlugs = [
-  'flower-drawing',
-  'cat-drawing',
-  'butterfly-drawing',
-  'dog-drawing',
-  'rose-drawing',
-];
-const popular = popularSlugs.map((slug) => tutorials.find((t) => t.data.slug === slug)).filter(Boolean);
-const featured = popular[0];
-const featuredSupport = popular.slice(1, 5);
+const bySlug = (slug: string) => tutorials.find((t) => t.data.slug === slug);
+
+const flower = bySlug('flower-drawing');
+const featuredSupport = ['rose-drawing', 'cat-drawing', 'butterfly-drawing', 'tree-drawing']
+  .map(bySlug)
+  .filter(Boolean);
+const easy = tutorials.filter((t) => t.data.difficulty === 'beginner').slice(0, 6);
 const latest = [...tutorials].sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime()).slice(0, 6);
-const previewA = tutorials.find((t) => t.data.slug === 'rose-drawing') || tutorials[0];
-const previewB = tutorials.find((t) => t.data.slug === 'cat-drawing') || tutorials[1];
-const previewC = tutorials.find((t) => t.data.slug === 'butterfly-drawing') || tutorials[2];
+const worksheetSamples = ['flower-drawing', 'rose-drawing', 'cat-drawing', 'butterfly-drawing'].map(bySlug).filter(Boolean);
+
+const homeCategories = [
+  { id: 'flower-drawings', label: 'Flowers', tone: 'mint', blurb: 'Blooms, petals, and stems' },
+  { id: 'animal-drawings', label: 'Animals', tone: 'peach', blurb: 'Cats, dogs, horses, and more' },
+  { id: 'bird-drawings', label: 'Birds', tone: 'yellow', blurb: 'Owls, songbirds, and wings' },
+  { id: 'nature-drawings', label: 'Nature', tone: 'white', blurb: 'Trees, clouds, and landscapes' },
+  { id: 'vehicle-drawings', label: 'Vehicles', tone: 'mint', blurb: 'Cars, planes, and trains' },
+  { id: 'fantasy-drawings', label: 'Fantasy', tone: 'peach', blurb: 'Dragons and unicorns' },
+];
+
+const chips = [
+  { label: 'Flower', href: '/flower-drawing/' },
+  { label: 'Rose', href: '/rose-drawing/' },
+  { label: 'Cat', href: '/cat-drawing/' },
+  { label: 'Dog', href: '/dog-drawing/' },
+  { label: 'Butterfly', href: '/butterfly-drawing/' },
+  { label: 'Tree', href: '/tree-drawing/' },
+];
 
 const homepageFaqs = [
   {
@@ -73,177 +86,49 @@ const jsonLd = [
     },
   },
 ];
-
-const chips = [
-  { label: 'Rose', href: '/rose-drawing/' },
-  { label: 'Cat', href: '/cat-drawing/' },
-  { label: 'Butterfly', href: '/butterfly-drawing/' },
-  { label: 'Car', href: '/car-drawing/' },
-  { label: 'Heart', href: '/heart-drawing/' },
-];
 ---
 
 <BaseLayout
   title="Drawinging — Step-by-Step Drawing Tutorials & Worksheets"
   description={SITE.description}
   canonical={`${SITE.domain}/`}
+  ogImage={`${SITE.domain}/images/homepage/drawing-tutorials-hero.webp`}
   jsonLd={jsonLd}
 >
   <section class="hero">
     <div class="container hero__grid">
       <div class="hero__copy">
+        <p class="hero__eyebrow">Clear lessons. Real practice.</p>
         <h1>Learn to Draw, One Clear Step at a Time</h1>
         <p class="hero__lede">
-          Organized drawing tutorials, beginner-friendly lessons, and printable worksheets—so you always know what to
-          draw next.
+          Drawinging brings together beginner-friendly tutorials, visual drawing steps, organized categories, and
+          printable worksheets to help you practise with confidence.
         </p>
-        <div class="hero__search">
-          <SearchPanel id="home-search" large />
-          <div>
-            <a class="btn btn--primary" href="/drawing-tutorials/">Explore Tutorials</a>
-          </div>
-          <div class="hero__chips" aria-label="Popular searches">
-            {chips.map((chip) => <a class="chip" href={chip.href}>{chip.label}</a>)}
-          </div>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="/drawing-tutorials/">Browse Drawing Tutorials</a>
+          <a class="btn btn--secondary" href="/worksheets/">Download Free Worksheets</a>
         </div>
       </div>
-
-      <div class="hero__visual" aria-hidden="true">
-        <div class="hero-preview">
-          <a class="hero-preview__main card-link" href={previewA.data.permalink} style="text-decoration:none">
-            <img
-              src={previewA.data.featuredImage}
-              alt=""
-              width="1200"
-              height="800"
-              fetchpriority="high"
-              decoding="async"
-            />
-            <div class="hero-preview__meta">
-              <strong>{previewA.data.title}</strong>
-              <span class="meta-row">
-                <span class="pill">{previewA.data.difficulty}</span>
-                <span>{previewA.data.stepCount} steps</span>
-              </span>
-            </div>
-          </a>
-          <div class="hero-preview__row">
-            <a class="hero-preview__mini card-link" href={previewB.data.permalink} style="text-decoration:none">
-              <img src={previewB.data.featuredImage} alt="" width="600" height="450" loading="lazy" decoding="async" />
-            </a>
-            <a class="hero-preview__mini card-link" href={previewC.data.permalink} style="text-decoration:none">
-              <img src={previewC.data.featuredImage} alt="" width="600" height="450" loading="lazy" decoding="async" />
-            </a>
-          </div>
-        </div>
+      <div class="hero__visual">
+        <img
+          src="/images/homepage/drawing-tutorials-hero.webp"
+          alt="drawing tutorials and printable worksheets"
+          title="drawing tutorials and printable worksheets"
+          width="1200"
+          height="900"
+          fetchpriority="high"
+          decoding="async"
+        />
       </div>
     </div>
   </section>
 
-  <section class="section" id="categories">
+  <section class="search-band">
     <div class="container">
-      <div class="section__header">
-        <p class="section__eyebrow">Browse</p>
-        <h2 class="section__title">What Would You Like to Draw?</h2>
-        <p class="section__intro">Pick a subject family and jump into clear, step-by-step lessons.</p>
-      </div>
-      <div class="cat-grid">
-        {
-          HOME_CATEGORY_TILES.map((tile) => (
-            <a class={`cat-tile cat-tile--${tile.tone}`} href={CATEGORY_META[tile.id].permalink}>
-              <img class="cat-tile__icon" src={CATEGORY_META[tile.id].icon} alt="" width="40" height="40" loading="lazy" decoding="async" />
-              <h3>{tile.label}</h3>
-              <p>{tile.blurb}</p>
-            </a>
-          ))
-        }
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--surface">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__eyebrow">Featured</p>
-        <h2 class="section__title">Featured tutorials</h2>
-        <p class="section__intro">Start with high-demand lessons chosen for clarity and practice value.</p>
-      </div>
-      <div class="featured-layout">
-        <div class="featured-main">
-          {featured && <TutorialCard tutorial={featured} featured />}
-        </div>
-        <div class="featured-side">
-          {featuredSupport.map((t) => <TutorialCard tutorial={t} />)}
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section" id="skill-levels">
-    <div class="container">
-      <div class="section__header">
-        <p class="section__eyebrow">Levels</p>
-        <h2 class="section__title">Choose your skill level</h2>
-        <p class="section__intro">Match the lesson pace to where you are today.</p>
-      </div>
-      <div class="skill-grid">
-        <a class="skill-card skill-card--mint" href="/easy-drawings/">
-          <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.6"></circle>
-            <path d="M8 12h8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"></path>
-          </svg>
-          <h3>Beginner</h3>
-          <p>Simple shapes, short sequences, and friendly checkpoints.</p>
-        </a>
-        <a class="skill-card skill-card--yellow" href="/drawing-tutorials/">
-          <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M5 16l7-10 7 10H5z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path>
-          </svg>
-          <h3>Intermediate</h3>
-          <p>Better proportions, cleaner contours, and more detail control.</p>
-        </a>
-        <a class="skill-card skill-card--peach" href="/fantasy-drawings/">
-          <svg class="skill-card__icon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-            <path d="M12 4l2.2 4.5L19 9.2l-3.5 3.4.8 4.9L12 15.8 7.7 17.5l.8-4.9L5 9.2l4.8-.7L12 4z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"></path>
-          </svg>
-          <h3>Advanced</h3>
-          <p>Longer builds for complex subjects like dragons and detailed forms.</p>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <section class="section section--blue" id="drawing-tool">
-    <div class="container tool-panel">
-      <div class="tool-copy">
-        <p class="section__eyebrow">Step-by-step lessons</p>
-        <h2 class="section__title">Follow tutorials like a guided drawing tool</h2>
-        <p class="section__intro">
-          Every lesson walks you through numbered steps with tips, materials, and a printable worksheet—no account or
-          canvas required.
-        </p>
-        <div>
-          <a class="btn btn--primary" href="/drawing-tutorials/">Open a tutorial</a>
-        </div>
-      </div>
-      <div class="tool-preview" aria-hidden="true">
-        <div class="tool-preview__toolbar">
-          <div class="tool-preview__controls">
-            <span class="tool-chip">Previous step</span>
-            <span class="tool-chip">Next step</span>
-          </div>
-          <span class="tool-chip">Step 3 of 7</span>
-        </div>
-        <div class="tool-preview__stage">
-          <div>
-            <strong>Preview canvas</strong>
-            Static lesson viewer — open any tutorial to follow real steps.
-          </div>
-        </div>
-        <div class="tool-preview__controls">
-          <span class="tool-chip">Zoom</span>
-          <span class="tool-chip">Difficulty: Beginner</span>
-          <span class="tool-chip">Restart</span>
+      <div class="search-panel">
+        <SearchPanel id="home-search" large />
+        <div class="search-chips" aria-label="Popular quick links">
+          {chips.map((chip) => <a class="chip" href={chip.href}>{chip.label}</a>)}
         </div>
       </div>
     </div>
@@ -252,13 +137,68 @@ const chips = [
   <section class="section">
     <div class="container">
       <div class="section__header">
+        <p class="section__eyebrow">Popular</p>
+        <h2 class="section__title">Popular guides</h2>
+        <p class="section__intro">Start with clear, high-demand lessons built for calm practice.</p>
+      </div>
+      <div class="featured-layout">
+        <div>{flower && <TutorialCard tutorial={flower} featured />}</div>
+        <div class="featured-side">
+          {featuredSupport.map((t) => <TutorialCard tutorial={t} />)}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--surface" id="categories">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Browse</p>
+        <h2 class="section__title">Browse categories</h2>
+        <p class="section__intro">Find lessons by subject family, then open a full tutorial when you are ready.</p>
+      </div>
+      <div class="cat-grid">
+        {
+          homeCategories.map((tile) => (
+            <a class={`cat-tile cat-tile--${tile.tone}`} href={CATEGORY_META[tile.id].permalink}>
+              <img src={CATEGORY_META[tile.id].icon} alt="" width="40" height="40" loading="lazy" decoding="async" />
+              <h3>{tile.label}</h3>
+              <p>{tile.blurb}</p>
+            </a>
+          ))
+        }
+      </div>
+      <p class="section-cta"><a href="/drawing-tutorials/">View all categories and tutorials</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Beginner</p>
+        <h2 class="section__title">Easy drawings</h2>
+        <p class="section__intro">Shorter sequences with friendly shapes and clear checkpoints.</p>
+      </div>
+      <div class="easy-row">
+        {easy.map((t) => <TutorialCard tutorial={t} showDescription={false} />)}
+      </div>
+      <p class="section-cta"><a href="/easy-drawings/">See all easy drawings</a></p>
+    </div>
+  </section>
+
+  <section class="section section--soft">
+    <div class="container">
+      <div class="section__header">
         <p class="section__eyebrow">Practice</p>
         <h2 class="section__title">Free worksheets</h2>
-        <p class="section__intro">Printable PDF practice sheets paired with priority tutorials.</p>
+        <p class="section__intro">
+          Printable PDF sheets with step boxes, tracing areas, and blank practice space. Use letter or A4 paper and keep
+          graphite pressure light while you practise.
+        </p>
       </div>
       <div class="card-grid card-grid--4">
         {
-          popular.slice(0, 4).map((t) => (
+          worksheetSamples.map((t) => (
             <article class="worksheet-card">
               <div class="worksheet-card__media">
                 <img
@@ -272,13 +212,13 @@ const chips = [
                 />
               </div>
               <div class="worksheet-card__body">
-                <h3 style="font-size:1.05rem;font-weight:600">{t.data.worksheet.title}</h3>
-                <div class="worksheet-actions" style="display:flex;flex-wrap:wrap;gap:0.5rem">
+                <h3 style="font-size:1.05rem;font-weight:700">{t.data.worksheet.title}</h3>
+                <div style="display:flex;flex-wrap:wrap;gap:0.5rem">
                   <a class="btn btn--primary btn--sm" href={t.data.worksheet.pdf} download>
                     Download PDF
                   </a>
                   <a class="btn btn--ghost btn--sm" href={t.data.permalink}>
-                    Tutorial
+                    Full tutorial
                   </a>
                 </div>
               </div>
@@ -290,18 +230,32 @@ const chips = [
     </div>
   </section>
 
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Process</p>
+        <h2 class="section__title">How lessons work</h2>
+      </div>
+      <div class="how-grid">
+        <div class="how-card"><div class="how-card__num">1</div><h3>Choose a subject</h3><p>Pick a tutorial from search, categories, or easy drawings.</p></div>
+        <div class="how-card"><div class="how-card__num">2</div><h3>Prepare your pencil and paper</h3><p>Gather simple materials before the first construction line.</p></div>
+        <div class="how-card"><div class="how-card__num">3</div><h3>Follow each visual step</h3><p>Build from guides to contours with tips at every stage.</p></div>
+        <div class="how-card"><div class="how-card__num">4</div><h3>Print a worksheet and practise</h3><p>Repeat the sequence until the shapes feel natural.</p></div>
+      </div>
+    </div>
+  </section>
+
   <section class="section section--surface">
     <div class="container">
       <div class="section__header">
-        <p class="section__eyebrow">Skills</p>
-        <h2 class="section__title">Learn drawing</h2>
-        <p class="section__intro">Foundational guides that support every tutorial on the site.</p>
+        <p class="section__eyebrow">Fundamentals</p>
+        <h2 class="section__title">Learn drawing basics</h2>
       </div>
-      <div class="card-grid">
+      <div class="skill-grid">
         {
-          LEARN_GUIDES.map((g) => (
-            <a class="skill-card skill-card--mint card-link" href={`/learn-drawing/${g.slug}/`} style="text-decoration:none">
-              <h3>{g.title}</h3>
+          LEARN_GUIDES.filter((g) => ['basic-shapes', 'shading', 'proportions'].includes(g.slug)).map((g) => (
+            <a class="skill-card" href={`/learn-drawing/${g.slug}/`}>
+              <h3>{g.slug === 'shading' ? 'Pencil Shading' : g.slug === 'proportions' ? 'Drawing Proportions' : g.title}</h3>
               <p>{g.description}</p>
             </a>
           ))
@@ -314,30 +268,27 @@ const chips = [
     <div class="container">
       <div class="section__header">
         <p class="section__eyebrow">New</p>
-        <h2 class="section__title">Latest guides</h2>
+        <h2 class="section__title">Latest tutorials</h2>
       </div>
       <div class="card-grid">
         {latest.map((t) => <TutorialCard tutorial={t} />)}
       </div>
-      <p class="section-cta">
-        <a class="btn btn--secondary" href="/drawing-tutorials/">View all tutorials</a>
-      </p>
+      <p class="section-cta"><a class="btn btn--secondary" href="/drawing-tutorials/">View all tutorials</a></p>
     </div>
   </section>
 
-  <section class="section section--mint">
+  <section class="section section--soft">
     <div class="container">
       <div class="section__header">
-        <p class="section__eyebrow">Why Drawinging</p>
-        <h2 class="section__title">Clear lessons for calm practice</h2>
+        <h2 class="section__title">Drawing lessons designed for clear practice</h2>
       </div>
       <div class="why-grid">
-        <div class="why-item"><h3>Clear step sequences</h3><p>Lessons move from construction to contour without skipping checkpoints.</p></div>
-        <div class="why-item"><h3>Beginner-friendly explanations</h3><p>Plain language focused on what to draw next and why it matters.</p></div>
-        <div class="why-item"><h3>Printable practice sheets</h3><p>Real PDF worksheets for tracing, grids, and blank redraws.</p></div>
+        <div class="why-item"><h3>Structured steps</h3><p>Each lesson moves from construction to contour without skipping checkpoints.</p></div>
+        <div class="why-item"><h3>Subject-specific instructions</h3><p>Tips and mistakes stay tied to the subject you are actually drawing.</p></div>
+        <div class="why-item"><h3>Printable worksheets</h3><p>Real PDF sheets support tracing, grids, and blank redraws.</p></div>
         <div class="why-item"><h3>Organized categories</h3><p>Browse by subject family instead of hunting through mixed lists.</p></div>
         <div class="why-item"><h3>Mobile-friendly lessons</h3><p>Readable layouts and large touch targets on small screens.</p></div>
-        <div class="why-item"><h3>Original educational content</h3><p>Tutorials written for practice—not recycled filler or tool demos.</p></div>
+        <div class="why-item"><h3>Original educational copy</h3><p>Tutorials written for practice—not recycled filler or tool demos.</p></div>
       </div>
     </div>
   </section>

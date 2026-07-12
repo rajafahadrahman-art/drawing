@@ -192,7 +192,8 @@ tips:
 conclusion: >-
   Keep the finished butterfly simple, clean, and readable. Save the construction
   marks you liked, then try a second version with lighter lines and more
-  confident edges.
+  confident edges. A butterfly looks stronger beside a bloom—start with the
+  [beginner flower lesson](/flower-drawing/) if you need a quick floral partner.
 steps:
   - title: Place the main construction shapes
     body: >-

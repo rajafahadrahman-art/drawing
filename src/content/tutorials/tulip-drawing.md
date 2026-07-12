@@ -194,7 +194,8 @@ tips:
 conclusion: >-
   Keep the finished tulip simple, clean, and readable. Save the construction
   marks you liked, then try a second version with lighter lines and more
-  confident edges.
+  confident edges. Pair this tulip with the [step-by-step flower
+  lesson](/flower-drawing/) for extra petal-comparison practice.
 steps:
   - title: Place the main construction shapes
     body: >-

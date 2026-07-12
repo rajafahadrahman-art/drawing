@@ -196,7 +196,8 @@ tips:
 conclusion: >-
   Keep the finished rose simple, clean, and readable. Save the construction
   marks you liked, then try a second version with lighter lines and more
-  confident edges.
+  confident edges. After the rose lesson, revisit the [basic flower
+  tutorial](/flower-drawing/) to practise petal spacing with a simpler bloom.
 steps:
   - title: Place the main construction shapes
     body: >-

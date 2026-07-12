@@ -1,6 +1,9 @@
 ---
 import '../styles/global.css';
 import '../styles/navigation.css';
+import '@fontsource/manrope/500.css';
+import '@fontsource/manrope/600.css';
+import '@fontsource/manrope/700.css';
 import { SITE } from '../data/site';
 import Header from '../components/navigation/Header.astro';
 import Footer from '../components/navigation/Footer.astro';
@@ -23,7 +26,7 @@ const {
   canonical = Astro.url.pathname.endsWith('/')
     ? `${SITE.domain}${Astro.url.pathname}`
     : `${SITE.domain}${Astro.url.pathname}/`,
-  ogImage = `${SITE.domain}/images/homepage/hero-illustration.webp`,
+  ogImage = `${SITE.domain}/images/homepage/drawing-tutorials-hero.webp`,
   ogType = 'website',
   noindex = false,
   jsonLd,
@@ -48,9 +51,10 @@ const {
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/manifest.webmanifest" />
-    <meta name="theme-color" content="#0F766E" />
+    <meta name="theme-color" content="#0E5A43" />
   </head>
   <body class={bodyClass}>
+    <div class="reading-progress" data-reading-progress aria-hidden="true"></div>
     <a class="skip-link" href="#main">Skip to content</a>
     <div class="site-shell">
       <Header />
@@ -59,5 +63,17 @@ const {
       </main>
       <Footer />
     </div>
+    <script>
+      const bar = document.querySelector('[data-reading-progress]');
+      const onScroll = () => {
+        if (!bar) return;
+        const doc = document.documentElement;
+        const max = doc.scrollHeight - doc.clientHeight;
+        const value = max > 0 ? (doc.scrollTop / max) * 100 : 0;
+        bar.style.width = `${value}%`;
+      };
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    </script>
   </body>
 </html>

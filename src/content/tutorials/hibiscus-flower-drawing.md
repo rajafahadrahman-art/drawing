@@ -223,7 +223,8 @@ tips:
 conclusion: >-
   Keep the finished hibiscus flower simple, clean, and readable. Save the
   construction marks you liked, then try a second version with lighter lines and
-  more confident edges.
+  more confident edges. If the hibiscus feels complex, rebuild confidence with
+  the [simple floral drawing guide](/flower-drawing/).
 steps:
   - title: Place the main construction shapes
     body: >-

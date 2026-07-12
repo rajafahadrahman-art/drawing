@@ -4,8 +4,9 @@ import { CATEGORY_META } from '../../data/site';
 interface Props {
   tutorial: any;
   featured?: boolean;
+  showDescription?: boolean;
 }
-const { tutorial, featured = false } = Astro.props;
+const { tutorial, featured = false, showDescription = true } = Astro.props;
 const d = tutorial.data;
 const categoryName = CATEGORY_META[d.category]?.name?.replace(/ Drawings$/, '') || d.category;
 ---
@@ -24,16 +25,18 @@ const categoryName = CATEGORY_META[d.category]?.name?.replace(/ Drawings$/, '') 
   </a>
   <div class="tutorial-card__body">
     <div class="meta-row">
-      <span class="pill">{categoryName}</span>
+      <span class="category-badge">{categoryName}</span>
       <span class="pill">{d.difficulty}</span>
     </div>
-    <h3 style="font-size:1.05rem;font-weight:600;margin:0">
+    <h3 style="font-size:1.05rem;font-weight:700;margin:0;font-family:var(--font-display)">
       <a class="card-link" href={d.permalink} style="text-decoration:none;color:inherit">{d.title}</a>
     </h3>
+    {showDescription && <p style="font-size:0.92rem;margin:0">{d.description}</p>}
     <div class="meta-row">
       <span>{d.estimatedTime}</span>
       <span aria-hidden="true">·</span>
       <span>{d.stepCount} steps</span>
+      <span aria-hidden="true">→</span>
     </div>
   </div>
 </article>
