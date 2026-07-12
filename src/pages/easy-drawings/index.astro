@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/common/Breadcrumbs.astro';
+import TutorialCard from '../../components/tutorials/TutorialCard.astro';
+import { getCollection } from 'astro:content';
+import { SITE } from '../../data/site';
+
+const tutorials = (
+  await getCollection('tutorials', ({ data }) => !data.draft && data.difficulty === 'beginner')
+).sort((a, b) => a.data.focusKeyword.localeCompare(b.data.focusKeyword));
+---
+
+<BaseLayout
+  title="Easy Drawings | Drawinging"
+  description="Beginner-friendly easy drawing tutorials with simple shapes, short step counts, and printable worksheets."
+  canonical={`${SITE.domain}/easy-drawings/`}
+>
+  <div class="container section">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Easy Drawings' }]} />
+    <header class="section__header">
+      <h1>Easy Drawings</h1>
+      <p class="section__intro">
+        Beginner lessons with approachable construction. Pair each tutorial with its worksheet for calm repetition.
+      </p>
+    </header>
+    <div class="card-grid">
+      {tutorials.map((t) => <TutorialCard tutorial={t} />)}
+    </div>
+  </div>
+</BaseLayout>

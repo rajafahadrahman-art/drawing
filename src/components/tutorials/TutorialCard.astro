@@ -1,0 +1,31 @@
+---
+interface Props {
+  tutorial: any;
+}
+const { tutorial } = Astro.props;
+const d = tutorial.data;
+---
+
+<article class="tutorial-card">
+  <a class="card-link tutorial-card__media" href={d.permalink} tabindex="-1" aria-hidden="true">
+    <img
+      src={d.featuredImage}
+      alt=""
+      width={d.featuredImageWidth}
+      height={d.featuredImageHeight}
+      loading="lazy"
+      decoding="async"
+    />
+  </a>
+  <div class="tutorial-card__body">
+    <div class="meta-row">
+      <span class="pill">{d.difficulty}</span>
+      <span>{d.estimatedTime}</span>
+    </div>
+    <h3 style="font-size:1.15rem">
+      <a class="card-link" href={d.permalink} style="text-decoration:none;color:inherit">{d.title}</a>
+    </h3>
+    <p style="font-size:0.95rem">{d.description}</p>
+    <a class="btn btn--secondary" href={d.permalink}>View tutorial</a>
+  </div>
+</article>

@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/common/Breadcrumbs.astro';
+import { LEARN_GUIDES, SITE } from '../../data/site';
+---
+
+<BaseLayout
+  title="Learn Drawing | Drawinging"
+  description="Drawing fundamentals covering basic shapes, line control, proportions, shading, perspective, and pencil techniques."
+  canonical={`${SITE.domain}/learn-drawing/`}
+>
+  <div class="container section">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Learn Drawing' }]} />
+    <header class="section__header">
+      <h1>Learn Drawing</h1>
+      <p class="section__intro">
+        Skill guides that support every tutorial. Practise these fundamentals, then apply them on a subject lesson and
+        worksheet.
+      </p>
+    </header>
+    <div class="card-grid">
+      {
+        LEARN_GUIDES.map((g) => (
+          <a class="how-card card-link" href={`/learn-drawing/${g.slug}/`} style="text-decoration:none">
+            <h2 style="font-size:1.25rem">{g.title}</h2>
+            <p>{g.description}</p>
+          </a>
+        ))
+      }
+    </div>
+  </div>
+</BaseLayout>

@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/common/Breadcrumbs.astro';
+import SearchPanel from '../../components/search/SearchPanel.astro';
+import { SITE } from '../../data/site';
+---
+
+<BaseLayout
+  title="Search | Drawinging"
+  description="Search Drawinging tutorials by subject, category, difficulty, and related keywords."
+  canonical={`${SITE.domain}/search/`}
+  noindex={true}
+>
+  <div class="container section">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Search' }]} />
+    <h1>Search drawing tutorials</h1>
+    <p style="margin:1rem 0 1.5rem;max-width:40rem">
+      Find lessons by title, focus keyword, secondary keywords, category, or difficulty. Search result pages are not
+      indexed.
+    </p>
+    <SearchPanel id="search-page" large />
+  </div>
+</BaseLayout>

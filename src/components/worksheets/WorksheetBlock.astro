@@ -1,0 +1,48 @@
+---
+interface Props {
+  worksheet: { pdf: string; svg: string; preview: string; title: string };
+  tutorialSlug: string;
+}
+const { worksheet } = Astro.props;
+---
+
+<div class="worksheet-panel">
+  <div class="worksheet-panel__preview">
+    <img
+      src={worksheet.preview}
+      alt={worksheet.title}
+      title={worksheet.title}
+      width="800"
+      height="1056"
+      loading="lazy"
+      decoding="async"
+    />
+  </div>
+  <div>
+    <h3 style="margin-bottom:0.75rem">{worksheet.title}</h3>
+    <p style="margin-bottom:1rem">
+      Printable practice sheet with step boxes, a tracing area, and blank space to redraw the sequence.
+    </p>
+    <div class="worksheet-actions">
+      <a class="btn btn--primary" href={worksheet.pdf} download>Download PDF</a>
+      <a class="btn btn--secondary" href={worksheet.svg} download>Download SVG</a>
+      <button class="btn btn--ghost" type="button" data-print-worksheet data-preview={worksheet.preview}>
+        Print preview
+      </button>
+    </div>
+  </div>
+</div>
+<script>
+  document.querySelectorAll('[data-print-worksheet]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const src = btn.getAttribute('data-preview');
+      if (!src) return;
+      const win = window.open('', '_blank');
+      if (!win) return;
+      win.document.write(
+        `<html><head><title>Print worksheet</title></head><body style="margin:0;display:grid;place-items:center"><img src="${src}" style="max-width:100%;height:auto" onload="window.print()" /></body></html>`
+      );
+      win.document.close();
+    });
+  });
+</script>

@@ -1,0 +1,319 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchPanel from '../components/search/SearchPanel.astro';
+import TutorialCard from '../components/tutorials/TutorialCard.astro';
+import FaqSection from '../components/common/FaqSection.astro';
+import { SITE, CATEGORY_META, LEARN_GUIDES } from '../data/site';
+import { getCollection } from 'astro:content';
+import categories from '../data/categories.json';
+import '../styles/homepage.css';
+
+const tutorials = await getCollection('tutorials', ({ data }) => !data.draft);
+const byPriority = [...tutorials].sort((a, b) => a.data.publishedAt.getTime() - b.data.publishedAt.getTime());
+const popularSlugs = [
+  'flower-drawing',
+  'cat-drawing',
+  'butterfly-drawing',
+  'dog-drawing',
+  'rose-drawing',
+  'volleyball-drawing',
+  'heart-drawing',
+  'car-drawing',
+];
+const popular = popularSlugs.map((slug) => tutorials.find((t) => t.data.slug === slug)).filter(Boolean);
+const easy = tutorials.filter((t) => t.data.difficulty === 'beginner').slice(0, 6);
+const flowers = tutorials.filter((t) => t.data.category === 'flower-drawings').slice(0, 4);
+const animals = tutorials.filter((t) => t.data.category === 'animal-drawings').slice(0, 4);
+const latest = [...tutorials].sort((a, b) => b.data.publishedAt.getTime() - a.data.publishedAt.getTime()).slice(0, 6);
+const navCategories = categories.filter((c: any) => c.nav_eligible);
+
+const homepageFaqs = [
+  {
+    question: 'What kind of drawing lessons does Drawinging offer?',
+    answer:
+      'Drawinging publishes step-by-step drawing tutorials organized by category, with beginner-friendly lessons, printable worksheets, and clear construction guidance.',
+  },
+  {
+    question: 'Do I need special art supplies?',
+    answer:
+      'Most lessons only need pencil, eraser, and paper. Some tutorials suggest optional colored pencils or markers once the line drawing is complete.',
+  },
+  {
+    question: 'Are the worksheets free to download?',
+    answer:
+      'Yes. Priority tutorials include free PDF and SVG practice worksheets you can print and reuse.',
+  },
+  {
+    question: 'How should beginners start?',
+    answer:
+      'Begin with Easy Drawings or a fundamentals guide such as basic shapes, then practise one subject tutorial with its worksheet.',
+  },
+  {
+    question: 'Is Drawinging an online drawing tool?',
+    answer:
+      'No. Drawinging is an educational content site focused on tutorials, categories, and printable practice sheets—not a canvas or drawing app.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: SITE.name,
+    url: SITE.domain,
+    logo: `${SITE.domain}/brand/logo.svg`,
+    email: SITE.email,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: SITE.name,
+    url: SITE.domain,
+    description: SITE.description,
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: `${SITE.domain}/search/?q={search_term_string}`,
+      'query-input': 'required name=search_term_string',
+    },
+  },
+];
+---
+
+<BaseLayout
+  title="Drawinging — Step-by-Step Drawing Tutorials & Worksheets"
+  description={SITE.description}
+  canonical={`${SITE.domain}/`}
+  jsonLd={jsonLd}
+>
+  <section class="hero">
+    <div class="container hero__grid">
+      <div class="hero__copy fade-up">
+        <p class="hero__brand">Drawinging</p>
+        <h1>Learn to Draw, One Clear Step at a Time</h1>
+        <p>
+          Organized drawing tutorials, beginner-friendly lessons, category collections, and printable worksheets—so you
+          always know what to draw next and how to practise.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="/drawing-tutorials/">Browse Drawing Tutorials</a>
+          <a class="btn btn--secondary" href="/worksheets/">Download Free Worksheets</a>
+        </div>
+      </div>
+      <div class="hero__visual fade-up">
+        <img
+          src="/images/homepage/hero-illustration.webp"
+          alt=""
+          width="1200"
+          height="960"
+          fetchpriority="high"
+          decoding="async"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="container">
+      <SearchPanel id="home-search" large />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Popular</p>
+        <h2 class="section__title">Popular drawing guides</h2>
+        <p class="section__intro">High-demand subjects selected from keyword research and category balance.</p>
+      </div>
+      <div class="card-grid">
+        {popular.map((t) => <TutorialCard tutorial={t} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="categories">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Browse</p>
+        <h2 class="section__title">Browse by category</h2>
+        <p class="section__intro">Eleven focused collections to help you find the right lesson quickly.</p>
+      </div>
+      <div class="card-grid">
+        {
+          navCategories.map((cat: any) => (
+            <a class="category-card card-link" href={CATEGORY_META[cat.id].permalink} style="text-decoration:none">
+              <div class="category-card__media" style="aspect-ratio:1;display:grid;place-items:center;padding:1.5rem">
+                <img src={CATEGORY_META[cat.id].icon} alt="" width="72" height="72" loading="lazy" decoding="async" />
+              </div>
+              <div class="category-card__body">
+                <h3 style="font-size:1.15rem">{CATEGORY_META[cat.id].name}</h3>
+                <p style="font-size:0.95rem">{CATEGORY_META[cat.id].description}</p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Beginner</p>
+        <h2 class="section__title">Easy drawings</h2>
+        <p class="section__intro">Shorter construction sequences with friendly shapes and clear checkpoints.</p>
+      </div>
+      <div class="card-grid">
+        {easy.map((t) => <TutorialCard tutorial={t} />)}
+      </div>
+      <p style="margin-top:1.25rem"><a href="/easy-drawings/">See all easy drawings</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Flowers</p>
+        <h2 class="section__title">Flower drawings</h2>
+        <p class="section__intro">
+          Featured flower lessons. For the full collection, visit the{' '}
+          <a href="/flower-drawings/">flower drawing tutorials</a> hub—or start with our{' '}
+          <a href="/flower-drawing/">easy flower drawing tutorial</a>.
+        </p>
+      </div>
+      <div class="card-grid">
+        {flowers.map((t) => <TutorialCard tutorial={t} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Animals</p>
+        <h2 class="section__title">Animal drawings</h2>
+        <p class="section__intro">
+          Friendly animal subjects with solid gesture and proportion tips. Browse the{' '}
+          <a href="/animal-drawings/">animal drawing tutorials</a> collection.
+        </p>
+      </div>
+      <div class="card-grid">
+        {animals.map((t) => <TutorialCard tutorial={t} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Practice</p>
+        <h2 class="section__title">Free worksheets</h2>
+        <p class="section__intro">Printable PDF practice sheets paired with each priority tutorial.</p>
+      </div>
+      <div class="card-grid">
+        {
+          popular.slice(0, 4).map((t) => (
+            <article class="worksheet-card">
+              <div class="worksheet-card__media">
+                <img
+                  src={t.data.worksheet.preview}
+                  alt={t.data.worksheet.title}
+                  title={t.data.worksheet.title}
+                  width="800"
+                  height="1056"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+              <div class="worksheet-card__body">
+                <h3 style="font-size:1.1rem">{t.data.worksheet.title}</h3>
+                <div class="worksheet-actions">
+                  <a class="btn btn--primary" href={t.data.worksheet.pdf} download>
+                    Download PDF
+                  </a>
+                  <a class="btn btn--ghost" href={t.data.permalink}>
+                    View tutorial
+                  </a>
+                </div>
+              </div>
+            </article>
+          ))
+        }
+      </div>
+      <p style="margin-top:1.25rem"><a href="/worksheets/">Browse all worksheets</a></p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Process</p>
+        <h2 class="section__title">How it works</h2>
+      </div>
+      <div class="how-grid">
+        <div class="how-card"><div class="how-card__num">1</div><h3>Choose a drawing</h3><p>Pick a subject from categories, easy drawings, or search.</p></div>
+        <div class="how-card"><div class="how-card__num">2</div><h3>Gather simple supplies</h3><p>Pencil, eraser, and paper are enough for most lessons.</p></div>
+        <div class="how-card"><div class="how-card__num">3</div><h3>Follow the steps</h3><p>Build from light shapes to cleaner contours with practical tips.</p></div>
+        <div class="how-card"><div class="how-card__num">4</div><h3>Download and practise</h3><p>Use the worksheet to repeat the sequence until it feels natural.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Skills</p>
+        <h2 class="section__title">Learn drawing</h2>
+        <p class="section__intro">Foundational guides that support every tutorial on the site.</p>
+      </div>
+      <div class="card-grid">
+        {
+          LEARN_GUIDES.map((g) => (
+            <a class="how-card card-link" href={`/learn-drawing/${g.slug}/`} style="text-decoration:none">
+              <h3>{g.title}</h3>
+              <p>{g.description}</p>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">New</p>
+        <h2 class="section__title">Latest guides</h2>
+      </div>
+      <div class="card-grid">
+        {latest.map((t) => <TutorialCard tutorial={t} />)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__header">
+        <p class="section__eyebrow">Trust</p>
+        <h2 class="section__title">Why Drawinging</h2>
+      </div>
+      <div class="why-grid">
+        <div class="why-item"><h3>Clear step sequences</h3><p>Lessons move from construction to contour without skipping checkpoints.</p></div>
+        <div class="why-item"><h3>Beginner-friendly explanations</h3><p>Plain language focused on what to draw next and why it matters.</p></div>
+        <div class="why-item"><h3>Printable practice sheets</h3><p>Real PDF worksheets for tracing, grids, and blank redraws.</p></div>
+        <div class="why-item"><h3>Organized categories</h3><p>Browse by subject family instead of hunting through mixed lists.</p></div>
+        <div class="why-item"><h3>Mobile-friendly lessons</h3><p>Readable layouts and large touch targets on small screens.</p></div>
+        <div class="why-item"><h3>Original educational content</h3><p>Tutorials written for practice—not recycled filler or tool demos.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container container--narrow">
+      <div class="section__header">
+        <h2 class="section__title">Homepage FAQs</h2>
+      </div>
+      <FaqSection faqs={homepageFaqs} />
+    </div>
+  </section>
+</BaseLayout>

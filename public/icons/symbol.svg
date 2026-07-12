@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Symbol drawings">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <path d="M32 51S13 39 13 24c0-7 5-12 12-12 4 0 7 2 7 5 0-3 3-5 7-5 7 0 12 5 12 12 0 15-19 27-19 27Z" stroke="#1F4D3A"/>
+    <path d="m20 31 8 7 16-17" stroke="#C9974A"/>
+    <path d="M13 54h38" stroke="#1C1A17"/>
+  </g>
+</svg>

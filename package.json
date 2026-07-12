@@ -1,0 +1,41 @@
+{
+  "name": "drawinging",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Premium step-by-step drawing tutorials, categories, and printable worksheets.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "npm run generate:search-index && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "generate:worksheets": "node src/scripts/generate-worksheets.mjs",
+    "generate:images": "node src/scripts/generate-images.mjs",
+    "generate:search-index": "node src/scripts/generate-search-index.mjs",
+    "generate:content-map": "node src/scripts/generate-content-map.mjs",
+    "generate:internal-links": "node src/scripts/generate-internal-links.mjs",
+    "parse:keywords": "node src/scripts/parse-keywords.mjs",
+    "cluster:keywords": "node src/scripts/cluster-keywords.mjs",
+    "validate": "node src/scripts/validate-all.mjs",
+    "validate:seo": "node src/scripts/validate-seo.mjs",
+    "validate:links": "node src/scripts/validate-links.mjs",
+    "validate:images": "node src/scripts/validate-images.mjs",
+    "validate:density": "node src/scripts/validate-density.mjs",
+    "validate:cannibalization": "node src/scripts/detect-cannibalization.mjs",
+    "prebuild": "npm run generate:worksheets && npm run generate:images && npm run generate:search-index"
+  },
+  "dependencies": {
+    "@astrojs/sitemap": "^3.7.0",
+    "@fontsource/manrope": "^5.2.8",
+    "@fontsource/outfit": "^5.2.8",
+    "astro": "^7.0.7",
+    "gray-matter": "^4.0.3",
+    "pdfkit": "^0.17.2",
+    "sharp": "^0.34.4"
+  },
+  "devDependencies": {
+    "@types/pdfkit": "^0.17.3"
+  }
+}

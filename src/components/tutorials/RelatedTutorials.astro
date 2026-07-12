@@ -1,0 +1,11 @@
+---
+import TutorialCard from './TutorialCard.astro';
+interface Props {
+  tutorials: any[];
+}
+const { tutorials } = Astro.props;
+---
+
+<div class="related-grid">
+  {tutorials.map((t) => <TutorialCard tutorial={t} />)}
+</div>

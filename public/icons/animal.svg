@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Animal drawings">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+    <path d="M18 32c0-9 7-16 16-16s16 7 16 16v7c0 8-6 13-16 13s-16-5-16-13v-7Z" stroke="#1C1A17"/>
+    <path d="M21 21 15 12l-1 14" stroke="#1F4D3A"/>
+    <path d="M47 21l6-9 1 14" stroke="#1F4D3A"/>
+    <path d="M26 34h.1M42 34h.1" stroke="#1C1A17"/>
+    <path d="M34 38v5M28 45c4 4 8 4 12 0" stroke="#C9974A"/>
+    <path d="M20 40H8M22 45H11M46 40h10M44 45h9" stroke="#1F4D3A"/>
+  </g>
+</svg>

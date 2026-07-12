@@ -1,0 +1,101 @@
+.tutorial-hero {
+  display: grid;
+  gap: var(--space-5);
+  margin-bottom: var(--space-6);
+}
+
+.summary-box {
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  background: var(--color-mint-soft);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+}
+
+.summary-box dt {
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-muted);
+  font-weight: 700;
+}
+
+.summary-box dd {
+  margin: 0.2rem 0 0;
+  font-weight: 700;
+  color: var(--color-ink);
+}
+
+.toc {
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  margin-bottom: var(--space-6);
+}
+
+.toc h2 {
+  font-size: var(--text-lg);
+  margin-bottom: 0.75rem;
+}
+
+.toc ol {
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.4rem;
+}
+
+.step {
+  display: grid;
+  gap: var(--space-3);
+  padding: var(--space-5) 0;
+  border-top: 1px solid var(--color-border-soft);
+}
+
+.step__media {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: var(--color-paper-deep);
+  max-width: 36rem;
+}
+
+.step__tip {
+  background: var(--color-accent-soft);
+  border-left: 3px solid var(--color-accent);
+  padding: 0.75rem 1rem;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  color: var(--color-ink-soft);
+  font-size: var(--text-sm);
+}
+
+.worksheet-panel {
+  display: grid;
+  gap: var(--space-5);
+  grid-template-columns: minmax(0, 16rem) 1fr;
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  align-items: center;
+}
+
+.worksheet-panel__preview {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.related-grid {
+  display: grid;
+  gap: var(--space-4);
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+}
+
+@media (max-width: 760px) {
+  .worksheet-panel {
+    grid-template-columns: 1fr;
+  }
+}

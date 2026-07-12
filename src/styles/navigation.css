@@ -1,0 +1,222 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(12px);
+  background: rgba(247, 243, 236, 0.92);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.site-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: var(--header-height);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  text-decoration: none;
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: -0.03em;
+}
+
+.brand img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav-desktop {
+  display: none;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.nav-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--touch);
+  padding: 0.5rem 0.8rem;
+  text-decoration: none;
+  color: var(--color-ink-soft);
+  font-weight: 600;
+  border-radius: var(--radius-sm);
+}
+
+.nav-link:hover,
+.nav-link[aria-current="page"] {
+  color: var(--color-emerald);
+  background: var(--color-mint-soft);
+}
+
+.nav-item {
+  position: relative;
+}
+
+.mega-menu {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.35rem);
+  width: min(42rem, 80vw);
+  background: white;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: 1.25rem;
+  display: none;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.35rem 1rem;
+}
+
+.nav-item:focus-within .mega-menu,
+.nav-item:hover .mega-menu {
+  display: grid;
+}
+
+.mega-menu a {
+  text-decoration: none;
+  padding: 0.65rem 0.75rem;
+  border-radius: var(--radius-sm);
+  color: var(--color-ink-soft);
+  font-weight: 600;
+}
+
+.mega-menu a:hover {
+  background: var(--color-mint-soft);
+  color: var(--color-emerald);
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.menu-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--touch);
+  min-height: var(--touch);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  background: white;
+}
+
+.mobile-nav {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+}
+
+.mobile-nav[data-open="true"] {
+  pointer-events: auto;
+}
+
+.mobile-nav__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(28, 26, 23, 0.4);
+  opacity: 0;
+  transition: opacity 200ms ease;
+}
+
+.mobile-nav[data-open="true"] .mobile-nav__backdrop {
+  opacity: 1;
+}
+
+.mobile-nav__panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: min(22rem, 92vw);
+  height: 100%;
+  background: var(--color-paper);
+  border-left: 1px solid var(--color-border);
+  padding: 1.25rem;
+  transform: translateX(100%);
+  transition: transform 220ms ease;
+  overflow-y: auto;
+  display: grid;
+  gap: 0.5rem;
+  align-content: start;
+}
+
+.mobile-nav[data-open="true"] .mobile-nav__panel {
+  transform: translateX(0);
+}
+
+.mobile-nav a {
+  text-decoration: none;
+  min-height: var(--touch);
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  font-weight: 650;
+}
+
+.site-footer {
+  background: var(--color-ink);
+  color: #f3efe7;
+  padding: var(--space-8) 0 var(--space-6);
+  margin-top: var(--space-8);
+}
+
+.site-footer a {
+  color: #d8ebe2;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-grid {
+  display: grid;
+  gap: var(--space-6);
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  margin-bottom: var(--space-7);
+}
+
+.footer-grid h2 {
+  color: white;
+  font-size: var(--text-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: var(--space-3);
+}
+
+.footer-grid ul {
+  list-style: none;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: var(--space-4);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  color: #b9b2a6;
+  font-size: var(--text-sm);
+}
+
+@media (min-width: 960px) {
+  .nav-desktop {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+}

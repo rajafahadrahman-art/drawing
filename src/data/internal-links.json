@@ -1,0 +1,652 @@
+{
+  "/bee-drawing/": {
+    "parentCategory": "/insect-drawings/",
+    "relatedTutorials": [
+      "/butterfly-drawing/",
+      "/bird-drawing/",
+      "/owl-drawing/",
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/proportions/"
+    ],
+    "worksheet": "/worksheets/#bee-drawing-worksheet"
+  },
+  "/bird-drawing/": {
+    "parentCategory": "/bird-drawings/",
+    "relatedTutorials": [
+      "/owl-drawing/",
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/line-control/"
+    ],
+    "worksheet": "/worksheets/#bird-drawing-worksheet"
+  },
+  "/bunny-drawing/": {
+    "parentCategory": "/animal-drawings/",
+    "relatedTutorials": [
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/fox-drawing/",
+      "/bird-drawing/",
+      "/owl-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/pencil-techniques/"
+    ],
+    "worksheet": "/worksheets/#bunny-drawing-worksheet"
+  },
+  "/butterfly-drawing/": {
+    "parentCategory": "/insect-drawings/",
+    "relatedTutorials": [
+      "/bee-drawing/",
+      "/bird-drawing/",
+      "/owl-drawing/",
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/proportions/"
+    ],
+    "worksheet": "/worksheets/#butterfly-drawing-worksheet"
+  },
+  "/car-drawing/": {
+    "parentCategory": "/vehicle-drawings/",
+    "relatedTutorials": [
+      "/plane-drawing/",
+      "/train-drawing/",
+      "/volleyball-drawing/",
+      "/soccer-ball-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/perspective/"
+    ],
+    "worksheet": "/worksheets/#car-drawing-worksheet"
+  },
+  "/cat-drawing/": {
+    "parentCategory": "/animal-drawings/",
+    "relatedTutorials": [
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/",
+      "/bird-drawing/",
+      "/owl-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/pencil-techniques/"
+    ],
+    "worksheet": "/worksheets/#cat-drawing-worksheet"
+  },
+  "/christmas-tree-drawing/": {
+    "parentCategory": "/seasonal-drawings/",
+    "relatedTutorials": [
+      "/pumpkin-drawing/",
+      "/snowman-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#christmas-tree-drawing-worksheet"
+  },
+  "/cloud-drawing/": {
+    "parentCategory": "/nature-drawings/",
+    "relatedTutorials": [
+      "/tree-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/",
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/shading/",
+      "/learn-drawing/perspective/"
+    ],
+    "worksheet": "/worksheets/#cloud-drawing-worksheet"
+  },
+  "/dog-drawing/": {
+    "parentCategory": "/animal-drawings/",
+    "relatedTutorials": [
+      "/cat-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/",
+      "/bird-drawing/",
+      "/owl-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/pencil-techniques/"
+    ],
+    "worksheet": "/worksheets/#dog-drawing-worksheet"
+  },
+  "/dolphin-drawing/": {
+    "parentCategory": "/sea-animal-drawings/",
+    "relatedTutorials": [
+      "/fish-drawing/",
+      "/shark-drawing/",
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/",
+      "/learn-drawing/proportions/"
+    ],
+    "worksheet": "/worksheets/#dolphin-drawing-worksheet"
+  },
+  "/dragon-drawing/": {
+    "parentCategory": "/fantasy-drawings/",
+    "relatedTutorials": [
+      "/unicorn-drawing/",
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/pencil-techniques/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#dragon-drawing-worksheet"
+  },
+  "/eye-drawing/": {
+    "parentCategory": "/symbol-drawings/",
+    "relatedTutorials": [
+      "/heart-drawing/",
+      "/star-drawing/",
+      "/volleyball-drawing/",
+      "/soccer-ball-drawing/",
+      "/christmas-tree-drawing/",
+      "/pumpkin-drawing/",
+      "/snowman-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/line-control/",
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/shading/",
+      "/learn-drawing/proportions/"
+    ],
+    "worksheet": "/worksheets/#eye-drawing-worksheet"
+  },
+  "/fish-drawing/": {
+    "parentCategory": "/sea-animal-drawings/",
+    "relatedTutorials": [
+      "/shark-drawing/",
+      "/dolphin-drawing/",
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#fish-drawing-worksheet"
+  },
+  "/flower-drawing/": {
+    "parentCategory": "/flower-drawings/",
+    "relatedTutorials": [
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#flower-drawing-worksheet"
+  },
+  "/fox-drawing/": {
+    "parentCategory": "/animal-drawings/",
+    "relatedTutorials": [
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/bird-drawing/",
+      "/owl-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/pencil-techniques/"
+    ],
+    "worksheet": "/worksheets/#fox-drawing-worksheet"
+  },
+  "/heart-drawing/": {
+    "parentCategory": "/symbol-drawings/",
+    "relatedTutorials": [
+      "/star-drawing/",
+      "/eye-drawing/",
+      "/volleyball-drawing/",
+      "/soccer-ball-drawing/",
+      "/christmas-tree-drawing/",
+      "/pumpkin-drawing/",
+      "/snowman-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/line-control/",
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#heart-drawing-worksheet"
+  },
+  "/hibiscus-flower-drawing/": {
+    "parentCategory": "/flower-drawings/",
+    "relatedTutorials": [
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/tulip-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/",
+      "/learn-drawing/proportions/"
+    ],
+    "worksheet": "/worksheets/#hibiscus-flower-drawing-worksheet"
+  },
+  "/horse-drawing/": {
+    "parentCategory": "/animal-drawings/",
+    "relatedTutorials": [
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/",
+      "/bird-drawing/",
+      "/owl-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/pencil-techniques/"
+    ],
+    "worksheet": "/worksheets/#horse-drawing-worksheet"
+  },
+  "/lion-drawing/": {
+    "parentCategory": "/animal-drawings/",
+    "relatedTutorials": [
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/",
+      "/bird-drawing/",
+      "/owl-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/pencil-techniques/"
+    ],
+    "worksheet": "/worksheets/#lion-drawing-worksheet"
+  },
+  "/mountain-drawing/": {
+    "parentCategory": "/nature-drawings/",
+    "relatedTutorials": [
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/shading/",
+      "/learn-drawing/perspective/"
+    ],
+    "worksheet": "/worksheets/#mountain-drawing-worksheet"
+  },
+  "/owl-drawing/": {
+    "parentCategory": "/bird-drawings/",
+    "relatedTutorials": [
+      "/bird-drawing/",
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/line-control/"
+    ],
+    "worksheet": "/worksheets/#owl-drawing-worksheet"
+  },
+  "/plane-drawing/": {
+    "parentCategory": "/vehicle-drawings/",
+    "relatedTutorials": [
+      "/car-drawing/",
+      "/train-drawing/",
+      "/volleyball-drawing/",
+      "/soccer-ball-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/perspective/"
+    ],
+    "worksheet": "/worksheets/#plane-drawing-worksheet"
+  },
+  "/pumpkin-drawing/": {
+    "parentCategory": "/seasonal-drawings/",
+    "relatedTutorials": [
+      "/christmas-tree-drawing/",
+      "/snowman-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#pumpkin-drawing-worksheet"
+  },
+  "/rose-drawing/": {
+    "parentCategory": "/flower-drawings/",
+    "relatedTutorials": [
+      "/flower-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#rose-drawing-worksheet"
+  },
+  "/shark-drawing/": {
+    "parentCategory": "/sea-animal-drawings/",
+    "relatedTutorials": [
+      "/fish-drawing/",
+      "/dolphin-drawing/",
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#shark-drawing-worksheet"
+  },
+  "/snowman-drawing/": {
+    "parentCategory": "/seasonal-drawings/",
+    "relatedTutorials": [
+      "/christmas-tree-drawing/",
+      "/pumpkin-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#snowman-drawing-worksheet"
+  },
+  "/soccer-ball-drawing/": {
+    "parentCategory": "/sports-drawings/",
+    "relatedTutorials": [
+      "/volleyball-drawing/",
+      "/heart-drawing/",
+      "/star-drawing/",
+      "/eye-drawing/",
+      "/car-drawing/",
+      "/plane-drawing/",
+      "/train-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#soccer-ball-drawing-worksheet"
+  },
+  "/star-drawing/": {
+    "parentCategory": "/symbol-drawings/",
+    "relatedTutorials": [
+      "/heart-drawing/",
+      "/eye-drawing/",
+      "/volleyball-drawing/",
+      "/soccer-ball-drawing/",
+      "/christmas-tree-drawing/",
+      "/pumpkin-drawing/",
+      "/snowman-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/line-control/",
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#star-drawing-worksheet"
+  },
+  "/sunflower-drawing/": {
+    "parentCategory": "/flower-drawings/",
+    "relatedTutorials": [
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#sunflower-drawing-worksheet"
+  },
+  "/sunset-drawing/": {
+    "parentCategory": "/nature-drawings/",
+    "relatedTutorials": [
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/mountain-drawing/",
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/shading/",
+      "/learn-drawing/perspective/",
+      "/learn-drawing/proportions/"
+    ],
+    "worksheet": "/worksheets/#sunset-drawing-worksheet"
+  },
+  "/train-drawing/": {
+    "parentCategory": "/vehicle-drawings/",
+    "relatedTutorials": [
+      "/car-drawing/",
+      "/plane-drawing/",
+      "/volleyball-drawing/",
+      "/soccer-ball-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/perspective/"
+    ],
+    "worksheet": "/worksheets/#train-drawing-worksheet"
+  },
+  "/tree-drawing/": {
+    "parentCategory": "/nature-drawings/",
+    "relatedTutorials": [
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/",
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tulip-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/shading/",
+      "/learn-drawing/perspective/"
+    ],
+    "worksheet": "/worksheets/#tree-drawing-worksheet"
+  },
+  "/tulip-drawing/": {
+    "parentCategory": "/flower-drawings/",
+    "relatedTutorials": [
+      "/flower-drawing/",
+      "/rose-drawing/",
+      "/sunflower-drawing/",
+      "/hibiscus-flower-drawing/",
+      "/tree-drawing/",
+      "/cloud-drawing/",
+      "/sunset-drawing/",
+      "/mountain-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#tulip-drawing-worksheet"
+  },
+  "/unicorn-drawing/": {
+    "parentCategory": "/fantasy-drawings/",
+    "relatedTutorials": [
+      "/dragon-drawing/",
+      "/cat-drawing/",
+      "/dog-drawing/",
+      "/horse-drawing/",
+      "/lion-drawing/",
+      "/bunny-drawing/",
+      "/fox-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/proportions/",
+      "/learn-drawing/pencil-techniques/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#unicorn-drawing-worksheet"
+  },
+  "/volleyball-drawing/": {
+    "parentCategory": "/sports-drawings/",
+    "relatedTutorials": [
+      "/soccer-ball-drawing/",
+      "/heart-drawing/",
+      "/star-drawing/",
+      "/eye-drawing/",
+      "/car-drawing/",
+      "/plane-drawing/",
+      "/train-drawing/"
+    ],
+    "relatedGuides": [
+      "/learn-drawing/basic-shapes/",
+      "/learn-drawing/line-control/",
+      "/learn-drawing/shading/"
+    ],
+    "worksheet": "/worksheets/#volleyball-drawing-worksheet"
+  }
+}

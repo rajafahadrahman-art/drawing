@@ -1,0 +1,14 @@
+.worksheet-hub-intro {
+  max-width: 42rem;
+  margin-bottom: var(--space-6);
+}
+
+.worksheet-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.worksheet-card .worksheet-actions {
+  margin-top: auto;
+}

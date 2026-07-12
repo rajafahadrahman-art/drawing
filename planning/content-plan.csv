@@ -1,0 +1,36 @@
+priority,title,focus_keyword,permalink,category,difficulty,estimated_steps,worksheet,status,notes
+1,Flower Drawing: Easy Step-by-Step Tutorial,flower drawing,/flower-drawing/,flower-drawings,beginner,7,yes,publish,CSV volume 226000
+2,Rose Drawing: Easy Step-by-Step Tutorial,rose drawing,/rose-drawing/,flower-drawings,beginner,7,yes,publish,CSV volume 85000
+3,Sunflower Drawing: Easy Step-by-Step Tutorial,sunflower drawing,/sunflower-drawing/,flower-drawings,beginner,7,yes,publish,CSV volume 27000
+4,Hibiscus Flower Drawing: Step-by-Step Tutorial,hibiscus flower drawing,/hibiscus-flower-drawing/,flower-drawings,intermediate,10,yes,publish,CSV volume 38000
+5,Tulip Drawing: Easy Step-by-Step Tutorial,tulip drawing,/tulip-drawing/,flower-drawings,beginner,7,yes,publish,CSV volume 16000
+6,Cat Drawing: Easy Step-by-Step Tutorial,cat drawing,/cat-drawing/,animal-drawings,beginner,7,yes,publish,CSV volume 130000
+7,Dog Drawing: Easy Step-by-Step Tutorial,dog drawing,/dog-drawing/,animal-drawings,beginner,7,yes,publish,CSV volume 105000
+8,Horse Drawing: Step-by-Step Tutorial,horse drawing,/horse-drawing/,animal-drawings,intermediate,10,yes,publish,CSV volume 46000
+9,Lion Drawing: Step-by-Step Tutorial,lion drawing,/lion-drawing/,animal-drawings,intermediate,10,yes,publish,CSV volume 31000
+10,Bunny Drawing: Easy Step-by-Step Tutorial,bunny drawing,/bunny-drawing/,animal-drawings,beginner,7,yes,publish,CSV volume 46000
+11,Fox Drawing: Easy Step-by-Step Tutorial,fox drawing,/fox-drawing/,animal-drawings,beginner,7,yes,publish,CSV volume 34000
+12,Bird Drawing: Easy Step-by-Step Tutorial,bird drawing,/bird-drawing/,bird-drawings,beginner,7,yes,publish,CSV volume 46000
+13,Owl Drawing: Easy Step-by-Step Tutorial,owl drawing,/owl-drawing/,bird-drawings,beginner,7,yes,publish,CSV volume 24000
+14,Butterfly Drawing: Easy Step-by-Step Tutorial,butterfly drawing,/butterfly-drawing/,insect-drawings,beginner,7,yes,publish,CSV volume 107000
+15,Bee Drawing: Easy Step-by-Step Tutorial,bee drawing,/bee-drawing/,insect-drawings,beginner,7,yes,publish,CSV volume 31000
+16,Fish Drawing: Easy Step-by-Step Tutorial,fish drawing,/fish-drawing/,sea-animal-drawings,beginner,7,yes,publish,CSV volume 56000
+17,Shark Drawing: Easy Step-by-Step Tutorial,shark drawing,/shark-drawing/,sea-animal-drawings,beginner,7,yes,publish,CSV volume 52000
+18,Dolphin Drawing: Step-by-Step Tutorial,dolphin drawing,/dolphin-drawing/,sea-animal-drawings,intermediate,10,yes,publish,CSV volume 21000
+19,Tree Drawing: Easy Step-by-Step Tutorial,tree drawing,/tree-drawing/,nature-drawings,beginner,7,yes,publish,CSV volume 0
+20,Cloud Drawing: Easy Step-by-Step Tutorial,cloud drawing,/cloud-drawing/,nature-drawings,beginner,7,yes,publish,CSV volume 31000
+21,Sunset Drawing: Step-by-Step Tutorial,sunset drawing,/sunset-drawing/,nature-drawings,intermediate,10,yes,publish,CSV volume 33000
+22,Mountain Drawing: Easy Step-by-Step Tutorial,mountain drawing,/mountain-drawing/,nature-drawings,beginner,7,yes,publish,CSV volume 27000
+23,Car Drawing: Step-by-Step Tutorial,car drawing,/car-drawing/,vehicle-drawings,intermediate,10,yes,publish,CSV volume 59000
+24,Plane Drawing: Easy Step-by-Step Tutorial,plane drawing,/plane-drawing/,vehicle-drawings,beginner,7,yes,publish,CSV volume 34000
+25,Train Drawing: Easy Step-by-Step Tutorial,train drawing,/train-drawing/,vehicle-drawings,beginner,7,yes,publish,CSV volume 19000
+26,Volleyball Drawing: Easy Step-by-Step Tutorial,volleyball drawing,/volleyball-drawing/,sports-drawings,beginner,7,yes,publish,CSV volume 68000
+27,Soccer Ball Drawing: Easy Step-by-Step Tutorial,soccer ball drawing,/soccer-ball-drawing/,sports-drawings,beginner,7,yes,publish,CSV volume 51000
+28,Christmas Tree Drawing: Easy Step-by-Step Tutorial,christmas tree drawing,/christmas-tree-drawing/,seasonal-drawings,beginner,7,yes,publish,CSV volume 60000
+29,Pumpkin Drawing: Easy Step-by-Step Tutorial,pumpkin drawing,/pumpkin-drawing/,seasonal-drawings,beginner,7,yes,publish,CSV volume 52000
+30,Snowman Drawing: Easy Step-by-Step Tutorial,snowman drawing,/snowman-drawing/,seasonal-drawings,beginner,7,yes,publish,CSV volume 19000
+31,Dragon Drawing: Step-by-Step Tutorial,dragon drawing,/dragon-drawing/,fantasy-drawings,advanced,12,yes,publish,CSV volume 0
+32,Unicorn Drawing: Step-by-Step Tutorial,unicorn drawing,/unicorn-drawing/,fantasy-drawings,intermediate,10,yes,publish,CSV volume 21000
+33,Heart Drawing: Easy Step-by-Step Tutorial,heart drawing,/heart-drawing/,symbol-drawings,beginner,7,yes,publish,CSV volume 64000
+34,Star Drawing: Easy Step-by-Step Tutorial,star drawing,/star-drawing/,symbol-drawings,beginner,7,yes,publish,CSV volume 24000
+35,Eye Drawing: Step-by-Step Tutorial,eye drawing,/eye-drawing/,symbol-drawings,intermediate,10,yes,publish,CSV volume 56000

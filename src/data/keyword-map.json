@@ -1,0 +1,786 @@
+[
+  {
+    "slug": "bee-drawing",
+    "focusKeyword": "bee drawing",
+    "permalink": "/bee-drawing/",
+    "category": "insect-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "butterfly-drawing",
+      "bird-drawing",
+      "owl-drawing",
+      "flower-drawing",
+      "rose-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/bee-drawing/bee-drawing.pdf",
+      "svg": "/worksheets/bee-drawing/bee-drawing.svg",
+      "preview": "/worksheets/bee-drawing/bee-drawing-preview.webp",
+      "title": "Bee Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "bird-drawing",
+    "focusKeyword": "bird drawing",
+    "permalink": "/bird-drawing/",
+    "category": "bird-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "owl-drawing",
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/bird-drawing/bird-drawing.pdf",
+      "svg": "/worksheets/bird-drawing/bird-drawing.svg",
+      "preview": "/worksheets/bird-drawing/bird-drawing-preview.webp",
+      "title": "Bird Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "bunny-drawing",
+    "focusKeyword": "bunny drawing",
+    "permalink": "/bunny-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "fox-drawing",
+      "bird-drawing",
+      "owl-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/bunny-drawing/bunny-drawing.pdf",
+      "svg": "/worksheets/bunny-drawing/bunny-drawing.svg",
+      "preview": "/worksheets/bunny-drawing/bunny-drawing-preview.webp",
+      "title": "Bunny Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "butterfly-drawing",
+    "focusKeyword": "butterfly drawing",
+    "permalink": "/butterfly-drawing/",
+    "category": "insect-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "bee-drawing",
+      "bird-drawing",
+      "owl-drawing",
+      "flower-drawing",
+      "rose-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/butterfly-drawing/butterfly-drawing.pdf",
+      "svg": "/worksheets/butterfly-drawing/butterfly-drawing.svg",
+      "preview": "/worksheets/butterfly-drawing/butterfly-drawing-preview.webp",
+      "title": "Butterfly Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "car-drawing",
+    "focusKeyword": "car drawing",
+    "permalink": "/car-drawing/",
+    "category": "vehicle-drawings",
+    "difficulty": "intermediate",
+    "relatedTutorials": [
+      "plane-drawing",
+      "train-drawing",
+      "volleyball-drawing",
+      "soccer-ball-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/car-drawing/car-drawing.pdf",
+      "svg": "/worksheets/car-drawing/car-drawing.svg",
+      "preview": "/worksheets/car-drawing/car-drawing-preview.webp",
+      "title": "Car Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "cat-drawing",
+    "focusKeyword": "cat drawing",
+    "permalink": "/cat-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing",
+      "bird-drawing",
+      "owl-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/cat-drawing/cat-drawing.pdf",
+      "svg": "/worksheets/cat-drawing/cat-drawing.svg",
+      "preview": "/worksheets/cat-drawing/cat-drawing-preview.webp",
+      "title": "Cat Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "christmas-tree-drawing",
+    "focusKeyword": "christmas tree drawing",
+    "permalink": "/christmas-tree-drawing/",
+    "category": "seasonal-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "pumpkin-drawing",
+      "snowman-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/christmas-tree-drawing/christmas-tree-drawing.pdf",
+      "svg": "/worksheets/christmas-tree-drawing/christmas-tree-drawing.svg",
+      "preview": "/worksheets/christmas-tree-drawing/christmas-tree-drawing-preview.webp",
+      "title": "Christmas Tree Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "cloud-drawing",
+    "focusKeyword": "cloud drawing",
+    "permalink": "/cloud-drawing/",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "tree-drawing",
+      "sunset-drawing",
+      "mountain-drawing",
+      "flower-drawing",
+      "rose-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/cloud-drawing/cloud-drawing.pdf",
+      "svg": "/worksheets/cloud-drawing/cloud-drawing.svg",
+      "preview": "/worksheets/cloud-drawing/cloud-drawing-preview.webp",
+      "title": "Cloud Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "dog-drawing",
+    "focusKeyword": "dog drawing",
+    "permalink": "/dog-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "cat-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing",
+      "bird-drawing",
+      "owl-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/dog-drawing/dog-drawing.pdf",
+      "svg": "/worksheets/dog-drawing/dog-drawing.svg",
+      "preview": "/worksheets/dog-drawing/dog-drawing-preview.webp",
+      "title": "Dog Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "dolphin-drawing",
+    "focusKeyword": "dolphin drawing",
+    "permalink": "/dolphin-drawing/",
+    "category": "sea-animal-drawings",
+    "difficulty": "intermediate",
+    "relatedTutorials": [
+      "fish-drawing",
+      "shark-drawing",
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/dolphin-drawing/dolphin-drawing.pdf",
+      "svg": "/worksheets/dolphin-drawing/dolphin-drawing.svg",
+      "preview": "/worksheets/dolphin-drawing/dolphin-drawing-preview.webp",
+      "title": "Dolphin Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "dragon-drawing",
+    "focusKeyword": "dragon drawing",
+    "permalink": "/dragon-drawing/",
+    "category": "fantasy-drawings",
+    "difficulty": "advanced",
+    "relatedTutorials": [
+      "unicorn-drawing",
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/dragon-drawing/dragon-drawing.pdf",
+      "svg": "/worksheets/dragon-drawing/dragon-drawing.svg",
+      "preview": "/worksheets/dragon-drawing/dragon-drawing-preview.webp",
+      "title": "Dragon Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "eye-drawing",
+    "focusKeyword": "eye drawing",
+    "permalink": "/eye-drawing/",
+    "category": "symbol-drawings",
+    "difficulty": "intermediate",
+    "relatedTutorials": [
+      "heart-drawing",
+      "star-drawing",
+      "volleyball-drawing",
+      "soccer-ball-drawing",
+      "christmas-tree-drawing",
+      "pumpkin-drawing",
+      "snowman-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/eye-drawing/eye-drawing.pdf",
+      "svg": "/worksheets/eye-drawing/eye-drawing.svg",
+      "preview": "/worksheets/eye-drawing/eye-drawing-preview.webp",
+      "title": "Eye Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "fish-drawing",
+    "focusKeyword": "fish drawing",
+    "permalink": "/fish-drawing/",
+    "category": "sea-animal-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "shark-drawing",
+      "dolphin-drawing",
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/fish-drawing/fish-drawing.pdf",
+      "svg": "/worksheets/fish-drawing/fish-drawing.svg",
+      "preview": "/worksheets/fish-drawing/fish-drawing-preview.webp",
+      "title": "Fish Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "flower-drawing",
+    "focusKeyword": "flower drawing",
+    "permalink": "/flower-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "rose-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/flower-drawing/flower-drawing.pdf",
+      "svg": "/worksheets/flower-drawing/flower-drawing.svg",
+      "preview": "/worksheets/flower-drawing/flower-drawing-preview.webp",
+      "title": "Flower Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "fox-drawing",
+    "focusKeyword": "fox drawing",
+    "permalink": "/fox-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "bird-drawing",
+      "owl-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/fox-drawing/fox-drawing.pdf",
+      "svg": "/worksheets/fox-drawing/fox-drawing.svg",
+      "preview": "/worksheets/fox-drawing/fox-drawing-preview.webp",
+      "title": "Fox Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "heart-drawing",
+    "focusKeyword": "heart drawing",
+    "permalink": "/heart-drawing/",
+    "category": "symbol-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "star-drawing",
+      "eye-drawing",
+      "volleyball-drawing",
+      "soccer-ball-drawing",
+      "christmas-tree-drawing",
+      "pumpkin-drawing",
+      "snowman-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/heart-drawing/heart-drawing.pdf",
+      "svg": "/worksheets/heart-drawing/heart-drawing.svg",
+      "preview": "/worksheets/heart-drawing/heart-drawing-preview.webp",
+      "title": "Heart Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "hibiscus-flower-drawing",
+    "focusKeyword": "hibiscus flower drawing",
+    "permalink": "/hibiscus-flower-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "intermediate",
+    "relatedTutorials": [
+      "flower-drawing",
+      "rose-drawing",
+      "sunflower-drawing",
+      "tulip-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/hibiscus-flower-drawing/hibiscus-flower-drawing.pdf",
+      "svg": "/worksheets/hibiscus-flower-drawing/hibiscus-flower-drawing.svg",
+      "preview": "/worksheets/hibiscus-flower-drawing/hibiscus-flower-drawing-preview.webp",
+      "title": "Hibiscus Flower Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "horse-drawing",
+    "focusKeyword": "horse drawing",
+    "permalink": "/horse-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "intermediate",
+    "relatedTutorials": [
+      "cat-drawing",
+      "dog-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing",
+      "bird-drawing",
+      "owl-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/horse-drawing/horse-drawing.pdf",
+      "svg": "/worksheets/horse-drawing/horse-drawing.svg",
+      "preview": "/worksheets/horse-drawing/horse-drawing-preview.webp",
+      "title": "Horse Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "lion-drawing",
+    "focusKeyword": "lion drawing",
+    "permalink": "/lion-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "intermediate",
+    "relatedTutorials": [
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "bunny-drawing",
+      "fox-drawing",
+      "bird-drawing",
+      "owl-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/lion-drawing/lion-drawing.pdf",
+      "svg": "/worksheets/lion-drawing/lion-drawing.svg",
+      "preview": "/worksheets/lion-drawing/lion-drawing-preview.webp",
+      "title": "Lion Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "mountain-drawing",
+    "focusKeyword": "mountain drawing",
+    "permalink": "/mountain-drawing/",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "flower-drawing",
+      "rose-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/mountain-drawing/mountain-drawing.pdf",
+      "svg": "/worksheets/mountain-drawing/mountain-drawing.svg",
+      "preview": "/worksheets/mountain-drawing/mountain-drawing-preview.webp",
+      "title": "Mountain Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "owl-drawing",
+    "focusKeyword": "owl drawing",
+    "permalink": "/owl-drawing/",
+    "category": "bird-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "bird-drawing",
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/owl-drawing/owl-drawing.pdf",
+      "svg": "/worksheets/owl-drawing/owl-drawing.svg",
+      "preview": "/worksheets/owl-drawing/owl-drawing-preview.webp",
+      "title": "Owl Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "plane-drawing",
+    "focusKeyword": "plane drawing",
+    "permalink": "/plane-drawing/",
+    "category": "vehicle-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "car-drawing",
+      "train-drawing",
+      "volleyball-drawing",
+      "soccer-ball-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/plane-drawing/plane-drawing.pdf",
+      "svg": "/worksheets/plane-drawing/plane-drawing.svg",
+      "preview": "/worksheets/plane-drawing/plane-drawing-preview.webp",
+      "title": "Plane Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "pumpkin-drawing",
+    "focusKeyword": "pumpkin drawing",
+    "permalink": "/pumpkin-drawing/",
+    "category": "seasonal-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "christmas-tree-drawing",
+      "snowman-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/pumpkin-drawing/pumpkin-drawing.pdf",
+      "svg": "/worksheets/pumpkin-drawing/pumpkin-drawing.svg",
+      "preview": "/worksheets/pumpkin-drawing/pumpkin-drawing-preview.webp",
+      "title": "Pumpkin Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "rose-drawing",
+    "focusKeyword": "rose drawing",
+    "permalink": "/rose-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "flower-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/rose-drawing/rose-drawing.pdf",
+      "svg": "/worksheets/rose-drawing/rose-drawing.svg",
+      "preview": "/worksheets/rose-drawing/rose-drawing-preview.webp",
+      "title": "Rose Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "shark-drawing",
+    "focusKeyword": "shark drawing",
+    "permalink": "/shark-drawing/",
+    "category": "sea-animal-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "fish-drawing",
+      "dolphin-drawing",
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/shark-drawing/shark-drawing.pdf",
+      "svg": "/worksheets/shark-drawing/shark-drawing.svg",
+      "preview": "/worksheets/shark-drawing/shark-drawing-preview.webp",
+      "title": "Shark Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "snowman-drawing",
+    "focusKeyword": "snowman drawing",
+    "permalink": "/snowman-drawing/",
+    "category": "seasonal-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "christmas-tree-drawing",
+      "pumpkin-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/snowman-drawing/snowman-drawing.pdf",
+      "svg": "/worksheets/snowman-drawing/snowman-drawing.svg",
+      "preview": "/worksheets/snowman-drawing/snowman-drawing-preview.webp",
+      "title": "Snowman Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "soccer-ball-drawing",
+    "focusKeyword": "soccer ball drawing",
+    "permalink": "/soccer-ball-drawing/",
+    "category": "sports-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "volleyball-drawing",
+      "heart-drawing",
+      "star-drawing",
+      "eye-drawing",
+      "car-drawing",
+      "plane-drawing",
+      "train-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/soccer-ball-drawing/soccer-ball-drawing.pdf",
+      "svg": "/worksheets/soccer-ball-drawing/soccer-ball-drawing.svg",
+      "preview": "/worksheets/soccer-ball-drawing/soccer-ball-drawing-preview.webp",
+      "title": "Soccer Ball Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "star-drawing",
+    "focusKeyword": "star drawing",
+    "permalink": "/star-drawing/",
+    "category": "symbol-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "heart-drawing",
+      "eye-drawing",
+      "volleyball-drawing",
+      "soccer-ball-drawing",
+      "christmas-tree-drawing",
+      "pumpkin-drawing",
+      "snowman-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/star-drawing/star-drawing.pdf",
+      "svg": "/worksheets/star-drawing/star-drawing.svg",
+      "preview": "/worksheets/star-drawing/star-drawing-preview.webp",
+      "title": "Star Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "sunflower-drawing",
+    "focusKeyword": "sunflower drawing",
+    "permalink": "/sunflower-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "flower-drawing",
+      "rose-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/sunflower-drawing/sunflower-drawing.pdf",
+      "svg": "/worksheets/sunflower-drawing/sunflower-drawing.svg",
+      "preview": "/worksheets/sunflower-drawing/sunflower-drawing-preview.webp",
+      "title": "Sunflower Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "sunset-drawing",
+    "focusKeyword": "sunset drawing",
+    "permalink": "/sunset-drawing/",
+    "category": "nature-drawings",
+    "difficulty": "intermediate",
+    "relatedTutorials": [
+      "tree-drawing",
+      "cloud-drawing",
+      "mountain-drawing",
+      "flower-drawing",
+      "rose-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/sunset-drawing/sunset-drawing.pdf",
+      "svg": "/worksheets/sunset-drawing/sunset-drawing.svg",
+      "preview": "/worksheets/sunset-drawing/sunset-drawing-preview.webp",
+      "title": "Sunset Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "train-drawing",
+    "focusKeyword": "train drawing",
+    "permalink": "/train-drawing/",
+    "category": "vehicle-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "car-drawing",
+      "plane-drawing",
+      "volleyball-drawing",
+      "soccer-ball-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/train-drawing/train-drawing.pdf",
+      "svg": "/worksheets/train-drawing/train-drawing.svg",
+      "preview": "/worksheets/train-drawing/train-drawing-preview.webp",
+      "title": "Train Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "tree-drawing",
+    "focusKeyword": "tree drawing",
+    "permalink": "/tree-drawing/",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing",
+      "flower-drawing",
+      "rose-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tulip-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/tree-drawing/tree-drawing.pdf",
+      "svg": "/worksheets/tree-drawing/tree-drawing.svg",
+      "preview": "/worksheets/tree-drawing/tree-drawing-preview.webp",
+      "title": "Tree Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "tulip-drawing",
+    "focusKeyword": "tulip drawing",
+    "permalink": "/tulip-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "flower-drawing",
+      "rose-drawing",
+      "sunflower-drawing",
+      "hibiscus-flower-drawing",
+      "tree-drawing",
+      "cloud-drawing",
+      "sunset-drawing",
+      "mountain-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/tulip-drawing/tulip-drawing.pdf",
+      "svg": "/worksheets/tulip-drawing/tulip-drawing.svg",
+      "preview": "/worksheets/tulip-drawing/tulip-drawing-preview.webp",
+      "title": "Tulip Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "unicorn-drawing",
+    "focusKeyword": "unicorn drawing",
+    "permalink": "/unicorn-drawing/",
+    "category": "fantasy-drawings",
+    "difficulty": "intermediate",
+    "relatedTutorials": [
+      "dragon-drawing",
+      "cat-drawing",
+      "dog-drawing",
+      "horse-drawing",
+      "lion-drawing",
+      "bunny-drawing",
+      "fox-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/unicorn-drawing/unicorn-drawing.pdf",
+      "svg": "/worksheets/unicorn-drawing/unicorn-drawing.svg",
+      "preview": "/worksheets/unicorn-drawing/unicorn-drawing-preview.webp",
+      "title": "Unicorn Drawing Worksheet"
+    }
+  },
+  {
+    "slug": "volleyball-drawing",
+    "focusKeyword": "volleyball drawing",
+    "permalink": "/volleyball-drawing/",
+    "category": "sports-drawings",
+    "difficulty": "beginner",
+    "relatedTutorials": [
+      "soccer-ball-drawing",
+      "heart-drawing",
+      "star-drawing",
+      "eye-drawing",
+      "car-drawing",
+      "plane-drawing",
+      "train-drawing"
+    ],
+    "worksheet": {
+      "pdf": "/worksheets/volleyball-drawing/volleyball-drawing.pdf",
+      "svg": "/worksheets/volleyball-drawing/volleyball-drawing.svg",
+      "preview": "/worksheets/volleyball-drawing/volleyball-drawing-preview.webp",
+      "title": "Volleyball Drawing Worksheet"
+    }
+  }
+]

@@ -1,0 +1,861 @@
+{
+  "flower-drawing": {
+    "primary": "flower drawing",
+    "permalink": "/flower-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "flower drawing",
+        "volume": 226000,
+        "role": "primary"
+      },
+      {
+        "keyword": "flowers drawing",
+        "volume": 92000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flower drawing easy",
+        "volume": 28000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy flower drawing",
+        "volume": 19000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "simple flower drawing",
+        "volume": 6700,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing of flowers",
+        "volume": 5800,
+        "role": "secondary"
+      },
+      {
+        "keyword": "flowers drawing easy",
+        "volume": 5500,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 383000
+  },
+  "rose-drawing": {
+    "primary": "rose drawing",
+    "permalink": "/rose-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "rose drawing",
+        "volume": 85000,
+        "role": "primary"
+      },
+      {
+        "keyword": "rose drawing easy",
+        "volume": 13000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy rose drawing",
+        "volume": 9000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "simple rose drawing",
+        "volume": 5400,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing of a rose",
+        "volume": 4100,
+        "role": "secondary"
+      },
+      {
+        "keyword": "realistic rose drawing",
+        "volume": 3500,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 120000
+  },
+  "sunflower-drawing": {
+    "primary": "sunflower drawing",
+    "permalink": "/sunflower-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "sunflower drawing",
+        "volume": 27000,
+        "role": "primary"
+      },
+      {
+        "keyword": "sunflower drawing easy",
+        "volume": 4300,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 31300
+  },
+  "hibiscus-flower-drawing": {
+    "primary": "hibiscus flower drawing",
+    "permalink": "/hibiscus-flower-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "intermediate",
+    "members": [
+      {
+        "keyword": "hibiscus flower drawing",
+        "volume": 38000,
+        "role": "primary"
+      },
+      {
+        "keyword": "hibiscus drawing",
+        "volume": 29000,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 67000
+  },
+  "tulip-drawing": {
+    "primary": "tulip drawing",
+    "permalink": "/tulip-drawing/",
+    "category": "flower-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "tulip drawing",
+        "volume": 16000,
+        "role": "primary"
+      }
+    ],
+    "total_volume": 16000
+  },
+  "cat-drawing": {
+    "primary": "cat drawing",
+    "permalink": "/cat-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "cat drawing",
+        "volume": 130000,
+        "role": "primary"
+      },
+      {
+        "keyword": "cute cat drawing",
+        "volume": 25000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cat drawing easy",
+        "volume": 18000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy cat drawing",
+        "volume": 17000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "simple cat drawing",
+        "volume": 8100,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cartoon cat drawing",
+        "volume": 5100,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cat drawing for kids",
+        "volume": 4700,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing of a cat",
+        "volume": 4600,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cat easy drawing",
+        "volume": 4100,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing cat",
+        "volume": 3700,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cat drawing cute",
+        "volume": 3500,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 223800
+  },
+  "dog-drawing": {
+    "primary": "dog drawing",
+    "permalink": "/dog-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "dog drawing",
+        "volume": 105000,
+        "role": "primary"
+      },
+      {
+        "keyword": "dog drawing easy",
+        "volume": 19000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy dog drawing",
+        "volume": 14000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cute dog drawing",
+        "volume": 13000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing of a dog",
+        "volume": 8300,
+        "role": "secondary"
+      },
+      {
+        "keyword": "simple dog drawing",
+        "volume": 4800,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing dog",
+        "volume": 4000,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 168100
+  },
+  "horse-drawing": {
+    "primary": "horse drawing",
+    "permalink": "/horse-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "intermediate",
+    "members": [
+      {
+        "keyword": "horse drawing",
+        "volume": 46000,
+        "role": "primary"
+      },
+      {
+        "keyword": "horse drawing easy",
+        "volume": 11000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy horse drawing",
+        "volume": 7200,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 64200
+  },
+  "lion-drawing": {
+    "primary": "lion drawing",
+    "permalink": "/lion-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "intermediate",
+    "members": [
+      {
+        "keyword": "lion drawing",
+        "volume": 31000,
+        "role": "primary"
+      },
+      {
+        "keyword": "lion drawing easy",
+        "volume": 8000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy lion drawing",
+        "volume": 3600,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 42600
+  },
+  "bunny-drawing": {
+    "primary": "bunny drawing",
+    "permalink": "/bunny-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "bunny drawing",
+        "volume": 46000,
+        "role": "primary"
+      },
+      {
+        "keyword": "cute bunny drawing",
+        "volume": 9000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "bunny drawing easy",
+        "volume": 7100,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy bunny drawing",
+        "volume": 6300,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 68400
+  },
+  "fox-drawing": {
+    "primary": "fox drawing",
+    "permalink": "/fox-drawing/",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "fox drawing",
+        "volume": 34000,
+        "role": "primary"
+      },
+      {
+        "keyword": "fox drawing easy",
+        "volume": 6300,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cute fox drawing",
+        "volume": 3700,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 44000
+  },
+  "bird-drawing": {
+    "primary": "bird drawing",
+    "permalink": "/bird-drawing/",
+    "category": "bird-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "bird drawing",
+        "volume": 46000,
+        "role": "primary"
+      },
+      {
+        "keyword": "bird drawing easy",
+        "volume": 8200,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy bird drawing",
+        "volume": 5600,
+        "role": "secondary"
+      },
+      {
+        "keyword": "simple bird drawing",
+        "volume": 3600,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 63400
+  },
+  "owl-drawing": {
+    "primary": "owl drawing",
+    "permalink": "/owl-drawing/",
+    "category": "bird-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "owl drawing",
+        "volume": 24000,
+        "role": "primary"
+      }
+    ],
+    "total_volume": 24000
+  },
+  "butterfly-drawing": {
+    "primary": "butterfly drawing",
+    "permalink": "/butterfly-drawing/",
+    "category": "insect-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "butterfly drawing",
+        "volume": 107000,
+        "role": "primary"
+      },
+      {
+        "keyword": "butterfly drawing easy",
+        "volume": 14000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy butterfly drawing",
+        "volume": 6800,
+        "role": "secondary"
+      },
+      {
+        "keyword": "simple butterfly drawing",
+        "volume": 4600,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 132400
+  },
+  "bee-drawing": {
+    "primary": "bee drawing",
+    "permalink": "/bee-drawing/",
+    "category": "insect-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "bee drawing",
+        "volume": 31000,
+        "role": "primary"
+      },
+      {
+        "keyword": "bee drawing easy",
+        "volume": 4100,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 35100
+  },
+  "fish-drawing": {
+    "primary": "fish drawing",
+    "permalink": "/fish-drawing/",
+    "category": "sea-animal-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "fish drawing",
+        "volume": 56000,
+        "role": "primary"
+      },
+      {
+        "keyword": "fish drawing easy",
+        "volume": 12000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy fish drawing",
+        "volume": 7400,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 75400
+  },
+  "shark-drawing": {
+    "primary": "shark drawing",
+    "permalink": "/shark-drawing/",
+    "category": "sea-animal-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "shark drawing",
+        "volume": 52000,
+        "role": "primary"
+      },
+      {
+        "keyword": "shark drawing easy",
+        "volume": 7600,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy shark drawing",
+        "volume": 5700,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 65300
+  },
+  "dolphin-drawing": {
+    "primary": "dolphin drawing",
+    "permalink": "/dolphin-drawing/",
+    "category": "sea-animal-drawings",
+    "difficulty": "intermediate",
+    "members": [
+      {
+        "keyword": "dolphin drawing",
+        "volume": 21000,
+        "role": "primary"
+      },
+      {
+        "keyword": "dolphin drawing easy",
+        "volume": 4800,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 25800
+  },
+  "tree-drawing": {
+    "primary": "tree drawing",
+    "permalink": "/tree-drawing/",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "tree drawing easy",
+        "volume": 8800,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy tree drawing",
+        "volume": 4800,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing of a tree",
+        "volume": 3700,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 17300
+  },
+  "cloud-drawing": {
+    "primary": "cloud drawing",
+    "permalink": "/cloud-drawing/",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "cloud drawing",
+        "volume": 31000,
+        "role": "primary"
+      }
+    ],
+    "total_volume": 31000
+  },
+  "sunset-drawing": {
+    "primary": "sunset drawing",
+    "permalink": "/sunset-drawing/",
+    "category": "nature-drawings",
+    "difficulty": "intermediate",
+    "members": [
+      {
+        "keyword": "sunset drawing",
+        "volume": 33000,
+        "role": "primary"
+      },
+      {
+        "keyword": "sunset drawing easy",
+        "volume": 4100,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 37100
+  },
+  "mountain-drawing": {
+    "primary": "mountain drawing",
+    "permalink": "/mountain-drawing/",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "mountain drawing",
+        "volume": 27000,
+        "role": "primary"
+      },
+      {
+        "keyword": "mountain drawing easy",
+        "volume": 5100,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 32100
+  },
+  "car-drawing": {
+    "primary": "car drawing",
+    "permalink": "/car-drawing/",
+    "category": "vehicle-drawings",
+    "difficulty": "intermediate",
+    "members": [
+      {
+        "keyword": "car drawing",
+        "volume": 59000,
+        "role": "primary"
+      },
+      {
+        "keyword": "car drawing easy",
+        "volume": 11000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy car drawing",
+        "volume": 6500,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 76500
+  },
+  "plane-drawing": {
+    "primary": "plane drawing",
+    "permalink": "/plane-drawing/",
+    "category": "vehicle-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "plane drawing",
+        "volume": 34000,
+        "role": "primary"
+      },
+      {
+        "keyword": "plane drawing easy",
+        "volume": 4000,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 38000
+  },
+  "train-drawing": {
+    "primary": "train drawing",
+    "permalink": "/train-drawing/",
+    "category": "vehicle-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "train drawing",
+        "volume": 19000,
+        "role": "primary"
+      },
+      {
+        "keyword": "train drawing easy",
+        "volume": 3800,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 22800
+  },
+  "volleyball-drawing": {
+    "primary": "volleyball drawing",
+    "permalink": "/volleyball-drawing/",
+    "category": "sports-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "volleyball drawing",
+        "volume": 68000,
+        "role": "primary"
+      }
+    ],
+    "total_volume": 68000
+  },
+  "soccer-ball-drawing": {
+    "primary": "soccer ball drawing",
+    "permalink": "/soccer-ball-drawing/",
+    "category": "sports-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "soccer ball drawing",
+        "volume": 51000,
+        "role": "primary"
+      },
+      {
+        "keyword": "soccer drawing",
+        "volume": 5600,
+        "role": "secondary"
+      },
+      {
+        "keyword": "soccer ball drawing easy",
+        "volume": 3600,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 60200
+  },
+  "christmas-tree-drawing": {
+    "primary": "christmas tree drawing",
+    "permalink": "/christmas-tree-drawing/",
+    "category": "seasonal-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "christmas tree drawing",
+        "volume": 60000,
+        "role": "primary"
+      },
+      {
+        "keyword": "christmas drawing",
+        "volume": 26000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "christmas drawing ideas",
+        "volume": 12000,
+        "role": "secondary"
+      },
+      {
+        "keyword": "christmas tree drawing easy",
+        "volume": 6400,
+        "role": "secondary"
+      },
+      {
+        "keyword": "christmas lights drawing",
+        "volume": 5700,
+        "role": "secondary"
+      },
+      {
+        "keyword": "christmas drawing easy",
+        "volume": 5400,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy christmas tree drawing",
+        "volume": 3900,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 119400
+  },
+  "pumpkin-drawing": {
+    "primary": "pumpkin drawing",
+    "permalink": "/pumpkin-drawing/",
+    "category": "seasonal-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "pumpkin drawing",
+        "volume": 52000,
+        "role": "primary"
+      },
+      {
+        "keyword": "pumpkin drawing easy",
+        "volume": 9400,
+        "role": "secondary"
+      },
+      {
+        "keyword": "easy pumpkin drawing",
+        "volume": 5700,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 67100
+  },
+  "snowman-drawing": {
+    "primary": "snowman drawing",
+    "permalink": "/snowman-drawing/",
+    "category": "seasonal-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "snowman drawing",
+        "volume": 19000,
+        "role": "primary"
+      }
+    ],
+    "total_volume": 19000
+  },
+  "dragon-drawing": {
+    "primary": "dragon drawing",
+    "permalink": "/dragon-drawing/",
+    "category": "fantasy-drawings",
+    "difficulty": "advanced",
+    "members": [],
+    "total_volume": 0
+  },
+  "unicorn-drawing": {
+    "primary": "unicorn drawing",
+    "permalink": "/unicorn-drawing/",
+    "category": "fantasy-drawings",
+    "difficulty": "intermediate",
+    "members": [
+      {
+        "keyword": "unicorn drawing",
+        "volume": 21000,
+        "role": "primary"
+      },
+      {
+        "keyword": "unicorn drawing easy",
+        "volume": 4800,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 25800
+  },
+  "heart-drawing": {
+    "primary": "heart drawing",
+    "permalink": "/heart-drawing/",
+    "category": "symbol-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "heart drawing",
+        "volume": 64000,
+        "role": "primary"
+      },
+      {
+        "keyword": "heart drawing easy",
+        "volume": 9100,
+        "role": "secondary"
+      },
+      {
+        "keyword": "realistic heart drawing",
+        "volume": 6500,
+        "role": "secondary"
+      },
+      {
+        "keyword": "cute heart drawing",
+        "volume": 3700,
+        "role": "secondary"
+      },
+      {
+        "keyword": "drawing of a heart",
+        "volume": 3400,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 86700
+  },
+  "star-drawing": {
+    "primary": "star drawing",
+    "permalink": "/star-drawing/",
+    "category": "symbol-drawings",
+    "difficulty": "beginner",
+    "members": [
+      {
+        "keyword": "star drawing",
+        "volume": 24000,
+        "role": "primary"
+      }
+    ],
+    "total_volume": 24000
+  },
+  "eye-drawing": {
+    "primary": "eye drawing",
+    "permalink": "/eye-drawing/",
+    "category": "symbol-drawings",
+    "difficulty": "intermediate",
+    "members": [
+      {
+        "keyword": "eye drawing",
+        "volume": 56000,
+        "role": "primary"
+      },
+      {
+        "keyword": "eye drawing easy",
+        "volume": 8300,
+        "role": "secondary"
+      },
+      {
+        "keyword": "realistic eye drawing",
+        "volume": 4600,
+        "role": "secondary"
+      }
+    ],
+    "total_volume": 68900
+  }
+}
