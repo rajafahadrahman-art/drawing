@@ -59,3 +59,30 @@ export function buildCards(mod) {
   }
   return cards;
 }
+
+// Featured / OG card (1200x800 / 1200x630) in the site's existing layout, but with the
+// tutorial's OWN final artwork instead of the shared category template.
+// art is the module's colorArt (authored in 900x900 step-card space, art centre ~450,485).
+export function featuredCard({ subject, badge, label, art, og = false }) {
+  const width = 1200, height = og ? 630 : 800;
+  const paper = '#f7f3ec', paperDark = '#e8d7b8', emerald = '#1f4d3a', charcoal = '#1c1a17', guideLight = '#efe5d4';
+  let grid = '';
+  for (let x = 120; x < width; x += 180) grid += `<path d="M${x} 96v${height - 192}" stroke="${guideLight}" stroke-width="2" stroke-dasharray="10 16"/>`;
+  for (let y = 120; y < height; y += 150) grid += `<path d="M96 ${y}h${width - 192}" stroke="${guideLight}" stroke-width="2" stroke-dasharray="10 16"/>`;
+  const scale = og ? 0.56 : 0.72;
+  const cx = 770, cy = og ? 300 : 395;
+  const tx = Math.round(cx - 450 * scale), ty = Math.round(cy - 485 * scale);
+  return `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}">
+<rect width="${width}" height="${height}" fill="${paper}"/>
+<rect x="34" y="34" width="${width - 68}" height="${height - 68}" rx="42" fill="none" stroke="${paperDark}" stroke-width="3"/>
+${grid}
+<path d="M86 ${height - 135}c170-80 340-78 512 6s335 82 516-20" fill="none" stroke="${paperDark}" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+<g transform="translate(${tx} ${ty}) scale(${scale})">${art}</g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="84" y="118" font-size="26" font-weight="700" fill="${emerald}" letter-spacing="5">DRAWINGING</text>
+<text x="84" y="192" font-size="${og ? 64 : 70}" font-weight="800" fill="${charcoal}">${subject}</text>
+<text x="88" y="${og ? 250 : 260}" font-size="30" fill="${emerald}">${badge}</text>
+<rect x="84" y="${height - 150}" width="500" height="62" rx="31" fill="#FFFFFF" opacity="0.75" stroke="${paperDark}" stroke-width="2"/>
+<text x="116" y="${height - 110}" font-size="24" fill="${charcoal}">${label}</text>
+</g></svg>`;
+}
