@@ -224,3 +224,183 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+
+/* ============================================================
+   Kids redesign (2026): big clear steps + sticky worksheet CTA
+   ============================================================ */
+
+.summary-box {
+  background: var(--sunny-soft);
+  border: 2px solid var(--accent);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem;
+}
+
+.summary-box dt {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.summary-box dd {
+  font-size: 1.15rem;
+}
+
+.sidebar-card,
+.materials-card,
+.mistakes-card {
+  border: 2px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 1.25rem 1.35rem;
+}
+
+.mistakes-card {
+  background: var(--sunny-soft);
+  border-color: var(--accent);
+}
+
+/* Each step is one big, friendly card a child can follow */
+.step {
+  gap: 1rem;
+  padding: 1.5rem;
+  margin-block: 1.25rem;
+  border: 2px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  scroll-margin-top: calc(var(--header-height) + 1.5rem);
+}
+
+.step__head {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.step__head h3 {
+  font-size: 1.45rem;
+  margin: 0;
+}
+
+.step-badge {
+  min-width: 3.25rem;
+  min-height: 3.25rem;
+  padding: 0.35rem;
+  font-size: 1.35rem;
+  font-weight: 800;
+  background: var(--green);
+  box-shadow: 0 4px 0 rgba(34, 48, 42, 0.2);
+}
+
+.steps-list .step:nth-child(4n + 2) .step-badge { background: var(--cta); }
+.steps-list .step:nth-child(4n + 3) .step-badge { background: var(--purple); }
+.steps-list .step:nth-child(4n + 4) .step-badge { background: var(--sky); }
+
+.step__count {
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--muted);
+  background: var(--bg);
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  padding: 0.3rem 0.85rem;
+}
+
+/* Step images: large, framed like a picture book page */
+.step__media {
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  background: #fffdf6;
+  padding: 0.6rem;
+}
+
+.step__media img {
+  border-radius: 0.65rem;
+}
+
+.step__tip,
+.tip-callout {
+  background: var(--sunny-soft);
+  border: 2px solid var(--accent);
+  border-radius: var(--radius-md);
+  padding: 0.95rem 1.1rem;
+  color: var(--ink);
+  font-size: 1rem;
+}
+
+.step-nav {
+  gap: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+/* Article-body tutorials (flower, rose, cat...): steps live in the prose.
+   Give their headings and images the same picture-book treatment. */
+.article-body h3 {
+  background: var(--green-soft);
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 0.85rem 1.1rem;
+  font-size: 1.3rem;
+}
+
+.article-body img {
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+  background: #fffdf6;
+  padding: 0.6rem;
+  box-shadow: var(--shadow-sm);
+}
+
+.worksheet-panel {
+  background: var(--cta-soft);
+  border: 2px solid var(--accent);
+  border-radius: var(--radius-lg);
+  padding: 1.5rem;
+}
+
+.worksheet-panel__preview {
+  border: 2px solid var(--border);
+  border-radius: var(--radius-md);
+}
+
+/* Sticky bottom CTA on phones/tablets — the worksheet is always one tap away.
+   Hidden on wide screens, where the sticky sidebar already offers it. */
+.sticky-cta {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 70;
+  display: flex;
+  gap: 0.65rem;
+  align-items: center;
+  padding: 0.65rem 0.85rem calc(0.65rem + env(safe-area-inset-bottom));
+  background: rgba(255, 255, 255, 0.97);
+  border-top: 2px solid var(--border);
+  box-shadow: 0 -8px 24px rgba(120, 72, 20, 0.14);
+}
+
+.sticky-cta .btn {
+  flex: 1 1 0;
+  min-height: 3.25rem;
+  padding-inline: 0.75rem;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.sticky-cta .btn--secondary {
+  flex: 0 1 auto;
+}
+
+@media (min-width: 1100px) {
+  .sticky-cta {
+    display: none;
+  }
+}
+
+@media (max-width: 1099px) {
+  .tutorial-shell {
+    padding-bottom: 6.5rem;
+  }
+}

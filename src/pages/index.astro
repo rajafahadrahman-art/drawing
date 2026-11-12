@@ -22,9 +22,9 @@ const homeCategories = [
   { id: 'flower-drawings', label: 'Flowers', tone: 'mint', blurb: 'Blooms, petals, and stems' },
   { id: 'animal-drawings', label: 'Animals', tone: 'peach', blurb: 'Cats, dogs, horses, and more' },
   { id: 'bird-drawings', label: 'Birds', tone: 'yellow', blurb: 'Owls, songbirds, and wings' },
-  { id: 'nature-drawings', label: 'Nature', tone: 'white', blurb: 'Trees, clouds, and landscapes' },
-  { id: 'vehicle-drawings', label: 'Vehicles', tone: 'mint', blurb: 'Cars, planes, and trains' },
-  { id: 'fantasy-drawings', label: 'Fantasy', tone: 'peach', blurb: 'Dragons and unicorns' },
+  { id: 'nature-drawings', label: 'Nature', tone: 'sky', blurb: 'Trees, clouds, and landscapes' },
+  { id: 'vehicle-drawings', label: 'Vehicles', tone: 'purple', blurb: 'Cars, planes, and trains' },
+  { id: 'fantasy-drawings', label: 'Fantasy', tone: 'pink', blurb: 'Dragons and unicorns' },
 ];
 
 const chips = [
@@ -105,8 +105,8 @@ const jsonLd = [
           printable worksheets to help you practise with confidence.
         </p>
         <div class="hero__actions">
-          <a class="btn btn--primary" href="/drawing-tutorials/">Browse Drawing Tutorials</a>
-          <a class="btn btn--secondary" href="/worksheets/">Download Free Worksheets</a>
+          <a class="btn btn--primary btn--lg" href="/drawing-tutorials/">🎨 Start Drawing — It's Free!</a>
+          <a class="btn btn--secondary btn--lg" href="/worksheets/">Get Free Worksheets</a>
         </div>
       </div>
       <div class="hero__visual">
@@ -168,7 +168,7 @@ const jsonLd = [
           ))
         }
       </div>
-      <p class="section-cta"><a href="/drawing-tutorials/">View all categories and tutorials</a></p>
+      <p class="section-cta"><a class="btn btn--secondary" href="/drawing-tutorials/">View all categories and tutorials</a></p>
     </div>
   </section>
 
@@ -182,7 +182,7 @@ const jsonLd = [
       <div class="easy-row">
         {easy.map((t) => <TutorialCard tutorial={t} showDescription={false} />)}
       </div>
-      <p class="section-cta"><a href="/easy-drawings/">See all easy drawings</a></p>
+      <p class="section-cta"><a class="btn btn--secondary" href="/easy-drawings/">See all easy drawings</a></p>
     </div>
   </section>
 
@@ -226,7 +226,7 @@ const jsonLd = [
           ))
         }
       </div>
-      <p class="section-cta"><a href="/worksheets/">Browse all worksheets</a></p>
+      <p class="section-cta"><a class="btn btn--secondary" href="/worksheets/">Browse all worksheets</a></p>
     </div>
   </section>
 

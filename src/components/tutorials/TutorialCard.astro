@@ -36,7 +36,7 @@ const categoryName = CATEGORY_META[d.category]?.name?.replace(/ Drawings$/, '') 
       <span>{d.estimatedTime}</span>
       <span aria-hidden="true">·</span>
       <span>{d.stepCount} steps</span>
-      <span aria-hidden="true">→</span>
     </div>
+    <a class="btn btn--primary btn--block card-start" href={d.permalink}>Start Drawing →</a>
   </div>
 </article>
