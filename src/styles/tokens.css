@@ -1,16 +1,29 @@
 :root {
-  --bg: #fbf9f4;
-  --ink: #1e2925;
-  --green: #0e5a43;
-  --green-soft: #ddeee7;
-  --accent: #f2be5c;
-  --coral: #e98b73;
-  --border: #dedcd5;
-  --muted: #5f6965;
+  --bg: #fff7e8;
+  --ink: #22302a;
+  --green: #0e6b45;
+  --green-soft: #dff3e4;
+  --accent: #ffc53d;
+  --coral: #e4572e;
+  --border: #f0dfc2;
+  --muted: #55645c;
   --white: #ffffff;
 
+  /* Kids redesign: high-CTR call-to-action + playful accents (all AA on white) */
+  --cta: #c94a0e;
+  --cta-dark: #a93e0b;
+  --cta-shadow: #8f3408;
+  --cta-soft: #ffeedd;
+  --purple: #7c3aed;
+  --purple-soft: #efe7fd;
+  --sky: #0369a1;
+  --sky-soft: #e0f2fb;
+  --pink: #be185d;
+  --pink-soft: #fde7f1;
+  --sunny-soft: #fff3cf;
+
   --primary: var(--green);
-  --primary-dark: #0a4332;
+  --primary-dark: #095134;
   --accent-coral: var(--coral);
   --accent-yellow: var(--accent);
   --background: var(--bg);
@@ -18,9 +31,9 @@
   --text-primary: var(--ink);
   --text-secondary: var(--muted);
   --soft-mint: var(--green-soft);
-  --soft-peach: #f8e8e2;
-  --soft-yellow: #fbf1d8;
-  --soft-blue: #eef4f1;
+  --soft-peach: #ffeedd;
+  --soft-yellow: #fff3cf;
+  --soft-blue: #e0f2fb;
 
   --color-emerald: var(--green);
   --color-emerald-deep: var(--primary-dark);
@@ -34,15 +47,15 @@
   --color-ink-soft: var(--muted);
   --color-muted: var(--muted);
   --color-border: var(--border);
-  --color-border-soft: #ebe9e3;
+  --color-border-soft: #f5e9d2;
   --color-paper: var(--bg);
-  --color-paper-deep: #f3f0e8;
+  --color-paper-deep: #ffefd2;
   --color-paper-tint: var(--bg);
   --color-white: var(--white);
-  --color-focus: var(--green);
+  --color-focus: var(--cta);
 
   --font-display: "Manrope", "Outfit", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   --font-sans: var(--font-body);
 
   --space-1: 0.25rem;
@@ -55,27 +68,29 @@
   --space-8: 4.5rem;
   --space-9: 6rem;
 
-  --radius-sm: 0.5rem;
-  --radius-md: 0.75rem;
-  --radius-lg: 0.9rem;
+  --radius-sm: 0.75rem;
+  --radius-md: 1rem;
+  --radius-lg: 1.5rem;
+  --radius-xl: 2rem;
 
-  --shadow-sm: 0 1px 2px rgba(30, 41, 37, 0.04);
-  --shadow-md: 0 10px 28px rgba(30, 41, 37, 0.06);
+  --shadow-sm: 0 2px 6px rgba(120, 72, 20, 0.08);
+  --shadow-md: 0 14px 34px rgba(120, 72, 20, 0.14);
+  --shadow-card: 0 6px 0 rgba(240, 223, 194, 0.9), 0 16px 32px rgba(120, 72, 20, 0.1);
 
   --container: 1200px;
   --article-width: 760px;
   --sidebar-width: 300px;
   --container-narrow: 70ch;
-  --header-height: 4.5rem;
-  --utility-height: 2.25rem;
-  --touch: 2.75rem;
+  --header-height: 4.75rem;
+  --utility-height: 2.5rem;
+  --touch: 3.5rem;
 
-  --text-xs: 0.8125rem;
-  --text-sm: 0.9375rem;
-  --text-base: 1.0625rem;
-  --text-lg: 1.125rem;
-  --text-xl: 1.25rem;
-  --text-2xl: 1.5rem;
+  --text-xs: 0.85rem;
+  --text-sm: 0.95rem;
+  --text-base: 1.125rem;
+  --text-lg: 1.2rem;
+  --text-xl: 1.35rem;
+  --text-2xl: 1.6rem;
   --text-3xl: clamp(1.75rem, 3vw, 2.35rem);
   --text-4xl: clamp(2.25rem, 4.5vw, 3.4rem);
 

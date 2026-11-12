@@ -57,3 +57,43 @@
   color: var(--primary);
   background: var(--soft-mint);
 }
+
+/* ============================================================
+   Kids redesign (2026): bigger, friendlier category controls
+   ============================================================ */
+
+.filter-btn {
+  min-height: 3.25rem;
+  padding: 0.6rem 1.35rem;
+  border: 2px solid var(--border);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--ink);
+  background: var(--white);
+}
+
+.filter-btn:hover {
+  border-color: var(--cta);
+  color: var(--cta);
+}
+
+.filter-btn[aria-pressed="true"] {
+  background: var(--cta);
+  border-color: var(--cta);
+  color: #fff;
+  box-shadow: 0 4px 0 var(--cta-shadow);
+}
+
+.related-categories a {
+  padding: 0.85rem 1.25rem;
+  border: 2px solid var(--border);
+  border-radius: 999px;
+  min-height: 3.25rem;
+  font-weight: 700;
+}
+
+.related-categories a:hover {
+  border-color: var(--cta);
+  color: var(--cta);
+  background: var(--cta-soft);
+}

@@ -15,9 +15,13 @@ const { steps, images } = Astro.props;
       const next = index < steps.length - 1 ? `#step-${index + 2}` : null;
       return (
         <section class="step" id={`step-${index + 1}`}>
-          <h3>
-            Step {index + 1}: {step.title}
-          </h3>
+          <div class="step__head">
+            <span class="step-badge" aria-hidden="true">{index + 1}</span>
+            <h3>
+              Step {index + 1}: {step.title}
+            </h3>
+            <span class="step__count">Step {index + 1} of {steps.length}</span>
+          </div>
           <p>{step.body}</p>
           {image && (
             <figure class="step__media">
@@ -44,11 +48,13 @@ const { steps, images } = Astro.props;
               <span />
             )}
             {next ? (
-              <a class="btn btn--secondary btn--sm" href={next}>
-                Next step
+              <a class="btn btn--primary btn--sm" href={next}>
+                Next step →
               </a>
             ) : (
-              <span />
+              <a class="btn btn--primary btn--sm" href="#worksheet">
+                Finish — get the worksheet 🎉
+              </a>
             )}
           </div>
         </section>

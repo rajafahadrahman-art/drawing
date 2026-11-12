@@ -261,3 +261,80 @@
     display: none;
   }
 }
+
+/* ============================================================
+   Kids redesign (2026): friendlier header, nav and footer
+   ============================================================ */
+
+.utility-bar {
+  background: linear-gradient(90deg, var(--green), #12805c);
+  font-size: 0.95rem;
+  padding: 0.55rem 1rem;
+}
+
+.site-header {
+  border-bottom: 2px solid var(--border);
+}
+
+.brand {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.brand img {
+  width: 2.4rem;
+  height: 2.4rem;
+  background: var(--sunny-soft);
+  border: 2px solid var(--accent);
+  border-radius: 0.85rem;
+  padding: 0.3rem;
+}
+
+.nav-link {
+  min-height: 3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.nav-link:hover,
+.nav-link[aria-current="page"],
+.nav-link[aria-expanded="true"] {
+  color: var(--green);
+  background: var(--green-soft);
+}
+
+.mega-menu {
+  border: 2px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.mega-link {
+  min-height: 2.9rem;
+  border-radius: 0.75rem;
+  font-size: 0.98rem;
+}
+
+.menu-toggle {
+  min-width: 3.25rem;
+  min-height: 3.25rem;
+  border: 2px solid var(--border);
+  border-radius: 1rem;
+}
+
+.mobile-nav-panel {
+  border: 2px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+
+.mobile-nav-panel a {
+  min-height: 3rem;
+  border-radius: 0.75rem;
+  font-weight: 600;
+}
+
+.site-footer {
+  background: #143527;
+}

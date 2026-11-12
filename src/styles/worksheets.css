@@ -12,3 +12,8 @@
 .worksheet-card .worksheet-actions {
   margin-top: auto;
 }
+
+/* Kids redesign (2026): worksheet actions get the big-button treatment */
+.worksheet-actions {
+  gap: 0.75rem;
+}
