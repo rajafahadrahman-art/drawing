@@ -41,6 +41,11 @@
       "source": "/flowers-drawing/",
       "destination": "/flower-drawing/",
       "permanent": true
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
+      "permanent": true
     }
   ]
 }
