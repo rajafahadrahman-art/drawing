@@ -12,6 +12,7 @@
     "preview": "astro preview",
     "astro": "astro",
     "generate:worksheets": "node src/scripts/generate-worksheets.mjs && node src/scripts/generate-flower-assets.mjs && node src/scripts/generate-five-tutorial-assets.mjs",
+    "generate:guide-worksheets": "node src/scripts/generate-guide-worksheets.mjs",
     "generate:images": "node src/scripts/generate-images.mjs",
     "generate:premium-assets": "node src/scripts/generate-flower-assets.mjs && node src/scripts/generate-five-tutorial-assets.mjs",
     "generate:search-index": "node src/scripts/generate-search-index.mjs",
@@ -25,7 +26,7 @@
     "validate:images": "node src/scripts/validate-images.mjs",
     "validate:density": "node src/scripts/validate-density.mjs",
     "validate:cannibalization": "node src/scripts/detect-cannibalization.mjs",
-    "prebuild": "npm run generate:worksheets && npm run generate:images && npm run generate:step-images && npm run generate:search-index",
+    "prebuild": "npm run generate:worksheets && npm run generate:images && npm run generate:step-images && npm run generate:guide-worksheets && npm run generate:search-index",
     "generate:step-images": "node src/scripts/generate-step-images.mjs"
   },
   "dependencies": {
