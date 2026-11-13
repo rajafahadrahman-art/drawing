@@ -53,13 +53,16 @@ async function writeFeatured(slug, colorArt, outDir) {
 const slugs = [
   'bee-drawing', 'bird-drawing', 'bunny-drawing', 'butterfly-drawing',
   'car-drawing', 'cat-drawing', 'christmas-tree-drawing', 'cloud-drawing',
-  'dog-drawing', 'dolphin-drawing', 'dragon-drawing', 'eye-drawing',
-  'fish-drawing', 'flower-drawing', 'fox-drawing', 'heart-drawing',
+  'deer-drawing', 'dog-drawing', 'dolphin-drawing', 'dragon-drawing',
+  'eye-drawing', 'fire-drawing', 'fish-drawing', 'flower-drawing',
+  'fox-drawing', 'frog-drawing', 'heart-drawing', 'hello-kitty-drawing',
   'hibiscus-flower-drawing', 'horse-drawing', 'lion-drawing',
   'mountain-drawing', 'owl-drawing', 'plane-drawing', 'pumpkin-drawing',
-  'rose-drawing', 'shark-drawing', 'snowman-drawing', 'soccer-ball-drawing',
-  'star-drawing', 'sunflower-drawing', 'sunset-drawing', 'train-drawing',
-  'tree-drawing', 'tulip-drawing', 'unicorn-drawing', 'volleyball-drawing',
+  'rose-drawing', 'shark-drawing', 'skull-drawing', 'snake-drawing',
+  'snowman-drawing', 'soccer-ball-drawing', 'star-drawing', 'sun-drawing',
+  'sunflower-drawing', 'sunset-drawing', 'train-drawing', 'tree-drawing',
+  'tulip-drawing', 'turkey-drawing', 'turtle-drawing', 'unicorn-drawing',
+  'volleyball-drawing',
 ];
 
 let written = 0;

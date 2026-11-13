@@ -95,6 +95,7 @@ relatedTutorials:
   - christmas-tree-drawing
   - pumpkin-drawing
   - snowman-drawing
+  - skull-drawing
 relatedGuides:
   - line-control
   - basic-shapes

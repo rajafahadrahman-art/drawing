@@ -95,6 +95,7 @@ relatedTutorials:
   - lion-drawing
   - bunny-drawing
   - fox-drawing
+  - turkey-drawing
 relatedGuides:
   - basic-shapes
   - proportions

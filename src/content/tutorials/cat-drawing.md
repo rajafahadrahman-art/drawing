@@ -140,6 +140,7 @@ relatedTutorials:
   - lion-drawing
   - bird-drawing
   - butterfly-drawing
+  - hello-kitty-drawing
 relatedGuides:
   - basic-shapes
   - proportions

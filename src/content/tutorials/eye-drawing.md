@@ -147,6 +147,7 @@ relatedTutorials:
   - cat-drawing
   - dog-drawing
   - horse-drawing
+  - skull-drawing
 relatedGuides:
   - shading
   - proportions
