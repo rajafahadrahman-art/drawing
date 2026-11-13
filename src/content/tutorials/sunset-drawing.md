@@ -112,6 +112,8 @@ relatedTutorials:
   - sunflower-drawing
   - hibiscus-flower-drawing
   - tulip-drawing
+  - fire-drawing
+  - sun-drawing
 relatedGuides:
   - basic-shapes
   - shading

@@ -95,6 +95,7 @@ relatedTutorials:
   - fox-drawing
   - bird-drawing
   - owl-drawing
+  - hello-kitty-drawing
 relatedGuides:
   - basic-shapes
   - proportions

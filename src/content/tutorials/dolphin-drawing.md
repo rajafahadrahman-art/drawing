@@ -111,6 +111,7 @@ relatedTutorials:
   - lion-drawing
   - bunny-drawing
   - fox-drawing
+  - turtle-drawing
 relatedGuides:
   - basic-shapes
   - line-control

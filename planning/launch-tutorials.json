@@ -243,5 +243,68 @@
     "category": "symbol-drawings",
     "difficulty": "intermediate",
     "priority": 35
+  },
+  {
+    "focus": "fire drawing",
+    "slug": "fire-drawing",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "priority": 36
+  },
+  {
+    "focus": "skull drawing",
+    "slug": "skull-drawing",
+    "category": "symbol-drawings",
+    "difficulty": "beginner",
+    "priority": 37
+  },
+  {
+    "focus": "turkey drawing",
+    "slug": "turkey-drawing",
+    "category": "bird-drawings",
+    "difficulty": "beginner",
+    "priority": 38
+  },
+  {
+    "focus": "hello kitty drawing",
+    "slug": "hello-kitty-drawing",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "priority": 39
+  },
+  {
+    "focus": "deer drawing",
+    "slug": "deer-drawing",
+    "category": "animal-drawings",
+    "difficulty": "intermediate",
+    "priority": 40
+  },
+  {
+    "focus": "snake drawing",
+    "slug": "snake-drawing",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "priority": 41
+  },
+  {
+    "focus": "turtle drawing",
+    "slug": "turtle-drawing",
+    "category": "sea-animal-drawings",
+    "difficulty": "beginner",
+    "priority": 42
+  },
+  {
+    "focus": "sun drawing",
+    "slug": "sun-drawing",
+    "category": "nature-drawings",
+    "difficulty": "beginner",
+    "priority": 43
+  },
+  {
+    "focus": "frog drawing",
+    "slug": "frog-drawing",
+    "category": "animal-drawings",
+    "difficulty": "beginner",
+    "priority": 44
   }
 ]

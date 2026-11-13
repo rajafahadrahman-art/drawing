@@ -96,6 +96,7 @@ relatedTutorials:
   - sunflower-drawing
   - hibiscus-flower-drawing
   - tulip-drawing
+  - frog-drawing
 relatedGuides:
   - basic-shapes
   - line-control

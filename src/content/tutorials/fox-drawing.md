@@ -95,6 +95,8 @@ relatedTutorials:
   - bunny-drawing
   - bird-drawing
   - owl-drawing
+  - deer-drawing
+  - snake-drawing
 relatedGuides:
   - basic-shapes
   - proportions

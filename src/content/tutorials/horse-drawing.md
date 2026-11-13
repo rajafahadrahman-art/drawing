@@ -110,6 +110,7 @@ relatedTutorials:
   - fox-drawing
   - bird-drawing
   - owl-drawing
+  - deer-drawing
 relatedGuides:
   - basic-shapes
   - proportions
