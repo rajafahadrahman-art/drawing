@@ -26,8 +26,9 @@
     "validate:images": "node src/scripts/validate-images.mjs",
     "validate:density": "node src/scripts/validate-density.mjs",
     "validate:cannibalization": "node src/scripts/detect-cannibalization.mjs",
-    "prebuild": "npm run generate:worksheets && npm run generate:images && npm run generate:step-images && npm run generate:guide-worksheets && npm run generate:search-index",
-    "generate:step-images": "node src/scripts/generate-step-images.mjs"
+    "prebuild": "npm run generate:worksheets && npm run generate:images && npm run generate:step-images && npm run generate:guide-worksheets && npm run generate:search-index && npm run generate:hand-steps",
+    "generate:step-images": "node src/scripts/generate-step-images.mjs",
+    "generate:hand-steps": "node src/scripts/generate-hand-steps.mjs"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",

@@ -49,63 +49,63 @@ featuredImageWidth: 1200
 featuredImageHeight: 800
 stepImages:
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-1.webp
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-1.webp
     alt: hibiscus flower drawing step 1
     title: Hibiscus Flower Drawing Step 1
     width: 900
     height: 900
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-2.webp
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-2.webp
     alt: hibiscus flower drawing step 2
     title: Hibiscus Flower Drawing Step 2
     width: 900
     height: 900
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-3.webp
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-3.webp
     alt: hibiscus flower drawing step 3
     title: Hibiscus Flower Drawing Step 3
     width: 900
     height: 900
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-4.webp
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-4.webp
     alt: hibiscus flower drawing step 4
     title: Hibiscus Flower Drawing Step 4
     width: 900
     height: 900
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-5.webp
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-5.webp
     alt: hibiscus flower drawing step 5
     title: Hibiscus Flower Drawing Step 5
     width: 900
     height: 900
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-6.webp
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-6.webp
     alt: hibiscus flower drawing step 6
     title: Hibiscus Flower Drawing Step 6
     width: 900
     height: 900
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-7.webp
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-7.webp
     alt: hibiscus flower drawing step 7
     title: Hibiscus Flower Drawing Step 7
     width: 900
     height: 900
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-8.webp
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-8.webp
     alt: hibiscus flower drawing step 8
     title: Hibiscus Flower Drawing Step 8
     width: 900
     height: 900
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-9.webp
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-9.webp
     alt: hibiscus flower drawing step 9
     title: Hibiscus Flower Drawing Step 9
     width: 900
     height: 900
   - src: >-
-      /images/tutorials/hibiscus-flower-drawing/hibiscus-flower-drawing-step-10.webp
-    alt: hibiscus flower drawing step 10
-    title: Hibiscus Flower Drawing Step 10
+      /images/hand-steps/hibiscus-flower-drawing/hibiscus-flower-drawing-step-10.webp
+    alt: hibiscus flower drawing
+    title: how to draw a hibiscus flower
     width: 900
     height: 900
 worksheet:

@@ -47,39 +47,39 @@ featuredImageTitle: tulip drawing
 featuredImageWidth: 1200
 featuredImageHeight: 800
 stepImages:
-  - src: /images/tutorials/tulip-drawing/tulip-drawing-step-1.webp
+  - src: /images/hand-steps/tulip-drawing/tulip-drawing-step-1.webp
     alt: tulip drawing step 1
     title: Tulip Drawing Step 1
     width: 900
     height: 900
-  - src: /images/tutorials/tulip-drawing/tulip-drawing-step-2.webp
+  - src: /images/hand-steps/tulip-drawing/tulip-drawing-step-2.webp
     alt: tulip drawing step 2
     title: Tulip Drawing Step 2
     width: 900
     height: 900
-  - src: /images/tutorials/tulip-drawing/tulip-drawing-step-3.webp
+  - src: /images/hand-steps/tulip-drawing/tulip-drawing-step-3.webp
     alt: tulip drawing step 3
     title: Tulip Drawing Step 3
     width: 900
     height: 900
-  - src: /images/tutorials/tulip-drawing/tulip-drawing-step-4.webp
+  - src: /images/hand-steps/tulip-drawing/tulip-drawing-step-4.webp
     alt: tulip drawing step 4
     title: Tulip Drawing Step 4
     width: 900
     height: 900
-  - src: /images/tutorials/tulip-drawing/tulip-drawing-step-5.webp
+  - src: /images/hand-steps/tulip-drawing/tulip-drawing-step-5.webp
     alt: tulip drawing step 5
     title: Tulip Drawing Step 5
     width: 900
     height: 900
-  - src: /images/tutorials/tulip-drawing/tulip-drawing-step-6.webp
+  - src: /images/hand-steps/tulip-drawing/tulip-drawing-step-6.webp
     alt: tulip drawing step 6
     title: Tulip Drawing Step 6
     width: 900
     height: 900
-  - src: /images/tutorials/tulip-drawing/tulip-drawing-step-7.webp
-    alt: tulip drawing step 7
-    title: Tulip Drawing Step 7
+  - src: /images/hand-steps/tulip-drawing/tulip-drawing-step-7.webp
+    alt: tulip drawing
+    title: how to draw a tulip
     width: 900
     height: 900
 worksheet:

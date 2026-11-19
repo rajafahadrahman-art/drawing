@@ -79,49 +79,49 @@ featuredImageTitle: flower drawing
 featuredImageWidth: 1200
 featuredImageHeight: 800
 stepImages:
-  - src: /images/tutorials/flower-drawing/flower-drawing-step-1.webp
+  - src: /images/hand-steps/flower-drawing/flower-drawing-step-1.webp
     alt: flower drawing step 1 center circle
     title: flower drawing step 1
     width: 900
     height: 900
-  - src: /images/tutorials/flower-drawing/flower-drawing-step-2.webp
+  - src: /images/hand-steps/flower-drawing/flower-drawing-step-2.webp
     alt: flower drawing step 2 four main petals
     title: flower drawing step 2
     width: 900
     height: 900
-  - src: /images/tutorials/flower-drawing/flower-drawing-step-3.webp
+  - src: /images/hand-steps/flower-drawing/flower-drawing-step-3.webp
     alt: flower drawing step 3 additional petals
     title: flower drawing step 3
     width: 900
     height: 900
-  - src: /images/tutorials/flower-drawing/flower-drawing-step-4.webp
+  - src: /images/hand-steps/flower-drawing/flower-drawing-step-4.webp
     alt: flower drawing step 4 refined petals
     title: flower drawing step 4
     width: 900
     height: 900
-  - src: /images/tutorials/flower-drawing/flower-drawing-step-5.webp
+  - src: /images/hand-steps/flower-drawing/flower-drawing-step-5.webp
     alt: flower drawing step 5 curved stem
     title: flower drawing step 5
     width: 900
     height: 900
-  - src: /images/tutorials/flower-drawing/flower-drawing-step-6.webp
+  - src: /images/hand-steps/flower-drawing/flower-drawing-step-6.webp
     alt: flower drawing step 6 first leaf
     title: flower drawing step 6
     width: 900
     height: 900
-  - src: /images/tutorials/flower-drawing/flower-drawing-step-7.webp
+  - src: /images/hand-steps/flower-drawing/flower-drawing-step-7.webp
     alt: flower drawing step 7 leaves and veins
     title: flower drawing step 7
     width: 900
     height: 900
-  - src: /images/tutorials/flower-drawing/flower-drawing-step-8.webp
+  - src: /images/hand-steps/flower-drawing/flower-drawing-step-8.webp
     alt: flower drawing step 8 clean outline
     title: flower drawing step 8
     width: 900
     height: 900
-  - src: /images/tutorials/flower-drawing/flower-drawing-step-9.webp
-    alt: flower drawing step 9 shading and color
-    title: flower drawing step 9
+  - src: /images/hand-steps/flower-drawing/flower-drawing-step-9.webp
+    alt: flower drawing
+    title: flower drawing easy
     width: 900
     height: 900
 worksheet:
@@ -454,7 +454,7 @@ Keep the outline light and avoid tracing over it repeatedly. A clean guide is ea
 
 **Tip:** Leave enough empty space around the circle for petals that are two or three times longer than the center radius.
 
-![flower drawing step 1 center circle](/images/tutorials/flower-drawing/flower-drawing-step-1.webp "flower drawing step 1")
+![flower drawing step 1 center circle](/images/hand-steps/flower-drawing/flower-drawing-step-1.webp "flower drawing step 1")
 
 ### Step 2: Add Four Main Petals
 
@@ -464,7 +464,7 @@ These four main petals act like anchors. They divide the bloom into equal areas 
 
 **Tip:** Turn the paper while drawing the curves rather than forcing your wrist into an uncomfortable angle.
 
-![flower drawing step 2 four main petals](/images/tutorials/flower-drawing/flower-drawing-step-2.webp "flower drawing step 2")
+![flower drawing step 2 four main petals](/images/hand-steps/flower-drawing/flower-drawing-step-2.webp "flower drawing step 2")
 
 ### Step 3: Fill the Spaces With More Petals
 
@@ -474,7 +474,7 @@ Let the base of each petal meet the center circle. Avoid leaving wide empty gaps
 
 **Tip:** Add one new petal, then draw the petal opposite it before moving to the next gap.
 
-![flower drawing step 3 additional petals](/images/tutorials/flower-drawing/flower-drawing-step-3.webp "flower drawing step 3")
+![flower drawing step 3 additional petals](/images/hand-steps/flower-drawing/flower-drawing-step-3.webp "flower drawing step 3")
 
 ### Step 4: Refine the Petal Shapes
 
@@ -486,7 +486,7 @@ Erase unnecessary overlaps near the center, but keep a few subtle crossings wher
 
 **Tip:** Avoid making every petal identical. Balanced variation looks more believable than perfect repetition.
 
-![flower drawing step 4 refined petals](/images/tutorials/flower-drawing/flower-drawing-step-4.webp "flower drawing step 4")
+![flower drawing step 4 refined petals](/images/hand-steps/flower-drawing/flower-drawing-step-4.webp "flower drawing step 4")
 
 ### Step 5: Draw the Stem
 
@@ -496,7 +496,7 @@ The two lines should remain narrow but should not be perfectly parallel. Let the
 
 **Tip:** Check that the stem visually supports the center of the bloom instead of attaching too far to one side.
 
-![flower drawing step 5 curved stem](/images/tutorials/flower-drawing/flower-drawing-step-5.webp "flower drawing step 5")
+![flower drawing step 5 curved stem](/images/hand-steps/flower-drawing/flower-drawing-step-5.webp "flower drawing step 5")
 
 ### Step 6: Add the First Leaf
 
@@ -506,7 +506,7 @@ The leaf should be large enough to balance the flower head but not so wide that 
 
 **Tip:** Draw the center vein first. It provides a clear direction and makes the outer leaf shape easier to control.
 
-![flower drawing step 6 first leaf](/images/tutorials/flower-drawing/flower-drawing-step-6.webp "flower drawing step 6")
+![flower drawing step 6 first leaf](/images/hand-steps/flower-drawing/flower-drawing-step-6.webp "flower drawing step 6")
 
 ### Step 7: Add the Second Leaf and Veins
 
@@ -518,7 +518,7 @@ This stage can also be expanded into a flower plant drawing by adding more leave
 
 **Tip:** Keep the smaller veins curved and spaced apart rather than drawing them as a rigid pattern.
 
-![flower drawing step 7 leaves and veins](/images/tutorials/flower-drawing/flower-drawing-step-7.webp "flower drawing step 7")
+![flower drawing step 7 leaves and veins](/images/hand-steps/flower-drawing/flower-drawing-step-7.webp "flower drawing step 7")
 
 ### Step 8: Clean the Construction Lines
 
@@ -530,7 +530,7 @@ After the corrections are complete, strengthen the important contours with sligh
 
 **Tip:** Step away from the page for a moment, then return and check the balance with fresh eyes.
 
-![flower drawing step 8 clean outline](/images/tutorials/flower-drawing/flower-drawing-step-8.webp "flower drawing step 8")
+![flower drawing step 8 clean outline](/images/hand-steps/flower-drawing/flower-drawing-step-8.webp "flower drawing step 8")
 
 ### Step 9: Add Shading or Color
 
@@ -542,7 +542,7 @@ For a colored version, begin with pale layers and gradually increase the saturat
 
 **Tip:** Preserve a few light areas on the petals to suggest highlights and keep the bloom from looking flat.
 
-![flower drawing step 9 shading and color](/images/tutorials/flower-drawing/flower-drawing-step-9.webp "flower drawing step 9")
+![flower drawing](/images/hand-steps/flower-drawing/flower-drawing-step-9.webp "flower drawing easy")
 
 ## How to Make a Flower Drawing Easy and Beautiful
 
