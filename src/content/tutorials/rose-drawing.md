@@ -81,54 +81,54 @@ featuredImageTitle: rose drawings
 featuredImageWidth: 1200
 featuredImageHeight: 800
 stepImages:
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-1.webp
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-1.webp
     alt: rose drawing easy
     title: easy rose drawing
     width: 900
     height: 900
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-2.webp
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-2.webp
     alt: simple rose drawing
     title: drawing of a rose
     width: 900
     height: 900
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-3.webp
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-3.webp
     alt: rose flower drawing
     title: realistic rose drawing
     width: 900
     height: 900
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-4.webp
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-4.webp
     alt: rose drawing outline
     title: compass rose drawing
     width: 900
     height: 900
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-5.webp
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-5.webp
     alt: rose easy drawing
     title: drawing rose
     width: 900
     height: 900
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-6.webp
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-6.webp
     alt: rose drawing simple
     title: drawing a rose
     width: 900
     height: 900
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-7.webp
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-7.webp
     alt: cute rose drawing easy
     title: a rose drawing
     width: 900
     height: 900
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-8.webp
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-8.webp
     alt: rose simple drawing
     title: drawing of rose
     width: 900
     height: 900
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-9.webp
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-9.webp
     alt: a drawing of a rose
     title: rose line drawing
     width: 900
     height: 900
-  - src: /images/tutorials/rose-drawing/rose-drawing-step-10.webp
-    alt: rose tattoo drawing
-    title: red rose drawing
+  - src: /images/hand-steps/rose-drawing/rose-drawing-step-10.webp
+    alt: rose drawing
+    title: how to draw a rose
     width: 900
     height: 900
 worksheet:
@@ -345,7 +345,7 @@ Do not make the center too large. A small start leaves room for the middle and o
 
 **Tip:** Keep the center small so there is room for petal layers.
 
-![rose tutorial step 1 inner center](/images/tutorials/rose-drawing/rose-drawing-step-1.webp "rose tutorial step 1")
+![rose tutorial step 1 inner center](/images/hand-steps/rose-drawing/rose-drawing-step-1.webp "rose tutorial step 1")
 
 ### Step 2: Add the First Folded Petals
 
@@ -355,7 +355,7 @@ These first petals should feel tight. They are the core of the flower and should
 
 **Tip:** Small folded petals make the center feel tight and natural.
 
-![rose tutorial step 2 first folded petals](/images/tutorials/rose-drawing/rose-drawing-step-2.webp "rose tutorial step 2")
+![rose tutorial step 2 first folded petals](/images/hand-steps/rose-drawing/rose-drawing-step-2.webp "rose tutorial step 2")
 
 ### Step 3: Build the Middle Ring
 
@@ -365,7 +365,7 @@ Work one overlap at a time. If every line is drawn at once, it becomes difficult
 
 **Tip:** Overlap one petal edge at a time to avoid confusion.
 
-![rose tutorial step 3 middle petal ring](/images/tutorials/rose-drawing/rose-drawing-step-3.webp "rose tutorial step 3")
+![rose tutorial step 3 middle petal ring](/images/hand-steps/rose-drawing/rose-drawing-step-3.webp "rose tutorial step 3")
 
 ### Step 4: Draw the Outer Petals
 
@@ -375,7 +375,7 @@ Outer petals can bend, dip, or curl outward. Variation makes the flower feel nat
 
 **Tip:** Outer petals can be wider and looser than the center petals.
 
-![rose tutorial step 4 outer petals](/images/tutorials/rose-drawing/rose-drawing-step-4.webp "rose tutorial step 4")
+![rose tutorial step 4 outer petals](/images/hand-steps/rose-drawing/rose-drawing-step-4.webp "rose tutorial step 4")
 
 ### Step 5: Refine the Overlaps
 
@@ -385,7 +385,7 @@ This stage is where the bloom becomes readable. A few clear overlaps are better 
 
 **Tip:** Clear overlaps are more important than drawing many extra petals.
 
-![rose tutorial step 5 refined petal overlaps](/images/tutorials/rose-drawing/rose-drawing-step-5.webp "rose tutorial step 5")
+![rose tutorial step 5 refined petal overlaps](/images/hand-steps/rose-drawing/rose-drawing-step-5.webp "rose tutorial step 5")
 
 ### Step 6: Add the Sepals
 
@@ -395,7 +395,7 @@ Sepals should connect under the petal cup. Keep them narrower and darker than th
 
 **Tip:** Sepals should connect directly under the bloom.
 
-![rose tutorial step 6 sepals](/images/tutorials/rose-drawing/rose-drawing-step-6.webp "rose tutorial step 6")
+![rose tutorial step 6 sepals](/images/hand-steps/rose-drawing/rose-drawing-step-6.webp "rose tutorial step 6")
 
 ### Step 7: Draw the Stem
 
@@ -405,7 +405,7 @@ The stem should visually support the bloom. If it attaches too far to one side, 
 
 **Tip:** Align the stem with the weight of the bloom.
 
-![rose tutorial step 7 stem](/images/tutorials/rose-drawing/rose-drawing-step-7.webp "rose tutorial step 7")
+![rose tutorial step 7 stem](/images/hand-steps/rose-drawing/rose-drawing-step-7.webp "rose tutorial step 7")
 
 ### Step 8: Add the Leaves
 
@@ -415,7 +415,7 @@ Keep the leaves smaller than the bloom. They should balance the composition with
 
 **Tip:** Leaves should support the bloom, not overpower it.
 
-![rose tutorial step 8 leaves](/images/tutorials/rose-drawing/rose-drawing-step-8.webp "rose tutorial step 8")
+![rose tutorial step 8 leaves](/images/hand-steps/rose-drawing/rose-drawing-step-8.webp "rose tutorial step 8")
 
 ### Step 9: Clean the Outline
 
@@ -425,7 +425,7 @@ Use lighter pressure on delicate petal tips and stronger pressure where petals t
 
 **Tip:** Use broken line weight to keep the petals delicate.
 
-![rose tutorial step 9 clean outline](/images/tutorials/rose-drawing/rose-drawing-step-9.webp "rose tutorial step 9")
+![rose tutorial step 9 clean outline](/images/hand-steps/rose-drawing/rose-drawing-step-9.webp "rose tutorial step 9")
 
 ### Step 10: Shade or Color the Rose
 
@@ -435,7 +435,7 @@ The finished rose drawing should keep a few bright edges so the petals do not me
 
 **Tip:** Preserve highlights along curled petal edges.
 
-![rose tutorial step 10 shade and color](/images/tutorials/rose-drawing/rose-drawing-step-10.webp "rose tutorial step 10")
+![rose drawing](/images/hand-steps/rose-drawing/rose-drawing-step-10.webp "how to draw a rose")
 
 ## Simple Rose Drawing Variation
 
